@@ -27,5 +27,6 @@
 	
 	
 	<!-- 将静态资源交给服务器处理 -->
-	<mvc:default-servlet-handler/>
+	<!-- <mvc:default-servlet-handler/> -->
+	
 </beans>

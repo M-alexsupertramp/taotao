@@ -100,14 +100,16 @@ var TT = TAOTAO = {
     // 初始化选择类目组件
     initItemCat : function(data){
     	$(".selectItemCat").each(function(i,e){
+    		/*找到选择类目按钮,并转为Jquery对象*/
     		var _ele = $(e);
     		if(data && data.cname){
     			_ele.after("<span style='margin-left:10px;'>"+data.cname+"</span>");
     		}else{
-    			_ele.after("<span style='margin-left:10px;'></span>");
+    			_ele.after("<span style='margin-left:10px;'></span>")
     		}
     		_ele.unbind('click').click(function(){
-    			$("<div>").css({padding:"5px"}).html("<ul>")
+    			/*新建一个div标签,并且构建为easyui的窗口*/
+    			$("<div>").css({padding:"10px"}).html("<ul>")
     			.window({
     				width:'500',
     			    height:"450",
@@ -115,7 +117,7 @@ var TT = TAOTAO = {
     			    closed:true,
     			    iconCls:'icon-save',
     			    title:'选择类目',
-    			    onOpen : function(){
+    			    onOpen : function(){  //窗口打开后要触发这个回调函数
     			    	var _win = this;
     			    	$("ul",_win).tree({
     			    		url:'/rest/item/cat',
@@ -124,7 +126,8 @@ var TT = TAOTAO = {
     			    		onClick : function(node){
     			    			if($(this).tree("isLeaf",node.target)){
     			    				// 填写到cid中
-    			    				_ele.parent().find("[name=cid]").val(node.id);
+    			    				_ele.parent().find("[name=cid]").val(node.id); //如果用户点击的是叶子节点,就把节点id及内容回填到页面
+    			    				//找到每个段落的后面紧邻的同辈元素。
     			    				_ele.next().text(node.text).attr("cid",node.id);
     			    				$(_win).window('close');
     			    				if(data && data.fun){
