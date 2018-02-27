@@ -74,15 +74,31 @@ $(function(){
 	
 	$('#menu').tree({
 		onClick: function(node){
+			/* 
+				判断指定的节点是否是叶子节点,参数是很多事件的回调函数都包含'node'参数，其具备如下属性：
+				id：绑定节点的标识值。
+				text：显示的节点文本。
+				iconCls：显示的节点图标CSS类ID。
+				checked：该节点是否被选中。
+				state：节点状态，'open' 或 'closed'。
+				attributes：绑定该节点的自定义属性。
+				target：目标DOM对象。 
+			*/
 			if($('#menu').tree("isLeaf",node.target)){
 				var tabs = $("#tabs");
+				//getTab which 获取指定选项卡面板，'which'参数可以是选项卡面板的标题或者索引。 
 				var tab = tabs.tabs("getTab",node.text);
 				if(tab){
+					//select which 选择一个选项卡面板，'which'参数可以是选项卡面板的标题或者索引。 
 					tabs.tabs("select",node.text);
 				}else{
+					/*
+					添加一个新选项卡面板，选项参数是一个配置对象，查看选项卡面板属性的更多细节。在添加一个新选项卡面板的时候它将变成可选的。
+					添加一个非选中状态的选项卡面板时，记得设置'selected'属性为false。
+					*/
 					tabs.tabs('add',{
-					    title:node.text,
-					    href: node.attributes.url,
+					    title:node.text,//标签标题
+					    href: node.attributes.url,//新标签页要加载的地址  attributes：绑定该节点的自定义属性。
 					    closable:true,
 					    bodyCls:"content"
 					});
