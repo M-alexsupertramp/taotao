@@ -25,6 +25,16 @@
 		<property name="order" value="2"></property>
 	</bean>
 	
+	<!-- 文件上传解析器 -->
+	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<property name="maxUploadSize" value="543252534"></property>
+		<!-- 
+			uploadTempDir
+			上传文件保存到内存或者临时目录中，
+			可以在配置里指定临时目录，如果不指定那么默认是servlet容器默认临时目录。
+		 -->
+		<!-- <property name="uploadTempDir" value=""></property> -->
+	</bean>
 	
 	<!-- 将静态资源交给服务器处理 -->
 	<!-- <mvc:default-servlet-handler/> -->

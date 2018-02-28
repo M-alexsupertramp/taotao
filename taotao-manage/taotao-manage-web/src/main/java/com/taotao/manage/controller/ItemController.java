@@ -1,17 +1,23 @@
 package com.taotao.manage.controller;
 
+import java.util.List;
+
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.taotao.manage.pojo.Item;
 import com.taotao.manage.service.ItemDescService;
 import com.taotao.manage.service.ItemService;
+import com.taotao.manage.vo.DataGridResult;
 
 @Controller
 @RequestMapping("/item")
@@ -24,11 +30,10 @@ public class ItemController {
 	@PostMapping
 	public ResponseEntity<Void> saveItem(Item item,@RequestParam("desc")String desc){
 		try {
-			if(item!=null&&
-				(StringUtils.isBlank(item.getTitle())
+			if(StringUtils.isBlank(item.getTitle())
 					||item.getPrice()==null
-					||item.getNum()==null)
-					||StringUtils.isBlank(desc)){
+					||item.getCid()==null
+					||item.getNum()==null){
 						return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
 			}
 			itemService.save(item,desc);
@@ -38,4 +43,22 @@ public class ItemController {
 			return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(null);
 		}
 	}
+	
+	@GetMapping
+	public ResponseEntity<DataGridResult<Item>> pageQuery(
+			@RequestParam(value="page",defaultValue="1")Integer page,
+			@RequestParam(value="rows",defaultValue="1")Integer rows){
+		try {
+			PageInfo<Item> pageInfo=itemService.queryPageListAndSort(page, rows,"updated DESC");		
+			if(pageInfo==null){
+				return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
+			}
+			return ResponseEntity.ok(new DataGridResult<>(pageInfo.getTotal(),pageInfo.getList()));
+		} catch (Exception e) {
+			e.printStackTrace();
+			return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(null);
+		}
+		
+	}
+	
 }

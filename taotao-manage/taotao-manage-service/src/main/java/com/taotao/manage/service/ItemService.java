@@ -1,0 +1,57 @@
+package com.taotao.manage.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
+import com.taotao.manage.pojo.Item;
+import com.taotao.manage.pojo.ItemDesc;
+@Service
+public class ItemService extends BaseService<Item> {
+	@Autowired
+	private ItemDescService itemDescService;
+	/**
+	 * 新增商品和商品描述
+	 * @param item
+	 * @param desc
+	 */
+	public void save(Item item, String desc) {
+		//设置item id为null,数据库主键自增
+		item.setId(null);
+		//设置商品状态，1-正常，2-下架，3-删除,
+		item.setStatus(1);
+		//新增商品
+		super.save(item);
+		
+		//创建商品描述对象
+		ItemDesc itemDesc = new ItemDesc();
+		//设置商品id
+		itemDesc.setItemId(item.getId());
+		itemDesc.setItemDesc(desc);
+		//新增商品描述对象
+		itemDescService.save(itemDesc);
+	}
+	
+	
+	public PageInfo<Item> queryPageListAndSort(Integer page, Integer rows,
+			String orderByClause) {
+		return	super.queryPageListAndSort(page, rows, orderByClause);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

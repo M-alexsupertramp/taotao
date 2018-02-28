@@ -12,9 +12,11 @@ import tk.mybatis.mapper.entity.Example;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.taotao.manage.pojo.BasePojo;
+import com.taotao.manage.pojo.Item;
 
 @SuppressWarnings("all")
 public abstract class BaseService<T extends BasePojo> {
+
 	//spring4的泛型注入
 	@Autowired
 	public Mapper<T> mapper;
@@ -68,6 +70,23 @@ public abstract class BaseService<T extends BasePojo> {
 	public PageInfo<T> queryPageListByWhere(T record,Integer page, Integer rows){
 		PageHelper.startPage(page, rows);
 		List<T> list = this.mapper.select(record);
+		return new PageInfo<>(list);
+	}
+	
+	/**
+	 * 根据条件分页查询并排序
+	 * @param page
+	 * @param rows
+	 * @param orderByClause  排序的语句
+	 * @return
+	 */
+	public PageInfo<T> queryPageListAndSort(Integer page, Integer rows,
+			String orderByClause) {
+		
+		Example example = new Example(clazz);
+		example.setOrderByClause(orderByClause);
+		PageHelper.startPage(page, rows);
+		List<T> list = this.mapper.selectByExample(example);
 		return new PageInfo<>(list);
 	}
 	

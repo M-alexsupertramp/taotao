@@ -68,7 +68,7 @@ var TT = TAOTAO = {
     			<div class="pics">\
         			<ul></ul>\
         		</div>');
-    	/*	var indicator = $('<div class="indicator"></div>').appendTo('body');*/
+    		var indicator = $('<div class="indicator"></div>').appendTo('body');
     		// 编辑页面的图片回显
         	if(data && data.pics){
         		var imgs = data.pics.split(",");
@@ -79,6 +79,15 @@ var TT = TAOTAO = {
         		}
         	}
         	$(e).unbind('click').click(function(){
+        		/*
+        		 * parentsUntil([expr|element][,filter])
+        		 * 查找当前元素的所有的父辈元素，直到遇到匹配的那个元素为止。
+					如果提供的jQuery代表了一组DOM元素，.parentsUntil()方法也能让我们找遍所有元素的祖先元素，
+					直到遇到了一个跟提供的参数匹配的元素的时候才会停下来。这个返回的jQuery对象里包含了下面所有找到的父辈元素，但不包括那个选择器匹配到的元素。
+						$('li.item-a').parentsUntil('.level-1')
+						    .css('background-color', 'red');
+						查找item-a的祖先，但不包括level-1
+        		 */
         		var form = $(this).parentsUntil("form").parent("form");
         		KindEditor.editor(TT.kingEditorParams).loadPlugin('multiimage',function(){
         			var editor = this;
