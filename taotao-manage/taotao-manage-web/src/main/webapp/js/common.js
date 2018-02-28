@@ -68,7 +68,7 @@ var TT = TAOTAO = {
     			<div class="pics">\
         			<ul></ul>\
         		</div>');
-    		var indicator = $('<div class="indicator">>></div>').appendTo('body');
+    	/*	var indicator = $('<div class="indicator"></div>').appendTo('body');*/
     		// 编辑页面的图片回显
         	if(data && data.pics){
         		var imgs = data.pics.split(",");

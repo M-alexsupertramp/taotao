@@ -66,6 +66,7 @@
 <script type="text/javascript">
 	var itemAddEditor ;
 	$(function(){
+		//初始化富文本框组建
 		itemAddEditor = TAOTAO.createEditor("#itemAddForm [name=desc]");
 		var param=$("#itemAddForm");
 		/*var param = {fun:function(node){
@@ -79,9 +80,9 @@
 			$.messager.alert('提示','表单还未填写完成!');
 			return ;
 		}
-		//处理商品的价格的单位，将元转化为分
+		//处理商品的价格的单位，页面中是元为单位，有小数。后台是分为单位，需要将元转化为分，值*100，数字相乘会出问题，应该用字符串。
 		$("#itemAddForm [name=price]").val(eval($("#itemAddForm [name=priceView]").val()) * 100);
-		//将编辑器中的内容同步到隐藏多行文本中
+		//将编辑器中的内容设置到原来的textarea控件里
 		itemAddEditor.sync();
 		
 		//提交到后台的RESTful
@@ -92,6 +93,8 @@
 		   statusCode : {
 			   201 : function(){
 				   $.messager.alert('提示','新增商品成功!');
+				  /* $("#itemAddForm").form("clear");*/
+				  clearForm();
 			   },
 			   400 : function(){
 				   $.messager.alert('提示','参数有误!');
