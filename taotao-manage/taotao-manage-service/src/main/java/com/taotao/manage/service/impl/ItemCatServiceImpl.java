@@ -20,5 +20,4 @@ public class ItemCatServiceImpl implements ItemCatService {
 		itemCat.setParentId(pid);
 		return itemCatMapper.select(itemCat);
 	}
-
 }
