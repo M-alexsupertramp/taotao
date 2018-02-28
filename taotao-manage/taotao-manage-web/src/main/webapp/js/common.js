@@ -54,6 +54,7 @@ var TT = TAOTAO = {
         }
     },
     
+    //执行这个初始化方法时,初始化图片上传组件并初始化选择类目组件
     init : function(data){
     	this.initPicUpload(data);
     	this.initItemCat(data);
@@ -260,6 +261,7 @@ var TT = TAOTAO = {
 		});
     }
 };
+/** TAOTAO对象定义完成 */
 
 function in_image(_li){
 	$(_li).find("div").css("display","block");

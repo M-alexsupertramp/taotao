@@ -21,13 +21,34 @@ public class ItemCatController {
 	@Autowired
 	private ItemCatService itemCatService;
 	
+	/**
+	 * 通过parentId查询商品类目--同步的方式
+	 * 携带参数id--通过浏览器调试获得
+	 * 要返回的数据类型是json数组,对应List<ItemCat>
+	 * 必须的几个字段：
+		id：唯一标示
+		text：显示名称
+		state：是否是父节点
+	 * @param parentId
+	 * @return
+	 */
 	@GetMapping
-	public ResponseEntity<List<ItemCat>> queryItemCat(@RequestParam(value="id",defaultValue="0")Long pid){
-		List<ItemCat> list=itemCatService.queryItemCat(pid);
-		if(CollectionUtils.isEmpty(list)){
-			return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
+	public ResponseEntity<List<ItemCat>> queryItemCat(@RequestParam(value="id",defaultValue="0")Long parentId){
+		try {
+			ItemCat record = new ItemCat();
+			record.setParentId(parentId);
+			record.setStatus(1);
+			List<ItemCat> list=itemCatService.queryListByRecord(record);
+			if(CollectionUtils.isEmpty(list)){
+				//资源没找到返回404
+				return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
+			}
+			//找到资源返回200
+			return ResponseEntity.ok(list);
+		} catch (Exception e) {
+			e.printStackTrace();
+			//抛出异常,返回500
+			return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(null);
 		}
-		
-		return ResponseEntity.ok(list);
 	}
 }

@@ -1,11 +1,22 @@
 package com.taotao.manage.service;
 
-import java.util.List;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+import tk.mybatis.mapper.common.Mapper;
+
+import com.taotao.manage.mapper.ItemCatMapper;
 import com.taotao.manage.pojo.ItemCat;
 
-public interface ItemCatService {
+@Service
+public class ItemCatService extends BaseService<ItemCat> {
+	/*@Autowired
+	private ItemCatMapper itemCatMappper;
+	
+	@Override
+	public Mapper<ItemCat> getMapper() {
+		return itemCatMappper;
+	}*/
 
-	List<ItemCat> queryItemCat(Long pid);
 
 }

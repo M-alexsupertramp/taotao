@@ -67,9 +67,10 @@
 	var itemAddEditor ;
 	$(function(){
 		itemAddEditor = TAOTAO.createEditor("#itemAddForm [name=desc]");
-		var param = {fun:function(node){
+		var param=$("#itemAddForm");
+		/*var param = {fun:function(node){
 			TAOTAO.changeItemParam(node, "itemAddForm");
-		}};
+		}};*/
 		TAOTAO.init(param);
 	});
 	
