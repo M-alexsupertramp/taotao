@@ -82,7 +82,6 @@ public abstract class BaseService<T extends BasePojo> {
 	 */
 	public PageInfo<T> queryPageListAndSort(Integer page, Integer rows,
 			String orderByClause) {
-		
 		Example example = new Example(clazz);
 		example.setOrderByClause(orderByClause);
 		PageHelper.startPage(page, rows);

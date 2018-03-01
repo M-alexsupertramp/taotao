@@ -16,21 +16,27 @@ public class ItemService extends BaseService<Item> {
 	 * @param item
 	 * @param desc
 	 */
-	public void save(Item item, String desc) {
+	public boolean save(Item item, String desc) {
+		boolean flag=false;
 		//设置item id为null,数据库主键自增
 		item.setId(null);
 		//设置商品状态，1-正常，2-下架，3-删除,
 		item.setStatus(1);
 		//新增商品
-		super.save(item);
-		
-		//创建商品描述对象
-		ItemDesc itemDesc = new ItemDesc();
-		//设置商品id
-		itemDesc.setItemId(item.getId());
-		itemDesc.setItemDesc(desc);
-		//新增商品描述对象
-		itemDescService.save(itemDesc);
+		Integer result = super.save(item);
+		if(result==1){
+			//创建商品描述对象
+			ItemDesc itemDesc = new ItemDesc();
+			//设置商品id
+			itemDesc.setItemId(item.getId());
+			itemDesc.setItemDesc(desc);
+			//新增商品描述对象
+			Integer update = itemDescService.save(itemDesc);
+			if(update==1){
+				flag=true;
+			}
+		}
+		return flag;
 	}
 	
 	

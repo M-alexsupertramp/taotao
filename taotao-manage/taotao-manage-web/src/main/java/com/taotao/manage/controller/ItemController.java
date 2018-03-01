@@ -30,24 +30,35 @@ public class ItemController {
 	@PostMapping
 	public ResponseEntity<Void> saveItem(Item item,@RequestParam("desc")String desc){
 		try {
-			if(StringUtils.isBlank(item.getTitle())
-					||item.getPrice()==null
-					||item.getCid()==null
-					||item.getNum()==null){
+			if(StringUtils.isBlank(item.getTitle())||
+					item.getPrice()==null||
+					item.getCid()==null||
+					item.getNum()==null){
 						return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
 			}
-			itemService.save(item,desc);
-			return new ResponseEntity<>(HttpStatus.CREATED);
+			if(itemService.save(item,desc)){
+				return new ResponseEntity<>(HttpStatus.CREATED);
+			}
+			//return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
 		} catch (Exception e) {
 			e.printStackTrace();
-			return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(null);
 		}
+		return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(null);
 	}
 	
+	/**
+	 * 分页查询
+	 * 异步
+	 * 参数page,rows
+	 * 返回值是一个jason数据 total:xxx,list<>
+	 * @param page
+	 * @param rows
+	 * @return
+	 */
 	@GetMapping
 	public ResponseEntity<DataGridResult<Item>> pageQuery(
 			@RequestParam(value="page",defaultValue="1")Integer page,
-			@RequestParam(value="rows",defaultValue="1")Integer rows){
+			@RequestParam(value="rows",defaultValue="30")Integer rows){
 		try {
 			PageInfo<Item> pageInfo=itemService.queryPageListAndSort(page, rows,"updated DESC");		
 			if(pageInfo==null){
