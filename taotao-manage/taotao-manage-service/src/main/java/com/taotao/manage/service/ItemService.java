@@ -39,25 +39,32 @@ public class ItemService extends BaseService<Item> {
 		return flag;
 	}
 	
-	
+	/**
+	 * 分页查询并排序
+	 */
 	public PageInfo<Item> queryPageListAndSort(Integer page, Integer rows,
 			String orderByClause) {
 		return	super.queryPageListAndSort(page, rows, orderByClause);
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+	/**
+	 * 编辑Item与ItemDesc
+	 * @param item
+	 * @param desc
+	 * @return
+	 */
+	public boolean updateItemAndItemDesc(Item item, String desc) {
+		boolean flag=false;
+		item.setStatus(null);
+		Integer updateItem = super.updateSelective(item);
+		if(updateItem==1){
+			ItemDesc itemDesc = new ItemDesc();
+			itemDesc.setItemId(item.getId());
+			Integer updateItemDesc = itemDescService.updateSelective(itemDesc);
+			if(updateItemDesc==1){
+				flag=true;
+			}
+		}
+		return flag;
+	}
 }
