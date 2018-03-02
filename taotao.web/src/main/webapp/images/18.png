@@ -1,0 +1,58 @@
+ype="menu:ToolBar" xmi:id="_rldWaB3cEeid2cDp7yEWXA" elementId="additions" toBeRendered="false">
+        <tags>toolbarSeparator</tags>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_rldWaR3cEeid2cDp7yEWXA" elementId="additions" toBeRendered="false"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_rldWmh3cEeid2cDp7yEWXA" elementId="org.eclipse.debug.ui.launchActionSet">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_rldWmx3cEeid2cDp7yEWXA" elementId="debug">
+          <tags>Opaque</tags>
+        </children>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_rldWnB3cEeid2cDp7yEWXA" elementId="org.eclipse.debug.internal.ui.actions.DebugDropDownAction">
+          <tags>Opaque</tags>
+        </children>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_rldWnR3cEeid2cDp7yEWXA" elementId="org.eclipse.debug.internal.ui.actions.RunDropDownAction">
+          <tags>Opaque</tags>
+        </children>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_rldWnh3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar">
+          <tags>Opaque</tags>
+        </children>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_rldWnx3cEeid2cDp7yEWXA" elementId="org.springsource.ide.eclipse.commons.launch.stop.action">
+          <tags>Opaque</tags>
+        </children>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_rldWoB3cEeid2cDp7yEWXA" elementId="org.springsource.ide.eclipse.commons.launch.relaunch.action">
+          <tags>Opaque</tags>
+        </children>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_rldWoR3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.ui.JavaElementCreationActionSet">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_rldWoh3cEeid2cDp7yEWXA" elementId="JavaWizards">
+          <tags>Opaque</tags>
+        </children>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_rldWox3cEeid2cDp7yEWXA" elementId="openajprojectwizard">
+          <tags>Opaque</tags>
+        </children>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_rldWpB3cEeid2cDp7yEWXA" elementId="org.eclipse.jst.j2ee.J2eeMainActionSet">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_rldWpR3cEeid2cDp7yEWXA" elementId="J2EEMain">
+          <tags>Opaque</tags>
+        </children>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_rldWph3cEeid2cDp7yEWXA" elementId="org.eclipse.jst.j2ee.internal.actions.NewJavaEEProject">
+          <tags>Opaque</tags>
+        </children>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_rldWpx3cEeid2cDp7yEWXA" elementId="org.eclipse.jst.j2ee.internal.actions.NewJavaEEArtifact">
+          <tags>Opaque</tags>
+        </children>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_rldWqB3cEeid2cDp7yEWXA" elementId="org.eclipse.search.searchActionSet">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_rldWqR3cEeid2cDp7yEWXA" elementId="Search">
+          <tags>Opaque</tags>
+        </children>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_rldWqh3cEeid2cDp7yEWXA" elementId="openType">
+          <tags>Opaque</tags>
+        </children>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_rldWqx3cEeid2cDp7yEWXA" elementId="org.eclipse.mylyn.tasks.ui.openTask">
+          <tags>Opaque</tags>
+        </children>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_rldWrB3cEeid2cDp7yEWXA" elementId="org.

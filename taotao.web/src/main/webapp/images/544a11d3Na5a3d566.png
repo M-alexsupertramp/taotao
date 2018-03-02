@@ -1,0 +1,825 @@
+
+  <commands xmi:id="_rlelCR3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.ui.edit.text.java.generate.constructor.using.fields" commandName="Generate Constructor using Fields" description="Choose fields to initialize and constructor from superclass to call " category="_rlem2R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelCh3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.commands.showElementInPackageView" commandName="Show JavaScript Element in Script Explorer" description="Select JavaScript element in the Script Explorer view" category="_rlem8B3cEeid2cDp7yEWXA">
+    <parameters xmi:id="_rlelCx3cEeid2cDp7yEWXA" elementId="elementRef" name="JavaScript element reference" typeId="org.eclipse.wst.jsdt.ui.commands.javaElementReference" optional="false"/>
+  </commands>
+  <commands xmi:id="_rlelDB3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.edit.text.goto.line" commandName="Go to Line" description="Go to a specified line of text" category="_rlem8B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelDR3cEeid2cDp7yEWXA" elementId="org.eclipse.egit.ui.RepositoriesViewRemoveRemote" commandName="Delete Remote" category="_rlemzh3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelDh3cEeid2cDp7yEWXA" elementId="org.eclipse.egit.ui.team.stash.create" commandName="Stash Changes" category="_rlemzh3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelDx3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar" commandName="Run Last Launched External Tool" description="Runs the last launched external Tool" category="_rlem3x3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelEB3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.edit.text.goto.columnPrevious" commandName="Previous Column" description="Go to the previous column" category="_rlem6h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelER3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.common.project.facet.ui.ConvertProjectToFacetedForm" commandName="Convert to Faceted Form..." category="_rlem3R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelEh3cEeid2cDp7yEWXA" elementId="org.eclipse.egit.ui.team.Commit" commandName="Commit..." category="_rlemzh3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelEx3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.sse.ui.remove.block.comment" commandName="Remove Block Comment" description="Remove Block Comment" category="_rlem0R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelFB3cEeid2cDp7yEWXA" elementId="org.eclipse.egit.ui.history.CheckoutCommand" commandName="Checkout" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelFR3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.edit.text.select.lineStart" commandName="Select Line Start" description="Select to the beginning of the line of text" category="_rlem6h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelFh3cEeid2cDp7yEWXA" elementId="org.eclipse.mylyn.github.ui.command.fetchPullRequest" commandName="Fetch Pull Request Commits" description="Fetch commits from pull request" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelFx3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.edit.text.cut.line.to.end" commandName="Cut to End of Line" description="Cut to the end of a line of text" category="_rlem6h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelGB3cEeid2cDp7yEWXA" elementId="org.sf.feeling.decompiler.sourcecode" commandName="Show Source Code" category="_rlemwx3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelGR3cEeid2cDp7yEWXA" elementId="org.eclipse.equinox.p2.ui.sdk.update" commandName="Check for Updates" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelGh3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.edit.findIncrementalReverse" commandName="Incremental Find Reverse" description="Incremental find reverse" category="_rlem0R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelGx3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.commands.openElementInEditor" commandName="Open JavaScript Element" description="Open a JavaScript element in its editor" category="_rlem8B3cEeid2cDp7yEWXA">
+    <parameters xmi:id="_rlelHB3cEeid2cDp7yEWXA" elementId="elementRef" name="JavaScript element reference" typeId="org.eclipse.wst.jsdt.ui.commands.javaElementReference" optional="false"/>
+  </commands>
+  <commands xmi:id="_rlelHR3cEeid2cDp7yEWXA" elementId="org.tigris.subversion.subclipse.ui.showsvnproperties" commandName="&#x663e;&#x793a;&#x5c5e;&#x6027;" category="_rlemzx3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelHh3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.generate.hashcode.equals" commandName="Generate hashCode() and equals()" description="Generates hashCode() and equals() functions for the type" category="_rlemyh3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelHx3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.ui.generate.javadoc" commandName="Generate Javadoc" description="Generates Javadoc for a selectable set of Java resources" category="_rlemxB3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelIB3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.ui.edit.text.java.search.declarations.in.working.set" commandName="Declaration in Working Set" description="Search for declarations of the selected element in a working set" category="_rlem0B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelIR3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.server.launchShortcut.run" commandName="Run on Server" description="Run the current selection on a server" category="_rlem3x3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelIh3cEeid2cDp7yEWXA" elementId="org.springframework.ide.eclipse.beans.ui.refactoring.command.refactorBeanClass" commandName="&amp;Rename Bean Element (id, class, property name)..." category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelIx3cEeid2cDp7yEWXA" elementId="org.eclipse.mylyn.tasks.ui.command.goToNextUnread" commandName="Go To Next Unread Task" category="_rlem8B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelJB3cEeid2cDp7yEWXA" elementId="org.eclipse.egit.ui.RebaseCurrent" commandName="Rebase" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelJR3cEeid2cDp7yEWXA" elementId="org.eclipse.mylyn.tasks.ui.command.showToolTip" commandName="Show Tooltip Description" category="_rlem6B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelJh3cEeid2cDp7yEWXA" elementId="org.eclipse.mylyn.tasks.ui.command.disconnected" commandName="Disconnected" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelJx3cEeid2cDp7yEWXA" elementId="org.eclipse.team.cvs.ui.ignore" commandName="Add to .cvsignore" description="Ignore the Selected Resources when Synchronizing" category="_rlemvx3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelKB3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.dialogs.openInputDialog" commandName="Open Input Dialog" description="Open an Input Dialog" category="_rlem5x3cEeid2cDp7yEWXA">
+    <parameters xmi:id="_rlelKR3cEeid2cDp7yEWXA" elementId="title" name="Title"/>
+    <parameters xmi:id="_rlelKh3cEeid2cDp7yEWXA" elementId="message" name="Message"/>
+    <parameters xmi:id="_rlelKx3cEeid2cDp7yEWXA" elementId="initialValue" name="Initial Value"/>
+    <parameters xmi:id="_rlelLB3cEeid2cDp7yEWXA" elementId="cancelReturns" name="Return Value on Cancel"/>
+  </commands>
+  <commands xmi:id="_rlelLR3cEeid2cDp7yEWXA" elementId="org.eclipse.egit.ui.history.ShowVersions" commandName="Open" category="_rlem0h3cEeid2cDp7yEWXA">
+    <parameters xmi:id="_rlelLh3cEeid2cDp7yEWXA" elementId="org.eclipse.egit.ui.history.CompareMode" name="Compare mode"/>
+  </commands>
+  <commands xmi:id="_rlelLx3cEeid2cDp7yEWXA" elementId="revert.schema.editor.action.id" commandName="Revert Object" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelMB3cEeid2cDp7yEWXA" elementId="org.eclipse.mylyn.tasks.ui.command.attachment.open" commandName="Open Attachment" category="_rlem4B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelMR3cEeid2cDp7yEWXA" elementId="org.eclipse.ant.ui.antShortcut.debug" commandName="Debug Ant Build" description="Debug Ant Build" category="_rlem3x3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelMh3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.views.properties.NewPropertySheetCommand" commandName="Properties" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelMx3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.ui.edit.text.java.search.return.continue.targets" commandName="Search break/continue Target Occurrences in File" description="Search for break/continue target occurrences of a selected target name" category="_rlem0B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelNB3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.ui.edit.text.java.search.implementors.in.workspace" commandName="Implementors in Workspace" description="Search for implementors of the selected interface" category="_rlem0B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelNR3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.navigate.gotopackage" commandName="Go to Folder" description="Go to Folder" category="_rlem8B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelNh3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.ui.edit.text.java.move.inner.to.top.level" commandName="Move Type to New File" description="Move Type to New File" category="_rlem8R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelNx3cEeid2cDp7yEWXA" elementId="org.cloudfoundry.ide.eclipse.server.ui.internal.actions.showconsoleviewercommand" commandName="Show Console" description="Show Console" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelOB3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.sse.ui.quick_outline" commandName="Quick Outline" description="Show the quick outline for the editor input" category="_rlem8B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelOR3cEeid2cDp7yEWXA" elementId="org.eclipse.egit.ui.commit.Revert" commandName="Revert Commit" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelOh3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.server.publish" commandName="Publish" description="Publish to server" category="_rlem5h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelOx3cEeid2cDp7yEWXA" elementId="org.eclipse.egit.ui.RepositoriesViewCreateRepository" commandName="Create a Repository" category="_rlemzh3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelPB3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.introduce.factory" commandName="Introduce Factory" description="Introduce a factory function to encapsulate invocation of the selected constructor" category="_rlem5B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelPR3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.ui.edit.text.java.gotoBreadcrumb" commandName="Show In Breadcrumb" description="Shows the Java editor breadcrumb and sets the keyboard focus into it" category="_rlem8B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelPh3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.edit.text.scroll.lineDown" commandName="Scroll Line Down" description="Scroll down one line of text" category="_rlem6h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelPx3cEeid2cDp7yEWXA" elementId="org.eclipse.egit.ui.team.SimpleFetch" commandName="Fetch from Upstream" category="_rlemzh3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelQB3cEeid2cDp7yEWXA" elementId="org.eclipse.debug.ui.commands.StepInto" commandName="Step Into" description="Step into" category="_rlem3x3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelQR3cEeid2cDp7yEWXA" elementId="org.eclipse.egit.ui.commit.Checkout" commandName="Checkout" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelQh3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.edit.text.scroll.lineUp" commandName="Scroll Line Up" description="Scroll up one line of text" category="_rlem6h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelQx3cEeid2cDp7yEWXA" elementId="org.eclipse.debug.ui.commands.TerminateAndRelaunch" commandName="Terminate and Relaunch" description="Terminate and Relaunch" category="_rlem3x3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelRB3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.file.print" commandName="Print" description="Print" category="_rlem3R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelRR3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.debug.ui.breakpoint.properties" commandName="Java Breakpoint Properties" description="View and edit the properties for a given Java breakpoint" category="_rlem3x3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelRh3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.edit.text.select.pageUp" commandName="Select Page Up" description="Select to the top of the page" category="_rlem6h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelRx3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.ui.edit.text.java.add.import" commandName="Add Import" description="Create import statement on selection" category="_rlem2R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelSB3cEeid2cDp7yEWXA" elementId="org.eclipse.egit.ui.team.CompareWithPrevious" commandName="Compare with Previous Revision" category="_rlemzh3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelSR3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.ui.edit.text.java.extract.interface" commandName="Extract Interface" description="Extract a set of members into a new interface and try to use the new interface" category="_rlem8R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelSh3cEeid2cDp7yEWXA" elementId="org.tigris.subversion.subclipse.ui.copy" commandName="&#x590d;&#x5236;..." category="_rlemzx3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelSx3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.help.dynamicHelp" commandName="Dynamic Help" description="Open the dynamic help" category="_rlem7B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelTB3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.server.run" commandName="Run" description="Run server" category="_rlem5h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelTR3cEeid2cDp7yEWXA" elementId="org.eclipse.datatools.sqltools.sqleditor.saveToDatabaseAction" commandName="Save to Database" category="_rlemwh3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelTh3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.ui.edit.text.java.search.read.access.in.working.set" commandName="Read Access in Working Set" description="Search for read references to the selected element in a working set" category="_rlem0B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelTx3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.promote.local.variable" commandName="Convert Local Variable to Var" description="Convert a local variable to a var" category="_rlem5B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelUB3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.xml.views.XPathView.prefixes" commandName="&amp;Edit Namespace Prefixes" category="_rlem2h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelUR3cEeid2cDp7yEWXA" elementId="org.eclipse.jpt.jaxb.eclipselink.ui.command.addEclipseLinkJaxbProperty" commandName="Add EclipseLink JAXB property" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelUh3cEeid2cDp7yEWXA" elementId="org.eclipse.m2e.profiles.ui.commands.selectMavenProfileCommand" commandName="Select Maven Profiles" category="_rlemwR3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelUx3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.push.down" commandName="Push Down" description="Move members to subclasses" category="_rlem5B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelVB3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.correction.splitJoinVariableDeclaration.assist" commandName="Quick Assist - Split/Join variable declaration" description="Invokes quick assist and selects 'Split/Join variable declaration'" category="_rlemyh3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelVR3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.debug.ui.localJavaShortcut.run" commandName="Run Java Application" description="Run Java Application" category="_rlem3x3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelVh3cEeid2cDp7yEWXA" elementId="org.eclipse.egit.ui.RepositoriesToggleBranchHierarchy" commandName="Toggle Branch Representation" category="_rlemzh3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelVx3cEeid2cDp7yEWXA" elementId="org.eclipse.mylyn.tasks.ui.command.markTaskComplete" commandName="Mark Task Complete" category="_rlem6B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelWB3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.edit.text.showRulerAnnotationInformation" commandName="Show Ruler Annotation Tooltip" description="Displays annotation information for the caret line in a focused hover" category="_rlem6h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelWR3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.format" commandName="Format" description="Format the selected text" category="_rlemyh3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelWh3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.sse.ui.structure.select.next" commandName="Select Next Element" description="Expand selection to include next sibling" category="_rlem0R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelWx3cEeid2cDp7yEWXA" elementId="org.eclipse.datatools.sqltools.result.terminate" commandName="Terminate Result" category="_rlemyx3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelXB3cEeid2cDp7yEWXA" elementId="org.eclipse.jpt.jaxb.ui.command.createPackageInfo" commandName="Create package-info.java" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelXR3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.select.last" commandName="Restore Last Selection" description="Restore last selection" category="_rlem0R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelXh3cEeid2cDp7yEWXA" elementId="org.eclipse.pde.ui.junitWorkbenchShortcut.run" commandName="Run JUnit Plug-in Test" description="Run JUnit Plug-in Test" category="_rlem3x3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelXx3cEeid2cDp7yEWXA" elementId="org.springframework.ide.eclipse.beans.search.actions.openBeansSearchPage" commandName="Spring Beans Search" description="Open Spring beans search page" category="_rlemxR3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelYB3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.project.buildLast" commandName="Repeat Working Set Build" description="Repeat the last working set build" category="_rlemxB3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelYR3cEeid2cDp7yEWXA" elementId="org.sf.feeling.decompiler.bytecode" commandName="Show Byte Code" category="_rlemwx3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelYh3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.correction.addNonNLS" commandName="Quick Fix - Add non-NLS tag" description="Invokes quick assist and selects 'Add non-NLS tag'" category="_rlemyh3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelYx3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.edit.text.goto.textStart" commandName="Text Start" description="Go to the beginning of the text" category="_rlem6h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelZB3cEeid2cDp7yEWXA" elementId="org.eclipse.search.ui.openSearchDialog" commandName="Open Search Dialog" description="Open the Search dialog" category="_rlem0B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelZR3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.file.openWorkspace" commandName="Switch Workspace" description="Open the workspace selection dialog" category="_rlem3R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelZh3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.server.launchShortcut.debug" commandName="Debug on Server" description="Debug the current selection on a server" category="_rlem3x3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelZx3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.ui.edit.text.java.pull.up" commandName="Pull Up" description="Move members to a superclass" category="_rlem8R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelaB3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.ide.configureFilters" commandName="Configure Contents..." description="Configure the filters to apply to the markers view" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelaR3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.uncomment" commandName="Uncomment" description="Uncomment the selected JavaScript comment lines" category="_rlemyh3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelah3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.toggle.comment" commandName="Toggle Comment" description="Toggle comment the selected lines" category="_rlemyh3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelax3cEeid2cDp7yEWXA" elementId="org.tigris.subversion.subclipse.ui.merge" commandName="Merge..." category="_rlemzx3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelbB3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.ui.edit.text.java.find.broken.nls.keys" commandName="Find Broken Externalized Strings" description="Finds undefined, duplicate and unused externalized string keys in property files" category="_rlem2R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelbR3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.xsd.ui.refactor.renameTargetNamespace" commandName="Rename Target Namespace" description="Changes the target namespace of the schema" category="_rlem0R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelbh3cEeid2cDp7yEWXA" elementId="org.eclipse.m2e.actions.LifeCycleGenerateSources.run" commandName="Run Maven Generate Sources" description="Run Maven Generate Sources" category="_rlem3x3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelbx3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.sse.ui.cleanup.document" commandName="Cleanup Document..." description="Cleanup document" category="_rlem0R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelcB3cEeid2cDp7yEWXA" elementId="org.springframework.ide.eclipse.aop.ui.inplace.show" commandName="Beans Quick Cross References" description="Shows the Beans cross references for the editor input" category="_rlem8B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelcR3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.ui.edit.text.java.uncomment" commandName="Uncomment" description="Uncomment the selected Java comment lines" category="_rlem2R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelch3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.edit.text.goto.wordNext" commandName="Next Word" description="Go to the next word" category="_rlem6h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelcx3cEeid2cDp7yEWXA" elementId="org.eclipse.team.cvs.ui.addLocation" commandName="Add Repository Location" description="Add a new CVS repository location" category="_rlemvx3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rleldB3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.navigate.up" commandName="Up" description="Navigate up one level" category="_rlem8B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rleldR3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.ui.correction.splitJoinVariableDeclaration.assist" commandName="Quick Assist - Split/Join variable declaration" description="Invokes quick assist and selects 'Split/Join variable declaration'" category="_rlem2R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rleldh3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.goto.next.member" commandName="Go to Next Member" description="Move the caret to the next member of the JavaScript file" category="_rlem8B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rleldx3cEeid2cDp7yEWXA" elementId="org.eclipse.mylyn.tasks.ui.command.openRemoteTask" commandName="Open Remote Task" category="_rlem8B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rleleB3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.window.hideShowEditors" commandName="Toggle Editor Area Visibility" description="Toggles the visibility of the editor area" category="_rlemwR3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rleleR3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.window.closePerspective" commandName="Close Perspective" description="Close the current perspective" category="_rlemwR3cEeid2cDp7yEWXA">
+    <parameters xmi:id="_rleleh3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.window.closePerspective.perspectiveId" name="Perspective Id"/>
+  </commands>
+  <commands xmi:id="_rlelex3cEeid2cDp7yEWXA" elementId="org.eclipse.egit.ui.history.Edit" commandName="Edit Commit" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelfB3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.modify.method.parameters" commandName="Change Function Signature" description="Change function signature includes parameter names and parameter order" category="_rlem5B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelfR3cEeid2cDp7yEWXA" elementId="org.eclipse.pde.ui.organizeManifest" commandName="Organize Manifests" description="Cleans up plug-in manifest files" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelfh3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.edit.move" commandName="Move..." description="Move the selected item" category="_rlem3R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelfx3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.correction.renameInFile.assist" commandName="Quick Assist - Rename in file" description="Invokes quick assist and selects 'Rename in file'" category="_rlemyh3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelgB3cEeid2cDp7yEWXA" elementId="org.eclipse.team.cvs.ui.updateAll" commandName="Update All Incoming Changes" description="Update all incoming changes with new content from the repository" category="_rlemvx3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelgR3cEeid2cDp7yEWXA" elementId="org.eclipse.mylyn.tasks.ui.command.addTaskRepository" commandName="Add Task Repository..." category="_rlem6B3cEeid2cDp7yEWXA">
+    <parameters xmi:id="_rlelgh3cEeid2cDp7yEWXA" elementId="connectorKind" name="Repository Type"/>
+  </commands>
+  <commands xmi:id="_rlelgx3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.ui.edit.text.java.generate.tostring" commandName="Generate toString()" description="Generates the toString() method for the type" category="_rlem2R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelhB3cEeid2cDp7yEWXA" elementId="org.eclipse.debug.ui.commands.OpenProfileConfigurations" commandName="Profile..." description="Open profile launch configuration dialog" category="_rlem3x3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelhR3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.ui.edit.text.java.open.external.javadoc" commandName="Open Attached Javadoc" description="Open the attached Javadoc of the selected element in a browser" category="_rlem8B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelhh3cEeid2cDp7yEWXA" elementId="org.tigris.subversion.subclipse.ui.unlock" commandName="&#x89e3;&#x9501;" category="_rlemzx3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelhx3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.correction.assignParamToField.assist" commandName="Quick Assist - Assign parameter to var" description="Invokes quick assist and selects 'Assign parameter to var'" category="_rlemyh3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rleliB3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.search.declarations.in.project" commandName="Declaration in Project" description="Search for declarations of the selected element in the enclosing project" category="_rlem0B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rleliR3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.browser.openBrowser" commandName="Open Browser" description="Opens the default web browser." category="_rlemwR3cEeid2cDp7yEWXA">
+    <parameters xmi:id="_rlelih3cEeid2cDp7yEWXA" elementId="url" name="URL"/>
+    <parameters xmi:id="_rlelix3cEeid2cDp7yEWXA" elementId="browserId" name="Browser Id"/>
+    <parameters xmi:id="_rleljB3cEeid2cDp7yEWXA" elementId="name" name="Browser Name"/>
+    <parameters xmi:id="_rleljR3cEeid2cDp7yEWXA" elementId="tooltip" name="Browser Tooltip"/>
+  </commands>
+  <commands xmi:id="_rleljh3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.ui.edit.text.java.generate.hashcode.equals" commandName="Generate hashCode() and equals()" description="Generates hashCode() and equals() methods for the type" category="_rlem2R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rleljx3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.ui.navigate.gototype" commandName="Go to Type" description="Go to Type" category="_rlem8B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelkB3cEeid2cDp7yEWXA" elementId="org.eclipse.mylyn.wikitext.ui.convertToEclipseHelpCommand" commandName="Generate Eclipse Help (*.html and *-toc.xml)" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelkR3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.edit.text.select.columnNext" commandName="Select Next Column" description="Select the next column" category="_rlem6h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelkh3cEeid2cDp7yEWXA" elementId="org.eclipse.team.cvs.ui.merge" commandName="Merge" description="Merge" category="_rlemvx3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelkx3cEeid2cDp7yEWXA" elementId="org.eclipse.jpt.jpa.ui.convertJavaQueries" commandName="Move Java Queries to XML..." category="_rlemzB3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlellB3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.debug.ui.localJavaShortcut.debug" commandName="Debug Java Application" description="Debug Java Application" category="_rlem3x3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlellR3cEeid2cDp7yEWXA" elementId="org.eclipse.jst.pagedesigner.source" commandName="Source Code" category="_rlem1h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlellh3cEeid2cDp7yEWXA" elementId="org.eclipse.team.ui.synchronizeLast" commandName="Repeat last synchronization" description="Repeat the last synchronization" category="_rlem1R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlellx3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.ui.edit.text.java.extract.local.variable" commandName="Extract Local Variable" description="Extracts an expression into a new local variable and uses the new local variable" category="_rlem8R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelmB3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.xml.ui.previousSibling" commandName="Previous Sibling" description="Go to Previous Sibling" category="_rlem0R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelmR3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.ui.edit.text.java.select.previous" commandName="Select Previous Element" description="Expand selection to include previous sibling" category="_rlem0R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelmh3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.edit.text.goto.columnNext" commandName="Next Column" description="Go to the next column" category="_rlem6h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelmx3cEeid2cDp7yEWXA" elementId="org.eclipse.mylyn.tasks.ui.command.searchForTask" commandName="Search Repository for Task" category="_rlem8B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelnB3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.help.aboutAction" commandName="About" description="Open the about dialog" category="_rlem7B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelnR3cEeid2cDp7yEWXA" elementId="org.eclipse.mylyn.context.ui.commands.interest.decrement" commandName="Make Less Interesting" description="Make Less Interesting" category="_rlem1x3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelnh3cEeid2cDp7yEWXA" elementId="org.eclipse.compare.copyRightToLeft" commandName="Copy from Right to Left" description="Copy Current Change from Right to Left" category="_rlem7h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelnx3cEeid2cDp7yEWXA" elementId="org.eclipse.m2e.core.pomFileAction.run" commandName="Run Maven Build" description="Run Maven Build" category="_rlem3x3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rleloB3cEeid2cDp7yEWXA" elementId="org.eclipse.jpt.dbws.ui.generateDbws" commandName="Generate Database Web Services" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rleloR3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.clean.up" commandName="Clean Up" description="Solve problems and improve code style on selected resources" category="_rlemyh3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rleloh3cEeid2cDp7yEWXA" elementId="org.eclipse.pde.ui.quickOutline" commandName="Quick Outline" description="Open a quick outline popup dialog for a given editor input" category="_rlem8B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelox3cEeid2cDp7yEWXA" elementId="org.eclipse.datatools.sqltools.sqleditor.refreshFromDatabaseAction" commandName="Refresh from Database" category="_rlemwh3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelpB3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.ui.edit.text.java.extract.method" commandName="Extract Method" description="Extract a set of statements or an expression into a new method and use the new method" category="_rlem8R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelpR3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.search.references.in.project" commandName="References in Project" description="Search for references to the selected element in the enclosing project" category="_rlem0B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelph3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.open.hierarchy" commandName="Quick Hierarchy" description="Show the quick hierarchy of the selected element" category="_rlem8B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelpx3cEeid2cDp7yEWXA" elementId="org.eclipse.datatools.sqltools.sqleditor.GotoMatchingTokenAction" commandName="Goto Matching Token" category="_rlemwh3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelqB3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.ui.correction.addThrowsDecl" commandName="Quick Fix - Add throws declaration" description="Invokes quick assist and selects 'Add throws declaration'" category="_rlem2R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelqR3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.activeContextInfo" commandName="Show activeContext Info" category="_rlemwR3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelqh3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.override.methods" commandName="Override/Implement Functions" description="Override or implement functions from super types" category="_rlemyh3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelqx3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.generate.constructor.using.fields" commandName="Generate Constructor using Vars" description="Choose vars to initialize and constructor from superclass to call " category="_rlemyh3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelrB3cEeid2cDp7yEWXA" elementId="org.eclipse.team.cvs.ui.compareWithTag" commandName="Compare With Another Branch or Version" description="Compare with a Branch or a Version on the CVS Server" category="_rlemvx3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelrR3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.edit.findNext" commandName="Find Next" description="Find next item" category="_rlem0R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelrh3cEeid2cDp7yEWXA" elementId="org.eclipse.debug.ui.commands.Disconnect" commandName="Disconnect" description="Disconnect" category="_rlem3x3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelrx3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.ui.correction.addSuppressWarnings" commandName="Quick Fix - Add @SuppressWarnings" description="Invokes quick fix and selects 'Add @SuppressWarnings' " category="_rlem2R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelsB3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.correction.extractLocal.assist" commandName="Quick Assist - Extract local variable" description="Invokes quick assist and selects 'Extract local variable'" category="_rlemyh3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelsR3cEeid2cDp7yEWXA" elementId="org.eclipse.egit.ui.commit.CreateTag" commandName="Create Tag..." category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelsh3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.correction.addSuppressWarnings" commandName="Quick Fix - Add @SuppressWarnings" description="Invokes quick fix and selects 'Add @SuppressWarnings' " category="_rlemyh3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelsx3cEeid2cDp7yEWXA" elementId="org.eclipse.pde.ui.junitWorkbenchShortcut.debug" commandName="Debug JUnit Plug-in Test" description="Debug JUnit Plug-in Test" category="_rlem3x3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rleltB3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.show.outline" commandName="Quick Outline" description="Show the quick outline for the editor input" category="_rlem8B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rleltR3cEeid2cDp7yEWXA" elementId="org.eclipse.team.cvs.ui.setKeywordSubstitution" commandName="Change ASCII/Binary Property" description="Change whether the selected resources should be treated as ASCII or binary on the CVS Server" category="_rlemvx3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelth3cEeid2cDp7yEWXA" elementId="org.eclipse.egit.ui.internal.reflog.CheckoutCommand" commandName="Checkout" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rleltx3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.search.references.in.working.set" commandName="References in Working Set" description="Search for references to the selected element in a working set" category="_rlem0B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rleluB3cEeid2cDp7yEWXA" elementId="org.eclipse.ajdt.launching.runShortcut.run" commandName="Run AspectJ/Java Application" description="Run AspectJ/Java Application" category="_rlem3x3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rleluR3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.help.quickStartAction" commandName="Welcome" description="Show help for beginning users" category="_rlem7B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rleluh3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.edit.addTask" commandName="Add Task..." description="Add a task" category="_rlem0R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelux3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.editors.quickdiff.revertLine" commandName="Revert Line" description="Revert the current line" category="_rlem6h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelvB3cEeid2cDp7yEWXA" elementId="org.eclipse.debug.ui.command.prevpage" commandName="Previous Page of Memory" description="Load previous page of memory" category="_rlem3x3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelvR3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.ui.edit.text.java.push.down" commandName="Push Down" description="Move members to subclasses" category="_rlem8R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelvh3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.SourceView" commandName="JavaScript Declaration" description="Show the Declaration view" category="_rlemxR3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelvx3cEeid2cDp7yEWXA" elementId="org.eclipse.ant.ui.toggleMarkOccurrences" commandName="Toggle Ant Mark Occurrences" description="Toggles mark occurrences in Ant editors" category="_rlem2R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelwB3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.correction.qualifyField" commandName="Quick Fix - Qualify var access" description="Invokes quick assist and selects 'Qualify var access'" category="_rlemyh3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelwR3cEeid2cDp7yEWXA" elementId="org.eclipse.m2e.core.ui.command.addPlugin" commandName="Add Maven Plugin" description="Add Maven Plugin" category="_rlem0R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelwh3cEeid2cDp7yEWXA" elementId="org.eclipse.ltk.ui.refactor.create.refactoring.script" commandName="Create Script" description="Create a refactoring script from refactorings on the local workspace" category="_rlem8R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelwx3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.edit.text.delimiter.windows" commandName="Convert Line Delimiters to Windows (CRLF, \r\n, 0D0A, &#xa4;&#xb6;)" description="Converts the line delimiters to Windows (CRLF, \r\n, 0D0A, &#xa4;&#xb6;)" category="_rlem3R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelxB3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.edit.text.cut.line" commandName="Cut Line" description="Cut a line of text" category="_rlem6h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelxR3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.edit.text.select.columnPrevious" commandName="Select Previous Column" description="Select the previous column" category="_rlem6h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelxh3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.file.closeAll" commandName="Close All" description="Close all editors" category="_rlem3R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelxx3cEeid2cDp7yEWXA" elementId="org.eclipse.jpt.jpa.eclipselink.ui.persistentTypeAddVirtualAttribute" commandName="Add Virtual Attribute..." category="_rlem4R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelyB3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.ui.edit.text.java.promote.local.variable" commandName="Convert Local Variable to Field" description="Convert a local variable to a field" category="_rlem8R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelyR3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.edit.text.select.wordNext" commandName="Select Next Word" description="Select the next word" category="_rlem6h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelyh3cEeid2cDp7yEWXA" elementId="org.tigris.subversion.subclipse.ui.checkout" commandName="&#x68c0;&#x51fa;" category="_rlemzx3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelyx3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.window.spy" commandName="Show Contributing Plug-in" description="Shows contribution information for the currently selected element" category="_rlemwR3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelzB3cEeid2cDp7yEWXA" elementId="org.eclipse.egit.ui.team.submodule.sync" commandName="Sync Submodule" category="_rlemzh3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelzR3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.window.quickAccess" commandName="Quick Access" description="Quickly access UI elements" category="_rlemwR3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelzh3cEeid2cDp7yEWXA" elementId="org.cloudfoundry.ide.eclipse.server.ui.internal.actions.openhomepagecommand" commandName="Open Home Page" description="Open Home Page" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlelzx3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.navigate.addToWorkingSet" commandName="Add to Working Set" description="Adds the selected object to a working set." category="_rlem0R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel0B3cEeid2cDp7yEWXA" elementId="org.eclipse.jpt.jpa.ui.persistentTypeMapAs" commandName="Map As" category="_rlem4R3cEeid2cDp7yEWXA">
+    <parameters xmi:id="_rlel0R3cEeid2cDp7yEWXA" elementId="persistentTypeMappingKey" name="mapping key" optional="false"/>
+  </commands>
+  <commands xmi:id="_rlel0h3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.ui.edit.text.java.goto.next.member" commandName="Go to Next Member" description="Move the caret to the next member of the compilation unit" category="_rlem8B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel0x3cEeid2cDp7yEWXA" elementId="org.eclipse.mylyn.tasks.ui.command.markTaskReadGoToNextUnread" commandName="Mark Task Read and Go To Next Unread Task" category="_rlem6B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel1B3cEeid2cDp7yEWXA" elementId="org.springframework.ide.eclipse.beans.ui.addToNewConfigSet" commandName="Add To New Config Set..." category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel1R3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.debug.ui.commands.ForceReturn" commandName="Force Return" description="Forces return from method with value of selected expression " category="_rlem3x3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel1h3cEeid2cDp7yEWXA" elementId="org.eclipse.pde.ui.runtimeWorkbenchShortcut.run" commandName="Run Eclipse Application" description="Run Eclipse Application" category="_rlem3x3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel1x3cEeid2cDp7yEWXA" elementId="org.tigris.subversion.subclipse.ui.setsvnproperty" commandName="&#x8bbe;&#x7f6e;&#x5c5e;&#x6027;..." category="_rlemzx3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel2B3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.open.call.hierarchy" commandName="Open Call Hierarchy" description="Open a call hierarchy on the selected element" category="_rlem8B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel2R3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.ui.edit.text.java.remove.block.comment" commandName="Remove Block Comment" description="Remove the block comment enclosing the selection" category="_rlem2R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel2h3cEeid2cDp7yEWXA" elementId="org.eclipse.egit.ui.team.CreatePatch" commandName="Create Patch" category="_rlemzh3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel2x3cEeid2cDp7yEWXA" elementId="org.eclipse.egit.ui.RepositoriesViewImportProjects" commandName="Import Projects..." description="Import or create in local Git repository" category="_rlemzh3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel3B3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.navigate.showIn" commandName="Show In" category="_rlem8B3cEeid2cDp7yEWXA">
+    <parameters xmi:id="_rlel3R3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.navigate.showIn.targetId" name="Show In Target Id" optional="false"/>
+  </commands>
+  <commands xmi:id="_rlel3h3cEeid2cDp7yEWXA" elementId="org.eclipse.datatools.sqltools.sqleditor.DMLDialogSelectionAction" commandName="Edit in SQL Query Builder..." category="_rlemwh3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel3x3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.debug.ui.javaAppletShortcut.run" commandName="Run Java Applet" description="Run Java Applet" category="_rlem3x3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel4B3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.copy.qualified.name" commandName="Copy Qualified Name" description="Copy a fully qualified name to the system clipboard" category="_rlemyh3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel4R3cEeid2cDp7yEWXA" elementId="org.eclipse.mylyn.discovery.ui.discoveryWizardCommand" commandName="Discovery Wizard" description="shows the connector discovery wizard" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel4h3cEeid2cDp7yEWXA" elementId="org.eclipse.jpt.jpa.ui.generateDDL" commandName="Generate Tables from Entities..." category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel4x3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.debug.ui.commands.AllReferences" commandName="All References" description="Inspect all references to the selected object" category="_rlem3x3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel5B3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.debug.ui.command.OpenFromClipboard" commandName="Open from Clipboard" description="Opens a Java element or a Java stack trace from clipboard" category="_rlem8B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel5R3cEeid2cDp7yEWXA" elementId="org.eclipse.equinox.p2.ui.discovery.commands.ShowRepositoryCatalog" commandName="Show Repository Catalog" category="_rlem0h3cEeid2cDp7yEWXA">
+    <parameters xmi:id="_rlel5h3cEeid2cDp7yEWXA" elementId="org.eclipse.equinox.p2.ui.discovery.commands.RepositoryParameter" name="P2 Repository URI"/>
+  </commands>
+  <commands xmi:id="_rlel5x3cEeid2cDp7yEWXA" elementId="org.eclipse.m2e.editor.RenameArtifactAction" commandName="Rename Maven Artifact..." category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel6B3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.window.nextPerspective" commandName="Next Perspective" description="Switch to the next perspective" category="_rlemwR3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel6R3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.edit.text.hippieCompletion" commandName="Word Completion" description="Context insensitive completion" category="_rlem0R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel6h3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.ui.edit.text.java.extract.constant" commandName="Extract Constant" description="Extracts a constant into a new static field and uses the new static field" category="_rlem8R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel6x3cEeid2cDp7yEWXA" elementId="org.eclipse.team.cvs.ui.sync" commandName="Synchronize with Repository" description="Synchronize the workspace resources with those in the repository" category="_rlemvx3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel7B3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.folding.collapseComments" commandName="Collapse Comments" description="Collapse all comments" category="_rlem6h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel7R3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.open.type.hierarchy" commandName="Open Type Hierarchy" description="Open a type hierarchy on the selected element" category="_rlem8B3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel7h3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.ui.edit.text.java.add.javadoc.comment" commandName="Add Javadoc Comment" description="Add a Javadoc comment stub to the member element" category="_rlem2R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel7x3cEeid2cDp7yEWXA" elementId="org.eclipse.egit.ui.history.Reword" commandName="Reword Commit" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel8B3cEeid2cDp7yEWXA" elementId="org.eclipse.mylyn.wikitext.context.ui.editor.folding.auto" commandName="Toggle Active Folding" description="Toggle Active Folding" category="_rlem5R3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel8R3cEeid2cDp7yEWXA" elementId="org.eclipse.egit.ui.RepositoriesViewConfigureFetch" commandName="Configure Fetch..." category="_rlemzh3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel8h3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.debug.ui.commands.Execute" commandName="Execute" description="Evaluate selected text" category="_rlem3x3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel8x3cEeid2cDp7yEWXA" elementId="org.eclipse.debug.ui.commands.Resume" commandName="Resume" description="Resume" category="_rlem3x3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel9B3cEeid2cDp7yEWXA" elementId="AUTOGEN:::ajelementCreation/openajprojectwizard" commandName="AspectJ Project..." description="New AspectJ Project" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel9R3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.ant.ui.actionSet.presentation/org.eclipse.ant.ui.toggleAutoReconcile" commandName="Toggle Ant Editor Auto Reconcile" description="Toggle Ant Editor Auto Reconcile" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel9h3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.datatools.sqltools.sqlscrapbook.actionSet/org.eclipse.datatools.sqltools.sqlscrapbook.actions.OpenScrapbookAction" commandName="Open SQL Scrapbook" description="Open scrapbook to edit SQL statements" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel9x3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.mylyn.java.actionSet.browsing/org.eclipse.mylyn.java.ui.actions.ApplyMylynToBrowsingPerspectiveAction" commandName="Focus Browsing Perspective" description="Focus Java Browsing Views on Active Task" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel-B3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.mylyn.doc.actionSet/org.eclipse.mylyn.tasks.ui.bug.report" commandName="Report Bug or Enhancement..." description="Report Bug or Enhancement" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel-R3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.mylyn.tasks.ui.navigation.additions/org.eclipse.mylyn.tasks.ui.navigate.task.history" commandName="Activate Previous Task" description="Activate Previous Task" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel-h3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.pde.ui.SearchActionSet/org.eclipse.pde.ui.actions.OpenPluginSearchPage" commandName="Plug-in..." category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel-x3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.rse.core.search.searchActionSet/org.eclipse.rse.core.search.searchAction" commandName="Remote..." description="Opens Remote Search dialog page for text and file searching on remote systems" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel_B3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.search.searchActionSet/org.eclipse.search.OpenSearchDialogPage" commandName="Search..." description="Search" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel_R3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.team.ui.actionSet/org.eclipse.team.ui.synchronizeAll" commandName="Synchronize..." description="Synchronize..." category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel_h3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.team.ui.actionSet/org.eclipse.team.ui.ConfigureProject" commandName="Share Project..." description="Share the project with others using a version and configuration management system." category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlel_x3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.ui.externaltools.ExternalToolsSet/org.eclipse.ui.externaltools.ExternalToolMenuDelegateMenu" commandName="External Tools" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemAB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.wst.ws.explorer.explorer/org.eclipse.wst.ws.internal.explorer.action.LaunchWSEAction" commandName="Launch the Web Services Explorer" description="Launch the Web Services Explorer" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemAR3cEeid2cDp7yEWXA" elementId="org.springframework.ide.eclipse.aop.ui.matcher.actions.opePointcutMatcherPage" commandName="Pointcut Matches..." category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemAh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.springsource.ide.eclipse.commons.launch.actionSet/org.springsource.ide.eclipse.commons.launch.relaunch.action" commandName="Relaunch" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemAx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.springsource.ide.eclipse.commons.launch.actionSet/org.springsource.ide.eclipse.commons.launch.stop.action" commandName="Terminate" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemBB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::com.springsource.sts.ide.ui.actionSet.workbench/com.springsource.sts.ide.ui.action.dashboard" commandName="Dashboard" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemBR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.sf.feeling.decompiler.decompilerActionSet/org.sf.feeling.decompiler.actions.DecompilerToolbarMenu" commandName="&#x53cd;&#x7f16;&#x8bd1;&#x5668;" description="&#x53cd;&#x7f16;&#x8bd1;&#x5668;" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemBh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.sf.feeling.decompiler.decompilerActionSet/org.sf.feeling.decompiler.actions.ExportSourceMenu" commandName="&#x5bfc;&#x51fa;&#x53cd;&#x7f16;&#x8bd1;&#x6e90;&#x7801;..." category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemBx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.sf.feeling.decompiler.decompilerActionSet/org.sf.feeling.decompiler.actions.DecompilerMenu" commandName="&#x53cd;&#x7f16;&#x8bd1;&#x5668;" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemCB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.sf.feeling.decompiler.decompilerActionSet/org.sf.feeling.decompiler.actions.preferenceMenu" commandName="&#x9996;&#x9009;&#x9879;" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemCR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.sf.feeling.decompiler.decompilerActionSet/org.sf.feeling.decompiler.actions.debugModeMenu" commandName="&#x8c03;&#x8bd5;&#x6a21;&#x5f0f;" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemCh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.sf.feeling.decompiler.decompilerActionSet/org.sf.feeling.decompiler.actions.disassemblerMenu" commandName="&#x663e;&#x793a;&#x53cd;&#x6c47;&#x7f16;&#x4ee3;&#x7801;" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemCx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.sf.feeling.decompiler.decompilerActionSet/org.sf.feeling.decompiler.actions.byteCodeMenu" commandName="&#x663e;&#x793a;&#x5b57;&#x8282;&#x7801;" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemDB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.sf.feeling.decompiler.decompilerActionSet/org.sf.feeling.decompiler.actions.sourceCodeMenu" commandName="&#x663e;&#x793a;&#x6e90;&#x4ee3;&#x7801;" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemDR3cEeid2cDp7yEWXA" elementId="org.tigris.subversion.subclipse.ui.GenerateDiff" commandName="&#x521b;&#x5efa;&#x8865;&#x4e01;..." description="&#x5c06;&#x5de5;&#x4f5c;&#x7a7a;&#x95f4;&#x5185;&#x5bb9;&#x4e0e;&#x670d;&#x52a1;&#x5668;&#x8fdb;&#x884c;&#x6bd4;&#x8f83;&#x5e76;&#x751f;&#x6210;&#x53ef;&#x7528;&#x4f5c;&#x8865;&#x4e01;&#x6587;&#x4ef6;&#x7684;&#x5dee;&#x5f02;&#x6587;&#x4ef6;&#x3002;" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemDh3cEeid2cDp7yEWXA" elementId="org.tigris.subversion.subclipse.ui.updateDialog" commandName="Update to Version..." description="&#x66f4;&#x65b0;" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemDx3cEeid2cDp7yEWXA" elementId="org.tigris.subversion.subclipse.ui.actions.ShowTreeConflictsAction" commandName="Show Tree Conflicts" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemEB3cEeid2cDp7yEWXA" elementId="org.tigris.subversion.subclipse.ui.resolve" commandName="&#x6807;&#x8bb0;&#x4e3a;&#x89e3;&#x51b3;" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemER3cEeid2cDp7yEWXA" elementId="org.tigris.subversion.subclipse.ui.editConflicts" commandName="&#x7f16;&#x8f91;&#x51b2;&#x7a81;" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemEh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.debug.ui.launchActionSet/org.eclipse.debug.internal.ui.actions.RunWithConfigurationAction" commandName="Run As" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemEx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.debug.ui.launchActionSet/org.eclipse.debug.internal.ui.actions.RunHistoryMenuAction" commandName="Run History" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemFB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.debug.ui.launchActionSet/org.eclipse.debug.internal.ui.actions.RunDropDownAction" commandName="Run" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemFR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.debug.ui.launchActionSet/org.eclipse.debug.internal.ui.actions.DebugWithConfigurationAction" commandName="Debug As" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemFh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.debug.ui.launchActionSet/org.eclipse.debug.internal.ui.actions.DebugHistoryMenuAction" commandName="Debug History" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemFx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.debug.ui.launchActionSet/org.eclipse.debug.internal.ui.actions.DebugDropDownAction" commandName="Debug" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemGB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.debug.ui.profileActionSet/org.eclipse.debug.internal.ui.actions.ProfileDropDownAction" commandName="Profile" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemGR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.debug.ui.profileActionSet/org.eclipse.debug.internal.ui.actions.ProfileWithConfigurationAction" commandName="Profile As" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemGh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.debug.ui.profileActionSet/org.eclipse.debug.internal.ui.actions.ProfileHistoryMenuAction" commandName="Profile History" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemGx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jdt.ui.JavaElementCreationActionSet/org.eclipse.jdt.ui.actions.NewTypeDropDown" commandName="Class..." description="New Java Class" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemHB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jdt.ui.JavaElementCreationActionSet/org.eclipse.jdt.ui.actions.OpenPackageWizard" commandName="Package..." description="New Java Package" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemHR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jdt.ui.JavaElementCreationActionSet/org.eclipse.jdt.ui.actions.OpenProjectWizard" commandName="Java Project..." description="New Java Project" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemHh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jdt.ui.SearchActionSet/org.eclipse.jdt.ui.actions.OpenJavaSearchPage" commandName="Java..." category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemHx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction" commandName="Cheat Sheets..." category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemIB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jst.j2ee.J2eeMainActionSet/org.eclipse.jst.j2ee.internal.actions.NewJavaEEArtifact" commandName="Servlet" description="Create a new Servlet" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemIR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jst.j2ee.J2eeMainActionSet/org.eclipse.jst.j2ee.internal.actions.NewJavaEEProject" commandName="Dynamic Web Project" description="Create a Dynamic Web project" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemIh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.wst.jsdt.ui.JavaElementCreationActionSet/org.eclipse.wst.jsdt.ui.actions.OpenFileWizard" commandName="JavaScript Source File" description="New JavaScript file" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemIx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.wst.jsdt.ui.JavaElementCreationActionSet/org.eclipse.wst.jsdt.ui.actions.OpenProjectWizard" commandName="JavaScript Project..." description="New JavaScript Project" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemJB3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.refactor.show.refactoring.history" commandName="History..." category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemJR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.wst.jsdt.ui.SearchActionSet/org.eclipse.wst.jsdt.ui.actions.OpenJavaSearchPage" commandName="JavaScript..." category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemJh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.wst.server.ui.new.actionSet/org.eclipse.wst.server.ui.action.new.server" commandName="Create Server" description="Create Server" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemJx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.wst.server.ui.internal.webbrowser.actionSet/org.eclipse.wst.server.ui.internal.webbrowser.action.open" commandName="Open Web Browser" description="Open Web Browser" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemKB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.wst.server.ui.internal.webbrowser.actionSet/org.eclipse.wst.server.ui.internal.webbrowser.action.switch" commandName="Web Browser" description="Web Browser" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemKR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.wst.web.ui.wizardsActionSet/org.eclipse.wst.web.ui.actions.newCSSFile" commandName="CSS" description="Create a new Cascading Style Sheet" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemKh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.wst.web.ui.wizardsActionSet/org.eclipse.wst.web.ui.actions.newJSFile" commandName="JavaScript" description="Create a new JavaScript file" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemKx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.wst.web.ui.wizardsActionSet/org.eclipse.wst.web.ui.actions.newHTMLFile" commandName="HTML" description="Create a new HTML page" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemLB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.ajdt.ui.AJEditor.BreakpointRulerActions/org.eclipse.ajdt.ui.actions.ManageBreakpointRulerAction" commandName="AspectJ editor action" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemLR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.ajdt.ui.AJEditor.AdviceRulerActions/org.eclipse.ajdt.ui.actions.AdviceActionDelegate" commandName="AspectJ editor action" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemLh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.ui.texteditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction" commandName="AspectJ editor action" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemLx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.ant.ui.BreakpointRulerActions/org.eclipse.ant.ui.actions.ManageBreakpointRulerAction" commandName="Toggle Breakpoint" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemMB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.datatools.sqltools.rullerDoubleClick/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction" commandName="Add Breakpoint" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemMR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jdt.debug.CompilationUnitEditor.BreakpointRulerActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction" commandName="Toggle Breakpoint" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemMh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jdt.debug.ClassFileEditor.BreakpointRulerActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction" commandName="Toggle Breakpoint" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemMx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.JavaSnippetToolbarActions/org.eclipse.jdt.debug.ui.SnippetExecute" commandName="Execute" description="Execute the Selected Text" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemNB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.JavaSnippetToolbarActions/org.eclipse.jdt.debug.ui.SnippetDisplay" commandName="Display" description="Display Result of Evaluating Selected Text" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemNR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.JavaSnippetToolbarActions/org.eclipse.jdt.debug.ui.SnippetInspect" commandName="Inspect" description="Inspect Result of Evaluating Selected Text" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemNh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.m2e.jdt.ui.downloadSourcesContribution/org.eclipse.m2e.jdt.ui.downloadSourcesAction" commandName="label" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemNx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.m2e.jdt.ui.downloadSourcesContribution_38/org.eclipse.m2e.jdt.ui.downloadSourcesAction_38" commandName="label" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemOB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.ui.texteditor.ruler.actions/org.eclipse.ui.texteditor.BookmarkRulerAction" commandName="Text Editor Bookmark Ruler Action" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemOR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.ui.texteditor.ruler.actions/org.eclipse.ui.texteditor.SelectRulerAction" commandName="Text Editor Ruler Single-Click" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemOh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.wst.dtd.core.dtdsource.ruler.actions/org.eclipse.ui.texteditor.BookmarkRulerAction" commandName="Add Bookmark..." category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemOx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.wst.dtd.core.dtdsource.ruler.actions/org.eclipse.ui.texteditor.SelectRulerAction" commandName="Select Ruler" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemPB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.wst.jsdt.debug.ui.togglebreakpoint/org.eclipse.wst.jsdt.debug.ui.RulerToggleBreakpoint" commandName="Toggle Breakpoint" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemPR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.ui.articles.action.contribution.editor/org.eclipse.wst.wsdl.ui.actions.ReloadDependenciesActionDelegate" commandName="Reload Dependencies" description="Reload Dependencies" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemPh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.wst.wsdl.wsdlsource.ruler.actions/org.eclipse.ui.texteditor.BookmarkRulerAction" commandName="Add Bookmark..." category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemPx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.wst.wsdl.wsdlsource.ruler.actions/org.eclipse.ui.texteditor.SelectRulerAction" commandName="Select Ruler" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemQB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.sf.feeling.decompiler.ClassFileEditor.BreakpointRulerActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction" commandName="Toggle Breakpoint" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemQR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.sf.feeling.decompiler.source.attach.m2e.downloadSourcesContribution/org.sf.feeling.decompiler.source.attach.m2e.downloadSourcesAction" commandName="Download Source" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemQh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.emf.exporter.genModelEditorContribution/org.eclipse.emf.exporter.ui.GenModelExportActionDelegate.Editor" commandName="Export Model..." category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemQx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.emf.importer.genModelEditorContribution/org.eclipse.emf.importer.ui.GenModelReloadActionDelegate.Editor" commandName="Reload..." category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemRB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.emf.mapping.ecore2ecore.presentation.Ecore2EcoreContributionID/org.eclipse.emf.mapping.action.RemoveMappingActionID" commandName="Remove Mapping" description="Remove the mapping associated with the selected objects." category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemRR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.emf.mapping.ecore2ecore.presentation.Ecore2EcoreContributionID/org.eclipse.emf.mapping.action.TypeMatchMappingActionID" commandName="Match Mapping by Type" description="Create child mappings automatically by type." category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemRh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.emf.mapping.ecore2ecore.presentation.Ecore2EcoreContributionID/org.eclipse.emf.mapping.action.NameMatchMappingActionID" commandName="Match Mapping by Name" description="Create child mappings automatically by name." category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemRx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.emf.mapping.ecore2ecore.presentation.Ecore2EcoreContributionID/org.eclipse.emf.mapping.action.CreateOneSidedMappingActionID" commandName="Create One-sided Mapping" description="Create a new mapping for the selected object." category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemSB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.emf.mapping.ecore2ecore.presentation.Ecore2EcoreContributionID/org.eclipse.emf.mapping.action.CreateMappingActionID" commandName="Create Mapping" description="Create a new mapping between the selected objects." category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemSR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.emf.mapping.ecore2ecore.presentation.Ecore2EcoreContributionID/org.eclipse.emf.mapping.ecore2ecore.action.AddOuputRootActionID" commandName="Add Output Root..." description="Add new output root." category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemSh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.emf.mapping.ecore2ecore.presentation.Ecore2EcoreContributionID/org.eclipse.emf.mapping.ecore2ecore.action.AddInputRootActionID" commandName="Add Input Root..." description="Add new input root." category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemSx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jdt.internal.ui.CompilationUnitEditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.BookmarkRulerAction" commandName="Java Editor Bookmark Ruler Action" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemTB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jdt.internal.ui.CompilationUnitEditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction" commandName="Java Editor Ruler Single-Click" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemTR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jdt.internal.ui.ClassFileEditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction" commandName="Java Editor Ruler Single-Click" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemTh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jdt.internal.ui.PropertiesFileEditor.ruler.actions/org.eclipse.jdt.internal.ui.propertiesfileeditor.BookmarkRulerAction" commandName="Java Editor Bookmark Ruler Action" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemTx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jdt.internal.ui.PropertiesFileEditor.ruler.actions/org.eclipse.jdt.internal.ui.propertiesfileeditor.SelectRulerAction" commandName="Java Editor Ruler Single-Click" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemUB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jst.jsp.core.jspsource.ruler.actions/org.eclipse.ui.texteditor.BookmarkRulerAction" commandName="Add Bookmark..." category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemUR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jst.jsp.core.jspsource.ruler.actions/org.eclipse.ui.texteditor.SelectRulerAction" commandName="Select Ruler" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemUh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.wst.css.core.csssource.ruler.actions/org.eclipse.ui.texteditor.BookmarkRulerAction" commandName="Add Bookmark..." category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemUx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.wst.css.core.csssource.ruler.actions/org.eclipse.ui.texteditor.SelectRulerAction" commandName="Select Ruler" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemVB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.wst.html.core.htmlsource.ruler.actions/org.eclipse.ui.texteditor.BookmarkRulerAction" commandName="Add Bookmark..." category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemVR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.wst.html.core.htmlsource.ruler.actions/org.eclipse.ui.texteditor.SelectRulerAction" commandName="Select Ruler" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemVh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.wst.jsdt.internal.ui.CompilationUnitEditor.ruler.actions/org.eclipse.wst.jsdt.internal.ui.javaeditor.BookmarkRulerAction" commandName="JavaScript Editor Bookmark Ruler Action" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemVx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.wst.jsdt.internal.ui.CompilationUnitEditor.ruler.actions/org.eclipse.wst.jsdt.internal.ui.javaeditor.JavaSelectRulerAction" commandName="JavaScript Editor Ruler Single-Click" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemWB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.wst.jsdt.internal.ui.ClassFileEditor.ruler.actions/org.eclipse.wst.jsdt.internal.ui.javaeditor.JavaSelectRulerAction" commandName="JavaScript Editor Ruler Single-Click" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemWR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.wst.jsdt.internal.ui.PropertiesFileEditor.ruler.actions/org.eclipse.wst.jsdt.internal.ui.propertiesfileeditor.BookmarkRulerAction" commandName="JavaScript Editor Bookmark Ruler Action" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemWh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.wst.jsdt.internal.ui.PropertiesFileEditor.ruler.actions/org.eclipse.wst.jsdt.internal.ui.propertiesfileeditor.SelectRulerAction" commandName="JavaScript Editor Ruler Single-Click" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemWx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.core.runtime.xml.source.ruler.actions/org.eclipse.ui.texteditor.BookmarkRulerAction" commandName="Add Bookmark..." category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemXB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.core.runtime.xml.source.ruler.actions/org.eclipse.ui.texteditor.SelectRulerAction" commandName="Select Ruler" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemXR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.wst.xsd.core.xsdsource.ruler.actions/org.eclipse.ui.texteditor.BookmarkRulerAction" commandName="Add Bookmark..." category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemXh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.wst.xsd.core.xsdsource.ruler.actions/org.eclipse.ui.texteditor.SelectRulerAction" commandName="Select Ruler" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemXx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.mylyn.ui.resource.navigator.filter/org.eclipse.ajdt.mylyn.ui.actions.xRef" commandName="Focus on Active Task" description="Focus on Active Task (Alt+click to reveal filtered elements)" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemYB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.VariableViewActions/org.eclipse.jdt.debug.ui.variableViewActions.Preferences" commandName="Java Preferences..." description="Opens preferences for Java variables" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemYR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.VariableViewActions/org.eclipse.jdt.debug.ui.variablesViewActions.AllReferencesInView" commandName="Show References" description="Shows references to each object in the variables view as an array of objects." category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemYh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.VariableViewActions/org.eclipse.jdt.debug.ui.variableViewActions.ShowNullEntries" commandName="Show Null Array Entries" description="Show Null Array Entries" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemYx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.VariableViewActions/org.eclipse.jdt.debug.ui.variableViewActions.ShowQualified" commandName="Show Qualified Names" description="Show Qualified Names" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemZB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.VariableViewActions/org.eclipse.jdt.debug.ui.variableViewActions.ShowStatic" commandName="Show Static Variables" description="Show Static Variables" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemZR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.VariableViewActions/org.eclipse.jdt.debug.ui.variableViewActions.ShowConstants" commandName="Show Constants" description="Show Constants" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemZh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.ExpressionViewActions/org.eclipse.jdt.debug.ui.variableViewActions.Preferences" commandName="Java Preferences..." description="Opens preferences for Java variables" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemZx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.ExpressionViewActions/org.eclipse.jdt.debug.ui.expressionViewActions.AllReferencesInView" commandName="Show References" description="Show &amp;References" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemaB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.ExpressionViewActions/org.eclipse.jdt.debug.ui.variableViewActions.ShowNullEntries" commandName="Show Null Array Entries" description="Show Null Array Entries" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemaR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.ExpressionViewActions/org.eclipse.jdt.debug.ui.expressionViewActions.ShowQualified" commandName="Show Qualified Names" description="Show Qualified Names" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemah3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.ExpressionViewActions/org.eclipse.jdt.debug.ui.expressionViewActions.ShowStatic" commandName="Show Static Variables" description="Show Static Variables" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemax3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.ExpressionViewActions/org.eclipse.jdt.debug.ui.expressionViewActions.ShowConstants" commandName="Show Constants" description="Show Constants" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlembB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.BreakpointViewActions/org.eclipse.jdt.debug.ui.actions.AddException" commandName="Add Java Exception Breakpoint" description="Add Java Exception Breakpoint" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlembR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.BreakpointViewActions/org.eclipse.jdt.debug.ui.breakpointViewActions.ShowQualified" commandName="Show Qualified Names" description="Show Qualified Names" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlembh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.LaunchViewActions/org.eclipse.jdt.debug.ui.launchViewActions.ShowThreadGroups" commandName="Show Thread Groups" description="Show Thread Groups" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlembx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.LaunchViewActions/org.eclipse.jdt.debug.ui.launchViewActions.ShowQualified" commandName="Show Qualified Names" description="Show Qualified Names" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemcB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.LaunchViewActions/org.eclipse.jdt.debug.ui.launchViewActions.ShowSystemThreads" commandName="Show System Threads" description="Show System Threads" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemcR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.LaunchViewActions/org.eclipse.jdt.debug.ui.launchViewActions.ShowMonitorThreadInfo" commandName="Show Monitors" description="Show the Thread &amp; Monitor Information" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemch3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.DisplayViewActions/org.eclipse.jdt.debug.ui.displayViewToolbar.Watch" commandName="Watch" description="Create a Watch Expression from the Selected Text" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemcx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.DisplayViewActions/org.eclipse.jdt.debug.ui.displayViewToolbar.Execute" commandName="Execute" description="Execute the Selected Text" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemdB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.DisplayViewActions/org.eclipse.jdt.debug.ui.displayViewToolbar.Display" commandName="Display" description="Display Result of Evaluating Selected Text" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemdR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.DisplayViewActions/org.eclipse.jdt.debug.ui.displayViewToolbar.Inspect" commandName="Inspect" description="Inspect Result of Evaluating Selected Text" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemdh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.mylyn.context.ui.outline.contribution/org.eclipse.mylyn.context.ui.contentOutline.focus" commandName="Focus on Active Task" description="Focus on Active Task (Alt+click to reveal filtered elements)" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemdx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.mylyn.java.ui.markers.breakpoints.contribution/org.eclipse.mylyn.java.ui.actions.focus.markers.breakpoints" commandName="Focus on Active Task" description="Focus on Active Task" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemeB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.mylyn.ui.debug.view.contribution/org.eclipse.mylyn.ui.actions.FilterResourceNavigatorAction" commandName="Focus on Active Task (Experimental)" description="Focus on Active Task (Experimental)" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemeR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.mylyn.ui.projectexplorer.filter/org.eclipse.mylyn.ide.ui.actions.focus.projectExplorer" commandName="Focus on Active Task" description="Focus on Active Task (Alt+click to reveal filtered elements)" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemeh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.mylyn.ui.resource.navigator.filter/org.eclipse.mylyn.ide.ui.actions.focus.resourceNavigator" commandName="Focus on Active Task" description="Focus on Active Task (Alt+click to reveal filtered elements)" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemex3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.mylyn.problems.contribution/org.eclipse.mylyn.ide.ui.actions.focus.markers.problems" commandName="Focus on Active Task" description="Focus on Active Task" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemfB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.mylyn.markers.all.contribution/org.eclipse.mylyn.ide.ui.actions.focus.markers.all" commandName="Focus on Active Task" description="Focus on Active Task" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemfR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.mylyn.markers.tasks.contribution/org.eclipse.mylyn.ide.ui.actions.focus.markers.tasks" commandName="Focus on Active Task" description="Focus on Active Task" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemfh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.mylyn.markers.bookmarks.contribution/org.eclipse.mylyn.ide.ui.actions.focus.markers.bookmarks" commandName="Focus on Active Task" description="Focus on Active Task" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemfx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.mylyn.java.explorer.contribution/org.eclipse.mylyn.java.actions.focus.packageExplorer" commandName="Focus on Active Task" description="Focus on Active Task (Alt+click to reveal filtered elements)" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemgB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.mylyn.tasks.ui.actions.view/org.eclipse.mylyn.tasks.ui.search.open" commandName="Search Repository..." category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemgR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.mylyn.tasks.ui.actions.view/org.eclipse.mylyn.tasks.ui.synchronize.changed" commandName="Synchronize Changed" description="Synchronize Changed" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemgh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.mylyn.tasks.ui.actions.view/org.eclipse.mylyn.tasks.ui.tasks.restore" commandName="Restore Tasks from History..." category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemgx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.mylyn.tasks.ui.actions.view/org.eclipse.mylyn.tasks.ui.open.repositories.view" commandName="Show Task Repositories View" description="Show Task Repositories View" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemhB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.mylyn.tasks.ui.actions.view/org.eclipse.mylyn.doc.legend.show.action" commandName="Show UI Legend" description="Show Tasks UI Legend" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemhR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.mylyn.tasks.ui.actions.view/org.eclipse.mylyn.context.ui.actions.tasklist.focus" commandName="Focus on Workweek" description="Focus on Workweek" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemhh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.pde.ui.logViewActions/org.eclipse.jdt.debug.ui.LogViewActions.showStackTrace" commandName="Show Stack Trace in Console View" description="Show Stack Trace in Console View" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemhx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.rse.ui.view.systemView.toolbar/org.eclipse.rse.ui.view.systemView.toolbar.linkWithSystemView" commandName="Link with Editor" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemiB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::breakpointsViewActions/org.eclipse.wst.jsdt.debug.ui.add.scriptload.breakpoint" commandName="Add Script Load Breakpoint" description="Add Script Load Breakpoint" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemiR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::breakpointsViewActions/org.eclipse.jdt.debug.ui.breakpointViewActions.ShowQualified" commandName="Suspend For All Script Loads" description="Suspends when any script is loaded" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemih3cEeid2cDp7yEWXA" elementId="AUTOGEN:::breakpointsViewActions/org.eclipse.wst.jsdt.debug.ui.suspend.on.exceptions" commandName="Suspend On JavaScript Exceptions" description="Suspend on all JavaScript exceptions" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemix3cEeid2cDp7yEWXA" elementId="AUTOGEN:::debugViewActions/org.eclipse.wst.jsdt.debug.ui.show.all.scripts" commandName="Show All Scripts" description="Shows or hides all scripts loaded in the visible targets" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemjB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::variableViewActions/org.eclipse.wst.jsdt.debug.ui.variableview.show.functions" commandName="Show function variables" description="Show or hide function variables" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemjR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::variableViewActions/org.eclipse.wst.jsdt.debug.ui.variableview.show.this" commandName="Show 'this' variable" description="Show or hide the this variable" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemjh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::variableViewActions/org.eclipse.wst.jsdt.debug.ui.variableview.show.prototypes" commandName="Show proto variables" description="Show or hide proto variables" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemjx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.ui.articles.action.contribution.view/org.eclipse.wst.wsi.ui.internal.actions.actionDelegates.ValidateWSIProfileActionDelegate" commandName="WS-I Profile Validator" description="Validate WS-I Message Log File" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemkB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.springframework.ide.eclipse.aop.mylyn.ui.filter/org.springframework.ide.eclipse.beans.mylyn.ui.actions.filterSpringExplorerAction" commandName="Focus on Active Task" description="Focus on Active Task (Alt+click to reveal filtered elements)" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemkR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.mylyn.ui.projectexplorer.filter/org.springframework.ide.eclipse.beans.mylyn.ui.actions.filterSpringExplorerAction" commandName="Focus on Active Task" description="Focus on Active Task (Alt+click to reveal filtered elements)" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemkh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.springframework.ide.eclipse.ui.navigator.springExplorer.sorting/org.springframework.ide.eclipse.ui.navigator.springExplorer.sortingAction" commandName="Sort" description="Sort" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemkx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.tigris.subversion.subclipse.u.repoview_actions/org.tigris.subversion.ui.actions.NewRepositoryAction" commandName="&#x6dfb;&#x52a0; SVN &#x8d44;&#x6e90;&#x5e93;" description="&#x6dfb;&#x52a0; SVN &#x8d44;&#x6e90;&#x5e93;" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemlB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::findBugsEclipsePlugin.viewContribution1/findBugsEclipsePlugin.action3" commandName="Go Up" description="Go Up" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemlR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::findBugsEclipsePlugin.viewContribution1/findBugsEclipsePlugin.action4" commandName="Go Into" description="Go Into" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemlh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::findBugsEclipsePlugin.viewContribution1/findBugsEclipsePlugin.action1" commandName="Refresh" description="Refresh explorer content" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemlx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::findBugsEclipsePlugin.viewContribution1/findBugsEclipsePlugin.toggleGrouping.Confidence.Project.Pattern.Marker" commandName="Confidence->Project->Pattern" description="Change Bug Explorer Grouping" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemmB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::findBugsEclipsePlugin.viewContribution1/findBugsEclipsePlugin.toggleGrouping.Confidence.BugRank.Pattern.Marker" commandName="Confidence->Rank->Pattern" description="Change Bug Explorer Grouping" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemmR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::findBugsEclipsePlugin.viewContribution1/findBugsEclipsePlugin.toggleGrouping.BugRank.Project.Pattern.Marker" commandName="Rank->Project->Pattern" description="Change Bug Explorer Grouping" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemmh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::findBugsEclipsePlugin.viewContribution1/findBugsEclipsePlugin.toggleGrouping.BugRank.Confidence.Pattern.Marker" commandName="Rank->Confidence->Pattern" description="Change Bug Explorer Grouping" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemmx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::findBugsEclipsePlugin.viewContribution1/findBugsEclipsePlugin.toggleGrouping.Project.Confidence.BugRank.Pattern.Marker" commandName="Project->Confidence->Rank->Pattern" description="Change Bug Explorer Grouping" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemnB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::findBugsEclipsePlugin.viewContribution1/findBugsEclipsePlugin.toggleGrouping.Project.BugRank.Confidence.Pattern.Marker" commandName="Project->Rank->Confidence->Pattern" description="Change Bug Explorer Grouping" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemnR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::findBugsEclipsePlugin.viewContribution1/findBugsEclipsePlugin.toggleGrouping.groupDialog" commandName="Group By..." description="Change Bug Explorer Grouping" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemnh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::findBugsEclipsePlugin.viewContribution1/findBugsEclipsePlugin.actionCollapse" commandName="Collapse All" description="Collapse All" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemnx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::findBugsEclipsePlugin.viewContribution1/findBugsEclipsePlugin.actionExpand" commandName="Expand All" description="Expand All" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemoB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::findBugsEclipsePlugin.viewContribution1/findBugsEclipsePlugin.filterBugs" commandName="Configure Filters..." description="Filter Bugs by Id..." category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemoR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.debug.ui.PulldownActions/org.eclipse.debug.ui.debugview.pulldown.ViewManagementAction" commandName="View Management..." category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemoh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.debug.ui.debugview.toolbar/org.eclipse.debug.ui.debugview.toolbar.removeAllTerminated" commandName="Remove All Terminated" description="Remove All Terminated Launches" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemox3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.debug.ui.breakpointsview.toolbar/org.eclipse.debug.ui.breakpointsView.toolbar.removeAll" commandName="Remove All" description="Remove All Breakpoints" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlempB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.debug.ui.breakpointsview.toolbar/org.eclipse.debug.ui.breakpointsView.toolbar.linkWithDebugView" commandName="Link with Debug View" description="Link with Debug View" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlempR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.debug.ui.breakpointsview.toolbar/org.eclipse.debug.ui.breakpointsView.toolbar.workingSets" commandName="Working Sets..." description="Manage Working Sets" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemph3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.debug.ui.breakpointsview.toolbar/org.eclipse.debug.ui.breakpointsView.toolbar.clearDefaultBreakpointGroup" commandName="Deselect Default Working Set" description="Deselect Default Working Set" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlempx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.debug.ui.breakpointsview.toolbar/org.eclipse.debug.ui.breakpointsView.toolbar.setDefaultBreakpointGroup" commandName="Select Default Working Set..." description="Select Default Working Set" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemqB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.debug.ui.breakpointsview.toolbar/org.eclipse.debug.ui.breakpointsView.toolbar.groupByAction" commandName="Group By" description="Show" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemqR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.debug.ui.expressionsView.toolbar/org.eclipse.debug.ui.expresssionsView.toolbar.removeAll" commandName="Remove All" description="Remove All Expressions" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemqh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.debug.ui.expressionsView.toolbar/org.eclipse.debug.ui.expresssionsView.toolbar.AddWatchExpression" commandName="Add Watch Expression..." description="Create a new watch expression" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemqx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.debug.ui.memoryView.toolbar/org.eclipse.debug.ui.PinMemoryBlockAction" commandName="Pin Memory Monitor" description="Pin Memory Monitor" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemrB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.debug.ui.memoryView.toolbar/org.eclipse.debug.ui.NewMemoryViewAction" commandName="New Memory View" description="New Memory View" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemrR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.debug.ui.memoryView.toolbar/org.eclipse.debug.ui.togglemonitors" commandName="Toggle Memory Monitors Pane" description="Toggle Memory Monitors Pane" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemrh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.debug.ui.memoryView.toolbar/org.eclipse.debug.ui.linkrenderingpanes" commandName="Link Memory Rendering Panes" description="Link Memory Rendering Panes" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemrx3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.debug.ui.memoryView.toolbar/org.eclipse.debug.ui.tablerendering.preferencesaction" commandName="Table Renderings Preferences..." description="&amp;Table Renderings Preferences..." category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemsB3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.debug.ui.memoryView.toolbar/org.eclipse.debug.ui.togglesplitpane" commandName="Toggle Split Pane" description="Toggle Split Pane" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemsR3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.debug.ui.memoryView.toolbar/org.eclipse.debug.ui.switchMemoryBlock" commandName="Switch Memory Monitor" description="Switch Memory Monitor" category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <commands xmi:id="_rlemsh3cEeid2cDp7yEWXA" elementId="AUTOGEN:::org.eclipse.debug.ui.memoryView.toolbar/org.eclipse.debug.ui.memoryViewPreferencesAction" commandName="Preferences..." description="&amp;Preferences..." category="_rlem0h3cEeid2cDp7yEWXA"/>
+  <addons xmi:id="_rlemsx3cEeid2cDp7yEWXA" elementId="org.eclipse.e4.core.commands.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_rlemtB3cEeid2cDp7yEWXA" elementId="org.eclipse.e4.ui.contexts.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_rlemtR3cEeid2cDp7yEWXA" elementId="org.eclipse.e4.ui.bindings.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_rlemth3cEeid2cDp7yEWXA" elementId="org.eclipse.e4.ui.workbench.commands.model" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_rlemtx3cEeid2cDp7yEWXA" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_rlemuB3cEeid2cDp7yEWXA" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+  <addons xmi:id="_rlemuR3cEeid2cDp7yEWXA" elementId="Cleanup Addon" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.cleanupaddon.CleanupAddon"/>
+  <addons xmi:id="_rlemuh3cEeid2cDp7yEWXA" elementId="DnD Addon" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.dndaddon.DnDAddon"/>
+  <addons xmi:id="_rlemux3cEeid2cDp7yEWXA" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
+  <addons xmi:id="_rlemvB3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_rlemvR3cEeid2cDp7yEWXA" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
+  <categories xmi:id="_rlemvh3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.category.perspectives" name="Perspectives" description="Commands for opening perspectives"/>
+  <categories xmi:id="_rlemvx3cEeid2cDp7yEWXA" elementId="org.eclipse.team.cvs.ui.actionSet" name="CVS" description="Actions that apply when working with CVS repositories"/>
+  <categories xmi:id="_rlemwB3cEeid2cDp7yEWXA" elementId="org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples.tableschemaedtor.10x" name="ASA 9.x table schema editor"/>
+  <categories xmi:id="_rlemwR3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.category.window" name="Window"/>
+  <categories xmi:id="_rlemwh3cEeid2cDp7yEWXA" elementId="org.eclipse.datatools.sqltools.sqleditor.category" name="Database Tools" description="Database Development tools"/>
+  <categories xmi:id="_rlemwx3cEeid2cDp7yEWXA" elementId="org.sf.feeling.decompiler" name="Enhanced Class Decompiler"/>
+  <categories xmi:id="_rlemxB3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.category.project" name="Project"/>
+  <categories xmi:id="_rlemxR3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>
+  <categories xmi:id="_rlemxh3cEeid2cDp7yEWXA" elementId="org.eclipse.rse.ui.commands.category" name="Remote Systems"/>
+  <categories xmi:id="_rlemxx3cEeid2cDp7yEWXA" elementId="org.eclipse.pde.ui.category.source" name="Manifest Editor Source" description="PDE Source Page actions"/>
+  <categories xmi:id="_rlemyB3cEeid2cDp7yEWXA" elementId="org.eclipse.mylyn.wikitext.ui.editor.category" name="WikiText Markup Editing Commands" description="commands for editing lightweight markup"/>
+  <categories xmi:id="_rlemyR3cEeid2cDp7yEWXA" elementId="org.eclipse.emf.codegen.ecore.ui.Commands" name="EMF Code Generation" description="Commands for the EMF code generation tools"/>
+  <categories xmi:id="_rlemyh3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.category.source" name="Source" description="JavaScript Source Actions"/>
+  <categories xmi:id="_rlemyx3cEeid2cDp7yEWXA" elementId="org.eclipse.datatools.sqltools.result.category" name="SQL Results View"/>
+  <categories xmi:id="_rlemzB3cEeid2cDp7yEWXA" elementId="org.eclipse.jpt.jpa.ui.jpaMetadataConversionCommands" name="JPA Metadata Conversion"/>
+  <categories xmi:id="_rlemzR3cEeid2cDp7yEWXA" elementId="org.eclipse.mylyn.java.ui.commands" name="Java Context" description="Java Task-Focused Interface Commands"/>
+  <categories xmi:id="_rlemzh3cEeid2cDp7yEWXA" elementId="org.eclipse.egit.ui.commandCategory" name="Git"/>
+  <categories xmi:id="_rlemzx3cEeid2cDp7yEWXA" elementId="org.tigris.subversion.subclipse.commandCategory" name="SVN" description="&#x4f7f;&#x7528; SVN &#x8d44;&#x6e90;&#x5e93;&#x65f6;&#x5e94;&#x7528;&#x7684;&#x64cd;&#x4f5c;"/>
+  <categories xmi:id="_rlem0B3cEeid2cDp7yEWXA" elementId="org.eclipse.search.ui.category.search" name="Search" description="Search command category"/>
+  <categories xmi:id="_rlem0R3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.category.edit" name="Edit"/>
+  <categories xmi:id="_rlem0h3cEeid2cDp7yEWXA" elementId="org.eclipse.core.commands.categories.autogenerated" name="Uncategorized" description="Commands that were either auto-generated or have no category"/>
+  <categories xmi:id="_rlem0x3cEeid2cDp7yEWXA" elementId="FindBugs.category" name="FindBugs commands" description="FindBugs commands"/>
+  <categories xmi:id="_rlem1B3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.debug.ui.category" name="JavaScript Debug" description="Tooling for debugging JavaScript"/>
+  <categories xmi:id="_rlem1R3cEeid2cDp7yEWXA" elementId="org.eclipse.team.ui.category.team" name="Team" description="Actions that apply when working with a Team"/>
+  <categories xmi:id="_rlem1h3cEeid2cDp7yEWXA" elementId="org.eclipse.jst.pagedesigner.pagelayout" name="Web Page Editor Layout"/>
+  <categories xmi:id="_rlem1x3cEeid2cDp7yEWXA" elementId="org.eclipse.mylyn.context.ui.commands" name="Focused UI" description="Task-Focused Interface"/>
+  <categories xmi:id="_rlem2B3cEeid2cDp7yEWXA" elementId="org.eclipse.ajdt.refactoring.category" name="AspectJ Refactorings" description="Refactorings specific to AspectJ"/>
+  <categories xmi:id="_rlem2R3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.ui.category.source" name="Source" description="Java Source Actions"/>
+  <categories xmi:id="_rlem2h3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.xml.views.XPathView" name="XPath"/>
+  <categories xmi:id="_rlem2x3cEeid2cDp7yEWXA" elementId="org.eclipse.pde.runtime.spy.commands.category" name="Spy"/>
+  <categories xmi:id="_rlem3B3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.ide.markerContents" name="Contents" description="The category for menu contents"/>
+  <categories xmi:id="_rlem3R3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.category.file" name="File"/>
+  <categories xmi:id="_rlem3h3cEeid2cDp7yEWXA" elementId="org.springframework.ide.eclipse.boot.commands.category" name="Spring Boot"/>
+  <categories xmi:id="_rlem3x3cEeid2cDp7yEWXA" elementId="org.eclipse.debug.ui.category.run" name="Run/Debug" description="Run/Debug command category"/>
+  <categories xmi:id="_rlem4B3cEeid2cDp7yEWXA" elementId="org.eclipse.mylyn.tasks.ui.category.editor" name="Task Editor"/>
+  <categories xmi:id="_rlem4R3cEeid2cDp7yEWXA" elementId="org.eclipse.jpt.jpa.ui.jpaStructureViewCommands" name="JPA Structure View"/>
+  <categories xmi:id="_rlem4h3cEeid2cDp7yEWXA" elementId="org.eclipse.ajdt.mylyn.ui.commands" name="Mylyn AspectJ" description="Mylyn AspectJ Commands"/>
+  <categories xmi:id="_rlem4x3cEeid2cDp7yEWXA" elementId="org.springsource.ide.eclipse.quicksearch.commands.category" name="Quick Search Category"/>
+  <categories xmi:id="_rlem5B3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.category.refactoring" name="Refactor - JavaScript" description="JavaScript Refactoring Actions"/>
+  <categories xmi:id="_rlem5R3cEeid2cDp7yEWXA" elementId="org.eclipse.mylyn.wikitext.context.ui.commands" name="%commands.category.name" description="%commands.category.description"/>
+  <categories xmi:id="_rlem5h3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.server.ui" name="Server" description="Server"/>
+  <categories xmi:id="_rlem5x3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.category.dialogs" name="Dialogs" description="Commands for opening dialogs"/>
+  <categories xmi:id="_rlem6B3cEeid2cDp7yEWXA" elementId="org.eclipse.mylyn.tasks.ui.commands" name="Task Repositories"/>
+  <categories xmi:id="_rlem6R3cEeid2cDp7yEWXA" elementId="org.eclipse.mylyn.commons.repositories.ui.category.Team" name="Team"/>
+  <categories xmi:id="_rlem6h3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.category.textEditor" name="Text Editing" description="Text Editing Commands"/>
+  <categories xmi:id="_rlem6x3cEeid2cDp7yEWXA" elementId="org.eclipse.gef.category.view" name="View" description="View"/>
+  <categories xmi:id="_rlem7B3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.category.help" name="Help"/>
+  <categories xmi:id="_rlem7R3cEeid2cDp7yEWXA" elementId="org.eclipse.tm.terminal.category1" name="Terminal view commands" description="Terminal view commands"/>
+  <categories xmi:id="_rlem7h3cEeid2cDp7yEWXA" elementId="org.eclipse.compare.ui.category.compare" name="Compare" description="Compare command category"/>
+  <categories xmi:id="_rlem7x3cEeid2cDp7yEWXA" elementId="org.eclipse.ltk.ui.category.refactoring" name="Refactoring"/>
+  <categories xmi:id="_rlem8B3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.category.navigate" name="Navigate"/>
+  <categories xmi:id="_rlem8R3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.ui.category.refactoring" name="Refactor - Java" description="Java Refactoring Actions"/>
+</application:Application>
+                                                                                .x¢±)jÒT²*†lN,»gztÓ‰¤rŽ9R"‹HBañ±cìùµß†ßý…Pòoÿ/…uâW‡‡ôÍ|åcù™‡?U›Úlô·½›®û4Âg+üÓNÆÅ·ñT~y»Ñ¿dCò©mò/ôfåSoÿbkà§>_lú%=ã>;º9­\á&%®vx’&xU-‘Zƒ:”8¡02²™FUdÇ‘>ÝáÚ³/”¥…ªÔ[Ú !ÖT’àª¡? ¤#TkŠu	•C¤-ÂÐPöGÌïo±ïæ¡UÃØiê4¤G*q
+WÕ”#Ió
+gµJØ©ƒC´cg¢ÀÆ@‘µ‡ÜøŠeV(8ññ.«¥œÉVY¿¼Å®™„ñ
+ìºmÈùG
+ÎÞ	¦³†H®Eå=‚u¸ò$“U‰OÇäóK¤ssØÉ2îÜyT7cñ«3–tÈg½’0òàâ”ÖÍÙsŽÙEO–ZB­	±b0Z–kÈS­ªUÁ¼@w<ó×–|äaxð‰gð²ÿü6l¾Àé½áuìNÏyéwQc´–QkËæãP.*œ!$¤iN–y&©ÂL6pu‰K¤V8 [QiÎp2DS’õ®c|öÌØÆ!”ŠxD VQN@‚›”È<C¦)¾^#‡¨n—PVÈN+Ž:”„$a³¥gN‚ó¨^—üÐ>Æ?ÈÎõþV‹D=÷V6œa43ªs(øÓ2JRƒˆÉ{z*Ž“’é~ ‘
+©2‰*z[GÎ„«+r•ê„ÐŒ$¾±þI\hrÄ…ñ‹jZê‰Šºqã IDÚ"n	,ïÞ5Ê|3Pøàp^“«ØÙñMãÇ5é}B
+¬ƒ‰õ´’ŒÙ<Ãz×ýÇ@
+pAPyOí¡3sùÛÞ¿õ®¿éËÈvÛÿoz=Uaù«fv¿êåŸV„?SÛ¢Òÿâ®Ãê‡þ‚»^ÿO.Ù”|¶"¸ë)nsóž¶ôOõ;^ÜºÿÔ6ùº­ÿ©·ÿ©€þ§|þ‹jÕÜ‹©*Înž'ÉñY—:dË	Y¡h÷Ce%A8NÈE
+Q²T”	¤´‹1w×‡éÌŒ¸åëÃçà—pÔxb`‰—Q@šÂx¸‚ðËø=PŽ“v;0ÓÃ›!ÞZØ½‹öJŒIg':Übð¨Á'†dÖAI Õ,;A¿³JÒ/íä¤f0˜æ¸>É€ÌO¬IæáÊÛ&ª&Ø	‚PYT1|ö<?píóÏ“:xè±~îIÞ§ QÅï“eêñ
+íCÚÒSõkºÝšÙ·øùÿu×\ÙçÆWálŒÔ7hó–_¿™oí'Èf7¡Tàt*~ÿW®g|~“oþ»³þQÃ0‚Ú§Ü½>GùÊÆ×½à_3þ‚÷ýæ›xü¡{ø¡ïw,÷/'ïî`éjýšGî­9ýÔOïf%ËO€¹Â“ê5=DÆ%"Ï*ÎµÓ™¾?¤.ŠXüME–gŒ67qA8»L}æ<í	à…‚¯®ª U ¥ ®+Šá‘¥ØÑgÚ\ 5Ò•!8‡êuð‹s¨GÁ…²ñÍ¯F‡€¶%ëétº˜ÚBˆ¤@b|­nÊt"mRgŽÍ4!S¤x!¨Ëå=ZD`T¦ $­†¾è‘QÝßXø$D4’à‚§ò–Žß¡ˆ>¦ÖÅö¿ÔcÎzDÚDò5íúÚ:%IUÌÐR0W´°ÎáG
+Ié£ D6£%%e‰Cð'd¿öÛ¸Í/ŠÒ³]ü·Å¡}ŸqCrñ©ß~ÅüÅÂÅéÉù7¾é¦²ÿlb½Ï¶Ùù²p1Ô]Šk¯å?yOT‚ï¸üVxèIÌ=<¼{‘³Â­Ï^åÜÉ»Y_ébúÎ|Õ«Ù½ú‡?D¾£…jòt‚½ìJªÔ’žvBR€ö'm$YôµKâP>¢P¤~k`²	åÚÞ`H=8ƒh_Éd-¡ØR™
+ãk:íÀé²`|n@«PÈURé5µÞÉŸ¦üÿ±÷çq¶U?þ~¦=œ±¦;¹7óÂ’ÈdQTg õë«[Z°¥m íÖ¶ÛºÑþÙ
+¡%¢¶T¤Q¦!˜ óxç©îPÓ©3íáyžßÏ®ºUu+$p¯}—/àzêœ:{ï:g¯µ>ë³>bZñƒe„lkö[‹Í»^’ˆœºM¯aïñÈ©!*oJ—:¬Í8ÐÛÉ¡ƒpÙdÊŒÈ"ç@y‰ÜÂ®ÃWû'úø¬Ël·Å¼ßÉþìGHòGQZ :
+ý`-Û_‰µv}6"w êÔ†b”-ç^Íáã—MMc½"Î¿òrÖëºÍÃÄ/>Ÿ4ÞL^´Øs0âÃ¾—çìdÃÞ·Ó.~‡×5ÉÄ+éúK
+×§ÈóÀÓH5ã[b6Ô`²æ9z¢Áäã 6äs“xÝ@4Úx7DFšlv	¥#›g¤Vãø GKC£ò…†á»^öbâÖ8éù›)·n¢ñƒ7ák†Á±œ¨–`çæQí& ˜WmšÝ>2¡ÛƒV3ì¾ÆpdzÈÚùa •Ôkt5j™@w‡”€åkcm&\ýì€(Nqe/¸á-Ì£ªw Z– ‚C^¬5Jjœ6X)È‡ƒÀâFE˜Š¤iMYY{ªÝ~!‹Ä•üðK”+Ù]Ä9­ŠKˆŠXéôJGÝzœ?ï=±ÑèÊ4HÈ‚k){gæ˜d´“¨Òòcµé¬ –pÁÿˆºåÃä»ö­î¦s6ùŸ…h_qÉ7•Ü¾•÷[-ù¯LèOÅ _»ßûþç4Ñ~3lzý4ÇgBÄ/zÕº¬Ûþ
+ŽmºýŠŒ™2GŽ³çØN”3íËð-ÀSo]ÌL¼ƒCâBÒ´N	Êá<qteÒæ¯fÏ#.×ÍhtÏÐ^s!_ÜÀß=~£#ŠápÀÆMÛ‘ñÿ¿ÝîõôèqÎù›¦Æ¿ûÈunHiƒú™-º\øª­L‰Wñàñ5m^3Ì<ÛÖDì3-¾p¸ÞQ”ŠV
+çm©óWóßKwn¾Z±‚f]sÕ¹£Ü>ÿ(\ÜÍ…œ?Ö£ÞaöŠßàs}ÏÑŽ‚sÆ
+Í˜Mþ3”õLÏAzîÚÃ+¯áËùëè÷`ÍX“FQd‚m—Î0Ÿin;øN¢¸D“&‚w98øQŠB€ôha…aÍ–J&m›QŠ§Âvi¦_ã×á#|æc÷pû—îåŠ_‡©ûvPë5ƒMqÇâ}IÙ‹$‰k.‡œ˜Ù‡,µ6Ì£9ôñ!æ°@^îIp#D=F)ÒBÍH¬‰Ê€×Œ|÷K9ÔnãlA™6hŽD<¾=âeIýœÍ?=‹:gs€÷u‰:>+QXü"(þI;KÜï_K˜š=A»?XÜñ/»ˆéAÁ¥M‹w–®LY/ƒU°r„9!±ÎS:[éØC"…ðH¡0Æ ´FMQx¡ˆ5Õž}( t èã…Ä¼ŒAÆ·zŽ‘²R-³y|Åw©ô0ÄJ%ïëp(¡ªÔýœÃº€XDR ÐÈEæÿßC+’ŠNžIÃÄÌ%Ý,ã²ƒ‡hýï?cøÕ{N§¤6ùŸÎ±tÞüÍvò+÷3Iþï½èï=È–7¾«¨®|î–Ÿ~=«$èg¥·¯¸„tûæÅM‡ïDÖºâÚW^|Ú§où~õ‡¾—þó/ãPC0V¡–6˜ddÓz¤ÐdíQctÌ‘CÓØ2aý¥;)\t–‰FÂÌPÒtØ²åb¼tÔ\I«VãpgÏqÁyMJ<JYÒ8f×ä:?Ä‹ž7G^”`KtTðÀ¾yfº–7Ü4ËÜ|†ÔšF£FÉ8õÅ=Œæ'xÁ¸AO-¶ÔMÉ¯c<™ãvô(½ÂˆGíîÞóŠ­‡HÆŠ°n`Ž	îÜÓä†u{h×5ÖCm\0Öt|~òjšEÎÄ‘¯Ñ\§yýŽùÉ)võ/gr6âWÞN©hE	C»…OÝ=Î«.½“vcŽ,+Axjí’[>s[~â{îb07$RäŠþêÎyÕeËø¨ÇÑF
+CšLó¿þÝz‡xÍ¶¿f°·‘è±- 5\´óB¼z1t>	"iQDuˆ{Q pžÞ|—"BX»s=[Ï<nZôî›d…!I¥®¤^Aéä%©ÖÄiJäûÌÎt¸ü7ÿ„øÒP[6!ŽG=ïÖ|ä‹¯¿‰Ñî€èÀ1Š$Á+‰À!ÊYü ÃIËsD!úƒ ãk4só}6vz)¡^cff†üð$äHè^ò"†Î"EŒËf”6¤R“ÏÀÀX©`3-jA
+WjQL=©‘D)Ý(¥Èrò² fL€ó¥F-Ê(‚2Ìç«‚@+E¹ ŠãÃ*`TímæeY•*£„Ò+¶¨¦“ +r_é`4IhµèÎT©TCê7ar@¢%Yé:‰÷ŠuöqùGþšìÓ_`xú¦™é³Éÿ4ŒouÞ¼Ò è™tÑsK\WCž®´omÛ–§]€¬ö¼W<þ•Å‘Ãwbö>~ãµËx§[òwƒ!½?ý(ò/?AûùRÛ‚á¹[y¬>àêAƒ±¦wÓWhÄcdGöO¼sô Û²G cŒg]«Ãýóý>×ïø:YRk>|ÏK9·ý/¸p’¾Ýwc¦ïÆvxñÚGÈû!ë˜Ô2|t‡j®=ï!†YŒ(¢R“ËÍ|ö¶:=ß`û†0­×K“³¹{5ç¨#\4zˆ¡×¤ºdd°–É#8í=ÔÛ[
+ŒÍ™ñã<¾k=Û×?H­HZ:*iÖ=c®¢)xˆx£dä‡|³÷°Ž#/º‡¼”aÐµš5lùÜ8­ËvQ/ˆ3ðV “—þÝAêQqíä¤ÀÛ°ª¥ò”‹mz?âñ^c‰èŒ»ÁÎÒßÚB´éìt@ ³Ô<8šD&^È]Z*ÊØÜã\:oi‚Å®ƒ|Ø§H:46Ç´Ä¹hvãÄ3b ÇRû¤À`ØÃõº¨´Nª¨Î1\nÖ7ÄÉcø¹âØ4åÔ,Ã™iLÖEe ²y I×¥LÂh„s‹]´Ô
+¢˜':Ð€’¤cöDß¤ñƒ/º}lŠFsìDÉ ³t[©KèŠi/+u<!‰Ò:ðbmˆ"Šjè4%w%²bÈSiëm‰Š¨Z!\˜F	|L%Ìã|¶xJB¡a¤\ìè}%§kd(*
+oƒÛ`b%‚ˆ:€ª¶=dÅhÍ”ÕmÉõSSþÎÿ¢÷èîÓ=ÍœíüOÇh}‹°ÿÊ.ü™ÀçK‡‰U~öÍú<QW}Á;Þö„…ÄR®ÁjÌÿÕ„VŠ=ÕŠãB!3qãµg†©Ïj_ÖÑ6²ÞB6äYN2±†aR2ºy-é4iË`KÃMéCP8DÞªäK=…Ox¡:Ž@0e·WF.žïy¾;¢Îc~[ K@x8OÌ‚€‡wg%†ß.¶»‚‡nÙŽAlÅYî?ÏâýZü.¿xõ^ð£rç…ÝN£ºýnÃòÏÔÃòœ ¯ëÃúÕ„°ü¬ê’Ûs±.Ì\½Ì9ÁKôL^Ñáî‡Ç?ÁF1D‰9výé%ÁèÃ")¸ˆœø‹6“,(¹y’óàÐìùðyU?Xu‹8.dŠ;éð»‚Œ#ÇQcn÷;©_òìÌ¾&œœ9—Sº
+ð¥Ã£Ãªºðx™ TX×ÔJ 4x_c8ìQs\½ÀÚÝJ±e€¬ÓvG@½žà Ç 4e¡QÃ jí¢;D®ÃWD4\Øî"Xõ.*AUÂN…D(IiK¤L±Aˆi-BJ¢v\I-Ë)§gI.»ˆýÒ(bC$Ù?˜¥T-RH‰N>ìéK‰Aä'ì›
+4K‰VZk¤Ò ¡¦5õ$%+-x[!ƒÉ"«^-ÈíJ…õžÌºE!ÎU©ð\­}k)œ#‘¡»G‚¥DxG$%yeT
+‡‘rQ4ËHY‚Ì¯†I›ö¾G¹þÑÏqÞDÇÉ™pë8ÛùŸŽa¾s§t÷Ä¾ò–"ÏJÒú»è=•ÂßÎ“¹‡'NcÆ×N ûs¤õvÊ#f$FK¤)qÂ,B§ÞK´ïäÞ +ù?‡À¨>Þ+2§8id
+FÊ€Áë|AmÈ)ÖšœÂ-ð¨*ü2/«íBž0®úÍ'%r=¾Jr.¨VNzEÇz‘ ~Ü_ìË† ƒ©,x–
+4'è$[û$%Ñ’®N#èWÏ0O1Fê#È—Ý –ÒÆØ\#£½ø"ç'uH@Î°X«qðŽ²,+&-KÊ²AA§?Àó&×æ1S3³Pô!Žé†Á F
+èõ)Qä$yAY3Ìú&¢aH
+²ÖÄŸCn˜@dÁŒÇæR„u:œGkE
+9£‚Á–2ŠðiŒˆûüµÑ¬“g³Ô:ó˜ñäÏüÓý!ªìSÈQ†EAb
+b¥)!·k_YêË `Ô4eI¤FÆÄ&ÆÔS†Ã!¥ƒf”"éI‰÷’Ìyœ·H¡¨i]y)‰j/?\úX5&/ZH:eÉÐ:¥/uõyöÂã]I‘ñÃZh„NªŸÊÐã{eyÑ1Fƒ8­3È‡d³3˜¿Àå_üãc5¯E¶Ï„;ÇÙÎÿ´ü«|›VýVëîÛW^Ì[`ý÷Ï²Ç:èÉ}zU"ßÊ÷<pË­yE¿òiS·Ý±ªà·ƒ±_T: +ýN¿äö‡a.)d‚9¥-(ÈFè0-ñ’‰E^´ÅT·¹“)8Ü:Mõïå&A®ZÔRK~<WÝˆd†¼mÊ“Ï\LµQ-]tÉRÅ·ä±§«<ïíÝ%-9ŠeÏ}’_±Lqåó*âÎ.*).Ì¼¾ ÂÔÜ¬=Fë ·ËJ7!‡2HÈ3È²µM)sÿ {ïëÐjKú”Ã-ÀF	¾W’")„aØÒZÓÀ•`sØAØé—‰¢‰šì±YT³A&‘'¨
+ó9ÁÅ¨Z§³Eø«	cp±!RÃ`ó›$¸fü¡½¨AœÃVF6“³ó´/Ì¹ˆž•óŒXJðëƒ¾îÂúœs¾JÂÁ 'Ñ†Fœ’Ä5dTÇsæ‡Ö[bUNÊÁzWI‰‘)Fœ´QX á)qòï«…BˆïKðªšÝ‡‚Ó:Ç /dCŠaFY:”‰¨E&›C}¯Íæ(:Žèt:ì}àL=|/ÑÁÝŒÛÍºÞ	’±†[6S÷Ý¨ŸMþgã›ïü¿xý™ýúû0ÎÉ`Ëß€i·OöYH¸ý}VeýŸ¢ã¿÷à“BîKxßSŽy)¬¿!(Ÿâ©D„:÷<°¨up:‡/
+Ò$EC¿,CQ*°™95·‰Õó`•Ø—§R±ìõ~±hðËrª_„ŽýŠwóËÁŠ×úeÇ'ð'ŸËØÙËK†'Í×'[<Am°ìäý*µÃ©Áây‰“îˆËm”«ëW@ŽwD‰¯v›[²bÎÉ9ŒÑ‹*Œ‰iH´ñ3Á[ ô-´)™¿w€?áÐ©"áJ,PKEle‘š2"ëM¼¦&§ÑÎS "Rø¢€Z‚ï÷QÍ:ÃÜÓ0¾,ZUZô
+iÂè€TH…/ËÊÒWQ&Ÿ‡ñˆM#zIÄH/GI0†á¿ýO|Ïó¯äÐ•—Ð¼îrÆ[	ä1½<'ö¡ˆ³Õ§GàX‡"ˆÿñA*5FKŒV(!uBbLØóWaÆŸ¹Yíý'JU¢ATŠo=…¯xÕçÇ¬äz­wH/È¬'·kƒ`’
+)Zkêµ„º–H3²fi‘õºœØó»?ÿqŽßñENìyœ²3ÃÖVƒÑ­ÐÛ6ã[mþàªV;Ýoù‹îüË³"?§cÔ¶myF„½o%îÛ»˜ûÆƒË,‚×¯`ó/5z6ãÎ×½iÑ„çÉ´ðÍs´¢7wÏtîy€¹o<H17ÇU7¿çŒû¬øÒ†½eç±…ƒŠæä}k.IÎ'·šý"¤¾à'îOIê';Xða¿;Ïqy†§Xêh$A¦)ÄÑAü…$îOš¤ø¥t•Ø½8¥Û«çàP øÕz~±zÇ.$.Rf”ª£êpƒ^­‚ïE÷(‰i®Op~ÙùÊNœ|`ñÇ¾‚ËðÖWf€¢¥D&ÁæŒ¶0{p¥ Ë
+¤ib¼ÍCá%Ã~?.ÖdeI³‘«€ÆÝyê±¡7?K½Èñ&¦èMã¤G+)_AQâÂv:È‘},J‹ÐšÀuðD€Œ4ÂÙ m=®´£ñ:#‡çÀZÊvW‹hÌu‘€ŒLÐšþÇ¯±é¿†{ÓÓÉ%#­uVö
+ï‰¤6x(gd¥±ïÂÌßH‰ò•y’¬­Õ‹#ºYŽÐ0†~QPZK§ô§÷¨JTÇ;­>samObKÈK‹õP–®zÁ3Uš¾Ñ Âˆ@hÃøÄ:”’¼óÌÞùeæ½—ã=BïÄ1ji‘FÓÚ‚‰ƒ(Å1:€?En7O÷ÛÆñ'úÁÙäÿÿX¸åV€eÀ²ŸðÃÏÉû>]	ß•¨À‰gIú÷Ë/ý¢gNò/æ9YQEÒ;
+kW®ýò/–äÀ®´BˆCDÙ%„®ÁØjâôÄ"ŽÀ:ê&!îè?òöØq†µ:e-z‘!JPNOaÉLcÅØÁ ;8±°]‰$
+d³4Ahµx"ÇºXL,ÊPÎNS2³ÉpÚÔ.»‚ìñ=ô:£§þE“¨½‘ln?–>h¿ð»qƒ!ó÷Ý^½\QdŒ\ƒª·ñ.?	¥àðN4ÈˆÞ×:ƒ5\Ep®*b|XE³™£È»Dqx,Bœ0ÝÛ¥ü2Ä¯Ðø²$—Á4I i»…šœEjM«™bË"ƒÛ€Ï0Ì¬¸¢„Èà:=Ô†5(ßE›2ìòÇQuM%Ò*ˆ"œõH£qEÎ!âˆ<RÔ»=ü0Ç´815E<y¥4>ËO~O/Ü‰ËûÌ—×jÄR€Th ÕaÄc¤¤o-Cï”vóWÉëJaÝù ,PHŒÌ%ýÌ!%NHjqDMUè…ZüÈPØ
+(xAfF…=~ÜI¢`0ï1”® ÝhsâÄAÿã×)üYž#£ˆ‘V‹±s¶ÓÏË`dÞWÄI*ŽJá½E·O{=‘É³Éÿ4Š•ìõïþôbÒ{"KÙ…X¹Ú÷Íù<UðŒ•HÄs¥x&†+K0
+­5Þ:Z‰A4®* –&ù•Ýõ²&Z„µ˜ní†èz›ÞÆ5ô¶\½ìbÔ—`Îß‰Y·ßjÖê$IÌ‘ƒùòßÿ{o9çñÜ°÷(IQR¨ŠCï>·Ô.»5ÒÆ{>üvÐEŒÒ¼öæž¨HÊSä“GÈ§âÈ0Œ¡GÚÁÐ/q+gSôÑ¼áFê?ðjØë¶;Ií†—S¿áò½ûéüùŸ¢'¶‚¥þý9ñ‘[XÿëïÄ\yv÷!Fõÿ¨Ð­A”9˜õ!£H„’Ìþëß¦{Çmèt|É5ux+@hð'í}… )ýþÜâÌ /l¥›_u®ÊÜ“å³Äõ„V}ÿðF‚ÍãÐ/K”Rx!ƒU­w¸~"MðÎSf%=åéz°½êooñe‰JÊ¹y¢fQZ¢$Áú‹œÐ‚š"ŒkÆb a„tLXÒ^Ž/
+ìHƒa·ž<Nœ&øjÏ@4›Ì÷3"ß!­ÕÃž„…¨ÄxDJ2”ŠÂ9J<‘“h©hå%±Š‰júSÇ˜ŸC¬ß€QššõX"£©é˜¾Û±R¡X,®ñyàÿHI")1UF¾ !é;ÆR‚ª¶\Q5›ðøƒðÐ×™˜ÇjÃ°tRåIUöÕê ÞãœE)E'¡0íÆé~Û˜>›ü¿Ã±åoxBH{i·›nßÌŽ·¼ù	ÏJÒÞ†×Þ´*g ˜í,&ùÕ¢}åÅ«>¾PXì~ïû¿##•çòír(|ªx¢ëümíü‹’Z½‰æèù`HäÈås¿À¾“
+™çøùc@FGÐEAÔí`¥¦»y=3çïäÎšfÝ÷ÞÄÖk¯ÁÔ4¤ ²	Aä$MªpüÃg>Ï§>óy6_v9Ãwþ;†oÿ-ÒOþ-ŒL„÷³–¢;Ãö?ÿõK.Ä_øfÙÍÚk^ÄÖÏüõž[1}‚ì¡GéþÅ_2÷g¦?µ‡$Ý„L¢ÊIÎ/ò¼ËQë&ˆ®½¼@˜!¯Â‡t>öId»Iý¦Wƒt¸<¯½»…·eH‚Æ/&þÎ‡>‚lÖm~û`ÖÈË‹Ê7™eü_É
+µà¤Š/e$*25îY^Æ{Œ‰@@^Húýe¿ƒi:äþ@¸“±B{OaA–")š£¸~N”¤”éH°¢MRâ¢ g"D?_¹à^J\¿¯×(õ(¾Vy¤	¢(iŒF#K‹HŠª+÷ZáÝv^„µ¼uÔc…œï¡Ö¯#;xädâhÕ¦Š˜ÐšH©j'>$]+‚!0‚E¿(ÑÕÌ¿——01JÅ¥h&	cè8ÇšZÊ–FÊìpHDú°Iºo…¢ÒÓ'¬á¹ÒVEbØÿWÂ“Ê°ï¯eñxçÑBc”AOš¶h¯ãâ»>M¯žà’¼ ‘2h÷ã2Œ”Õ†‚è‚Ô¡xR}ú'ÿ³ÿé<ž®`Î3á <Óê¶;ž0ù¯æÈ·² ¨mßüm»YðLd†Ÿëâítë<…µh™0ÌrT$–Póü2¨\3ò4"ù‰_$ºû²»¾ÌP5Øñùœxé‹)®1vÃZîùëñú›8¿ÖÂhMš$$qŒTAg-Ïszóó¼ôúë¹þ…/B®]ÃñÉÃÄ<L¡cN!Ó•ö$ê°0'/Ÿ\ôÔŒM`®› qÝ‹™ø¿Æ±_úUŽýÉÍ˜rÓÁ[»˜{¥hÓùä§iüÔëcm„aeM+Ôº±°Â˜gKx‚î'>…&åÀ¿+†”‹²Y†?Îý?õz6_tãðÛLþÐÏ07ýèâJ  "¹ÝX¬Å!BWBœ´V–:\7!R'¡Cµ¡;•J MBšNà=äƒk©®ÔÄ^0°†u Ùhà•"RŠ¼È¤Í1´ï3pzöw6t¦^„[º­º€Oê¸Þ ÕªãË’2ªQ"2ø¢DÖR˜ï†©½aA³ÓGÔÜú	¤ˆÃ™&¸þÉ5JÕ¬£†ó(eˆã˜AYÉ)ƒ™”é¡¨)$Ifs©C25í!ÕÍÀ–¨J®7÷ d!Ò¬R‹™ZBñ@T!OÂvAY‚wOÀ 
+)…WPÖ5™[ËÖ5¸üžÏàï¾dt“Ä”.hHÀ•–Â:b‰QDJ’V$Em4RÉ°>Ù:íÙþggþg#W~àÝ§t°ÐúRdba`5üúU$¿Õ0#­SçjíÎœÁºÿ½,£Q–ÄB2Òh"ü tEK þ…Ì%z3øK¯áØoýòÁGhýÝgx‰½éålcÂyÚqÌ÷ÿÊ¯’¤iõ²°Þ™Ÿ;êÞÑï˜œœ¤,
+’v›]G²å—þõ}ûÈF'XM[˜æû¼š—euÃf9pþ‹_bú¿ýTc=21è-ˆ¯¾‚ÆKo@5Úèö(oy?µïy%{âGa ÑIm‘[àŠ>ñšM´¾ïÕ““ìõ÷n[yVÍâÙ‰ÇØø¾Q»æj¢sÏ¥¿ç^°õãƒˆ"ŽÿâÛ0@ãgœú×RÙÿrÉÈ¶Ðí{ /Bâ_8CÐçƒƒÝ‚0ðÀd½
+ŠwkËŠü(ÉC„0ÝÄhOáêœ8£)5%‚Ü;â2G!èuçÉûÝÅ¹ºÇcµg®ì’Êˆr®[½Wøõ‹TÓ6Cœh`»=d}t‡øHbú}Ð
+²Ûnâf;h¥Z2?è³©7@­§3ÓÁ‡ÈzŠë–Àþ-¦z%/|à~ZïãÐ+¾‹Þš	’v£½ Q‚Â…ŽÜWÂFe ýTK­Ú Â(Eg0DxARmHD2Èú%{U@c|`üC ¼F2ø(Vskéæ%­V´ÖDH…ô‰§§;¶ŸôøÆï»›ú]Ÿ¥ŒbL’iEä‚†õ'±÷Ž'R‚X«EQ+ïÞÈz|¶ó?OüÆ»O1›¹ào;%ýMo}Ò9÷Êû'r¯[¹"·þµ7qéïþ‡S_1ÛY´â]Yœ¸íÖ¿ö¦Å±ÄÜ=0qãµÏþ6#-®ºù=œ¸íŽ'|íjÇöl%ÿ¥2Åf¤uÚtñßL4’„ØðïÃþòÒ„2Cê¯|<ðŸýÓÿÃU?üƒl6EÓ:tµ&Øíö˜œœ\4;)KGZK‰¢ˆ¢(èÎÏ“Ä1i»Í®X³öw_½›as[|ß“½Øj;û';ÿÁgocÿß|œFµæºì‘µ¬yë/±ö¿ÀÈÿ›gÿÛ	e¶­Xã«ÞÍ–´~ôÇHŸMØ1Ÿî FÚˆ4aøõ;±©òvI‰£½ój¯yå±ãŒ½ãWXwÞï¡Æ×†‘Úý6#ÿõW)÷A¶¥9ô’ïÇWïIØßá]Õæû%Ç#<JyÒ(^Ô(P/‚Cà¬¢×ÍéwëÌ÷¡;­Ž1HÎ©a‰BÅ9Èñ‘Æ»³È ä(ÎNÃ|Gø²@*õá9.mã‡|#ÇöÈ4AÍv5EÜ)A©€ÐÔœ-Qi”ÂÔ`ë'nHš•¡ Šclïdç¯›5¦ú9ëöaæ¶¿¦ö¾1ò¼ËáêË±W\FyÁ¹ˆVOÐÉ×BP×š‰˜ìõ1RÐˆ"¢´N×ƒÂ‘Cg˜§Im"\3%º¢‰EÉHµ\$­–.p+ž¬ß§4š´ë¨ÝÃüî‡{£uð1j‡÷¡ºó¸²@ŒRKS„ÁTJŠÅI€üDZ’Ä¥5x‡” 	*‰±Ãìlç6V¥	züÆkWMüüÆ»Ÿ2á­¦Áÿtæâƒ½W=¦…Äp×ëÞÄ>z3í+.áþ·½‹·Üú´¼žê˜‹ÙéöÍ\pã©¿gÖ/ææN[<[?ý}xñ;>ü´þ6OOF¬|²ÕÅg;âÈ`Œ¦ôk3tlðZãqÄYAþƒ!E2Š|Í+pSÓ\µvSŸû<ƒ«®äàÑãˆ² Þl™ˆ,Ï°Ö21>N»Ýfl|%%½n—~¿FÛmöKÁüg>Ã%ö×dQgt¯.¦Äekñ~ñÿÀ/2ïA®YCˆG6ŸÜõsPÎÎ°çÿžá÷°õÿ†¿×Ä¯þfßÿz=D4²64ß&å`Àžk_Aý{_Ií»®§ó‡DúòW1ú3?B÷ödúwÿ3£¿üvw~•c¿ðV²Ýû‰êëqÃŒý7|/õ×¼½c'~îÍŒ¾ù—iÿä2ýÎß#¿÷«´ßþ/Ü~'ÝüU GFædu#| ü•¡šH= ‰x[:„48Ôki#Î£â:E®ÈËÝexx@÷ÀÊH" ,3È†4ê\æ@JD” Ê’<ÒóYJŠ¤ÕÌ;‰ïö0c£ä™¥°E(0†‘Æ[O­‘;~˜“'ulq©ÃgH§	Ú†×
+%ÉJs]f7O`çú¬Ÿî’ÞÈeèiÖ©ÑÃWÌ~¼'¿û¸ûžp©ê5ÄŽíèÛ¨··}~ÓÖŽMÐÑš#½>ý¼D98~ì÷™äÒÍ[É­£Ÿç8ëÃÑ˜š¡9ÓÁÍÍág;ˆ^æ»Ðëa»=Ä0Ã3¬÷Œ×R6fòè	d¯ÏŽw¼ž]Ÿøâè4µ¬ã™(Â¶R¢”Âh…’Ò…Do«¹YéEîG¤%‘DQ„®ž/¤8Y,‰ÖŒ38pølò?OÝ…^úîw²Òvà–[ŸS’ÝB¢_0°9pË­<òï^†2,  ã7^»˜ÐŸ*1î~ïûŸÖ\~ê¶;¨½ñTA¢…ÕÂ~ÁBW¾ëY¼ÅlgÑ¨hµŸ=WëÏE”®¤(-ÒhjÚPˆr‰âÙB-ÐƒYÌkéëø‡ÿýA¾ëºk¸æþ„Ï}á‹Ü÷ÃßÇ†Ñqôpˆ’V³I'$IÌÄš5cèv{8g©Õê¤IÂq[pïý÷ð’wÿ/tQ0C,Z‹P?"l¸­8>¿dqN— ÆFi-â#Ô~ï1ñK”7þÎËìO¼Sý^Êù.Ý¯|–ýt«É½ú ë¾ò £?ó#tþèöüõÇXûßßKýºrä_¼Wv‰Ç63è~ê®dëÛßJïËwqà¶ÛIv<ŸöOþ ½O~ŠÙ]ÿÈæ/|œâùÏãÐ;•$ÚŒLÌ2ÍOX»DÄ¥‚<.EUó8YQAk°àCém¥+hlX‡|Ø’=Ú¡> cKJ[P«7qnˆÐŠ,³”óó˜5›&"‘šÒ{FÆÎÁwF·ˆÒ"âW­ã91†BBšŠn0`(Aø2ð gL˜9ht”ÃçÓ2§e{ìÂÎÍ£úºÕ }ý5´_ñbÊ+/Æ>þ t»«z}ì}bï{|Éãj¤ÍEë×pÑØ(~|”A»Å#µqT·Ï ²kò—Þ}/æ/?Aÿàì|÷›þ®ä÷ }Î9µf0DuûÖ†1™«8Õúf…¿£•Ëƒ”ÈH¢Î~Z*Lb0qŒÒ±à
+Øï­;“ÿYØÿtB n»ú&v¼åÍìxË›1#-Ürë·…\· %üdB>ÅlgÙÏž¨ÛºíŽ|ìÓOºQ°ì½¿ñ [ÞºðÁÞƒ³ŽüÍß.{¯…k° ·û¬~>öéS’ÿäÇ>ý„ÅËÊ¢çÉ”¿	Á”Õ#}Øq.íréDÃ!G[#è_z}ùØ¿‡m/yWîÚÇÙÅ}'yä•7pßó.cMl8/Š©¥´Ûm<Ð™Ÿ'ËrÒ$¡–$Ì•Ÿ|ø>®ù­ÿÁúý™­ÿª2ºËÓüâ#Âqêtb…¡w`‰¬sôß½‹Ñ7½U«QÅÄÉ8n!ÒpÅ,#^M¼qÓ7ÿY<Þ°.tm—_„úS˜þÍ÷²áþ£?ñ£L~ðù0b}Û¿·û›AØ¸êìã«® ßõÌÝúqÚoø>ê›.exh7Q²îäq/(ü¹ïzÁGèJÌ§@IO’Ö‹ a^‚é[f‡ÈH`ŒAŠ±Ë[è¹„¹O÷hƒG"­%/ŠAñ$Á§½<­(ó¡$²=B^æ´$¸ùbí¢È‘µY	ÛÌŽLò¹CÐðƒ!¹DR…M)É…Ã—ÚJeˆ£×™gÖe4œÆÎÏÓ|Þ¥Ì|ÿ<úâóˆcM+±\¨%£Ï£ì=3¸ÛÎÎagç–|žá"€ý%É¶Í\^”ä‡'e¢¿•8ðçŸâÜßú1†óŸGx‡+,Ê–ØÂR:”-×A‰ReL%Ó,PR"¥DVÖÄÚ(¢4E§)RI„ØaŸdÃ:æ¸ÿtM9‡Î&ÿÓ,v¿÷ýL~ìÓ¤Û7?£ä±Ro¿ó¡ño]XÍUïo¹õi
+÷¿í]O‹÷L­w¿÷ýÏèÜŸ‰ßÂ·Ó†XiÑÁªÄ9QTíÀ³8;ŽË’ÙuëØ5?Ëžƒ˜8w'—|ðÃ¸™ÜÈ&žxŠþô¯xà¶;xlÇ6¾|ñy¸ç012Î&i3#5ëÖ¯¥ç,~äA¶¿û¸ìÞ‡™o¶Iob¹ Þ’ÄïW  Ëÿ½øqÊ#à¦1Â°s˜ÞÝ_§uýu˜µkI¶o§÷ðÃ˜ZŒ÷PP°î€Ã¿üË ¾òÒÐñíÚC}ßï±æwßÅº?øŽ}ð(ºÓÄÑ(ÿêŸ3¸ÿ!¦nÿ5i¨ÿÐ« È˜ÍáŸ{í7cÝŸ¿]7\‹ñ'ÿNn4àËJE° Ú·Dˆ Âè]Øt&F˜éœ=‚ÐuÊî4éNÅºsìÿ$Öç@9G>ÒëuYƒ¢(pFãò!NkTk&@”a;óÈZ9¢^GV¤H_oÁ°K<˜Â™èÁ§8abˆ×
+©#°×ï9‹V)Œ¶Øð¼KØºí\>µc/å…ëˆ¾úU®*4ã÷ïbøµûIÿ7)“!b0xÖ>ÛÃ}ŸÕïJvä®“Ð› ,CòCOáA:’ºÑH¾WZk¤&HJ
+P8j´B
+‰NbâfeH‰Ôo¢õ§kšÉ¯¿ë£“¹?›üO»øfVÙN§õ·ç*Î
+û<q8WIèú`k–—!–»{;g:˜_ü×l^7Á–þ±Ýû)u¬[u¢Òò¢}“\½’ƒ_½—GG[ìÝ°–/mßÂüØ6ogt˜±ûð?pÕ­å¦¯=L¿QÇ™À¸>ES5Ø¿*JVÞ{Ü)c€ ‚X<Ù=Àõ×! ½iöáo`ðäsÓŒ_ýš7\ËþøQæºÇÙòúŸdíï¼ƒ¹Oÿ=Sziº–b0Çã—\Íù»ïgí/¼•ýø»ìüÝß§œ™f×Õ×`MÿæÔ®>ÇÞù[tï¹›¤±‘a÷ _óã¬ÿèûiœ5Ù®=èZk±û÷x|éY°BòÎ†ÿˆ0tö»• #Ï-]mNdhí°V3ìÏ¡dN»t%Ri¬uÄQ˜¿;m˜ž‚~ÙH‘Ù ¯# Dø!…×xk!1¸©9D=ÁUF?º&1yA<È@HðYŽŠNØÀœ+Jz»÷¡Ã¼ì:Ê‰qb@ÿ¿¼•—]y5ß÷ ;e­©S›ë‘ýýí‹ž‰ñx‹#{²q0<­¿/Çþê6&~øbò~_¸"l XáQ*þ(£1FcŒA*‰w>n:Œ”‰ˆÒ¥*NQÆ ´AD	 ˆ7œ¶ÉòÉ~x6ùŸ³qFE‘H´”Þâ…XTß°B %œ?×EŸ˜ÁM¿ÝÄWEƒ J-™nÖ6sv8JydŠÎÃ{ø|Ö£³y-—oÝÌ†Çöð²ýSdõ:Y¤Ã¸aEÒ^
+à»SŽvõ.ßÃI;àS á<¦gO>Voâ	V¦)ÎÃcÏ{1ó_ÿ*Ítƒ»ïg×U7Ð}è^tÒBÔëDµƒûxhâÌØ8©¡óçæøoþ\á©57ÑùÈÇ˜ùã18ü8qs=^+’‘s˜ùÄ_Ñßô¨z™¦ËŒ‹<W†M	ïO:†nßR«Å Ãn{‘x[—º¢ËfÄ¦Œz|BžgA–· Y–„D™D Ò–äHÊnFšÆô±Ô$j4¼¯1è¼@®[”à-IY3¾öwJQôzÄÎá¨™åÌÚhšß÷
+òïù.ž·•ƒûv³µˆÐŸ¹ƒc-†Ã>þï?lÝLråÅ,ø}ÝPŠß?½“ÿÔ¾Â¦Ÿq²‹"‚<ò ‹­@i‰Ö
+c"”	¾ÁI9Ô¯$˜8Ajƒ2©tàzÈ fXÛ¶ñt=ýýg“ÿÙ8ÿDB,$Xç‘Ö'2ì¤³DÞ·šm÷ÒÒ“{ÈÂûS}¼€~Ñ1²°4Nâºß@ûú«HdøÐ^œ”ä&$~¿Ê±,õX–è;iÖ»¬Õ÷§è¬ü·¯€Å—¸r±ÀQiƒþC`žrÐE=\ýÿŽb8ª·°Y,yØ$ÑÓn1õÕÛˆHH&¶bósÞ4ôGÏ©Ù…›;)ý©Ý˜Îts_KŽÍã\Xßkß*˜ûT€¨‚¤‚0 °6Hý†êÁ#|‰'ó[(£)…@Z‹KSà£„Þ\Ô©'5Äüt³Aq0'éU³scYŽlÖ±½!²–ROt˜CM±ÿ1PKŒ}÷ËH/9Ÿýý>BÂ®`ë_ãÜ-ŽþNZŸº“½/ÜI”®Å%1ÑŽ­0X>Û—µ”‰¨[²þwºÆìÀlE÷{Äu‹µ!…s[¢cÒUIg+)Ja¢*ÉKé=8»èÿ ¥$Þ¶žêƒpFuþòìíôlœ3'´ÊhxæãÆ,~‹“_Ò]Ÿ|ì$ÇÞ/I°ÿqÞSŸïpøE/føç ø×¿Îç~ùW9Øh!Ë|ÙëÜ’ÿeÅïYè€W¢«Áÿ§¼nÅsÕ¦‹—ÓSLxŽ+IBA—Ö‹¯ã‚ûïâ²îQ®´.üÚW{Í÷ÓŸ™ÄJÇö?|?Wø—œØËESûØñG€8¡wb/fãZ.øâ?°îM¿ÄpfUpH†ÓûhÜxç}ãë4®¿–|îð
+CB/Ý’óq‹âBxòÒá8gÉ3JãÃÙá†äÃíuæîrÜóÁ#Œ­K¹L™‘Äcq„Ñq(°"….rJmp¦†J›Ô¢Ð»y%ñYŽ¯Å¸^ÝnbD—Ù¹9ò‡÷à†ëoº­ÿñíœsÍ™Ú¾Ý<Îô_’ò·ÿ'çýÎ©˜$mRK[›ÖP¯`„Aæ"—±îešÐW¤ø¢<í¿3“ý{j¶¡ã4@ø*i!Â¬_I”èÈ`"C”$DqŒ®Õ0µ:IFUÞT¼€P !QˆúŽm§ã©:ÛùŸg-ÌHëìLþ;¥s¾—*8¢•æ'ªv>tÿ~ÙX‘pWvÛ^
+Ú³ðè¯ÿ*¯nµNM³+2œ‹¯OãTæ„X‚J,oü—ÏÊp¹Eaˆ¯¾€"’ï;„”I%ê¢èOïcüå¯â¼Ï|€cú'%Yó£?ù“÷qtt”‹¾r+¯ ûÀýÌ}ìc´^ýj&þÙÏ’\óî»ü2<‚ÆK®£ö’ë˜úÓ?¥œŸE™cÝŸüé–ÍÌnßNñ¹š5ËÝ­‡Hø\@a€Ù€ø‚ÿX+a;ˆßŽQ	bƒC~Ð¿pÈñcM¾øÛ³ô.ž'®	œ’ô=´uEF1â´$Žpõ:éI5íÚÇüþÃœþUd€àó›$øÃGqEÉ¡iËe;ÏcôŸ_ÌèoýÃFûîýSõ74¾ôUFÞÇDo@|Ù”IŒÙ¶‰¹ÂSzJ­IÛlÖJã˜²32ù×S|>ÀìñÉ§fpÇÆil©±Vc‡Æ¤P¨B£µAç
+##¤7áo‰BzY­r‚©ÂJ(A8	Ü`@ãÂôví=ÝN}ÿÙÎÿŒoy3¯:ñàâVÆÒŸ=™Ð3öÃ\uó{ØòÆ7œ¢E°ã-oæÆ¯þÝ·d‰»åoà…½™~ôægäap6BXg]î(r/|¥~ªÛýÊ¤-þéÂ9diñJQïñqÄÝ¹™Öš54KKQZ9Âl¿QjÕcYÎð?	ç£±ïNâ'‘÷„™_HÅ°{„Ú¹R»øB ²ÇvÑ?²U¯…h~ž¸5ÁŽ¿ýò™¾¾fþäyìÇ~’‡¯¸†‡/º”-¿úNW^ÁŸ+÷]zûí×¹ïªçqè_þ;—]Ê¦ùy†ûöQVòCkþõÛÉÊ†ƒÃŒ½úGH·l×{vZžâå"D!ƒm¬·@aq¶¨HcŽ¤žVö¯‚Z³…IIv¬á«Ÿb×¡œ±‹¸¼¤'I+F+A7÷äYÁPkò² $xÓ²!fÛ¿r'ví£]`8Ì(cÐí#ÖN°îµßÍË^þ¶žµówðéÛ?ÏïøÏŒþÎ˜:x˜ú\Ól ·oAÇ1H5³rnYKÚp|ß®ªETËV]e­Æpj–zwæŒùÞLßöuj¶"AEq€öÕÿ˜_ÄoBi¤Ö"#ZN@UxT6ñ_ä4.Üy¶ó?«wË­§Äì=øœ²øÍH‹õßÿ=Oºn7^I÷¶¯¸„õ¯½‰þ¾ÜvõM‹ò¼Iÿª›ßÃ]¯{Ó7¥ÀgFZ«/üèÍßRQa=ï©ÖùÆo¼–~ôægõÚ>÷}¶ÂyOé<eÆ•¯Tå5¾ÐÍ¯²€¿¤,eIÑjà¥ uð(‘’ü—ËÎ§åe<¯Ö`×ÔSÞÑJk4Ò”ÒMSIØ³D¾ç¤–õž6ËAjô†õ!qö{ØÙN8_é×³šÈÏÉÄŸMOS›>ô>´
+·§Ùü…bŒÆ{O–O³ég¥5¿æ‡é8Fk|; s÷Þ§dÝ}ÝÇgÿûþ;õdºV§ìv9ðÞÿÌè¿úEÖüþ¦÷Õ/SÎÍ!êÖ¾ë_sô·þÃb†uÿûàð¸¢€$^]¤Èž¼Ò¯¯L•œ¥æx)ðyI™gøÁŸf˜FY×ä±ƒ%ë4 ÄxŽ"(,ÞæÞ†Ö›Q µZÊ½sSµ„sÆZœèQßù94 ŽNÑxùKØþ†`°q½îewŠ[>ü\ýé¯±Å:DSŸaû•o@ì›„Î Œ
+3.–dƒ.~®K4:Â ×gòþûØ¡$^
+Ê©“‰^5j-Jl/;cÈÌ—¿Æº»±oR+¤1¸¢¨
+€ û+­ÂŒÐIH®2Î:(þá=Bk¼P8[ù9;KãâÓ2ùŸ%ü}§£uÅ%O™pžË2~ãµ‹ª‚f¤õ„ï³a…aÏ‚òÝJ˜ßŒ´xÁGoþ¦€³ñÍ‡&t+V4‹ÀI½„Ä·4-/-–@ýE‰o6‘çïDÍÞÎß¿èj¢~-?4ßã@™Ó½ûnŽ~î6vþò?gýè8Ù®}¡ðX62'‘ ìèäÓl{ÝQÛØÏÙ®½ôB"WÀþ'ÙÂW…Á`È0›àü÷ÿ1#/zQ(Šgf8ö¾?D“Ò›>ˆ&£«.Ç½‡"¦…÷AéPGMtsô¾ø¥P´48[ ›ÜÔ	ú÷ÜÏÈk^…Z»¡5Gó¿°á¿ÆÚ_ÿ·d_ýÉÚ5zû¯±æ?ý{DZ;Ibô¤Fµ¯uEJºþÄÆÈÄ BÃt-âÈôî±ÖÚŒ‘uæëÐŸœÁôg‰ì€¹Ùô ‡(æÝ9D;"1@a{¸Î,ÅXìÐ1ÔÃ#^y#ë~õŸ±éû^C'Ñ<´÷qš·ÜÎ®ïgrÛ(£ÛÎEûzçVt»	iJ"i’‚s8)YLŒF˜9ÈˆÏÝJ”Dd3s Jil°¤óOÉò.¢_œ1	¤˜'?ÞCiI!‚xVY•¯»þRi¤T‹–ÁNˆEØ!}¡$¾,ñ¶¤¶sÂèÓ±çlò?Cb©Þº}ó)ñBé?ýz&–tÍKEgÖ¿ö&®ºù=ËÞc5?€d`i,Ußûú›Þº¨û¿ðü+?ðnn»úÙwø;pË­yš¦>«y$üS…GJÖûJ‹ÖöGŠE¢ßjsy¿¤ÿwqDtèrbŒ»®{>½ñüØÖs¸÷Î»8´w7çÿ›w‘ÝËô÷~7ëõ%V¶KºtmÈ'ó]$`TÊöŸúi¶ÞüG‹\‚é÷þ!–µh’¢<v”y€™CÕ1i¢Ö(×7ëÿëoÓ¾êªÅcÞó=ßG¯;ÅØyW°îÿ†ÞmÿÀþ÷ýO_ºñ?Kíª+9ú¹OaÄhÐ—ÏgéOÍ´^õÝ`xâ8ñØ8ÙÔ$IóÆ—0xè²ýû‰êæþâcØSlyvšþ«Oqâ÷ÿˆÿõ7ÁÙSÀ“ ï[„{çA‰°×_%’~a±ÎAQ‰Ð)“6¶?Ç†¶`&t&Æh¿ô»˜Ûº•º¶ˆé9Ê±5¬¹îÅ;.Bõ<rl»n3knxSÑóÂ±mË&vüÀ²aÍæêk9|ä_¹ç^Ú·~Š¯§pÙ'¾ÌúË.dúêiJA½†ïg˜fÂ–á³â=^*|o€Œyl(ûCD6$];ŠbÄ|EË¯ ›Ìt‡´ßY&Ý{ºG>9„y¼c‘‰b]8¿j›cÈYï•èÐõ{J„ëéìâ5qE†Ì(ÔÏÙJ÷ÑÝ§Ëé®ýüÍg÷üÏ”Xê>·Z÷þDQÛ¶å”ùüÒ>õÆ;–½þª›ßÃmÏÿîeý–7¾a™²Þ[n]6†(f;|ãçÞÆ‹?ûaÌH‹¹{à·½ë9¹µm[žvB6ìyŸ©<oëŠK¾s¶À>PŽ¥k-‘IIu§‚übu‚ž”8 ¾ýsøW¾ŠÍGŽñøŸüüô³ñÿG÷"©!î¹¬–.vüKWûŠùiÚßu=Í›^†\·†Æõ×ÒØyþ"´?ý•¯päƒï'n¬¥èÎ.BýÖ{ZoxÕzd-²ž¢·l$¹ðj›¶.’ò^—]ßÿƒLßù%Ð|Õ+Xó?JëÇ^Ç¡÷ýGÿâ6ýÑ{ØùñÐ¿ðbæìC ë_ù}Ó“üÉ_`çGoá¼?üßìþ…Ÿ§3½ƒá¼¿þq³É®ýYleQ³7¿‡ï7
+ØÿÓ?‹\èË7*ðrÙ5¸P˜•Þ(=ƒ¬ L[Î0š(L$8¾{?ƒý;1_9ÆúËÌdF~ï—\|x†æ•îñ)ˆæht½Ž0~õµ|ß>ÀöË.§h4ytÿ^:¿ÿ‡Ô?ö9†;6}îË\ü«ÿò‹÷¢·®#j¶0Îã\lrÝ8ÎI¬ó(ï!2Ø©YT’ c…X|áˆ×N057MÔÏFcWt³¦]ç¸lîggÔýÕÎökb„aXål˜åË*©{ð6P•ÂŸÖ,ÌÔ¼÷xk‘Æ€³ø|ˆS•û`žtÛ¦Ó)ùïy:(âÙø6Ç‚CÜ³1ç~:qÿÛÞµ˜´æU7¿g!0#­SHƒ[Þø†'µ¾m_qÉ¢IÐÊDºy¨mÛl·o^Õ@güÆk—¡};®ËjHÉÓ‰o×ßmÕ˜­,b+Â™Ò¡ƒ%éR.ÿ)ªyKÇ Þ£œ§SÇÏËØú_}FÑ8|„Ñ‡¥P-b[bÙÅPbwªO6˜cô­¿Èºïû¾SŠŽ©Ïü=ß#eŒJjÝiP*Ìû… }å•Œ\yåªç—só9ø–_¡xµ±-ØA¹Šc/x>ó÷¢¸NžÍòØK¿›Kî¸çíßËñ¿ÿ4"N˜¸áFúÓÓÜ5>NãCßÃºŸÿF~öGéÜ}Í\C¬‡ÿrìÞ;XwõÁJø’èNüï?ÁœwsóGÙð¢—†‚§ÑâBË+Y!]¬Ž„÷DZPH¥`¤‰6¨'à{h´(’ñ¾cAv×–$Æ "Cd¡±;ß!š<†^7ÁØó.¡ýÊÿ¡ïEšˆ;n¿™?»•]Û×pÝdFöØ6¼ìÅäkÁŠ~Xù31 6nÆ%ÞhÜpˆi‹/møüh…1c#ôLL­]CÚ9>ÂÔ±I’aFãóbyíX«á„Æºþßé(g{D[›'?ÅÖ…ù¿’•¶‹æL¾Èª¢Z‡¢@¨E%Í ö,äï=Ò|‘aÆGN§ÓÝ6ùŸAqäcŸæDÕ…N¬H€+µæ—2å§n»cñu«Eßv¿÷ýË^3~ãµìxË›ÙýÞ÷ŸÒõ?›‘nß¼ø¾+Q´¹KQˆ§:Ÿ•#'B=þIFiqÞcË 9—Öâ*—¶¥ÿr&þI&ÀB û=&o¼Ž‰Ï‘Ú#Qû…7Ò¼ûÄ‘#ØF1böîÇ´Z±°Õ.—üþòÀa0˜ž¢œ<ÊàÎ»˜½åÏ˜úügQ2!_‹³‰+
+Š|ˆÏK²<¯
+˜?bgçÈßÍàö/2÷‰¿¥óèhRjÛÀYt£M6yŒG~êÇÐÄÄkÖ“Ú³_ù"÷^z›ÿ¿ÓzéËÀ9ŽÝúŽý§ß&Š›ìþ©Ÿ¡ûÙ/0ñoþÍË®bøèãìÿ÷ÿ‘ãýjÉÅô	üú`þï>K;åÈ¿ú5¼uÔÓ1ò#“ø—o§ûÙÛ0é8N~Â¢¼¯óx)GÂVWÛ{²|q‚cŒT›ã†äÆ6EÚ$Ï<IR9ùIyèQóA´'°é·/|ƒñŽž8Á—þüC4&gÝœöt—ó¯¿ŠZÿ…Ö”Ù0)ÍÆ	ež‘W'Ó4(ÿµšÈ¢D–^»›ïB½Æ`ö(µ¤Ër|£FoºÏh/G5á³¶´Àk6hæ9zÐ¥<ƒ¾:ý½‡I¯¾Š¡ÒØÊ¸G"T°ø•B€ÛÂ¹@èï\@´Œ!ðB@Y†5ËÁ<¦Ù8N÷lç&ÅJ&þÒä¿’¤·4‘Ÿ¸íŽ§$î~ïûO)(Ö¿ö&Ürë³º*ødúÊ$½Ú_Z|ô÷xÚDÂõ³7Á¶ÿw>#º‚(•VdEð¯r‘u¿´Cå”õ¿…çäQDk¾CóÁÃÍk¾ò5¤s¸áLDYO‰÷À6ØfcñuxÜ^Ïñÿö?˜ùƒ÷‘ÏÌRœ˜"ÏfHâÖZd;[ÀŒL0xô1ºàÊ0#¯PïK\–Sv»”Y‡ÇP#Ý„çªÔbsD“¦›ªF»!H&¶Ò}à!xéw×ÇðÎ“fÐ¤Äk×aCÿñû˜üã?FG5Ê¼8’Özd“Ÿ˜bßo¾‹8#jRöæñÎcš#äÓ³xïïGã˜Vg-÷•‰’”©.¨wÒ2(Ç©FÒº9ì‰)\ÝSè˜âø4Íu˜›ï“E–3|øq|Q²~ÇÎùÍË¦û~fºþîŽ/ÿÝ—I>ú)j¿üSÔÚRwŒ|ÓzJë°³T³l|µ¦ð5”÷8d2\¿R8ä`ˆkÔèÎõH¬ILkì|™&ÈÂ‘Øi‚²Ý@ÌÎOu›ÖCy*ì´”Œžaÿü1ñú«‘€ŠL(€„@ÅµJ¾·šçãaa½Õ»j­Ï…M€(EHœ Î¸l€W§•ÂßÙä:Æ†×ÞDûŠKN!õ=×ñÈo¼{ª_Ø.¸êæ÷¬Úõ¯æä·RoàÙpûƒÀ'(ææ‹ƒ§9<ÛñL‹Ÿo÷ßmi¨Š},¥DX‹–²²¤=uµo5éÜEÝü4aìÁÇñ\¤‰}„Ä§I`3,-ä>ŠÂ>óÒ‚ÂÄdGŽÒÂîtœÔ7!*6´«Q@)l^’OjEN\Ø™–&&®m\N¨[
+z‚Þã½ÅŒ¯Á8 „dl °eF‘ŽoÂïQZ³]<ÎcHÇ6}—#ÒdñßDšttK5j)O¾ÿÂJ¥uø¢‡¬”¼C*:ÂÅ	‘V‹hšüè1âHà¢3.Óí1òS¯cÓ×Ñºþ8|ˆ[ÿøOØò‡¦qÎFŒÒ8 Ûj‘–"$bòÂbgçPµZX4Š¤º›[íÁô‚Ä‚VaÝ°žÀpˆ+‘–AÈ:P’^2ÊøÔ²Q£ë
+ÒãGó]|!²å´>Ñ¨cÝ0Œ1Î °½¢Ö¼*IÕü^ÕÁ©j®¿Ä¿">•º“AÀDÁ¼Ê–A°ÊZÜ ‡/O+úãYØÿtŒ§“ØVZ÷®Œ¥sêÁÞ§g…9wÏ<òïfê¶;˜»çÖ¿ö&Ö¿ö¦çü|§n»cQC`å9³îzÝ›¸àoûŽÁ÷g’ØP–åÔ´Âù@Ú²yI?+‘róúTÝ¥€pŽÒ¨P"xpi-`þdruºšf¹w%²–ÕÒeeÅrëÞjØà<B)ôH‹'Vó_]‡ð¤X1œª/Xí	
+I¼äµK­„h‰@*J´Ê»QÍså’¾~ù?¼… ðÏ¢Î±2¬‡¼WàJ|·‹ˆÝÚ¾˜Gfè9†½œ×_Íö·ÿsæ…çÑ]²ÿ·—-¿ÚeÛ±ÇN^u	¦žÐd­Ž˜íCQ¢£:}[â;óÈzJ1ÌQŒ´yÏH‚pOnÂjhT£Ì2h4HòX‹õPTp¾‹E1ƒìå¨±²þ€á¾#Œˆ°ÎæV8÷é‘#G§¡ß?ãî½:JPÐ½1 +ážJÔÇ»P¸z[VÂ• w ãPÜ®‹ôŽ2Ïñy†tñ…;Nõ‘³ÉÿŠgC€fLødðÿéïþ‡oëù­†0|ýMoeîž–3;ÞòæÅ„¼’@Ë	wßNÓ!Œ
+¾ñÖ{ü‰iŒV´gtA‚´J]Kgüœ2Xt§_\OKþ›UÒãÉ´¸šÿÞj	|µô*V)L<~Ù‘Ÿ<¦•H†_òœÕßcéqZPøUäÄ +ÜW/<éYTYIÂ®•HEiñ¾ÅQžcÒ
+ÜÑ£ô×ŒÑyÁMÜðSÿ™rí›<Àg¿ü%F>ðQssÈõ£“Çh¼ê%Àˆ4¡†’n|<%šî`³¡ƒùyÜÜ<ªU‡"G¥IÕ¤
+†B"ó‚DªÊ=Ñ¤¢– .ŒM¤V¡n‰#Š©˜é!Ñú5tØ£“	‘zË“¿i0=3rÚÛù®ú)ñ•±’mÂuPa¢Š3Q"ò…1G•Ìm‰ˆ"d”,T¾AõQ„‚Ò98-³ó§Ó©>~6ùŸ†ñÈo¼›¹{øŽî¨§Û7?)Éo5Iá§óœÕ’ußÆ¹¶êü–"…ÊÒ¢g)¬¾š@ÒRµÄ'Ó8ø§ZkÜácˆÉcÌ¼æzÜeç£ö}-hþ/IšþIS²?åßþiè¬üÝb¥pùï]Ù¯¯b1á/}Ì¯ZJœrFO9Zõ«¢7s± Òï—'t¿Êy¿1ñ %%^eÅ  §‚´oYÕ½l€Ÿ;A/ê15Ùú=ßÏúWÿ[¦d›ÞÜ,ÝO~Œþ‡>Î”rÔ¾zzûf&Î?¾ø\µB¨CQAëE¯O«èãòë!MSl·‡^;y±Az’Â–)Hó.}À/ì¤'¤	RÐR d¸"NKæWx’kè*…p ê5¼T¸þrx_Ö”öøþàŒûþô;Q‚¨Ô#¥6_bm ô)4oV|‚”d@‚v‚K>ÉÞãË’üÄi#w|èÚÏßÜ=›üOÃXÙ)¿ƒ9S·Ý±Ç?×Ñ¯Æí+.Y&´”áÿDÇñDrÀñd«EgÊðlÄÓ»<+ÿc{È_~-6oàÓwÿõþUœß£õÐ%˜HSZÄWëÉ¢ÒÜ©Íˆ ðR:‹smRTd È—Àò98/hèŒÒ)r§%„­‡DHééÑ¢ó®C`¤#Ñóy¼øþÎC,-‘,È½#UgZÀaÅ"‘Rà*·4	h¥ñBÒÏ‡‹kg©Ñ8!ÈŠ‚Z’ÐÏ2rÑ¤Yr'è•qexAá$£q`Ã|‚Qg%¥UdV2@xf‡)Jë<mÓCËLÖBÉáÁyIb2"ÓÓ-vF0ã¤_bòœá±£Ì&Þ¾‰ïÿ•wb¶^Æ¼MÉ§¤öð¸å}ÎGÚÈƒ‡ÿ‘WÃ{ðÍ:Q(+ðŠ“Û¹àƒÕ ·`-¹’`®ÓE¤)n˜!ê	ÆZr­Pµ˜E15{r]è)^#x)qÕˆÆk…èMQf³c;Ã'h*ƒª§H£°å­ªÕY§Å7óÈv0;b\”±%6sA÷@+„ŠQ¶ÄRç&BV$J©42Jñ®LÀÛ”dppòŒéúÏ&ÿ3!€S•ìXûŠKžÑÌzÇ[Þ¼X|ìzïû¿ñZùwÇçÞKGéöÍ‹	½˜íÐYÁX*²Óßwà%ßb¶óŒE}NÈl„‘~_è<Æ¾!¼²Óäð×wñÙ»€µkP­6Ã,£YKø`;+RÒëÈ„C
+IE´Ò^‡™ùñÈ¶(ô
+6ŒÀ¦± ~µ;AËM<™y.–‚9Ó·’­Ñ€Šö†Q0áxÏ°3íádXŒõšy×¤™ÃÑ©’úHÛ6ôœ&îe˜Á€Ò:êõ:rÍ(óÒsbvŽM¹c\$”¶À9ÒŠýÊQ’Û6òùƒÙ©Ú#3ÜÑQ¬IçÑ¥@ Ë‚–ûX‹uŽÍdtdLÝ4Ý5Êó¹…¼t<ŸY†Ö!Ë‚†<8r!¹Ð\ÙÙC5 AärŽ´¶ò`‘ðÿuÒÛÆçUôÁB*€‘®¾é{Iíwqë.cÔC¶ÿ.îþðûÙs÷×xûØ!.=U¬Á< ç¢ i4ØèKg‰×pù, ³¥¤–Y¢² Ô‚ÆÈ.Ë‘Ftº06B"¹÷8iˆj)åáyddG%ý<'öÒR"DÕý&	‘!›Áo˜ ›<LÓÚP8(M¹ÄÎ)Èê	Î4ƒÂáªÞD&%å`€P÷H|¡‹—Já¥DVE˜ˆdœT ®AÃ°\ìúÝ°%!;xôt9ÍýOçIg“ÿw ’¸~ŠÝú¥2¼+Q‚o6íxË›1#­Åä¿03_™üŸM¶ÿäÓê}¢™ÿjúÒ™ÿ~øiÍüŸ)—bá=Ÿéë–lÏf¬ýÞWà~ñ‡ùô]_â3šÁ7At‡4k	ã=…?ï*Ü¦µ¨‡÷ FZd[6âÒ„tÿ~TéñÖ¡áÑKvÐšM»a/§¼ïœÞË#¯ú!FL³áK_b»PlïhE0ù†×3úà#<ÿ±{jˆ´|åœK8¶õ^ü™[™¯r@x¤¶–½W^Ëåwþ_Š¡EhJ¸gl#»¶žÃæÏ£vhÍóßäÌØüüÁ<¾`@6Ëž—­eÿ¾ŒÝûñà§?ËëE#ÞYT7§ýUÌÌu8zþ6ûf¨}õaš/Sþæ÷lºû+lÜ`h”CÆ½å®‹®Ã±ñËÿHÇ·Èq4“.;ÚðÕó®C¦-v<ôæ$˜ÅˆvL^ûBÒírÞ÷3@D†¸’7±W¾šŸýïôŽŸ‡¸|;$M>æ®îªÏox3I³Îž¯‚O~èyë®óÂÑf/únÊÙyÒÍ;ñ*¶šâó"˜3UžZ…¤ã$‹kv:Ò¸Òâ‹’¡T¨j4à­Gœ˜Fm^3]Ü0£ÈsL>DgCl!¶ÀŒãšÒŸ$§•Þa&¶Á¾.fíñ¾ƒ('Ã|\Še„?™¦”ƒ>Ñ fÞ|GE	¥·¡Ë×¡M€ü¥
+”He±ÀWj€RÊÀPzq†wàJÊAkÍéT=òtžt6ùâ;Õe·—tÌ*zŸ9÷šçö¯D†€e>ý}VE.¾•™ÿÊBâ©Æ
+OÏôuú9K*/9Ÿ[>ñi2ãYwù%”—^Â‰~—8­1òÓ¯Ãâñ8Ä+Ýù>­±ZkZìŸ<„ò‚\|ž‘Å’´ÑàáKw2¢½é9ÿ	Òm$—*ÄU×p0Rì·€-pë¶sxã+øëËö¡cðeId53Qˆ'ø³¹²Úpô}¦†¶6ó¿Æ®@Ø:Š)‘`Ú¤1¾vnF3Š™›žæbJÖNl`îòë°SÇyÎÌ¡cÀ2QŽðC/¾œ»ÚÛøÔ°G+­SÊ"ãœ­ÛÉCîø1®¹ê
+ö?ÿ*>+Î¹è²4¹èUŒÔ‚~»Í=[ÎÙI£Ùæ#ÏÛž¢0|Õkœlßº†£üé¡yÒ$¥×À	Ö¯Qè4æã­7¡¥#R
+!4õZÉ9kêÜ³öçØ8¡©§!t¦áè}11y;ñÿÄkü+ÎïåÞñL4˜ÚxI»…ŽjH¥è\}%­‡fþðqFœƒþ 3ÈÉŸ…ýyŸåpäXø dÓ˜ù.RJÖ~ö.K4í·ý8óµâ“·pIö¯ÿ"3uG™[âÓô†b6ˆ³’¸3 ™éà‹=È°€èöˆÖDeÍ:ñ|eË -–ó&d½Fwj37wfæþ,GŠ(0û›e(!ÂtD¤!ê!¸qRá_©]Uuþ|1r:æYØÿl,•k}S·ÝqŠcßs]/IŽÅlý3ýg{æ¦Æôû_üÈK^ˆÙuôÖ¬!ÕšíEÁ¼×$^a… ò'$ó½Y;Öoe~0Dˆ'[ä¶ÀåCÚíQŠµÄíÞ:ÊÎ<^F.!eQà-Ä‘àÐ±R±ùÂ+èlé­	D¿d®oÛ°aÎDEA”tæ3ÎÙ¶´Æ[O$,ýÒÑôY³¡Éà@ÆšK/åÂÑQff§Øuø k7oB¡¹ø|vŽŒÐÌ3?µ›Kwl&—”eF^dôççX;6ÂÆë¯Fz˜ô¹±¥éõ‡87äœ‹Î¡ðC’ŒÕGg;È¬Ç\Ò¢È
+¤R”¥E:ò(¶;ËM[¶8–’DINd1ýNÎKânPïu)ÏÜ\Äž½—¦Øç)ç&‘Çö³fv’Ÿ™;F\Nñ{Sç ]’vñK.£xl?ƒù>j¤æ01Žo\Ã9?ðJf9ã×<qå%Òã¯x	û'L¼ä…äçî ’hÃ:æDL´e~lõw·±~hù›ýwó‚+®áøpŽ5fžÀù!-ÆPµ”<2D—]€ÜyÉ…“$IB²q=æâó‰¼CŒ ÏßÛ¸žñ±¬m1Õ›£8Ñ!vŽ¢´¬÷C¦1³ÞQf~…]Ó™¶?D762<v¨BUžç@Z[­µŠä	zÁ¨"Ä.:ü© \–È$¥8~Z	íüO×˜»çÊÙÎSÄ<äütØøOÕÅ>™sÞÓ»W{Î‚–ÀÓ9†Ú¶-tVq|ª™þÒŸ/\Ëg+ßóévøOv¬ÏmËâèÝþâ£ÇÑì„cÇ±&âà–ÏïAqï#¨ÏE>ü8æüsðe	õ„Æ‘$Ö¡´Ä2fÆšÒ˜uOà7Œ1Ú¿·ÿAþ°~>iÖç'äq†(j.g}Þ^Ì¹ýã|wtœ™<lµDð€áSj¯<@á‚h_]Ãá2âä~ÎîÂÈ@L<8Ð¼ß®ã•ë¸Gâ&ÆøØËÏ!=Ñçªã%vB´P:_¿j3,_:ºŸõz‚Ÿ*Ð‘	ö²ZñÑÚI/¸qf»=&LÂEÛfyÏ÷se;æüÁ1¾^&Œê’’‚›h•~TààPâ(gàV·žý"å{ê{˜Í@ÆÐjÂ=úŽ¨	®Iï ëÆ)ˆtÁ”[Ç]Ù9¼Ôþ…óØrñÏC^iÌÈ¥×CÔ¹}dRÓË%é`žZ¬ð¬¥lÓl&È×¾€C÷=Ê#-ëÆCéáœ:cc)÷ml7S[¬¹ì
+Ãåæ¥YËì¶WÓ[Fõ5k˜WCB)
+F›cì;p”öÈ(_»p;õçmeÍÄòŠõÌÎgüâMÙÔb¬‘€ØW]ÃT/cv.£yýÈ»}ò™Ù P'“]¢ž"²3ö8B¼îºûvz‹¦MÚÕF¥»zœÃY‡¤DH¦@RWèÖÃO—S´g;ÿÓ8„v¾1«9åMþÍß~Kp÷3=ö•ïÁ;ÞÆ—_þúSæý¿·˜íp×½yjQÌvØõÞ÷/µm[øúo¼õs VŽžn1õdüƒoG¨ñQŠzŠ¯×°¢z/^@¡%qa“mfd?Ý	R¥ÎÂ’ÒjMÄx‰ïæØÆzlþÆ·5èÏ'Ìv¦êˆXxÊt­	r€ËŽ‡$/`P‚‹ºÝ ìs;ä|¢ˆÓùH„ï
+¾Q'Ö¢G<áû}Ž=º—+G6±¡ÕÄõÃõúÀô¸áÂ±µLßð:®íÂÿxß¢†|	¬}Õ‹áØ1¢¯=ÎÚ…;ÞÆË)SC^a½=Ê¦ÈpÂÇìv˜Û´‰1Ù';z ©5¹— Žœæx›ši‘w÷àbaÆú1Zµõp,Á¶›a3Ðxd4Áºô<lg./ð:Æu»¸¬Ä—i$ø 0(µ`¾Ÿa¤£^(œá„áðL—ó¶œÏº‘:ç¯ŸeôÝHéiMë‹wÓÿÁqvþõ×(Å8[þñ>¤„oüìëÙrxŽFï›?÷ô_›?ôYÌë^ÅæGw#_u;Ù˜žaæÚóiÕàâ}³ÐëáËýÈ=‡Øÿª«8qdŠu÷îAoÝˆlÔ(ÿöv/>&FÛq)ÙácØ^mR¼èH±´§U£múS³´æ»gä½·ûð$*‰)z]„18|œHgqe˜þÕ6„2¢ÑFÄ	B|%[öýAL0<øÕÓå÷_÷õwÝì±§|¢<›Šÿß„ü'?öéo;ä¿2IšÊØg!‰¿ð£7/›ÿssŒßxí¢9Ðïx^{{X$Õ™‘/üèÍ\uó{þŸ€ÿ}Q„9­ÒhcÐ"øµ!ñÕÓáPR"c:•$
+F4‘&–¡%22X/ŽoG
+¨ÖÈ£äH*b^Çôd„IŠ¨N¿„Âl•Ð½È(¡¬,Ñ­»p7ISJep
+]CJèÇí¬ÓmQ“™å=H6R§&àÚ»ïgâ¯>uÊ5˜™™§5:¾ì±¼°$RÓIZL‰˜-2g³¶„"Rfk™Ëºv©ôÈ(^°… •ÁÇMˆ°ÞÛ€¦hMa=¶ê}Y†^Ë{$AF¸Öh m
+™`Ë…c(#2WPè„Ã'ú¬I¦Þ`ªê £î†PøÙfã³œ$Šð£ò‚H	šƒul†âÀaD§Gyl
+ææq{‘Ôë¸‡w‘OÍð¼Ü°nýÄî€{F<¼—â¡]4êcÔçrŠ/ßß½ÚMÿGiÐ2n¦‹/]Ð70·¬[\3ÊœŠðƒüÌüþXKï±IL½…+rò~b0 Ÿ›%;q”|æÙÔqòÇ°ý°â¨Ò:²ÖDèUÞ£j-ŠéÓfÇÿiCÂg;ÿÓ!x¶VýV&ÿ§rÍ[4·æ_í9OÁ¯&h4~ãµ\uó{¿ñÚSàóÚ¶-\úîw2Fxñg?|J¢_*^Øb8S×ùž2Šç^€w/r¥QÖ¥1Â;ŒÑ”½ç+~’xk±A%I¤ðBà„ ¯¯AšmDX~Â{ÏPh†*x”Õ®¹Z"”‹T¯%¸@®
+dY |°îÄÌ—šƒ3=jWOç¡Ù¬ñDRÃ)Z<Rxzó=êÓÇ)÷Ÿ
+§Öµ!YyYæx¡ØØÔÈ¹˜]™d»ÊˆEAê3fŠ”)"R·Ð±UÊeN!dø·$T6$TE	2©F£ðxïð½>ÞÛ@Éw%¢"ÏKç(mI_%;@cÉ£^Çe,Yá8ºg7ç7›Œ½ùŸë`¼C´ð*\’pjÃZjÃ)¤È(B·›ÕF€U™¦dB@ÃùÛ‰?úw4_þbl³A1ÚDMwˆ/9—ažS
+G<1†ÅÏTßÕv‹ÎüçKÔ|Ÿ”àÅ@’üicüÙâÏÐ¯ÐðÀ1’k¨8ÁeCÊá ×ï#FƒLëDíQL£M4º‘ÔÃ& aEÒÛê[`mX™DâÊÓ†é6ùŸÎñt}ž­U¿ö—<#Èÿéþþgrf¤µ¬ éï;°˜ÀW>~ÿÛÞÅ†×ÞÄ–7¾aUƒG~ãÝ\uó{(f;LþÍß.óJXÐ-ø'E p/P‚\IR[†Lï|ð™·a½Ë[‹#@ðR+ä0§¨ÌKT»†{ô0êüËˆæ»Xã„ `„#¶–\¤ó~Y‰ã<¥…B#©Þr ¹è¨”{ôÍþÞ9v6]Ãåf3ƒÝ÷à¼Ã•Ž¼7D¥µåÐlož–§l7ÑkÆ)O-ûy#Š©¯Ð#t™ÇhÍLgÀXÙåˆO™ñ†ó’‚Í²Çc=K7ªSØœ¦ ”ÂyPeAQ¸EÔKÂ#lŽõ>¨çE1"ŽñeŽ@)aqµK€¡p°yY`û=ôì6/È£::h°BR–%{öNò¼MX;>Bë5ç²ÿñGˆ?öÕ`‚dm8ã‹ê5LcWìEX‹Hdµªg½GàÉmŽr]KÉ§fÑ“ÇQ„Š4ô°v±R”e	Z!“„²Ö+3,Ýþ,ëôˆñ¸lˆ¨%AÓ~Yò¯C¿@zØ3ô+$t„+
+¤6(¥ðÖ"µFÅ1&ŽÐÌÄFt­ ~©*²_¥ë/å¢}sð–ð¨ZJ1={6ùŸ'o§cÝéù¯<çoüÜÛxÁGo^ÖíÏÝó w½îM³E–ÿj;ó[
+üÆ»9pË­ùØ§¹ôÝï¢¶mËs¶gÚÀ–e‰'Ìø=•Qµ_:
+‘s”B@é*QÒgmèn­£_XleÜãF^qµÉo€&xÞ’º3ì©“·	U)ÙFXpÐC1;ç8â"N`8Œ°[&LÍ*âÆKMÚŸcË‰>r'¨zÛëÓl6)²>™ÏèÊœ¥˜O­#g3œŽ‘9µó7†¨(–=fûQš`ÓB.Ö%Ç¼¡©#¨Ihú‚®Pd(Roñ
+b,‘QX(*·@PÞa³‚ÿ^o]pó)3l¤!IýJGÈ ç¼Di	¾Ä­#Lž“ú2hÖ­	TÜ`ÿž}Øuë©7DRÀô./²—Y™©%\‰*‰Ñe ªÉJ~8e]@#¼C¬Ã9Ž†ŒŒP¯×Q¥­ÁDØªóŸøné,¢?@ZÏäh›•tÙjÒA°©Ÿ±ß!!BºPÈêÝˆ‘Q‚2•¤è´ŽŠ“`–T}öÅ|½«~õ·Q¼#^;Áðà‘Ó0>›üŸÃ¨Ë6=×Š3²Ø8ñ4:öo–í¿Ú8ÀŒ´–Ùæ.¸
+î~ïûÙòÓ¯çÀƒÍð[nv¾?ýúET`Ç[ÞÌý¿òÎe¿oA¨èÒw„`ÿ-·rÛÕ)8pË­Oëš|3ÛßÊëž½Î¿)àG%Â(|YR"ˆœGé[Tke>h‘{gñ„µ˜$FHI‘çˆv“Þý³Œ]w%þë‚½ž‡IT””Ê`$¤	ô2ÉÑb¯óˆMù³|Î{f0ÄÂRS	&‰M4›„ÆHÉöZJ)s†Ç§#l¯RŠR8R›å	^GAUnØÔÈèÔ9kŒ#rËAg›Y²š¢¥
+&Ú	]$ëëZÊaF#N¨»œÂ+œXë«m-Uuû](wþ×{¿ÄøHq!*vxY9ùÉ†C
+§ 1‚¨Õ‘S]ì0C$5úÝ.¶ÐÔ´dz`)zí‰Ò:îùaîrÈaA”e‰d³Žö}œu¨¢D¤1‘d€´ï<E©R8¥‚(Oš«Y!ÃFÒ°ÆžåAõO	Ê™¹ª–½Æ3?Íì0G§5\¾â×H‰û3R×Y£B7¯AE	ÂD¨4EDq€ù•© ýªÃ—²bþ—'+eð8âkÎÂþÿôCpuãÕ<8x˜Å×áIíPžÎÿv­úmyãNÙ­*È>6ž³4Y/ÄÂŠá[n]ìâwüË7ñŠÇ¿²<ÏÍvNIæz¤µl„± VÔÇvÿ›ÿÉú|Qb=8çPZIL.‰µXº’B€r”Æ9G‰¨fò¡HÊ€ÄBáÚ5†<ŽÚô}è¯Þ‡ž¢ôŠé(á±Âq8õŒ4%T£ìÏ=Ý¤£ktêc\a
+”VÄZ’KÍ#qÌ¹£.ö ´¦í2¦½af~Q%s/@(‰¶Å¢ñÌBôò’&‚2‰pæÔÎ?ŠnŸtì¸SŒëQÊ‰0W®Àû)@:_!ü¡—SÂå<Y™øhÒ¢}‰¢ÄKºüªð€)Në°~ d@c¼Ã;KTäÐGöÃÎy?'aýÆÍøòßóÀ!Ã¥×bŒ¦?×ÅÏCÕZ^t>õKw2øD(ÎÕ‚Ò_ÓL£QaŸ0‰ñyÕy[xlÖÅK…µŸå¨$Â9Ã"³Œhd„Ò+œuáŽ§œ
+$µn9@g}úEŽ<Ž|Y½æþòäïk1¶S†QÂû*q=èõ«°Ò'$ Ã6Œ´È‹üŸIW=)@I|Y’¬?NíÐ«N<8×9°ëlò.bÂ\	§q{q?Ppòv²Ôãì‰€…U¿¥$¾ç
+†Ÿü›¿]ì¼ÍH‹É¿ùÛo+ä_Û¶eY×ßßw`1¡³æf`Ç[Þ¼(f;ssøà‡éï;ÀÖ%?+g;Üùº71~ãµË®ß9pé&À?Õä¨wg=ä9N)¼u(£‚i]–á&%:TËŠ’Œ0ž6„û—m6¨'´Bo¼ˆ‘× Kƒ1•ìzìa¾>vegK¶5=Q³É¡DrÞºQÎI$Ú;´Q¬e[6Î¹&&kÈ<Ãö3¨±þ±ÝÕWD ¬£–œXb¡k4ZáÌqzõk’è|ME··ì±²Ó%IG¡ô™)0ZÒÐX‹r©)\øŽJgƒ:+Û"8%V‚mˆ ˆ¼Oémø.[ r©ï‰s>ìˆ%®,•”ôòŒžrh›“àðí²´Abw™f÷‘ˆ46(-äpôÑGÈê$#c$õ‚1]W±ËZ!c$W–Eølˆ0¦ú<x”sÈH30€WÊ’Ò9¢¢„±1„ø¼£ÉËj{˜–¬]3Šáñiâ8B!Ði„XaSëG[Ó]8í|?+ƒº¹›ž@Hæý:bÁõQš$ :ÞVæG•M¶•ª¯Ç»_a÷ßYÌÄÈÕõŸMþÏ¸éO¹¼vx‰‘1¢p$ÿòbÂ_ÝéÜŸ¢O¿`T³’˜ö\ì‹³v¿÷ý¸åV.ýÝÿð´ xúºýO¾…•¾ûßö®Sžsà–[„…c½êæ÷¬ºÅ°püS·ÝÁ—_þz¶¼ñ\ðŽ·aFZÏhÞ¿Ú¾þ7óºo·-³Ï‹Ä«Ï˜p!ñ¦Î¢µ\„#)Ë <ã? çp((K¤Ö”ÞQ†hŒLJ:´/¹{ÏAä¤2ðžk×¯ç³H¥ds^b³ŒG¡ W1IšÒ¨[Ò´N$ 65€tb­Ñ	ú"BÅÞ}cñ¢N¼Œ”ˆ"l@O. ßëaJG’$Øá©³e‘ÄÌ†,íµ\7£¡5sƒ=ë™Ç°Ö—¬uÀ0£Kö¸½CJôóEøw©h”¯4"RÁ-O*¼6E ž‰Â+…ÓÕïã‹àvLaÒh²"§7è"†C¤6Ð§ètèMc6³ˆŒJTçøÜANtrÎÝ´ÙíàFØtµ7ñ¶F™@²–â²Y¯!J‹sõˆ$Æ‡©…ËCròeIžjÒbŠ¯ÔÉ{•VèÄ³~Ëê#mó=|½RáM„_’äE1Lj±8³aëPIU«¡LÜýUé÷WŸE¿ø¥
+cø6(…/ÄÉï­9-’ÿ}g“ÿsÄ× Q!Ñ;ÉÅµ˜,?…ÃTéÿ¤ûøÂ|ð›u’»óuozÊ×ßxíÓJ\Ål‡¯¿é­ß‘ëvà–[©UN}«O1Ûáþ_yç2¹á«ØOÝvÇ)&>n¹•É¿ù[v¼åÍOjð³²ÐZyO´!ðT¯;ðÁ39rR)ñ¹¶÷õeˆi¤à ”2Hô–í*Ó-“Âç°®Dy0­¥ënˆ°òVo®E¦'(Gk`=&ŽIE‰ˆN˜ðXQ"µBK…R
+¢f“´Ù"m·Iï›!X‹Y£s½9jã£4½XR´RÈÂ™ »ÇhÁ`ˆ-JTŸrF3_,ß3Ÿ¸fÌCÅF…eÊC×+ÚR+àJ£^ÉðV•‡‹Ö¡ßóJƒÈÁhDÍ SCTkáMÎBlÀËP¨X"¾DH&ƒ°?ÐÒ‚˜PP9è‚T8´”ìkÀ‘’™™9ÚkG8t­ÁÌñ.-å!Öt¯¹€µ.™`óÄSö»ÁO¾"ü‰¼DÖ’ ÿ¯Cñ$“‘Ûês:{áYÑÅŠåÃ¼»¬6D³ÎÀ—ŒÕjÄi?âdÀ–œÒø%Å—lÔÑÎÑT¾ævþÞ[„R¨¸~eê#’*m L´ðÄ@øS
+· hËð¬¾GÛf¼}6ùÿS%×³%9\µæQá†'/âÁ'«„,LÅ)ÀÓ‹'Bží×<—þ“%ß'ã7¬tþ;pË­ËºøÁÞƒô÷xÂÂæ©ÖûžÊùï‰~þT¯{ºÃgö’«YY†›–µ8<¾´X©C®—ªŽ^T)œœù¶DkHOBâ… ®%óƒyÐUW(Þ{lcúº>ŽÍ'ñB`­#V‚HKd©ˆ”@ÔëDë6O¬'Ù¿‹¨%Q5;‡¨ÕqkÖ’Ï‰“]•"tÿÞydá²§$i£†ëÈr‹O½EÍä£kÇáðñ”Ò”Áì×ðÉZLMjÁX•ì½uDILT¯­%QR‚(A€’%Ò—8!Ð:BÄÞ{d^Ò¤Ð¡Ø•¡Kåç…ZüŽ{©2$[XR<*©AÚ$+JŠ¬‹NC©¸|Û.ÊàÎGw3’^ˆœ¨Qfžf{”|ú(µÑ5´6¬£þ“¯fö£ŸGD›y' 8¥Ås=DãŠa‘ó8­Ã,Œ-\†/í"a­ô
+¨—aWÝ•Õç¢Y£3ÌHê-ýnc(…&Ô6nIò”ˆ¬\ü\™Ù¿*ŽE ñ‰(BÄ)*N‘q¸ ¶woï‚„%bñœ½«¼­#¥0cõ°èÜwòÌ¾q6ù?quíšêCpÒ÷^²>^Ë£ùyö1,56¸«UŸ2¿è¦ýÔ_–o!8“üéŸ	×àL:¯og¸<Çûð	‹”B+É	[à½«´ÇƒU‰r|HPÎ;„ux)¥¥–(†e‰±.lHI,$Úˆ°($VG²+)|×á-‘’DI„Í%ÂP–øá #AKI^”(SíI;ƒšúÎ½Çç&"i¤”‡ûÓŒv]
+À–Ê’Z#Å–å)×`ˆ§!—_“#½„YéiDhAîÁ9‰ö%%”¬f¹nq~«=Á×„vx©Â×¼²×õIŒ°Ÿ—ôÀÙ[”•±kUâ;…xWR¨Ôb!°YkãJËÄx“‹.ßÈ_ßú)ÖŽOpåæmäÇ£“˜ãGŽÑ(ÑÈZŒ"Ö„nr˜Ö0A˜÷g9*MpÇ¦ðq„,Ã_ô-Â(T7G&q@'¼Ãæ-`¶×	>Ï°È‰mÔÂSaîØ1°· z¤årØ¿QG”ÝïŸá_":ø"Ý»	«~B„Ï‡Ð¦*K„ÒÁÔg!ñ/8þùPãÎ;Tª0ã£ä+4)¾ÃžáÌÿ¬¼ïÓˆ¦¾€¶G,T€KÀK¼äyéU8Ò*ñ+h&W\^qöBžo½i©ý‰1H!ÈY(5Ð¤s‹…¦ó!Ô÷X~®MŒG’‡äåÿŸ½ÿŽ²ìÊÎ;Áß9çÚgÃûHŸÈLxïÊ«Š,VÑ¨T"%ÑˆÝiM‘Z’Ö´¦µfu«g4TOSR¢4¢DÑ‹®IŠb‘Ud±«
+eà]	$Òg†ç¯=çÌ÷†ËL 	 É8Xùâùwïùö·÷·¿­A)d^dSN0+ðr‚ BÖ¬CXQÀc4¾.UrY‚îuÈ×—1íBÏ)r¬Ç+6WkBP}ßÁâlè´±ŽCÍñp\JU¿ª†º+²4Â®lõ³aH»»Mð§5ãvžñšO/]„.„åÌa,JtYAª]_¡ðª¨õ[[´îIY¸
+QœÃ¹.nˆ@(…v=Œ)TöØ$6K,V á…Là¢£úëäYÎÅ¥ˆJ ˜n„Dý„,IÈŒay¥ÅâÙ‹4Â
+2ñ³âƒˆœ8È<ƒ4Ã8.º; ßÃfã(²8ÇÅD	¢’õ“20J
+¦Ÿõ–šeÅ1 žãM¨\â-g×™-f;Ð×+diŠì¾»ÁßšÂ)‹nŽmmžX³•(ký[å[x>l°{ÇE¸.XƒŽûø®Šÿ?¾òüò\Þÿ×Í¹ÜS½¯°ñ¼l)5AÍ©0êÞŽ$Áâl¿Ýä»À¿»®ßr<‡~“eY¡d×Å†nÐ B¸--l­ØP+Füí$Gú>J”R)qŒF‹Uc4Âšè3R¢pá›;€Í2r'·RÇA÷ûäí5Òå„µ
+J*tš ÝÂˆ×©Tñ<S«Q›Âœ¿„	C„)Òœ²¶ßŠ"dÉ²Ïc_é¥q1ê06;»ã:wx„‹k]|Ozª`·¶`½KžYò2u[~ƒP \…Fæ/Ø.EÖëcÓ´ðõ§ ©@!1Vìqc¬í`Æjˆ"Üjˆõ<Ò~z½Âïù)¾ö•Gù»ßÂd£Bœ&Äƒþ&ÛôúÔ<nÀZ^ ¸Wq±Ñ€<Í±y†QÓëCàa­Á¸ŠŠN…” êUl4ÀÒY‘Õpœ2óƒ±˜¸¨ùË©QFë£¤ƒˆpÃ®VAŽpt?ÚÁü£A‚|+ýË¨¸èÑ¢ ó4) Ÿ-†¿–‘Ýp:”ªèš(ƒ[!H›&¸£Cïš”ÿ.ø_Ãš÷ïÅá&s/·ÑË"ÅáQr1… Û ±Ëþw×õ[B‘—ÿž(zæ±W9InJÛ
+>5è<Çƒç
+„ãà*Ïs°+¨!Öqð”*6YL9SJ ¥¤¾<Àq\ðúiN?MHµÅ÷\T‚ã¢Œf½Ýg=Õ(ßG*‰t\Ü°‚6†¼:Ä­Ÿ>ŠwÓ>Lm´p´`¢D~ú@4 œ+ûü½4fÐÞYB
+'*:¥mq%dÚ`ŒÅ·¦ t¥I0ºØÀH%p§¨í[:Ç¦	"Ë0¾‡Ùð¶·<©¤F*dY÷ßØJ­)âqL6è°$Y‘®÷ŒÁXŸWúš™‰!D–°²¾N’$Ú-2Tk ikÏu‰ï8„p‚¸OÍ&X#°YŽðœb¶@*#ß‡¼Èv¸Æ ë5d]	qŽð]ÒÔ ….˜ž£ÊÀBŽŽ²wÿ^zQD¼ºŒcDÑënGÁÍÕ¨Óê´±ïÒ‰~›ØŸëbpÓ†pÏq¶œ•S¨ÿ…@X[xefGQŠËî±‘ËÐé otøÏóm=óFï°þ¯µÇŠ&7Wn¹*ëßè¤ðï ¨¸
+,²¼ì²ÿÝu}Wškµ
+ë&)"zY2}S’ÑT}êRn‰Ó0W
+Ò2}™gyÁö´)êò¥ó™Õ!$J,bl”ðb/vH-ÄqJîûôÓÙï"LNƒ6ÍQ•:2¨a„×C:.wxœêˆÇÔ÷ÝŒcs<SÉÊ´bmá¸(©°W9mÔj‹ Ý™áÌì Äô#M;µÈ’õo˜!9µšb‚%S7UZ é \¬Ä¦*O¾‹uŠÍ¾hŒF»ª˜w›c-E]A"¥Æú!¸Fg…³žT´qùÈ{îáö#3´cp}r4ÂZLQtÁ¸>½•elÜa|zŒÚûï£µÒÅZ…”¶èê ¨ÅKßGKî¸X-‹4v#Â 3È
+ñfž#³¶H_T
+“ c6ûôE½ÆäÄ$ªÐjõŠ`MŠ"ð;?|o¨V¼Æþ»<íŸm4R)¤r7ûø…rŠcc£ÕoÃÎ·LûË2+$e)–Õò›Ä¸Ú.øß °À­Á{6_¼
+xoä¬ò§‘r‚‹³ÉüíŽlÁn°»ÞÚ’J‘$	y®ñ„ )ÙyVô!{J±øª0ýI´F)åJö8ËÉKV“f	Ð©Æ©Ô±JÒïõŠº¦Rˆ¼`‹Òsû3D%OH³«¾±8àŸ~í,_xaç/vøãÇÏ°%6Ã^z3è ÃZaSÚ¡fã{ïäžå³˜8#MR”_Ôö[ý.fÁ <é]~¾A4ˆ¨TÃŸI²ÎX%ÀAÇ@f,nˆkŽSÊóËMÂeÐˆ"+€S¶:.Âq	ui¡,dÙç­‘iŠ0#œÂK!ËK (5 e£* !EñÅá„>s#u\' ¨„¸®WZŽËpµIÖZÁ
+E76tÏŸFÃäßø.–•O›Mš¥YþA¡=0Êàä	ÆZL/BT²^á¹8:Ã>¹TÔB›‹L·Hç*CãÅ ¨¨…$Žƒ•—ÁC³QãèÝmíkÒ"³$§ïmÎ¶®S}Î¦¯Tµ™QÃš-! ÎqêÕ?Ï·õØ½Ã®Úÿê±!¾ÜÃ´?[‚¿½ðwê÷Å¶¦¾Ûƒ[x|°Pvü+¶ZÿvzƒƒÝý˜w×›Z
+Aš&ˆ ÀÍ4éÆF%‹Þÿ$Ïð¬%T+
+ÿzc-QœQ5†Üh„£Â0ÄŠ¤š,pŠÔ±ãbm¡Ú—ýnn ÏÐÕnÜç3œo]Œf\\³<ù¢ÇlGQ«
+–×rn}¦\ËÐ‹/pð¦y†FP©…ƒA„œ™ÆŸœåž—¥#«dÊ%-Uý3÷ñL¯H+w{=j#—¥R}ÐèvlÿKÔn37Öä´€@Iz¦`ù¾ GçÄÑ€Qìí”àoŠ¯Eÿ:é ¼ )%Z¸X±6Çf)QüÍdkl¦‹–?I’ŠÙ:7HßGWêØ~?éÒïI‘{B–b”K¯ßC´Z°¶ª	&'¨7¨ŒÖh./à&q‘Ò±–TZá{…ß¿çHC”:Q©`±ž‡è°•
+iµÁpÖ‡$A›Ó-œû¼‰aFjM/.ãÅ	F€cÂQ[öÇ]³QÌ4è½»Á_÷£M!ŸªŒKÌí{ŒÞq½E'GƒŸO©°y†jTþ¼ÞÒÂ?›^øø.ø_ŸuoõÁmé~Q‚øÆð«ç „UŒ»jÎMôóg±zcS†â÷þï®ÝuÅæ•¥TK¡M3Ò´Pé+Š>ü<EA–C($®0äå·‘¾ÜPÁK!1R"sM»ÝÅ(‰†È¤žÏoçš%4§¾ú(+ý˜8·¬›€^+ãC*ÀzÕZ…¾qY¼p¼µL«7ÃÏ|µÍùÇŸä=·o\äþ$Ó¸¥à(É`|/“£/`XÏsœ°`ò—ÖVQóE‹Ûp­B{Ðg»}Šu\,•m„ï„)ƒÄ CAUÇ‘À|«ñ¤ ÛèÍ·eH.BŽ‡Ö´°¶‚ä¨Â¸ÛXÒ98^,P”CL^¤{‹Z€´Ø<Çè×j¤UPNŽÓÊCCE)l©"U¡IÈ®Îô#| Cd±Ð¸éH-
+£ïˆÂDŠ© ®Sö	«X+
+%~’Ž„QŠ©U
+3 ±€áfHÏ­ÑL3¬ÈNøT&'ðª!ëy/.mV%ËzÖ½f•~kÛ¼«ó—i«ƒòƒUáfh4ÖäÅüÇ+3q¡‘ª7†;I¹%¢-£B›g8õú»†õï¦ý_e»wPSC¯›¢ß^
+ØJêKîoÂŠf	úª¼ì¶þí®ëÄüe^Æk	!ZinOá¥”E°šæ9JI\·ˆõc+É¬ÆèœAœ‚È,ÃØëz˜¥U¢›ò¿õ"ÿê7~™kXEqny…•î
+N¾ŽOWh<W“ö–ƒEÜ¼…ëXt®9rô c³³üá“]~ñëüÿñëüû/=ø¸&ú(áät1
+7ÏÑ%«4©”~Vks¸ÍfÊV)â(Ý{E]ß$}|×!UŠD[|Ž€Ç”+ŠÖ“ØdÁø¤±›‘ë2õ+%¸ë“¶˜ŠW(ùeQóµi5Ú˜¢ÿ_çEi@y… ±8RâùÖ«²jVNž‡Õœ¡1ú2 ×1BçÇ-Ú‡uŽ”nÑMà¸ø®ËÚÚVgH©è‹*H0yV¨ÔËÏÇÚÂô)÷R-SŸ8Eƒ‰S„ï`ã[­à)EJ€5­fµ…³wŽÉ5—Î_@%i!|+åeà/†ëhxWõ0ƒá%0k(§ó¹Eß˜MÁß†P–›þ›¶¾ÖÚÂîWHdÅßÿw÷
+¹§rÏ¦AÊå`-^´EÙ÷(—)÷‚Söüo‰ÿä®øow½¥%¥ Êr2cF¨Â—\ÒQ…ŒÈ2]í)…e­V(t]„)Ëã1‰É³>™µØ¥Uþù+¹èôùòÇ>ÉÌÏ3l[¤½³È¬‹N{$ísÄ%'$ÓÂQŽ‡%¥Qba)fy%eb¢ÊÔ¤^µäy‡ûÌÉ«“¡ŠÞßÇ–lÖm4Y<s
+€¡°vE–,'$J¶"ËYè	ÚIN¬-’Ì››°;ˆ‹ºTl=Ü²¸QžaÓ¡-¸E­[a‘YŠE!|#é,:àÈuyÚ …B
+ðªk‰eítÅLWðê}mÑŽ‡È‹a<‰¶¤I‚ë8}¬1´»=LFˆEÇ’4ÇamaG«‹ÏDÛB´i‰T‚,ŽAk¬Rˆ<C»6MÑÕ
+iœÒL—‹÷áAœ™€Á€|P	êÖ"YL
+ô\ìec“EX!Ë-ò*óÞUà§Å¨âàÆ”“û6º7ì–JKl´üÉBP)dQÊ-ÚË®€2PïÏë-=¹þ×a
+@‰âK,Z;®…ý_Öþgw„û@L—â¿æ/.Sÿï»ë¯,Ïq·°ç5oSnR M‘Š6I\Ô&EÑ†æ”SâØ°åØØ’ùçñ€LH$–þÚ9ÚË'xz¬Î>¿À7Ÿ:ÎèôMÍÜÒE*‡#\'ÀTš3è,Ã¤1ƒ~—ÎÊIÒÁ2Aè…œ›ä‰Ó‹üøü,RJÜÀÇZHãUªýWºmæçç‹—™e’}þÊsixaìHû{¾@'I1‰(Å÷…ê?r[N±Õ·otæRFC¢0~Q¶pìÓ®W¦Zl‘Î5Ö
+Ï “¢8[LË“Š8“º6bªjQÃ£\leDý¾IQ^€#™ÎÉŒ%×†d}‘%„aÀ Ó¦Û \“'Q|h[Ôâótk÷1›§¡ÑiñYYå"Ò¬˜è˜æ¨Š‹#X#´Ao†"íöˆ¢QB$é(¤Öh§˜¹,|åHdôîÿ¬×Ãfº€7>‹iŽ%›/,®KvŸ¥Å÷_Šm97Ã–3ÖŽ®*øsÿ]æÿ–•ã`x„«ö]û;4ýGü[7Þ¢v»kw½ÙeÅuŽ£5pœb.½ 0ú”E]Ú èÅ9J)B§”øX©\Œ6˜Ò§\d9õJ#%ªZåÇ¸7oò÷~íWp=ÅÏÿ¿ÍíÇŽ’F?ŒW›E(¯H¿´Nõ—šûð3¨²U,Ú˜l€ëFBŸ3£|ö±<wü$ãs3H×E)I¿üÍï™c½UÌ™ï÷ûøÕ
+j¥b²âu—+1)cuÉHÕGI‹’ŸC#^éè–ÈBÍml¤‹ÔYaÊCiúâ¸åTÄ¬PD)§Pô#±¢ð?p…@Û¢£¾‹\B2·JÔ0hÜ¹*‘ð9õò"Ý•.²B‹$Y1›Á«¬RÄ½.Y·ƒ‰´2K¯ÝA\­‘:#bðürŒoÑ^Lš’šÂŠ·tg Í“b˜eˆZå(zYùý«Ò¾v¸Žã¹´Ö×È’ªÝÇfš|q“¦°º¾ã³Ï=†w÷D?(:¢lÓ©O”ÁÍ³-óž€ ¸GÑiQÙwÇM²W¶ªbFÅ;¼–¿{õøÙ7sÇ]Áß¶ugå}`ÅÂ¾MG§Ë`ÞnŽø¹\X¤ÿ÷#œJ÷‘š“X|¶Äró×êû¿»v×Ær¥CžçÅd9Sô·Ý*§t™Ý:²Ü²†™æG<? ï°ÆéWIl–ceœ3:Äžg^ä·~ð¯’[Ë*š/]à›ß|7¬SoÌ÷Ê•hu[H¥0Ö%Y?E­1Esæ^ Î[¨@±Ò^a¨YÅD)?ÿÅ'ùß?}ŽR®ƒô<°ÚnÓ;Ù¬s.ŠØ>Ê:.¤É6óëH²()tR’I±¡ˆ‡‚ÅK&d™&›*íƒ»Ùæe‹óSZ¤6 ·ù¹ØÂùN¡J¯D…Pë{$Æ¡*úû†µ\A}Œ(2ÌÔbï,/®®b]¬©ƒÎÉÒirŒtÈI–&Dí6Õ
+jhˆ¤×¥'*ÕN5$‹c„ç’÷¢¢Óš"‹ã……+a©DÏÓeMÈ¤ºÑ $^oµ˜ÁÐnÕë(!Xí´È{=\bl15†˜GÎOÐªáÞG>ZÃ¯!Ù»üt’a²l“áÛ²Þ¿5°ÈnÅ
+­³²­Ï‚Ö…þbô¥@ °Yá½`’ô|+O¾Ù;î‚¹jê0ÞÄ«ú\Îþík b3 PÜÞÌ7ú(:‰ËzÑí~»­»ëÚW:ˆhA.%ð(&ö9åOaŠinÒX„*RÛ‹¡²,§o4BSõ “d´ºZhDè8Aµº80ûfù×úêCÃäY›ÕÅU’AD–Cy`ÒÁð•ÆÖ*¾‚
+ísÌÌÏ‘e‚n»CÇxh©ñê~ã+Ïðß?´·¨¡jM”eø€ßh2ã+àQ§ƒÛÜiœ’ah5¼mà?ù¾;h=ù›d£s%É…¤²Ñ†¡\E–ˆ¸!leaÎ…ts7 )ÚHòÁ_Yç'×L"bŒÂX6Wh\âÂð§6N ¨±Ðé“EK8ä`Y’âË¢½06…Á¯ÖiNÍÐh[N÷:dƒ¡Áwd£†ÌrDèc’X]¤œMè¾"eÿze8IŠîp!Ó1†Z»ÚÜ‹S­Qyà.¬Êét"p ý¿ýI¿O?É$	ž'ñL3^"ö$C^H˜&ïî‰~ÐëMïŒÞòðßpÅÜð‚0ºØ»K‹_kÌ6­€)'ùQÎ
+(¤ÞÙõ¦§Ÿí‚‘@ãžê× ü¯ \y„	FÜ
+#î1ZÙãXÂMæ¿Ñÿ¿Ûú·»ÞðÑjž[8‘i­qµE¸ŠÒ³\þôNÙ£œÅBG•µnEŽë{`ŽØÞ §¸{§1+J)Ô7ãì™ÆüÐÇøÆ·'¨K<O‘çI¼*ÀZézxµIê#{±:EŠ>Ò«“»Š¡:²Gl$Ež	„ZÅåÂÂ?û‡ð]m‚J…ÁXÁïU5àâK/p3Pu=’Ëë¨¢H»§ÛÊÑ«g^¦V­lÞÀØ‚í©°¥HOjSÔé•,=~Z
+S–r-[¬+@[d–!<‰q}DJ9ÂW"È±&'5é¹`=¬upaR´• ]”çŠI¶¶Šš„&™‘kKÇ¸Ö sB0R«3Q¹˜iêyŽÁ tF¢6ËÈ’%Ð¬#³Y«"3]” ò¹¨À¥bÄ±Óï#•bäà^Lfqî¼°QÇŒÎa¸z ªê3Ô§ÙÑ|þ¿ü6‡–´mÎøb1Ñ`äÜ*Ùü)à9À¥Ÿüû¸Ûí~ßÅ+Y['œ¬nÖð…ã"œŸbZŸµ«·òÙ¶kÁJ¿›gHk73nïàzìÍÞqü	÷>BUóJþ«¤þ¯	®ãVrop?ÉOƒíêáméJ[ÏÝôÿîºÖå».†ˆL@SšÔä $NÙ¬l! TJjô8%_Y#ÔCŽÄ¶:Ø¡&úàõñ1¤Ð\Ø7ŽüÀœZ]B$-î_®àÄ•Ñý(à×Am†~7Æ‘’Šç¡¼6OÂ%ôÆé%ÐÏ¤6 “:äZãH§$Z[ÂºÇï>·Äwß-å1¤$9°Òé0>\vögšµvwGÚß(IÖë“†[c{j¤Ç3T`1l]‰FâRôÚg™&7f3p¦°F“ë]²{Œ)Ôò¢Hñ›RYO–7ÈcŠ«‹V1å=£-2pkUt’Ñ[Z'­õð­E»AƒŽˆÒR0fÕzšçÐ³Š~·ELŽ‹U!R@„x± Ó)¶ÓEc/- ;]ÄÊ¶Ó¥Ù¦ÑÁý®âKðÝ$oÔq¤dye™vœ2X¾€èÆØÕÍÕæ‘gø©±>?ù“?C¼|Ž©sk˜ßû5&î¹»°ÌäÇÞƒ]^cSné{¬,,¢’ü†8‡òv&Ãâ{–¢4ð±›cz±¶œ;a6Ç;`‘Q2:+öðRObÞô×x‡×·vÁÿÍ.Qç®ê`Ôð½£ß ¼~úƒý;Êawç’¯b¶ý±¥Dpôw×µ¯Aœàp¥@[C’F5»iWjº=èô°Ëkˆ¤ZžCøÑ÷×<¾²´Èì}{x)êÓÍz4WÖðöÜÄrØ`þô÷öôÊ<ò23SÇ#^¿ˆ˜Œ^«‹Œ¡Ý„hå8¡¥Bò<ÅÃøh…IÊ@Åx®WØíê‹A[ÁP­JìTøÈoýÃ³“üö%šã#\<ñr™¾Ž7çl–<„¤æúôËŒ€;6‚¿~’¡¡¾4¢pó+Ï0i-Ä¹DZ‹0¦PÂ[°Â"„)Íó4h‹•áHÒ,#7ä9F+Ð9"ÏÀ—h±%î5&/<â}—8²´;	ŒZ¤IV£*Ur¯J¼¶Æ¹n_9LLŒ“*…HdŽ"ÍsdžS	ÁÂâ"vÿ8Æ¯“[S˜
+%	ÁØâØM4š5ä‡BüøãDƒÞ]·pqñâüyÜåU–—˜ùÂ·8yï~fß÷á×Ÿ&|üäø0ÙSÇÉ>vˆ¬Ó:}–ÉñYœ=)brÇX¼©)’'_ÜÚû†êDÝ>ÕäÆ`þº3ÀdÒ-´½éÛ°©ýØ0Å*Süe~¿µ)n"Ö$E Pú.¼ƒëlÿ§ÿ?üÐ'vÁÿÍ¬[‚÷"„z“ø»¥}õ @€QÜÎq!›s‹ÇVí§éïn °»^w]:‘Óýƒ”¼Óµ6¦ÝE
+‰:¼19Æâ‘YÂZ•/,žg(°<ûèã‹<ãâ'{cÜb«4—Vù%Ûc¨q3c¿ò_QÍn®ù©z'^8Îh5ãÄñxA…F=`z¦ÂhÝevï'gFYŽzU…¤ËhÃã|•Äq\,M†ÎóÂx¨TË“§„ÍqÃCürEñÀ¤r|u­Øœ„½Âä'‚ hmlâƒˆµ\r°ÛâŽÃ|Y@Ö-š[Š¶
+VgH¥Sèâ -d1{S[ln1¦wl•.[¸S,9ÚXÈtáð‡Ù®2é Qfµ•ä©Ä³ƒÁq¡²µî!Nn²B7†ú¸‹ëº²Y·ÇÒê:ý$fÂ•´¢œ©šâÖ£G;vÁäí(E8Jü£?„‘hÃÅ‹—ðÓ„þêÝ§ž$¹p‘©—.Ò8s‘µááS'˜úÞÃ‹§ð?t*7Tpð¦Æ±•
+zr”ÏcÐia»}(IÙ	I†A·¶&'Šj…8OãâJWÛHkÊ±ÌÚí6¡ß&à›¯UftIKË_J=HfÑƒwôóùÖ[¹ó_jðwä,óÁÞ+l|¯ý³ã~— ›äVpkpO•¾ÿbûßzÎ]àß]¯¿ªž\ï£Y»}êi†ºïvš³Ó¼ô¾ÛŸà‹'ž&µ}D¿‹Ó]æXî"5¼ÏçQ2_k2ùè‹ØÑ wˆžzsËGÉ¤Â›Â*…§¹é!Û}¢~„à}wÝÂƒGösç¡½œHáøŸøÇ?Áßþg?Ëjkz¥ÂêÂ2ÍÑáR ÉµF ñƒ¦Qa,~Ø`æÀm|öé'xÿ=ì‰cfffáÂ	tœlmfŸC|ÐgàYT½†îöPÜÍ‹£CÌvZ4ÇàXMàD+²(kP&/<”Â–yF*ŒØTcQ°9mÀD£³˜,+7ÿ´d„å47ã… ‹ò@Ž ÏÒ‘„—ªç²ÞëÃ°‡ZgNÐcÀÀH”çÓY>Í
+]ª#“OM³w|Šêô4£õ&jtšJàRi±¸Üfi¥‹Àrná,C‹].,^dâ©—‘iŠéÇTÏ^¤÷½`²\\†(Á›™@ÌMÔê¤Râ:†ÈST»¶}lbD1nYô„ÛÙ19¦ÓÝÚá4Ñéßà¿¼†*ä½ÖÖ.mòmü¶jû¦zk4¢tÏÜÑ E§Iœîüö¯GÞþýeÞD¨¾¬¼*¿Ú²LbÛÏ×Ï¬•ÌxM^Jn"ÒÏmÿm°½YØv×k­ÊÊ*êà\×ååï¸—sƒˆ?5—¸uÌÅ,/óÔùs|(V,¢Ù~…Ä‚wöjnŠôéãÌÍ‚…hÀT`šUdàâ‘Ä‚~ÜGH…4†¬×ç•‹ÇÉ*C7ø‘¼—O~è½Ô+!žTÖb.ž¿Ào;Ä?ÿ»?È?ýÅßáÜ¹Eñ4cPÊ£ài¬¥ujyFH·8/DJ–[¦&'yæR‹†\xù7Ž±TÂ TÑP±7×(/@øt!zòy ž¸e†o½²À]ÃŠÃät­)<Ø-¸2¡0R–àoKý–@9d`S•ã)T’¢Ó„LHÈ,V–¢/)ð­-¼¬@£@9U!,d1
+ƒéwè]:C¼çÙò
+ÃSuÜþ ª·Êß½é.êžËÄžäŽOPŠÍV[ëdýÇÏáä³óþ{îæÙ§žåðÐæñçÑÿù³Ì}ø!ìó'Q³ä¡nÖ†è¥-j¾‡iâX‰¨èná:d&ƒÆ¦Ó/„m½>yà1qp^­Î`iÂìÉhr[hB6–¬W	”BônðO–‘A:ë›)ûBŠ¥Ë>~¶ÚA7\þX­·Ú;µÞëkÆÄÙ;ý6{+wþKþCÎ­Ôá×ù]ÈßŠ ÃJî	ò•ÞY ÙÖúgv”v[ÿv×Õ–ªU™þô'X¿å _Y9Gsd„õSè’ð£f”µo½Äè…%Ää\ZäèÌŒ£¢Ó¬A­‚73IèJ¦†jÇÈ(FF	ƒ…%¦ê5ö‡è•UT%äÛYã/çž~ˆ¿÷éO2Ù¾Hœˆ³¿VÁI#šÒeýü):4Ë¯þÃ¿ÅÿøÓ¿Äòâ%f§Çèµ×p“ c5q»GÔP©Öˆº=\ÇCëœ~¯Owé,CsÓ<ºø4s­%n–‘¯®Ó¿pqø‹kŒ·"ª“ãä+k[àôÐÖN|•pß|im‰p`iú}”1ÔE‚¯b¬´ÔÓ>Ö:xh,^
+Tº¨î*!=Tš!¥ÅQ!:x¢‡-SUµ¢ËhÏÄÚ22õ‹àD‡ÚÌõ¡Ct’
+ßóW‚Fð?ZI^B:GV[-žyá¼~‡'N<‡\o“ô»º¦‡Neˆ#ßýZûö`Ï¯P7(…mâ„ì›Å¹¸•‘–B³$ƒªÔ92ð1QŸ&Ç‚íp&ÇÑK+ØªƒŠÒÂà§Ý¡ª4 ´.ž'Ïv|î²ÑÀ“.2Žoˆ)Y\)ˆ_)èÛô|(]û„ã‰€—r£/n+­u™1(DÛúv¨wÁÿÍ`0÷Tï»
+ë¿:kßLÝ_Cðª·G€Ô)ï–Òo`‘;ZÿÌ6ÀîÚ];Wí»øÜMSdDˆzƒ¸mÿ>æG´Œ¢¯SÖ€$ÍÉâ.æ0Žã²°´L%II•$~èVÂZ…¡F'ªB[Až¤Ô8Êøè0qqé¯|‚*ø§ŸáÃŸúN|àa.&9ÏµzTœ¡‰!ln±cÒ	ùv»ƒ<·Âx³Éýw?ÌÓ§W¸ùÖ;Ÿš Ï$²”=û÷Ó›f¨^A*…kIÚgzfš™ÃG9]¸(CÞI`ý,EMŒ<H5×,]¼H§î“xUœÛcægpWÛ¬ú9¿ýØsðÀíÜü‘08·È}ñFCMB5í£Ý†hñ_ŸöHªï¢D‘ÒÏŽ=À	{+—^&ÛèšÐçŽ÷p|°ÀÊ¥al¥è@p¢ý£÷âÕ^<€úÞ›©“'	Kýˆ_yâyfïýNî~ï'YN*Nsí˜‹g³|úIâ„“'NpçX•/¿t†÷ÍŽÑi'iÄäôkJ’ôZÜñÀÝXGÑ´q;m”ÎRƒŠcBlœv¿iŒgl’bG†P:ÏEÆ¦RÁk¡{]l ®ÂôúdÍ|×C(Õî@X)¦ÛébV@($Û¡ÌkTÐ‡Üà¯ûLjKµ¾é°³éº$e›V¿å~/7¼ l!0k56ÏÑé;úÉ<ùñ•ç{¿ýk¸þodðÄ•Áfý¯–	¸ZêÿŠšÿÆõVqW¸ŸÏf§v‹[‚þ®øow½öê?ú÷ÕªD·BŒÖ&é+A»ÝÇx>SÒ%²‰"¯“·Ûô¤àÈÈ8¹£0¶pëçš$ËŸ™mÉ•$Ï6ê2Þ¨c¦gøÂ—¿Ä÷ÿà_çî;ŽñÒË¯°pi™™;ß‹TêU’8£q­Å»	­=`¦^åÈƒÎ/¯ó7ä‡©>Q’PóëÝinxÏû"K3¡p”(¼
+”âØýw’T2àøÚ*V[æ'¦YÄ<qþ<Ó“áâò0àù•V*uü¡¿ƒã…Lx1ñý.«}‹Í,$kÆe2àZÁcÇþJêÂ$ÈB¦]öNô¸¨¼ùø®©$ph2¦úœKjTT1Û½fGº˜j³wý]N†²âN‹ÆÈq.­œ£ù¥_¡®×ùO_~Š0´ÂóÉW–ŽÕ%íÔ¥:UãÐ±ƒØ(blÿ4Õ8¢ÚhttÚkB 8N©(ú	6ËIJ¶´Š/![^ÅŽ6±íVIôz;7h0Õ ÕJÁsè%uå~Ö¢×ÛDû&Ù»ÿ0aµFjµJ€ÎŠ	‹8"ÝÙÒçŒ£ƒéöo˜óÉd…ßƒÍs„ço)¯Œ† Ý{…©‘Åp(
+ «ËÖÀþ;šöä­>À_:ðb˜#•›¯ÑÐçÍ|6o{uÀÞq_+RrØ¿—ã?Å”¾ÿb›úôo¸£îŠÜÓÕ¯çU!€¼Ý%ÿ/ŸÃ}ñeôäÉz‘å¤{'™.êøË8{fQK˜ñQè÷n&6Í°µ*öü%ºï¹WLÄì×ŸÁÌNâJIþüË<ö[ií™àî7XJ[|ÿÿü;ëð'_þ*u	Ý|€^œ`[0T¯qr¹Í³çù®c{‰â¤¤ÞòXÍàÑGŸäÿøâ7ùàíGXOs¾þÜ9ŽÜ¼—‘á*O}óeF'F°6‡,ajÿ4rb‚O¼ð<{¾—§Fæq/\"É^qcCã4ƒ€Þú*±1kxdá<“sÓÔü
+u±Î¡ßÿSÏü™7Ípw™‡¼„IhrFeÂ—Ì8]«øq‘ô
+›^i	=Åo&8&zÜé÷HÝ !¡ê)~Çìå=îd‘(ÆµÖ=ËfóDYÂ‡ÔVÚ)ý,Ås%³Js×œÃï¬°Þ]çn¯Cr¡Î¨Ó¬í¡)çiT2&œÂsq©÷úDÝ.®Õ„	Ê	‡FÈrHz	ƒA/÷Ì‡>îþ=8ã06B6>Buh„ÄZdà“×p	bt.®ÀÄ×Áocûlf°q‚š£c.\¢ýÐÍˆýñÎ_B]@6‘Ë;Ž=o~ž`uÑÜ0»S¶ÚE…~¡Ñ…>ÄnÏênÖúÍ–y@^ZSLQ´Å}²•Ö.øÿE^wV>€°û†6k^3 ¸zÿÿkÔíäp0Îét?¹yKÀÎÖ?°˜]öƒ g‰ml§ô|Ø¸åÕ‚‚+¿gx˜¬^G‹4·9„ñ\œjˆ©¸:Y%Äs]²j­Û(×%w]TµB*mUÁVBD`±ÈzzsŒ÷[HfºüæÏü<)X]X }Öã”tÐ#ÍŽç‘Ä1Y’ «>VJò<§ßi;’‘åÎ}û8Y{œßþÊ7˜ššcéÒ
+Õñ´ë±¶tŸf§nVyêô%è¦„Ï<ËéõEö™Y†Î/pþ#÷1òûQYoïø:·íãæožÆ_^+¦øíY;ý'gng¼½Â³N&%
+ fÉ™¥%={
+‘ƒ#%Â\N7³7Y ¢ÖÐ¦0ûñÃ™¡{h–²sÄZ!•"t2#÷`4;O£ÂQ ª!ø¬¦„CwrÖ'j-rËm÷ÑyaÅGšˆ8Ê°¡"‰4ªÞ$Ó¤ÁÄF¦C½(ÂÂæËý/ªœ}ßBã»ïAb>Ìhey×>º­•F“¼Ócðáûˆû}¤ç¡ó¥ÆhªõV²ÿí¿'ÍrÂïû gŸú
+ÇMÎ.àÍN²Ö0åyø7Màì™†›æ{g©ÝqŒ8phì™!¸´„ín˜33]Z'<lª÷EÙVZÔüÕÖn^²»aõŒÀèb0ÓFG‹ßáâ™oî‚ÿ_ÔªýLyÓ`ä6žþZÌÞ¾…ß¾Nà ¹;¼•oöÏ—@¿Ñúg^õ1v×»ø‹‚ŽÁâ³Ç9Æ’^ ¥ŸÝñ]Ûm·¯1÷ÁdFH\¥È­&§Z)šÛá¨¢?>øÐX¥ŠGa¬ÁT}„ï‘[[¨¿—WY\oñÉ}˜ýÀ]¤V°ººÆØÈ(ÕÊ:•‰€Éƒû‘«-’AmÒqÐJÑít@¥9Œë(dÞa ÿËóüðÿþ¹¸°Î-‡ÆÙ¿gˆý‡ðÑ:L78zÛíì¿é0ÿç×¿Í—N^`ô¥:‹­ó³5  ÿj­‰øW|²“Õ!œ…s°ÞFáä~zö	j#£„õ*éJ†õ<r4±‰¨ùM¢ ImØ÷pÖ¢È©Œa#M?NH©$1)ÕÑ1tÑú©SA8’¾N‡Gˆ2Kˆ°Õ £$RYâ58!B¾¡>ìLOð|oÓ­Œ™šƒNbòL“¦)Z§¸R"]™%dyFš$ÌÍÎàÊ”å…5¦×bî\ì¹ëø¿øu’¿ñ^!:¡ž?EpÛ~Ü/=Þ3‰:~ïæƒ„Ëëô” XZg0;ÆÑááÃ½ØGÝs3nš£’Œ$Ó¬tW¨6j8¡ƒø¡OàÍÏÑi·Ðk”+éýúeÕ“ÔþñßÃIlžß0gg²°BõØ~L<À”S(ÑtVLsÜ }
+•?ŽS=YìæÆêÒøŒt0kÝwê¥/|láéS»àÿÖµ÷^Uä'¶êµ\‹…ïë±ÿ«g vŒ6‚1¯F#9F7CåUÄ»ìÿF þï°¡ö“£Qã´ÍØV1”å²€Ón“WÉ"åy9DD"É	¥"÷<<­)Fú”íI¦0®·åFå
+p¤@·»)Ñ{&Ÿœ rËC#£Ô†GY^o3<6Fè»ø®D:>As”¦ß(^Õ Ãº½ˆj·Éãâõº•aµŠÛ‰Yô˜<´ÿëw½‡Ï=s’|àVêcãt‚*·Oß‰õ+ô1çÏ_â}÷ÞGgõ¢´‡ç®m†Àô"ÄU\Ó’õ6‰Ñl8úG/œbî½$¿t9?1c©$(\,±tI”ƒ±–Ì‚´}ïÖ’–ÿ´(o­ÅjCl$™Ô…åkÜè[‰ã:à(L–“ÇÐîiÖ[œ_ãÿê½$O,ñÊ™uÖó>·BÅsI+‰I5®Sôþ«A›N»ÇPès`ßë—ViÅ)ÓK]ò?úa½‚yæÂ£ûÉÿO±Ÿþò3_`¸ù½¤¿ÿjý“ØÏýJìg¿BíØ!ìñ—ùžïàÁ?ÄþÑ	*“	þÁýœ{ü>ú?„72ÅK_ù3>rÓaž|é<½øO>ƒ+6MéF?úÍ•5¢Ÿø[Äƒÿ:C“…e¤wÓ^ÅJU„[½üRÎÖÏ®[°})KÿÿâüŽOraázé_½ò—üÇÜ{	å•þý¯&Ì»>ì[¼öãÉƒáQ>×;¶¿éû¿]ü·üïîe7À¢É„še`#<á2ª°œ?Y~Ç’+ËEö2	hDæ9¹5XcB’'	‰¶xÚ Ëº¥¶ÇZ¤”Àõ#DžaÚ]Ü¥Uº¢Fý{>@J–KT‡ËË¯œâ’<×8CuTè±rá"½œÔ	ñª5ªaˆVp«UœŠOže¤iB)GáJÅZ/áÖCxø¾»ö$Ï-¶YÏúœ^nQA
+I·µ†„ˆN'Œ²p÷ML‰Šs.yäwa¶5@¹AêœÕ†GÝ—…EÚVXA¼àRiŽÑYo‘”éÙ¼4áQF“)I&]rmpŒ-Œrb&™¶htè‘%¤¶êsShò\#tJ&C9¬µsz™%Js{ËÇç\¾qZ0Õ š}^YZÅoÐO\®ã“çÒƒ´#DQ‚Vî¸óNR©xyq…QWQíFÈÀG&¢Y'K3$Ðë’v!%ÁôæèA¼îBØOºgŠtïN½Êp§ÃçÎ‘*ƒ~ì"ßüú7iŒñþ^†ÆG8Ýjó­G¿Å„4´Ö×hVk »¾ÎÃ?ñ¬ŒÐRúg/ÞPà_X@z•"Í¿ö“Û™î/·pkA]ÔûE  `r²VŠî¿c­~\ùËþ¢Â=Õ»KÿþëÁé®•ý_-Øéûï*Å¼{;Ó/£©lÿ™’÷í²ÿw#ë·;¿‚ÇŽ©Ch«°¤$6eHŽÒ’3äæ|1nwG›§ÝQØ Ø,/òB¥ãœÒšTÉr4)XbÌÊîø(za…ôèA\4í{ÎŒ¡VÏqnp–—Ÿ=Eœ¦˜(Bï;JT­ðÈ=Ž¨Õñ+UöŒ0È|2‘Ò[[!’>záµz•n¹1HGQ²4©Â0ÓÄYÆÔÜq¿ÇÓÏgP&s¬5è4ÅJIom•æôV9¸¹ÅášÂVŸÆH§Ð1†VÒ!KbüÀ2Ú¬ïò‚ë“e!©uÐÆ°gr}3ûÈ›;’ÐR©&Çd)©t°&G–ß’APº»b­)¾)­‹²†1ÅäÄÛ ¹Pˆ<§ãXZQFWB³C!ÍPÒt•‰—NŸÁÍcVbK7Jh:Ç†¡0` ­¸ORF1:7Ä¤UØ{ô(/Ÿ;K?íQ_N­5Ü±R)	æ§‹ n|”É»oÇoŽ ßs/âáÜz˜øÃï¡È“˜µ•%†¿üÎÖHöÏ39·—¨¿J§ìÝw˜¯=úÜ»Ê{z˜WN¦‘&4êãøRzƒÐ'MS:·íeÂóQîu–&—–‹~~)‘²HóoîßÛúÿ7|þ…ñ7!$H§(¥aé^y'_ú.ó¿Öu,x/òM¿Õ7Æ¾·÷ÿ_=¸ìñ¬âŽÊ.ds{©ôýßHÿ³mìïn ðnK÷o1Ëˆ§k£ÍŒNb5“j/çÌ*%½,ë³3 °Y†”’dV#K Î–V¡ÛÇ.® o»‰j5àk{‡¸ãÁ¿Âï>ÿ4wÍMQït8sjjNœ9OîW‰/qXÁqƒˆµvW)tgåp”CßÆäA¥´]úÒE+A§K5ô©ŽM"¬Æí'ô³xAÈòÂ%ƒˆn”Q™CùIš`´fd|’óò9OµèøñXƒZè1î¸TG'Yë¸û¦4ÍsáÜy”#ðj>Ï.uÑR2[©‰ëà5$kuœZƒpm…ˆ­$Fâ
+‹p<R¡pÈÉ7>c©ÐB!1Œn«§[£ÐL9ÙR´‚åR“Ê¡Vsq‚ Ei…'—àØ¨Ä_°kéfš#i÷zd"#9I?#3†ÖJ‹áhÀ+§^âÒÙs-‰GÆðþö÷bÃÔGÆÉ’„éZÞ
+5Ô¤{o•Vã[¾õF&&¹tæSã#ôV;TtŒhTÉ”ÀÃäèµZã/œÀzŠ}{ç¸ýðÍœ{å4³ãt{]”ã`!DDý#^ÈáéIâvgûå`eí.º›‚1£Q%û/êû=üvs¬¯Dá6¹Ü[­A•Ás/¼S/»Ç[4÷ùKþRN²/<Zþù@ÁkÌ(hZ‘fº-¸ƒ§£…r“ßpþÛH›]à×¥ú¡˜ÿ®±xL;ˆ­Þ ddTE…Šœ'2/—ý²øìe¡ÄV  ´.BÃAÝ¢Ý¡{pž™Cûxîæ}ü®yrá4ãÛëcÏ½ÌGÜ!§/ñÒ©géÖFH÷f¶ZaÐï³Üíbã&bduˆJè‘¹ !Š"{>ëioÄ#MR\	Ö±(é–¹B óœ ZER$¯R!‰#z«+´/Ñ²áè(K+k„¾ÇèH×jÒÅE¼ñI‚¿óýÜÖ¨òò  :6NÓH/¥ÌÏÍ2=Ô`øà­LŽ3æIú_ü"žçñÑ»oç™WÎâb™¨78{ñIâÛç	[‚^Jî:$¶Ìž)D:‘Sý Í+,ÂuÑÒ)˜½µEM>·$À™›bF@n@	…+å:HÇAÉŒÕ|õBÆ³39&§ÕÏHÐ<{ç,¯¶Hú=b‘NpD…ö¥ùØm|è¶ï‚±)ZQÌáù[¸Å«“ƒï»´Z-z½.kƒ'ÏŸA¨œó_¿È¾ý3ôZm&÷ì!t0)Óã“tÒ6Í‰q‚É	¦âH”p¾³F¢F˜˜šfee…Ã|ó‹Ÿ§êœ½xž•^©Ò,ÇÅ‘§—ç_|–O}ú¯aü
+Ë§Ïßp»PÞ‰±Vuá÷ŒÑŠpÜ‘aË=YoYÿZk±Fã4GÐíwÌÿàË_y^ëë ¼¼áÁÿÞÊ®±§ÿµo®ö¾‘xõ  \F2ïðbz˜TÇRÙÆþ7·ü]öÿ®bý[ežPî#º¶¿ã[@l3¦Ô¯ØU„í`qK˜·lu~°£d”œ¹ˆ÷-¨f•{Ž9Ÿ_½ÀÒÇŽHË‰çýþû/´K4öÑ§xö½Ç0­ÓD¹f¨VEŽqÇtL[VÖX;†A­J·Ò`|z†Îé³¬¬¶pk>~0F¬,é ‚$ÆH…ãyYÒGÖÇê´Ñè¤`ôaÅ'éuøÖ×¿ÆÂ¥FB—ùÙY’ÑÇê>£õÒjšcc¾éoÒ>–Ùƒ3ÌÛ*ŸžZë03Ú¤	N]<{iGBET'j¸Ž‹ëÖ©LeÊŽâ¦-ö×<n;ð
+mq˜Ñ›#Úúy²‘I´XkÉ” –.-$J@š”Rdxä2©PÖ’Yxþ+E&Z‚IcÁ†À‘8ª(zË©à·W$3ƒ˜†’Æ,OŒ¼‡3«ŠZ–"[+x&ççÙ×ýLVC&¡×í²ÿÈ1úqRL=´1'/\d­ýíÕÎ¬¬õ¸ëÀö¾¤%¸ëŽ»ùFd¹ûØí,..3³g–ÕæJiVÖ»ÌÖ÷±rñ<çþì«Ô÷¢×íÌÏ=þÂ²º´ÀlsŒ¥—ÏòsÏýÍ¡!*:ýx@0@ZA-Q~Hïü/Ÿ8Nó‰Øo?uÃ±ÉrÔ/¦úY[´òéÂùQH"ß$h 
+çÒÔgCéïTêdï\äW¯×ÝÐàßpŽ2êŽ¾!'¿7Úòw-¯ l
+Áƒám|©w–¢ºXˆÿ¶2 »â¿wëßùåXÌ9ûØôªî/†ä<ëú…2È›;ýþÌ$•÷ÝÇ·æëSÃDFó­Ç¾Í{ÜÅÔó/QËÖpŸz5·NíÄiÔ}·C­ÊjºÌƒ·åá™9VÒ39ÅÝGà„u¬ëÐzñqž}å4ùþ[øŽ;~”sO>Â™çŸ%–z†g/\"éõ0jµ¯Î Ó…MjA@ÝS¤¹F·—È—V¹â›=FÃÄ|àöC¾é¦VãÑ8ãŽÉý4!ý„Éq|Åð9ÇŒ2¹oË'^fù•ãô/6 MÈÓO®bj+ç\|%`uq™¡`ãjèª€Á O+ [«¬hÃcs÷±wöÜ•¤RHéf9"Ž¨¤¤çcuN˜I6!ˆzä¹Æs$•t@˜Ð~H3ím`FSIÔzëäþÑ ål§ÏÉ~Î©H3å(~t^œôùõ›©{š¿ù¡»É?öAŽî›a|råTªzý>Î:AÐä‘o~›ù}{øâÿˆÞ{«ž¡ÚfxvŠñ±QL<ŒTæöÌ1ÖŸdr~/Cs2ÁÈÈk‹ëÌÎîEg§Ù;·—¦28|3Ýv—©±Q–[ëôú}ª®Ëý÷ÜM”¦Xa¡ÝG
+Eœ&dYÆÜÞ9”ãµzÄÝ¡œþ½Ï2ñ~ç†<_“‹„sÓ˜¤ëmLóÛÜ¶)Ü ýx¼lµÆñüwRì÷å]ðý„?÷U~Ã"?{ +vôd_{ °ã¹60 u7`Ì½•õìhjeý×”Ï°Ëþÿ¢³~{sžau‡a€@^ÕÆ9²)ãjŒŽGÛåm–Ï¢¼Oá¡jíŸü‡|æÛßÄ÷+¬_crlˆ#7ßËÈÌÞÐ§„ÁùÈƒ´ó_¹>vð0Cžæ”rYtQLUTùüRmºg,·t„Çh;âW¾þýö
+Õ¹}øaA»ÃèÐ8/¾RAe9®N.ÈS‡‰=s<wÑ‹KÕ4M1BáOÏÒªQ¯Ã++=²ê0Iœ`ÓüY&HÏ]Â³€Î1Æ!iÎqK/çôR›~l‘²ÃðÐÊßK·Ó¡uˆº-¢È0;=
+ê<·¶‚ãhò4e)‡Ü™%_YN9ö0/'×šõÔàÞrˆGÏ‡NDA½âæ)½½ ËêœL*¢8¥êf,ŽMãñ{ëK¤Ê)¾_±:6KxïÝüú£†‘»fØ³wžk±í%~ååº÷SüØÝß‰À0:\'G²¶ºÌ©3g8sæ‹§Îà˜”µN—¹¡*ËXœÄ¬qñó_`hl°Žg–>zwÑ)/¿Ð¢×!ëÐ[\à\#¤Õéâx.^âa|?àÒ…S´×ûLº•¼“PÓ†µ8báÄS´N>Çä¾}Tså‹
+¯Z!zdYÄÃÓ˜°’`­ÇKóc<ñØ:Ë¾´vÃžµÑé‹Œ|èp	þ“k”_R­ÁŸpJ–oÊ‰….Äêbpg˜w†ùGÀ·vÁÿuÖœÿžô¯Ìœ¾)à¿×¾7—2’*7ñ‡W›ýßÛÇþnJ¾v±ö/tº_"È@L2åÌÒ3ñ¦€oKÏ¿ÊcŽe\Ír)ï”AŸÜÆü‹Û˜8¥ñ‹¿Ï{ç'IæÇŸ¥'-žï²Úë¡êÆ<PÂ”¤.ij¼Îdžã†5Œ¶hÓIúô—(,®#ÈtëÓÊ†FÆ©ÕGú$yŽWb¶1Æ¾c7Óë¶È´ÅXCàùÈLãU¢$&Ë#~H%¬"…&±«Kkx#ùØŽÎ¨È„N¢ÉÄ(^èY‰°’ar`)ƒúè·VgðFš„®d%Ìí““Âjéè4&É3”H¥P~i!ô1:£K’ïjàf	C&Aé>ÝûF,w‰£3:„pCfœ6I®9yÏÉ‰ú1¨
+sC9¾+xæè!uŒ£”2T…ù1Cë®¿ÅmÇ2=êá:pq±ÍÒŸ|“i>ó5–Hxárë7^â‰Ù:«m²jn¿ÏÑ  q×ÜÏ?ÆMßùa:¿úGTî=BôÈ¸wÝL;Mq:=ÖMŽgrdÓ]Çª€¥¥s£ˆžù6©pþÒ)hÅD¿ñû4Þ÷ K=Ek¬ÁéSÇqÇgxêéÌ6§ØÓ÷ðVÖq²EZ“UòADX	i¯DŒVBö|åI²SçIµÿõGèõ 5nãÆåˆýSçP~…Ì˜¢[·úÊE(§èçß ü¢?´¬÷—ƒMÞí½#)ÿ¯<¯wÁÿ5AµÎmÕÛA«7¸…‹W	Þ©´»@JÁAÿ.^‰ÿƒ»ÍùÏî– Þ%é~ÐXÓÎa2k·OÛ¿·æO©ÍiÊ:ër’È\Ø4þ)`¿rCòù¯ácñ~ð{pž}Æø0ve½oïßÂýð{–×#Ã¤O<ÃÉ{³w¢Î¥ cÏ±#œ}úI^8u†3®‹ûÒYæF›Lí¢½´ÎÓ+-îúðý|ß_ý1ªCc´ÖW¨5‡xî¥—xü‰ÇùÄG?ÂBÖ&Žc<kI³”¯½r’bt¸I<HpdŠ1_xî)Þû}4O`ŒEˆ”Ìj¾ôÔã<pàc“#d¦xÿµj…ßüÜç˜i4ùÞ‡âÄãOóü¯}†ÜsXž¨Ò«\¢-M)iëŒÎP1<Äd+aUd8ÊÃºq#¤Õ‰¹íü2CJ!3MÇshN,6Gx`õE¦œ”¾Ð/äÔÉøj}aœññø,}à¹uexÒ›aEUøûœ¥o4×¤,‹*ßÒ#|Gô"z¬¹’Ž×àøj£¼Øðxby™IcéU*kmFO3¿2À	«tÇ'>³€®Œàô,±pI £*Ø¹IWÑ›Æ¬{Ú=œÐEk«+Mïã•WNpðàÍœ[8C­9B&-Ó!¤_…•“£Óìš$×9ê‘$—°Oþ¦ÓÛÜÍòŸú	Œ.†ÒdY†©3üÏþË«+Ô‡'˜%®ŽðíÏ%7ìnŸ[@§“¥(kVc}…DP.Ø›å…â_Ö¾&M7[k³î»/åÃ‚ÿmá¯ËÄ¾+™Ý«ƒîVV¼¡òÁË(Ž…SœN÷ƒ9ƒÅ¿Œýï¶þýÅM÷¿K®<Àˆ£mú;ØþVß•A\‚fRMrÆ¶°6†²L vx>ü=³|Q¯bëù¸C£¸Sã¤¾‡­WÑäP“K#†eFßä<süâ~†	nº¥ÊÜüã{öÒT.Îñg8¾œð{¿ðï9pÛíT‡‡9xó=PIFX©MêÓ Q4 {i‘ÄñÁ	¨a²œµ•E:Ž¢×ïâYƒ‘Ïó@@ßñÈ¬fÐo®yBá™ŒAèÒ9Qk•<‹‘Ýa/f½¶—EÇeôì*p ÉN4f4ä›ÍUj˜<Fe–Š5\áÔx•…³k¤RÐq!4‚•Óp~b” ~…)½ŒN5Ý$Gä§ÆnAèœ;VÓV
+‹Ñ	/5÷s±2Â×ždà†…cCž¢gkGx ÿ"{”‡Ì,Õ(Dr‚Ûæ‘3“Œ¿´ÀžÛcRÉðÞlb±CzpŠt¼Žh’…;§©W9{çÃóÃ¬’Ñaà[tnI‡KíC	]mQiÎÈh“æÈ¶RarbŒlÐe|dŒlßÌÉKÈõs¤?ÿ[d¯á8×P!2ð©4›TÒ92JäºÜóð‡hwzüáŸþ)Q¯Ã'>þ=ØÿáŸÞ¸A»Ö¤‹²ŸßlŽë-€_aó|GïÑêYìÇÖš¢íÖ¾c–Ç»àÿZ+T71ëÏ]³ÂÿúÂÀu
+8¬äáÊÝ|¥·Da,º½õo·íï/nê_ É1T˜s–"?»-l¼Ú”È­r@ns*" .¦èØÓÛjþ°½ë×Å‹•
+é8¥pQÇÅ1á»ˆnÅL}Û½È¥åK4FF¨…5T”³ïðÍ¼wª‰ƒ¤92ÂÞý¹`3òâžƒ3œxö)Î;K=¬’>as+â(BæA­‰”’ ZÇ¯†8¾‡¶¦ŠâÒlL`¥ úÇ-Â–¢Eš~–SQVJtž+ÉHµB½RÃó¼0Ä—.ñ¨<8ÇÞ^ÎøÚ€‰,#©˜FÓ{'™¨×^9É<¸ ´¥?RÁÌ¡É‚š«1’Všóí•ýÈV[f¦m¹¾Âôži°–¦\$ÅÇX‹M#šÃÃt†'pìµ $ÓGXf<—™ñy:Ã7.¬r\×PÊÃŽ{$Ò’™$‰S.6í†äEÑÁTfCªa*¡g#¦Ÿì±–Ó¹Á“ŠåÀa 2l^EÔ%“óûp‡=óû9xóÍŒMàûA»³ŽÅ’Öjt£ˆõV5ÞäØûÞËï8}n]î²ÏA¢8Âõ<Œ1dq†p$j´Æøpƒ•AŸ‘Ùy>øž÷òÐwÒëEüô¿ý<þô„¾ÏÂÜ<ßó#ŸbðË¿sÃž¹ÙjÊÇè…¿Sè·1ÙO
+„Ùm—%cQOÚz÷ÕûoHð7o¯­_[ÊýZE€¯ö©µØômÉü¶êÉ»Sÿþâ þö@ñÿº:H(j´Mï2aèöá=ö*Çˆ ¶“Î(½lmÛlôýoeÂ÷ÐóÖÓ§­fuŠ±ä§ÎáßyÑÂ
+k¾ÂËÍ¼ŠLsp#Í½ˆÇ¿}' ð”Ã¢±ØÇX^]Áu}â~Ä…“'X¯5~“ @çÄ½27¤YJèûdiÂÂ‹çQõÕ¡Q<×#×DÛO¹øA€Ö9Ž²T‚
+µfcI·KµZc¸^e±Ÿ°ÐmñJÚcíÃ÷Æ9z |Öý7aÈæÇêÆ8e<Ã^£-r.ÈŒf?g)‹0ÒÇM2tw@¬à¢”ôâé\“éfÈK‹’Ëóµ½ø\Ì!q|ÎÅ04 %ø©dÌW¼h%O$ØR<ê¡‡k!³–o§zr€óð—³Ò!ëu¨VBZ¾Ï+ÎQÕ’åj‘aeX¿B§#Ö[Ú±Áâ"G'pëãÜ6w3¡ïP­¸äQ›¬×Çõ [>ƒò\r«é¶;hkpýWá*ÁôøY§M<hqè½óË¿úKüøýßI¥R#Ï2¬µmz|ñ÷~Ï¯1|hžÛo;Ê{ï¸“¥¥%þÎßÿ,^ºÀüü,^àqje…ÏìùØ¡}d/Ÿ¾!ÏâäÒ*ÁÞilº­¼aÍÖ¾}œ¯É6ÛÎQ^@Ö}GzüùøÊóé.ø¿Ö©_æLt˜½þþ«ñyÛ û52ÛóšžÃÂ7£g0>…ÕˆÚÆü/»ùŽ®ÝõŽ¦·Õú%VŒ0§öÒ³ñUf3ˆW	 ¶~/¾s—5ÅrÞ+ÿ¶á÷Pü´ÊZÙ‹P7íÃtû´öL1‘ÜÂ…[çQãU^Sº½›=N}ûÛôú<×%pi­‚	ÆY<ù
+ºÛe`4ÒX‚ñIâp”ûKŸ¥â{¤†—tdÿ–»i¼ò“xRâKÔI´ÆÂË‹4ã>A:†Ì-iÔÇ¢‰Zmd³&Vqµ¦ÝéÐs]Îœ;Ã¥§×8·ºN'‰˜oÔ8í:\j[^þâ×°¡YŽÎSœÑõÙ£,,žÂE!:«,öÚˆ4de¬FRë')Q–Ñ¯H<7d||„å‰Óä¶Oê8€e<°ÔAÏhÂ°Çy|NßÎdÒG7ÆøÏfœIÓ âzÈÀÒqë´›üný&rµŠç{è4¡-ªcìÇ	|:Y‘Ñ¨Î © s½ûN"ÒŸ›dnlŠ¨Ñ—VXÆn½… >ÁM÷?H¥ZaÏÁC ú_$U‚‹­UV×é..ƒ5¤I‚TkUlº×A¹FrQøCfÝ6•j•úÇÿs?ñùíŸû)öÔCí.–Ü€Qn¿…;|Hî»ó~ž=ñ"÷Çœ$M8°ñ f$4k5.\<Ëâ_û(#ÿüçnÈs8:·ÀÈ‘'Ñ–—¿Tå?‰,‡AY—-ÚµÛ8nó]—ò¿áÀ¿Fž‹¿Îž`â‚ÿµ¿}ÓùzeÂnTóô`‘Ô,¨¡lZ²¾íýã¿.VwÊßòžÞ]ïë¿ºÿM ŒI¯’)z-½ÈÖßc›3*´Å©]a»àÓ"ÉNž¥ö¾{XýÐÝÈÙNOsÚqxöè0ygY4ü:Ê©3æÁ#Ê!Ø»—¹ÙIªÖ¡LÎïçÉG¿E?6Ü|ï­ä½„8¨3:±ã~È’ÑÌî›fa¥‡øŽË¯?ö5¦†GØ31G^BXM§1Â¢0,hA#Ó˜Å%V—VX®4éÆçéŸ:‡;T£Ûî÷úpø'_x‘Öó/Ñ¦Z9sæ<ñì<žt¸øâs4'FAyH¢s¢õU´RŒŒ!‚al#d-Éñ\‚¹‰)¢4¥5H08Ä£#ô=ÉøÔ>½ˆ…(¢_kbü*Ýé„Ñ}3äIF{­ƒ;>…r%éM7q6l¥š4Iñj5j^½gÃÍ:Ê$‰¥>Ôd}u‚*þü4­v#ÁÏ5®ë!Â&I¿Ïøè,UÆ›Ž;ÊÜÌ©M80;ÏìôkëëŒÐZY"Mbâ¸ÇÒú*™582 :¿úÜ¾b.Ö¤yB¢%B)–Dç€E)B0È3°	g.ò'öe¾ÿ“Ÿâ¾÷>ÈW¾ñ5œÑ1ÇçîƒÙ;€™=s´ºëÌÍæÅsçùGÿ÷ÿ‰$™™™¢Õnú$–µÕe¦'ÇyììË|ò=÷’|íÑîLŽÏ/ Â*ÙúÒË·¶°ò•`µØrô³e½_oÖ¢¦±þî)X‹BØ6÷Ÿãžêm×Üçoß¦ôùÕ ÿUEÂ’ËKéË*($¶¼ˆmà¿ƒ/š¬ÆPŠÝõç’î/jýBÌ1©¦èÚøUJEâ²ôÿ«»IæX&Ô$çó–œ›g@ô¿ûuFŽÀ®­s÷Á½ø‘O2tÊ¬÷ëmÌâºÒýôGøŽ|¹²†è>y«¸½ÆCßõi‚õ>žÈªAd9ñÔ4øÁÿ^7!¬WÈò«æ–¨}G±ë=¤…þz›þí‡¨MŽ`uÆÉWÎR™™£Ó^cï›¹£Ñ`Ðï³vlÙÙTÛ]0†S"¥æIœïuEHÅ ×çÌÚ
+•áH†ƒ*Kkëô3Ãp³†9zi.˜šž!NúÑ€,àJH­ÃèÐ0ƒ8Æ
+è¶×©ºïçôÊ"ãã38Öx«+„¾K/ê¥š¹ÉY‚³Îã’àÝ~ýÔ0<<JœÄtëí5öÝÄzoÀÜÔ,q’ÔªäÏ=EEºO3:=‹– ðé'šÜÀP¥ÆØPÑáq\GS|÷µÀ'ËrÆ‡›Œèû¦¦q\w3x×eY1^Þ”ãeÁš ÐbLñ·¢“¢ÜOl‘ŽÖÆ’F]N¿ð,ó{ó7=„†¤½&ÃZ½ÎòÊ"µ±¤ò¯úÿKš&4ÆÆèt{<xç|ð} ¬ÕøÊW¿Ê…Ž“¶Û\xïŒÝ€à?8}¡‚²•oCôWj«
+…_áá/ÊÏXçØ<AXCP«±~ám¯ù_÷zÿ™ö·%KZH¿MÆ°;•øWþkWé_¿žÿ+žSéŸ#·}¤±¤ÛzÁÅecÐx½„‘õÂ“ÚŠÂ‰lw½£éþÿþ9ç0i©¾òxºÚñr¥ p#¬Ë¬¦.+Tå8}s¡¹u´CüÜKÅý/-RyòY¢^Ÿè²ç_z¤è×¾|=úd±ñ•—ËW~ÙõN£FÞÙÙË|ÿ#¿Ëñ—žeeùù…EN{‰ó­5î¹÷.î<z„“gN±w~/ƒÄþÌ/ÒûÖøØPõý¯}»x­lšqp~šÚû ú³o££c4#YÎ0ü©ïÆ\X ¹¸ˆ‚JžS‚ÆGßOöÊYÒK‹hkËÌžïÄ+Ì<‚œ
+¯Ì$errœÚ‘ý$/^ Ë5â…‹H!˜­UŽF;OœhÜ¨0ÎIŒbá®Ø¥{â$^¤B"ûšêÁ›qšUÆÛ1Žò©Ô*¤&g`s”R4ê5
+Ñíb… ¶œâ;\°#@J¹)&ÓFc G*e @y¥XÒZ)@–mhÖ\á œb"$Æâ¸~’$!Ï<þ,&×¼ï#Cž²r.!X^^ ÷*ÔšüëÿôÿãÌ‰“LNrqá"ï}ø!~øþy!ÝOÿµ¿Áÿ·¹øüsœ¸x†™{n#}ì™ê\6IJ¼ÐBx³Åþ7Óÿ²Tú—#~Þ:®Gž½íàÿ­¯<Ýû	o8ð/¶SIÌ×zOðáæC Õ­xW¦]íÞþ_;8xƒA€4¬¦)Ù ò*F>ÛfÃCQƒ[¶1È]úÿ²~6[û<¹¯Ñk{¥Zø­g“›3¡Æ8m[XÛg«öo7ƒ™aÞ\5´5ýë³1]ücåã¬÷;¼üüs¬ôÖÁB·ÕæÎû`ßþ£tz=r+Ø31ÍÉÓGÁ·ž ýÇWÏ^fë-O¿êß–þÍ/ ”,™/›oïÑ§vœk-YÝ¯<òª§j{ëÆ;nr¹dË–c\k3S\Z\.¼l[£Ó¸‡öÑÿ³oí|Ürõ PˆKR"”)Ëë$HåuBJP—ýÜ¸l»p¬›·+n«ŽÂ–„P©îì$öáý>ó'Øƒ³(O!”"‘‚ÃŽò¥o>Ê—>ÿyöí?Dki…=“ÓüÀ§ÿ
+—:-Z«ËÜ³×ä½÷~’•V.±òáûhÜ`àZ r(Ül¨.Ø?H×Å©ØÛ@q›(I©áÛýò>ûv<èkÝ¤	ˆõ3,ÆG™ð†V½&ó³aÆ[ýË_Å7ãSh4Žð)F¼¾KÌÉmˆ°XQ/®/FcLÁ(v×;Àú%’C=ÎAú$ÛL{¯®æß)Ø—¡Óö©ÿŠpiÊqZzÀVÙGnë-;îõNu€Œòc,´VÉ²›ºQáHÆ'§˜™šeyeßq—F­B~×-ðK¿õÆÏ2U€Æ¾ ü-~¿%ðd¯Þ+Ÿ]Z"»´ô:”ÒbMþ}#W®éïûw¬»kôVi*r=V–W˜Ú¿Ÿ¥õ6ÿù×•Ñ±q¤çÃ_¿ó>Fž;Kzh#%Žë"flx”¹C7Ñëvxqõ"Ý|˜üù—n¨szpò,Õc·a³´ákÍ&ÉBÈâ²yP–Á·R%ÊÚo÷ËûòÛñ 7 JlôÃ;Å¸ø:ÃyÞ
+û»òú7øxRs2îÑÖH°ÑË/¶¹ú‰MÝw†Á½Žå²ˆSãG_s€ÐîzK¬§“_ñ9©›ðE…Ìf¯Úm÷}½Œ’(§þåŒËa”h`1eYK\v¹Öãó:mžKíÞ[iµWqBßPBÔ*ô»=L–à)—\ç¤YŠz¤{æPµê.×½ÊÛWìÝµócZ\Ãófr‹¥µ¶Jct„°ÚägþçXY\d¸1Äêâßù¡÷Sýÿž“ÿã?ÁWŠù©éBo Às=&¦Ò&éwè~Çý7ó?sÖ6¢¶âjÓìg“PiS id³ìÍv–_ëZãm¨÷ß`ào/ûÝQó
+Ç£ó õkÜÓ^ç à<„ÅZÁSÉ+lôð³éêVDŸbsÀE¡­*½ã«ÙÝßö/È±bŒ9gž®wâµqÇ³Á „dTMjóHÝ‚nü¾]úv¯Æƒ÷Ð‹û\<w–^¿Cn5¾2¾ç g[<ÿò)Öû}úQ1)n¸QWÜ|Ó;5ULS+Y¿Ø®Ä~-àº—í¬ÿÝ¾ò§™¨T˜fDd6gtvŸûòWxöÛ²g~žõµ6ûfçøÀWo~Îù/ÿ*~ˆ¶†$I1h#£LÚO³ZáÎÌäu>Ç—‘®¿™î·BKY”Q
+1fIÁ6²9Ú`òìín³þ“ëéçÃ2±ÃÿÞ–IV—“G1Æ¾ªùÏ›·äµ¯Ã¾®á †ÇKÄf)¼MÀƒØL=Ì_¡© ô*†Ê«|…bu—	½]¬ãˆ)ØÁ¤sÄ ¯ ù×ýêj±íØ›1,kør6Ù¿¼J&âaÿ#~/Ë—ÎÑ^m“Æ£3‚ÀghhŽ»îx€É‰YN_Z Ï3´5^ˆç¸È#ßÀÇ-®`ý×|L¿•cÿ:o‚‰a„Ìä¬çSoå•³øµ_þ¦fæÐÂjÀß<xŒè+ßÜ¼_ç—þOT’â
+‰R¥ŠJÁìÁ#OÏ‘E}âï~ßuv'‹+˜¸,Ó”ö½l
+û¶´ÿåß"8uŠ³L¾­àÿå·ëoÈ´¿(™³@cPv‰o^ ¡¯Êúß¼0K¼µÛ	C”i^ÉN!ðw¼îèhŠŸEÿxi9ù¯ÛÃîº~Ày ÐH±—	5Mt9ë¿,¨|ýÇ¯bæÖ2.ÇA›¶ÀvèÛm§}³å§k\õ÷ÞK»·†rmˆ	Õ¡!¬t©?õ,Ã­.ÕJ•ÕN›$-¼Ñ}ßÅÜ{í“ë‚7k¯!ÓwvŽøã{`ßV9´ãˆ‘±9×ãç~éÈòœj­B¯ßáû¿÷{à§áŠû·ú f§‘‘ÑQ&¤^¯qi²ŽjÜPgyºÒAH‡’ú~¬-D–BÓþl‰!Ö ¤BºÂwßÎ—õ™]ðÃŒÜn²èœ
++ÙSt²„¹
+Ï×Ï—ÿš7x¾'·J¨«°~½ùo‡™­"ôV¯ýjKCŠÝ àú†”[öÊƒÏ¼{ˆÈdWÖ¾
+6‰k<v¹‚ýgäÔd@MŒ±aö³ñzlùóš³Mo…Mî™%©²¶ÚÂh+|åRA:ýÿ«˜^f¨^'Ó9qZ|>J÷]Û#e)ò3¯ÌâÚ˜ûÁóü™Iœïÿ®P¢>Ú«2?¿—Ï}á9ñÜsÌïeiy‘Ûn¿•côú*ö´½?ø<f½‹ÖeùÉÌ·95Csl’¼Û"û®Œý/¬"=¯ ý</ÁÞn¶Ubòâz­·€Ž‹Û¬¿]/éå¯<vüß ëg“A›’=+}¾=}Eêßnz«½Ùºÿ›dÒp)XÎÏ—"?½ƒñòÍë$YQã5=¬ð¯MÑ-Äníÿmaý…ÇBE¤.†HIß`RH¼.‹½<eKÕqbsÆÕRÔÊëvÿåÓßö?ôÁ‡é¶×Y_Z&Ë2¤«¾ƒñCêN@zöñ™T|W(âh€Îs¤ØÑ!¼ù™×ß”<o›ÓÚÆá|y½ÿúÛ7ëÿüwb•"É5ûfæxéäËüæoü.3s³hÍÆeæ íÿúÇ¯ú8Ýû+äF£óÂaP õz¡Ù=TÂÓsÃˆJxÃ|néÂ*Y´öéb„o!ôe dË¶ÍÂQQ8.H…;ü¶ÙûþÉÛù~oPµ?lùà ª©êãœIV@š«lÉâ5½ ®+˜”ÿh|ƒ)·n³•Þ·ÛÓþEŸÌúHÛá½!&³Ëþß:ð_îßoh2¯öÓ³1ÛÇ-oa²ÂN`å÷wùÅ¢Ë¿éòßÃ›¶~²Mä¹q<çèb
+ŸÛðòUÁþíÿ|èaº6­n›,O‰p®[£zª )ñ‰WBf)ËëËDI‚
+×uð_Gô'œ²µï²ìÉ«ó›í«Ýçÿæ?úoÉë.N½AßäLÍí#Nc~ê§”ddz’(‰ù¾|ˆÁÿö¯^ó±úôEòå5â4FJ*ýîkÓÓTGÇé®,`þÚwÝ0g{|aázÅ˜Þ"¢ðR¸"ˆ–éù)ñFÞ6æÿ™·óýÞi±­=®¸èÍ¯î™è±íÑ;z±í¶Þì·5 †ç£uºz	)üÍ~;ëßHù+b4A‘î'Ü&j¼–çÙmý»¹¤­Zzñ9Ž:Gñd³4Ûõ‘øH$J„(QAÉKµø·¨n»ÔvütDq¹qßòw)$Þ¶‹KŠ`Lâˆæfëß•jqEÆâºlOx÷-,¬,gÑ OÔïQ«âù5ÔS…IOÿ©ç¨û!¾ïq~éÝ~W)”£¯#ú“žw…âþÍü«œ&Wy¬åü¨|ô½¤·ïÃ©Té§TØ ¨7ù—?÷Ÿ¸xa#·ÞÌòâ*Üq'{~áw1Qüúløçm-Iž‘é%¡QoP¡^99Õ@Ý µÿèÌ„)þ²•¯`øN¡éÓ…ûŸ¥èóRrð§ÆŠ€õú.|uüßÔ–½3ýO)þöO^¹ªøo{àíòúGX´¶<Ÿœœ2q»-Ýo·‘òOÑF lZšx¯k—ý¿yÖ¿ýˆ’ä ¦™s3°)R¸Hám»ø%H—ÁˆË
+J†(YAÊpów%7þ–À D°u|DùØB¸á
+Ë˜š¢ðè²l7ÿ¹RxýÒÿÍ‡ï£õY<}«S¬…\*ããOöèSÅ®Õéáž¾Àh³I§“e9‹#æÐ¾× ~·H©¾¿^ÊÿZ@ü²¶¬¥µObÿÖwã5´µdV17·‡?þòŸñ­¯~ƒ{¼“kfFGùŽ3kDÏ¾xMÛÿÃ/àu"²<#Ë5R*””Ô'§©Ñ^^€¿öñƒù_\Ædzëø²º8Ÿ6T)üŽÚ1 HV<ÂùÙëýrùè…ÇßV÷ Ü
+n»ð¯TËãq.{œT§›õÿ«±}±Mluùoí7|#^ µm”pØPñ‹éþâßŠ9„YÁŠW³ü}ýÍÎnD±»ëM³~Á¢˜qn!c#¥å=6	§xúY^]|'øìðúÛq_±ý ±)C²A Gá*ìŸ·©Þ?üé´WY\\!Žb‚J³T{=²3ç·ã³/Tª(Q¿FS«„p`2®zœ
+×Ý¬rMßÏõHùß ç…ÿ~i-¸Šn–0?¿Ÿ…¥e~í×~ƒ½ö244Lž¦|êÐÍtÿóyC=ø¥ßA–Ãn´ÖhQ¥:<†ïHÎÏ o€Ú¿D˜ö <&l1OÁlžaŒ.ì•7×’^æ9&îî›»Þ/ç³¼ÍsZn`ð·—¥ÿM9€ÅEÙ5ßQû­é{×zýë±¡åœÏÎ”­}ÛÔýW¤ü‹qFÇ€,M&ÞüF¥wÙÿ[bý'0®fˆm¼-(`èŠ’]A1¨ec0 æRgBm³•[·¥W;(kŽBlÊRSj6!w¦ýíeS ¯Çª?tgÏž¢Ýíô¢8&Æq}ÔeL2yæja“§œ[¸ˆ”!Òñðn:p%sõ‹úéë³~ÞÜß¯r›% ®ýõO '›Ï¥5h361ÊáŸýËŸAc¹éØ–¸ÿ¶ÛPÿò?¼áÇïý—?FÄÚhòrŒ°ë)†æç	ëÃ¬,\ÀùÁOÞŸeÞ/lÕ­Ñå S&l‹@\”é~!„”Eî CõÀžëýR¾,Ô›Ëôî‚ÿì+ ©ÐÉŸa9í^Ñúwíðð&6TaùÆàÚ&H±1¢õJÖ‡¹‘f½Þó‚m¾ÿ»ë²~‰ ÇPa{3‘Í¶—ÕÖÅÆíE	úª Šor¨‹@A(¶šü6‚€9åã”l ·¡¬P“l¨UìÛhûìÃŒñÊ'È¢äyÆPc„Àá‰Cyú?Ãp¥JšN^¼D”¦dZã8÷è¡¯J)„ë¬ÿz°ûkn ð÷ï#ûÎû	Ò,£Vm0<6ÅÏþÒoðòË'¹ÿ¡ˆÓccÜòG_'_k½ñ'1–ø¯ “cX­™˜ #×†WŽÎ¢Þ¾–·wü­ÖXm
+VŸÆ…ÙOÉö…’eêßÅ©6~HGTï½ž/cx­ßÖ õ†Oû‹mýþ[L["HxtðoÖ˜ùk¤áLÒgM_B
+ÿ²¶¾í†>ºT”;XÝÞÖÓo¯úîœ<EéìõÙÝnëß5‡uv‡b¾¸¦®n¢*‡II¶ü¶ Al1}¶õàµU/Ü¼Íèo!œÍûoþMHvôñ‹âu&&c\#E­dÿòUØÿ[¯ý|äý¬­,rþü9Lž£&ð<ª|7 òù›èê:î…¤’,^X Ýí`­-†Å\&ú“ž[ªû·Õßíkó—oâ¸¾QX¿ó?Ln,qšb„dnßQ¾öØ“|ñsŸãïÇu=Œµ|G,|ñëoúyz¿õ¼$#IS²<Aà145†„¬/-£>õï~ðïDÅùV²~“&X#”Sxú[x°‹Yº×¢vtÿõ|ŸýØ¥'uQ}Øÿë”Øhý+˜œ6/ób|éª­×Âü¯…ý‹š­<ŸÆnnÑWcý
+ÿˆÜºH; áòj6°^±:´‡nuWÇ¯¿±[»›þokçïÅÔ>+FØë¡o"¶æ/ìLõ[¶³þéý°ÆnbóÔÛ l<óöìDØí¶ÂABa5¤PÉI6zþ¯ÎþßzÚèýpò¥¬,/’g	yžâ‡C¸A÷ÌL»sÅ}ô³/R¯TXY]¥×ía¬Å
+7m¿p¢–ºÌ/è7’®¿šÌâj÷¿À¿ñþ6±kQ¾Ç`0`fï!Î\ZæßüÌÏ²ÿðöìÝCke™÷ÏÌ“ü›_zË™“ä—¬`Å$Y‚‚é™y‚°‚c-wBxî»ú3Õ½!EQç×9Æè¢c
+¶ì~ËcÇd9zÐÁ&Þxotäz½ŒÏHÇEyîÎi‚»àÿ*iÉWý®Vû7¥ÄOñbü8Æš7x­ `óoÒðd´LdVPÂ…mj~vÔù5r³µo+ÂWù)“a¬àþÛË7¿ó'6GXóÚý®ïÿ5åŠvNíŒ;· ðÑdW ÿ+—Û˜¹Ø`ú§—•ðo„Üª÷o«õ‹Ízÿe#D·g¶…Ÿ‰MVC¸¢YW¯Æþß¼ñª„wåìù“d&%Ksò,§Ò¬ ”B=}üª÷‹Ÿ:ÎØÈ0½hÀ……K…hJ)ÔÌîÌTáßïyW²þ«ÿ«‰'¯^øo”UûÄ‡%l6É¢˜±ùýðøþä¿@ù.wß{k««Ü|èÿþ7¯Ësvóð´%Õ9i–crCµÞ`|ÿ<BI–WV	¾ç£ïîVk0“§Xaó›§˜<ÃX‹P²ÜGóbÀt0YJ´pš™O]—®|vC;ôvºaÀÊñ_7™»=  ÅCÙK|{pâM×þ¯–Øñoa‰µáDzpw2þ­}z[kŸ)¯ÚÚ'pLÄ™ýréþc<ÿ±¿ÁòÐAÜ<ºŒý]}£ß­ý¿ëßšÚ'äÓj/};¸|[L“•UfæK¡Ÿ-k…ÛƒÀ `'cßÌì¨õo»ÿfv¼°Qã€[½^íÿ­úýwÑŽº,^¸@k2£ÁB¥9Œr%öé«·ž>Îìä48’çÏå®*‚÷èA¤ç¢©×ðkeý×D`ßý¬ß#ýÔÀqèõ¨zúø,?ûK¿ÆòÒøÐÉ¢Œzp÷Ó¯^X¸>Ol,ú×þ ’ˆTç8®b|fÇÁXVºíÝüÛÒ +Ï‹¾~“Ç‹ÜáZ£±Z#<oh¨,ÁÞ3ÅÐ~uµn–k_||åùµwâ½Þ0àß”é¼F.p;{ØjýÓø,¦OÑËc®Ç`æ+2Âðè¹í!·ù÷¿jºŸ*ò5[ûNÉ_ùÁÿ•jß@|â’ã u~Y®ã2`Ûðýßeÿ¯Éú7:Cf[H7KFÛ±ø·_¶ DùoÔùÙJÛoÓAÂ•Ì¾()¨O+¶²·ÏlFMÖäpy|_mâßåµÿ7pn½ï~N<œs§Ï–Ù%ð*UÂÊ0njÑ/¼|Õû%ç/1–jj~ÀÙWÎÒïu6Û§œ#®^ëçÕÓý×…õß Ç}ð~Œ4KÐÆç†éý7ó¹¯|G¿ü>ø¡¸.Yóþ±	ú¿þû×õ¹;¿ú»Ô´¤?ÄXËPs˜Æp…aI'ÞýnFªŸÚ"  „rqªu¤b²”¼ÛÆæNcVq+U.½ø,Ÿùâ¯sçÏÿs„ë¼ÙWð™wê­Þ0ào°L9ÞklmWoýE‡oDÏ¼%öÿjÀ¿˜&,dçÃ–ËYÿ¶”¿¤P‘=Àâ¾º¿µH2ž¿ûûX¾õA§Gm½ÇKßñIÎì{ ÇD›ÿVê÷Jf»Ëþ_õ|y9Eb£Ë@tƒÉogÖ;Stv³G_î y±íß›%‚ËŠíù£âËS\1&XHlé1³ÚÕ‚ tþ»<Ýÿæ]ÿ†¿ã½¬¯®õ¨²Q©ãUë„/…üÕ³*gáÂ¥,­¬lyõ9¸ˆ¾.°¿™tÿÛ5øArþöÐ
+n¥FÐgüÐQ.­¬óÿîßpä–cìÛ;OÜësó¡ƒÈñÞ–× ëÉ2ÍêÚ:yšà{ssÈÐE
+|òÃïÞ@‰Ââw£¾_žÓÊõq‚*8n¡QÉbt¯]ØüUŒtj0×¨2ˆV¸åßü¿vÁÿZ¹µ„R1¦^Ïû~ƒÅílý‹òãœOÖ@êëŠ)ßŽOcÈ‘BìTõ_Uä M»lí»úzyD«2Ë×~ðŸPí¤øžÁn.øÚ§ÿgªÊÓM†·ü;€ÝÖ¿+@p§Ž¡Î÷_Ø‰Í<;Ôþâ2 ß>ry'›ßúNìæÐ„-÷±£”°=¸¸\¸ý±5—š½ì¹. ßXßxp—ò>Ï>óŽSt"(Æ•ZçÙ¯”¿p’©‰IÚQ—S.¡³¬˜hÿ•#{íÕ úul~í5dnÖÞu«wíCú!ëëëxc³X¿Îÿñ3ÿŠZµÊƒ=@oÐcdxˆƒ¿ÿeòÕõ·åutó M8»¸@§‘e9æµÆRV†+¸ûçß»àÊ~»ÑâçxÇÁä6K°Z£ü kròA¯ ÿ,A$}êõ*Ý³ÿöþ;J²ì:ïDçœkÂe¤­Ìò¦»Ú{Ó4Þ†–
+ôäŒHe(óF£Þ,éø(Šµøè5$‚f MxÛ°ím¹vå«²Ò›p×œsÞ÷FÄÈÈÊ¬êj´áýjåªÌÈÈ¸þì½¿½÷·ŸÂÙ^æ²_ÿåÝü‰wÍ|"7þLÙ¦3ÏwÝ"‰ÁSÿ’%QóXë‘´"ûRœYÃ‘Ö+úRxd‹üz£~“J¶¸`–ÒÖ¾ÁÅMÒh–ßò‹„“CxÍŽ'p<Iqy‘™näÐ-?Š°ÖJŒ•=ÔÏ'¶[ÿlî ¬†gq®¢(ªDkœ'±&Bï7Úíè^fäd»Xå'ÆÜ"’jx2‚N¢÷^È:]á§äµÃ¨E‰òšèÿbûþGßûVž9ð8'OKRÆâ:cS»©”KÄ=~Þ¿o>y˜-££(åròì4z„E}ü«.ëe{~#½éÖ¾urú/÷¨_x.æÞÆMZ®ÏØ®+øƒ?ûsN;Æ¼ïGP
+ŽâÖzLíKß|áž—(bü;OP[<}ö$QR©”HÆM.æ½oyyžg×I)!’‘ÒÙt”Ž0q”Fû%¤—¤ ¬˜(BI‰ïº´N=KãøAª·ogÇÇ~ü‰úÅ%èxÅhkq‘L)ƒ¥ÞÒ;9-ÑýÇãñæ‰Ký'Qõ“Á1l§<£5ÐWä§h[…°-ëùé&g'¯ç±ù9Ê‰á"	 ”²”VîûÀ¯³XÚ‰5±Bbû€žßZlþ½ú³†?ií›d§syZä'z#ÿ5Æ¼í/f£ýÔ ‹ìƒÚÏØ5†Yôúe·ÓuìyŒ¸± *Ç!#*d{›ëû/Þys3çˆƒa((NŽ02±òâ
+úÌ¹óþ}ãð3ìŸ \®pòÌfW–ˆuÒ>å_µ¿ÇðÛ‹PéÛÌï^	E~åú³¬DM×g®Qg×Õ7óÄÓOñµÏ~–»ßðvLMâ ¸rbáÿõ»/øþDýwLqäèk«}‰ñ1\×ÃÉâûÏ¯ðíE[¤t2”;@XÝžÒ™TâKÂÄŽ=ŽÃ ¯è!mÌü¾AãÄSL¾÷f¼-ã—ÜøK•˜îüä»±Öòðá¯u~WÝu9#7ÜÁÈwPÙwc—]ýÊ6þíe,Â0ªJr£)Ký­ƒË±ðabó¼õ¤áþÖ9Zf%=ºSûƒéÿÂ"E@,KÉÔ>QìP¿ýEzÊ„DÂç;?þ¯P8a€ãŠNë©ëKœÚ*ÁÔ(¿ég1i¾Ø
+™j¿‹µ}àB€ŽˆK…®a»T_/ƒß_äg±H¦œk°(41ýyø5¹ÿN.ŸÞ÷ˆ®A·–¸]“°=¯eþ6­°æ`0÷ÚˆªÂCç‰þ7w}Ü-ã,$3ÓÓ8R&N¦ã046S,¡yrÃÏ0AÈd-d¸<Ä™3§9qò8QÎž>£ëÎ¥¸€á–/{Ãÿæ;™™, <3ç¦©îº–ø³ÿòŸ¹þÚk¸ý¶[ÑqÄÈÐ¥ÿü§©‘za¡—WÙ{tD=uœZ½ÎðP…‘áQêµÂ(¤ðÆ×¾ìÎuóèédToÛð§Ï±µ¦ûL·uý­£:"Z]"Š4Bâ¹â™³¬<sÖ‘Ùþ“›{Ü¾þÃ<ÖWíŸD?ÉÒ¶uƒÜÿ`Ýegù~ãðE	ÿ´iÚ•8æXx2™ÄÖv.„Aˆµª~ÂÆ¥7ZºÀwÖê®qLÀ3W¿™ã¯½‹âüRB÷«.Íé¸åBq~™ïúNo½	·ý·¿¤Ÿi…è|o\¹¸œ£¯ô€þˆ»×	Ä(±›Iµƒ†mvšú>Ad¨`PÅZZ¿[gÒÎó‹\Œé22Ùýìüœ\Ã¬ºäZ¥I‹¶š9‚ÈLý³kŽ`ã¾ÿò·rêÄ1ægæPR ”ƒ«<Æ¦¶S*lÎøøÓs”<E}n–î€3çÎÆ1brËZZþ|“û.6êÃÚÂÊ¿)%+«5¼‰ílÛ±‡ßøO¿Ébm‰÷¼ÿ=8Žƒ’Éo=„>ôÌoçþælßÆ#G8~ú…B‘êøa«Ž Â×Ýö²;ß­³³É!$âo×EuR áx &
+AkLØ"ZY h6 ¾B4?	Z¬|’…ïßKÑ?…*—6Úô×S 7þÏ‹’²–!é0ª6ßú—Dæ1š"‹Ñ,Dµ‹«þ†ûZ'Ñ4‘B%^èµ‚>"-ò“%d´ ²°nkŸµ¨ùã|çÃÿ+åfŒ´1®'²öa-ž/­Â•<ðÞ_!E„ÖØtu’è£¬¡¢‚ÿ÷Žôïoí3Øé^M`u_T.Ö‰Ü³ÕýfMWEµÒ-êKNTÑ‰õíÀ4Äà{Õö¼*zRÉ«1š’,RÃÐ×÷!¦°ü†WS[Yeue’.^±À–‰­”\ýØ¡Í}Ð©iÆÆFð>ò‡ž~†RÑG•ÖÉõˆø/¶ºÿenüÕ?ý8Q+À8.²Päú›oç‹_ÿ
+¿ÿ}>ô‘³eb„ Ù¤º°ŒùäßþP÷-xæ×j‡F«ÎáG™_\dë–IFFÆ˜›=G}ç$j¤úò:á2è¥HØ~k)‹lMýËôNïQ£câ  67‡iÄqDFØ8fefŽ…/ßÃÔ»_É(ÿÜøo`Ò5–)å÷²ƒhú¨ÿD­­ÉÍÇ/¼ï_N†fã®~WR8;¸'q4,«ëXáõQË½…°šÇ^ûQ–÷îÂ]ZJ¢|Õ.Ø³Ê}åJGQœ;Ç©ÛÞÄ3×¼µ0¨Äý9ß$5 ý2îÂ,&í»¶MÛÛõØõ—(ú%u9ÃrœÀ0 ê|pÙ¾õ˜Úƒ§Bt«þm¦ ³Çi`­5iÇ@ösÛ­íè¿ÀÚúÑç ¸ïïÖë™™™NÞ¥„#™šd¸:`ëÍQÄ'Îà:al©78t€zØÄ©×5Ò=ÊfQà÷J@å~Œ3Ñ*¢T Ž"ö_sGOâ“øû¼÷=ïåÎ›n¢Yoâ+ÉÐù³eK÷|‹SS<qð	xüqŠ¾Ï¶]»ÂQPºåú—Õ9wªÃ)o±Æ`lWU´ŸQd2RP¡Âf`~×ÄD±Ekµ†Ð
+V—)Nÿ>ÿK´¤ÇÖâKÉ¤ãnû™5Ñ¿¡H¤ŸâÙÖÌÒÿ‚‡[Ç±˜L‘ß ªƒ²MbY@F« ¼Ä0ôÐý€¸aƒ¹±Ë¸ïGÿ1•å`qý$;Ý;<^ $xE	aŒßjðÀ{•ÕâTbÓ3vM: %Õþì ôÍž·ö%lý{[ ÛúýF³ËÙOÃ¶bP.¾ýÝ ¢Ýöé2´ãq“þ®wPP·˜Hfþ^t¢l¿{§Ê··Àö9ƒ¢$«Y7Ö+þìCõŽ[©5kLŸ=…£\\!q\Åøömxå2úÞû7}ÆÃévLnG•<üBß/…-´#ûÎe†Ù$ôÓŸç?Ñ¹Gýå×½Š³»«xå
+A2ºm7Z¹üÇÿôÙsÙ^ÞÿÞw³T«¶~æëè™ùe?kß{[G·söÌ<_úö·yàñÇ©V‡Ù±m'a n¸êeuÞý-cÇ™TRÛö3ª#lÜžî—ÔR	å"•FÓ˜Ÿ'^^FJ‰¶kâHjÍŠ*`‡
+‰Ã0ß¦ØÇúŠ3þÙÇ=²†	åáo¢-b­î?l=¼ùœ¡Ð<Ñš£fæPik_ÛÐg „A`¤‡ˆ±ªÐ›CÎ\ibŒp¸ïÿ[õ‘F’ëwÀX±Iƒ1c,66¸žDºgq‘•½WràU?–ªþ%®ÉÞ$¹:Ž€)”p–‰ËÅÎ¢ÙeèùÙŠþfDqa|ìK‚îo_õdŸÇÔ•¸¢DdÃ–Fœç.Ë¾;uÚR‰Ðµ}SëlG¨Çb:m—‰Ó ;µ6uPm§òØ®qH²lAÛõHŠÿ*(QÊÔlNò·úú×°8?ÃòÒ"ÊužÂ«V›B(‡x“ù~€hfŽmÃ£ìÞ»ƒ»·³urq¬ÑRŒÜ/¶ê¿'Uð26ü²àSûð›°©Ž¼t]JS;ùƒOý+³ËüüÏü4Mme…-§çˆ¾tï‹º¿“=ÇØØs33ÜóµoÐšlÛ¾•f£E°{ëËêÜ{“Ã]M}¥ùic¢(	oTLÚ8N‚´âº97‹	ZÉ“j-ÚB¤“T Ø2[·ãMŒ½d(ÿW¤ñÏÂXP¶:ÿõFÿIÒ €´§y¨ñìÆ­ÂÃáðxªén:ózŠüÒï¥ÐH¤Òétvu4àÓÈßZœÜûjÝýãT‰_HZ¸¬kEW5)<EH‰_Jä)K+ó<öîŸcvb?n`„êÿYÄš¶5íøˆÕz'úï7úImA_®;ó¹Ï£êßW¥Ô‰z¡œÃ® bŠíjuÓXgP“í;žÁEiƒ›ðúªûkŒ¶]ÇX%›ulßÐ¿¦û&5øY¥Ý.¸Öa,úS}Ãk˜>y
+i¤LhÎb±Dulv3=»¹Æóm€f“±áq|%™=7KbÏÃ}ûë{Ža`ž“•ý¢S™ý2óùµ3»4Êá\m™Âöý<~øîýò—ùÀý({¶laeyaÞïüù‹¾¿Á÷bÿ¾}ØØ033Ç“‡R.•ð<EÍ÷^âÝ?½(]¶ÛÏZ‹[X«á!ºúÿQ„nÔ‰–ç	VW€¶Kd,±04¥2²PFúë®gŸÈÿ€ÃˆtZ·õÏfâAÛ¥k|ÎDÒÒÁùÃ‚³„v%²³’žþ8eÊ¶ˆUÌcT©ó¹ýQ¢‡^…oÿØ¿ÂÇ Â0žè8ùµÅ¶F“¤´6xÇÈÚ*fhˆGÞôq*¥óU*+±Iséð<œV¨RJ©éMR»‘ù»8j¾âOPñ.}±Pïj>Ûœk‰±Xôù¹$»¶oMå}ÖiêùÓåv#ûÄéìå»¯õîW6Çße	L'ÿßÇCÙ˜’(â‰
+ÙÜ¿x½’Ÿ{vU8~ì9|¯€¯Xd|Ëvªå*<z`sçZ)ÄnÅþÜûyúÌSîæ97w’¯|é³|þžOsøÎ«Xý'G¸îæ#þç#ôGå=oæx!¦84Ìòj|/,ò'¿÷{Ü|ÍU¼ãMw±¼Z£Q«±ëS_À¬Ô^ô}n>}”[wîãŠk¯âÊ+/å ü¾ï—|œ±‘—ãµo;&Ólª@(Õ­ôW
+«ã„þ·m&jQ;{šÕ¥e%1Bb¥Â([,A¹‚u=âzLëì@MŒ'€¹ñú$²Lýë×ý·i±žBÙ%¾×8¸~å¿0ÌÇ!§£“Èt\¯èÙ+’V?Dòº5‰g)dÿ,€®1VqÄá›ÞÃÙën¤¸<<?³MÛ¿L7·iRÚS[¯¨0ÚR\œá™×½——½
+¯`…Â
+™(urZi:{%Ôâ
+ÖQm2õ}ŒñèÍ
+Âj\YÄ‘þ%¼úãjƒUÆÔ87p^zÃOÛÓsß¦ï³õû6c¬Û¾éT°Ng@ösÛßô¸Ýw˜áo›©ÊJVw¿ºÛ¶ø¢À`Éáµ{ë]Ôj+LÏÃs|%)+Ÿ‰©m”Êâ‡6Gù»7\Åww—99á°Üh¡k*®bb´ÊüÙ3<wò$;wíâ0¢·½>É³öÓö0åïåñ{;·qî®kñ+CÔê~…=û®àžÏ~‡|ô'?L†Ì-Î1õèÂï>ø’Ù÷³+\}ÙöïÝïø,¯ÖÐP6Š^†÷vdÙE7W1±å"ÒŽ1«56Ž’u×ÄØ8ÂÄ1Ñò"3ÇÓjDb!ÑŽƒU
+92†­T	M‚§Îtjúð×/Öñ¾â#ARüW–Š	ån‚6t‹ÿ4š"õø Óáò:€åþÖ1´Ès`z¨~F™&±SB…‹X§ØK“·)K$NÔbyx;ßýñI¥ÑÀÆÇ!õI$~Mjð…Í:&u ^ÉE¹‚—˜ßùK4UTcQÉ—6À¶„ë Ã€ø§RÙõ¹Ø¾%Kî0ÚD1ä^bÚ¿ëÁ\°óœŠS–>™9¹}Q¶P˜Ö5ìÖš¤Î±‡ÈäöŸ™ôZéîï-6ÀfŒ|¿
+¥íal†-°¶—È2¶š†­mªÐ`ü­o`qy‘F3ÀJ…td©@el×
+âÇnxžõnãÓ#–û=ÇßÞ{?‚÷ýè{yÇ;ßÆ›_÷&îxý›ˆüñŸ’¯ã[üï‡îç/ï¸÷Ê}ëGî›©x; Ñ/ÿ«­:±µ,kÃÎ}×òä‘ƒxä~>ò‘°mËÎÍÍQ:·ˆø£¿~Ií{ëäiLQ«Õ©­Ô¨7TGFYœ?EùMw¼<X—«÷-Í£[ÍtýO*cÀj¬1X“ŒúÕ±ÆF!gâôÑxJ¢…ÂHIkÄØ‚¡1j§Nâ›˜ðØºi²O¿XÇëð
+G{)ˆ¬eÒñX21ñÀÂf$`ÚÅQ‹BñpóÞí½©×Ê	Í³Ñ
+ËúJøÐéåOºèëï·B!ÂUlÚÓ/Ö`‰AXxäîÓœedn-®'Ó¾Ò>{=…ö‚$ \‰_rh-µ(.Ï3sõ-<}ÓÛ¸ñO£]¯+ý"Ò"1ÛÍMëRwa=:‚j…Ge²/ìâZq‡;,ŒE£D_•tãØš‹úi¶¨­8ÂEÛ˜¬ÜîZ?s²I¦Ò­ÊÖRt£ð¶† È¶‹]Ã2X›M'´_×}QþÚC›…0<¡X6«Ä¶•ªÖÊÓÙ+U)ã^Oî/(¸ÒÅñÕ©a*CÃ˜ÃÏ`›­ó;Ü¥"ÿ-š§¾²ˆu
+LÏœãñ$ÊqRÇ Ù¹w?Ä‡ÏýàÞô¦w°å©£ko³uŒºÈN|9Óýÿè§x.®QåÌÒÃ»®¥‡|æSŸä5¯¾;n¾™ùÅEš:»÷/ˆ_*ÑòëoçÀ¸Ë±ÙgyêØ,{¯»Ž½·ÞÊÌ¹§©Õ-7ì¿šÒ/_Ú»ƒÅßþï/ékTÜ»][LŠ§Œê¶›Z›¦V56Ž1Fc´&X8Ç¡ƒOC+ RPh©0ÆRÞ±ƒVy„ÖÑ§ñ—æ(ßx3ÍÇŽÚä‰”öÏ#ÿ*òïèþÉ”ÚLYë_cŽr°yª§øÏ"x¼õL*
+k{#þþÖ>Ó$–.2ªA›ÈJù
+•7lrnÛµ<ü¶_`hyc®8NRä×Îí“5Æ¢oh««-^ÙC¦lA¡±Ìƒïú9–G¶ã„]úß¶©hÙVKD,,ÉIY‚¤?s‰©%\
+îZG£1&¤ì^ò[Õv¢aW8?GIøk¤wz‡ôfòíÖf>¥«Ü×Íå›ÃŸÆ;í¶møuãÔe t†EÈPù¶»ýl‡@ÿ6$‚ÈÆ4LÎ£x‘EõŽÛX­-râÙg)Êø®ƒr<ŠÃcx^½‰|¿,YZ¨ñÌñsLŸ›ÅÄ†b©L¬Al‰‘x…"ÅòÇž}†çž{ŠééYPQê‚üËWÂ˜ÞÊ]¯âÙ*¸Å2Ë‹Dþ([¶îäK_ü<Ïãío¼› ˜›eç×$Þd±å¾¶*ÉS·ì¦üÚëØË9e†ˆ¹nÛvv3ª4“cUNŸ9Æ}åîøèKú:vŽaÃh5Iú£Ã £cŒÖI
+ÃZ¤‰8óÌ³<=·ÄïiKdaâ²}Ì8ž~ô1¶Ê¡Š[wœ:;h“Ÿx1÷oü³ö*²†1åR\·õÏým·þ)ž	A·å¥æ‘Ö)B3Ó“ëÏìiIB´*"ƒŒS¤«©ŠÇÄÄnï¿ûFº´°Öâ¸I€±}† ŠÒö!:
+½"¡ª”«ðŠ.Öh¼Æ*Í±)ž¸ó'’ì…)ý/;#jmû¼X0¥ÞÒQ9Q	ì¾p¹þŠ7Š5QÏ&ŒM4*îð¶]ƒO]ŸdÉÌã‹ýé3¾té}A†zOév›uÚE}¶Ï90™ï¡_µ/y=î÷ö÷Ý¿Íþ½íÛ?“1ˆ%+¦Ž!îc1Ö²8íßŽ½ù.ææX˜ŸGXƒ
+·àPg¨\!|ðñ44×Q¬6,-­pfz–ÙÙ%Â0ÄÄA£ÅÒr¹ùù„!-+«Ë¬öšÚì”¾—© †*L¿ã6´ãÐŒBæBÍå×ÜÈC>ÌsŸàx?•R™ã§N±u¹‰ùÌ—_û­÷ïåÙ_|7Ÿ{ôî¹÷{<»¼Ämoxû¯º§Î, ËŒlÙÂ_~úÏø¯¿ÿüþÿÏþÄÝlûø^²ÁþöQtv{üÅj	šØ8L¾ŒÆZ]Yä«>E E‡HÆwíâ”(ñ§_ú6»UŒS(CÑAfËþîÅ<ÞW4íßOÄŽ€­ŽÏÑ¨yG¡MÓ¶ó½mÝÿsÜ×<Â•«iÆ1ÇÂÃik_LW)0îÉó#Ò„DÂCu}zf³µõö¥À	Z<uíÛxæÖ·0ºrK¢ßïxcL§ã{ÍÚÔ˜‹”Ši´®~Ù#lXk(Õæxò`ÿßbÛÙƒ„ÅÂ¤DØ„Ú2MX´W@Ö›‰c¡VŠKâ.Ö5pdWùhÝêù!ÚDøn…z¼ŠµñpŸ(§ãç¸Ö»•Ð&í<í±™½ÇeRÇ‰îÔ¯N©_oÓœµ6%G²´¿I_=|·¢_ôh  }NÃZöÁ²¶Ò_	AË†kfô?½´ÿÈÝ¯åÐ¡¾$6k¡ä¹Œ£š!ñ‘gÏM¸.(Åj­AØjá Òq@&û«£Ä!Bà(‰’(©µZ|à†[Ùõì)‚—¹A¿¸¿úQj+”ÇFYª×Ø~ÙuÌ.­òù¿ùKÞöæ7rÙî½œ›eÏ¾ðÓÿáyÝD|~qžÙ“'ðËægf9{òFÏó1ÄÄÚ Œ¥¾¸Ä×]ËM·ïàpcŽ¹‰F}Ÿ}ApI€ç’ÈbÑíL?ö4B)”›°³&l%kAÚÚgtA“çâ¾çøÉ+·²Ú™Ø¾•§Àÿñ—_â5Ã×ížäèR%%2È6Ÿ&÷É#ÿÆDÿ–ªt‘›×ýiÎ^S`.z’@·x¸uÌbZäg¾úéþ±*![ó¨_dŒ~"¶#q£€FiŒ{ß÷ëÃ&h“LëKÇöZ“ä€EÛ0ØngBV?^<tØ„úw\¯äbŒF…-ð]|ë? R…Ä ·«ÿ…êýiSîž‹S¯VÊÉ8×—òÇ0zpÅ½Å‚ÑTÝ‘4úÍÓúEá¼/lOûéDäÙŠ{k³ÆÜö´àuŒ´èJóšž–?›ôg«3~:cð{™2-mÃ¹j^2ƒ9ËÐM×RwáÄ³OáK…Àõ}(Wñ¼
+ÕcÇÏ¥DTùÁ;_ÍíwßÅe×Þ€S©$­Oéè¬ Š’Ì•”„±!CŠ¾Ï-w¾Žù¦7;9Ððg|^)QÿðGßË3ñ
+å±W—‘ÕIªãüÅÿýÇ\¶{7oó›YY]ebë«ÿöw	gç7\ã.Å×f06TåÀÁçxøá'i4"„òq¼Zùx•QÊ£ãŒMnãš›oÆ-•¨µ¾ûð>÷Õ”|AÖ÷çs¼sÚà;Zu¬Ö‰œµµ±.ÓV÷Ü°ÁŸ|ëQ–kÆK8å
+_æßßóm
+qÈ‡®ÚÆB`ˆ¬E
+mXþÐ/æý÷Š/ødÖ5–)Çg9ŒÏ£ÞÞ-œJy¬pˆ¯Õ¾Mh"¬( D”It:ÿ¬n"„êöé¶õ	,RÇ<yûO°°ërÆÎ`8\W%ù'ÛMKX#»%c¶û¡"ƒvâ:kñ‹Iô‚ÒÊ<Ço¼‹cÝÁ¾AP*£2SäážÔXXÐÅ"ÎÂ2¦\DFqR…xÞ‹oA•QÈt„î k!0&ÆuJ¸qÈ´.ùÑ–ã‰1áM ‘¸ÙÓ,èö“»I’äÔ“©_‰ÏÜu6ål:õC¦o O—ª'SÉOOšG÷|ÛWSü‚†m€L[7ß½õ.V—æX˜™£à°QBà•ÆÙÅ~Žýî:)JGîÞÊ)i8½'£×íç­;ws÷Ûîfvq§Ÿ:ÂâÂ2g›¼î¶[¸öš«8øÌs4æ¦Á´Øºs×^s#'~ó“hd#ÙÞóþ_{vÒzã¸çfX^]ålnÙw5_þÂ=˜ú*ÿ8ÒŒOpì_`ìþG7ŒÊ_hô°Zî¨¢©-g§çâG(übåzH%°±&‚  -f}Å{p”zé]ý{ lµš¸žß9à¤Þ)]ã¤@™˜“Ïåð¹9>rå6š‘¡06ÁoçqVW›|xÿž#i„16Šq}³<p½úÔ‹}Ì¯Œ±µ¥d‹ã1‡ØÀÆXá› €Äa…è¤ú‹ü"§„jœÅº•Þ¨`K¼°Îâø^¾÷®_¥ºº”uƒç©´æÄfÖ¹TõMÈn¸°™]=“kµ68ž‹Wp	!B€5xàí?ÍŽcãG«G•‰¦½ÕÇÄZŽ‹jÖˆªdueý.`²Bô(ö“Oe$úÏ¿òRñFYlM?ïePdèóîÑx»À)}’½ê2Vl!,ÖŠT{ß¤…¢ã&çÍd\CïÝnur
+LÚG’©º·–ÞB¿ä:˜L[$õÂvßk2-~í*ÿUÛPÐýÔñ¿ºove‘ Ñ¢T,âUÊÌMÆFG¨TŠ,Ü{YÙ¥yÏåñÜoë:sˆ™3Óüówýs~ä¯cfnma´\àª[©7[œ[irãÕW1T.³oûSCÜ÷ÌìýX^ø#ÆÛâ*HE_Š÷?_ƒh/ðýõŸz^«‰r'gkì»ù.Ž<}„|ãëüÊÿôËŒŒŒPk5ˆVTÿð/_4ÃßïDß>…wÃ>Ž-eú±#¸®Bù.e·€
+G
+01X”’b¡€ïy£	‚ ­cª­à%cÚÇ·õúË‰õäiµtÔâ k5_¾ïq®™¨òê#¬xe~pt†ã³Ü½kŒ’ÔcðÑGøCeâåzÿf§ïäÆÿEBh[”Ç’Ž	­9O4˜mý@ŒÅI—öˆNµmWÝ›N‘Ÿ‘"\ÆªÂÀ'ÉŠÄ“´HîãÏ•ÊT–OaH!PŽÄèn„ß.èË¶7ejôÒb¿´mOdæÇ ^É'h`…úó;÷sè¶wrÛ·?‰v\²£ÿž8º©Q³–¸RÂ›_ Åi}­–ÝŽ·L¦
+q0*n5©/Ø”¸›ÆQ~ÚúW_ã¦]Œ!È
+óv.éS4Ô..±:”};­bû¢ÿÎyOï
+ÑgZM_¿ÛX'ç\g´LFã?Ûó¯S:?£+@¶Ê¿Mõ‚eÛ ¶Q» Èv'ô“¥ÐPŠW½ùþîsƒVÇ ŠG²{÷.žýæ¨j2gpôµ7óµjÌ£?ÆÌÌ<B[Æ¶L²oÏÎœ›¦Ñ
+0(ê­ G&Zèã%ŸsÓÓœ0–Ý[Ç8òíûý³Ï±Ùðž¶¾—Ýo/ÂÐÌ¾ýµ\}ÕnŽOÏs|v–±WP.ùÃOüwÞy'7^=³óìØ5Å#ïþ%¶½ÿ³Jr®ZäºÿóŸáµžfÎœ<vš¥Å:¡íº¼ÍV€6šJ¥ŒçzÄ±!ŠZlß9Å>Wg2ÕÉ)Á-Ð\YD8N2Í/Š:©Ö·$JR9,Ÿ=ÃÙ™^¿}”•fÂ'ÎÌrÃ–a†]E‰ïHŒ1Xãx.ñòjÿæ>ýbSþ¯¿±àÁ”ãq2jmøˆ÷; ¤“Øl†lïFÿišDN7Ò¨?3Ý-“WwÃ'÷ÞÎã¯ý #i‘Æâú%“ÈÝfúÂ­è6—%FÚvæ0X¾ k\ÏÅó]Âf„uJ«‹<ô¦pÙ¡ï1²p’È÷Ö¤…º; ¯MJQBËc+ÃÚdÞÀºaC¯"„“´öÅÁ&XAlBÊÞ­f“nüù£È6î­Ué³=9tkëœˆNp•w+&Ê´ó‰N±^¶O_ {F!Ûôâtûù3Ô¾ÈŽàÍuÙ«ne¿í—ùÍ:=…~	­ÓHÓ"¢gje¿ÁïÍ÷ëÛnbh¨Äñ“GQJa¬¡Ñj09µ•ËvïæÛ¿û›L5×%úµñ—_¹‡G¾w ×q(Š,,¯0:<ÁÈè­f€’0Ž1:¢^_E ^‰ ŽÙ2¹•Ñ‰qžûÑ_aŠÛõ:çü á{fÛ$7ýüû8yü43‹Ë´œa®ØwýÊÄØ(ùÐY^]eÛŽ-<òoþÛ–—_4£ß.òØ˜Ç£çNqÓõÛùàÞÝ,.¯rëûØó‘§ž=Îý÷~ŸÓgæÀqÐ¸\wõ•låû<Îô‰“ŒU‡LÀ›ßu;~ë/=[ \vçµ,Ÿ>B µF™¤ÎÇíúñ<—'=‹°šÉá2-OMÏ!â˜k'ÊèØ0Rpp4bÑ¯àŸ[ùâ¥pÜo?$ºÿ£ÒaA*êFŸ7ú'cü»3í$íšI!º‹ª´Z•­ŒSêˆéô<Y2Ñï½2ß~Ç¯áÚ‡X)‘\WfºœL§¯mNDïHù„žÎ™Z€v&À/úDÍ «Ž©ÓÝÊ£¯û wî·’â–öða“êÖ]/0ÅîÊ2ÑÄN£…UŠþ¸µ‰Án*"›•nŸÓaocb.¤”0)tLZÿjÑ"ƒ›qú#ßl1œÁ¡nÎ2¯'’UZ6èËkMzNefù©!O~ZG!„ìÑüo{èWôËjô›5L@o‹`ß\€ô3%‚EÓÄ§{fèo_íþÛß_õñræÌi‚Õžã#´ÅÄ–±-;ð
+
+_û8÷Ï>Âþ£?æØ³'¨ŽÒ´¥c*a‹ý[§¨Ž¬®kÃr£E«YGGB)l£ÉÐÈÛ·nç[ß½GDÄEô}×^þýüXU×ÿÖ¯1==ËR½É‰Z“k_ój¾÷ƒïpü©#üÓòq•BU
+Ì<rˆm_ûîîoß‡«e¹}ç§9sô4Ó§çyßîe¨\aiy	¡$Ä‚½{®dË{ª,./121Å¶‰­¼úê«ÝÊ™ÙS<zè1ž<ôÖ¸þîaÜVë%wm–¶M11Væ©§8ŽÓ•ô5IŠN¤Óýtk•åù®)Y	¡ñ¹|¸È°#‰”`ÄMG£F#=¸ÑsÌ/z•nüÓàÁ¦­Ï†)ÈõGÿí¾jÙAA" ‰²¦ïêÄ!nz'®|cK§0B`Åw%J´n·t‰´ðÄö¤ÛM[]®¯æÎŠ¬ÝM]mp.ÊsˆB”ŠòÊ<o{;ûû;?BX(dŠÿÚŸF»–´õ¯R!ŒÁ±&š^ÃÅ÷Üí—YÀQEâ¸™R™ÚA1˜*HJ±)¸êqk7Ö·þ¶}]ÛÆÛÁr6>Áˆ=ÒÊÇ 2”ˆÝû¡K÷w¹„Ä	Ð·=ÝÙ‚A›xÝ+úcYcä{ÇÿtÙ… I@Ë¶:òEb“µÎM)Ùûö×ñÍ¯ÞCµTA[Kd#Ür©­[9ýÐA†£Ï\¿‡¿ùÍÿÌÊü
+•‰	šaÈ%Øå*Žéˆ©ê¢X¦±´L„a„±åúH±Ç/Qk4øoÿá7i5“»öò†ÃÇz›­ÝøÁ}™~€â?ÿË‹‹,.Õxz~–-—ßÊÌìßºç³|ôÃbÇ¶)jU¶NMrüŸþ{‘ÿƒ—mçÙ×ìæ‰2;³ÈR¨¡\d÷îÝ,,-ÐlÖQ®",óËJžÃ®ÉIŽÎÎ3^¢\¨ð…/~šÿýßü¿‰”C3¨ñS#û¹ò‰gèÎÌFÇÛ’;þù8÷ÜÓIKªH•Ô÷ DÚî+R±xâ(…°?<„c‹Ç,ÛW$…íIZÀKÉ‘(Ž’ C£#œY:ý’£üáïQ«ßzˆ¬¥"cëêþ÷¶H‰ŽòŸéV÷Ûä4Ê4ˆÜ2ª9Q…uou7l1?¾‡¯¾ï_S©/&“£ŒEX‹ëˆŽŠ›MEeûh3ëží´ýa3ªoéàŸÎj,Ö$³ „”xÅBBgY‹ŒB$–ï¾ó©WÆQq;Å ;^„MûÎ-`\ÑhøÞú’ªý]dkU£ƒî’ÓÎZˆõW%ÛÉ–¬‰öFŸ‡¶@¿ÀM·z>¹®¡c:ž¡ Ü4Gß§½Ÿé³§Ó¢gºm~$mz†“¶ìu«öS±Û6üYj?¹~&íi§ºŸÑð·º³?«¦»aÔß>öÚÞ=è¸É‰cGq}e-ŽïPfrË$sŸù
+÷Ž–ùËCÓXðGÆAÀ}—ËáÔÒóŠS[p—Ø$sÏ‹Å¥Ê0®[@I—Bqˆáñ	þèOþ„ƒ?ÆÊâ2÷o-òØx¯€“x€Ý¬A¾ëf&nÜÃ™™EŽÎC”·255ÅßþÙŸrëM7ò¦7¾……¶mÝÂ}¿ðo‹ÂÄHÚ^{p÷V»aŒo~éû9~†UrµÔÜ=5Îø–	NÍÌbZ!µÙeÌòÅZKó´¢˜J±ÌµW^Å©3çø?ó+ÜÿÐ“<rßÃxø\sàè‹jøû]^4¤dçO¿š²°4·€”
+!UÂÖÊA¸.ÂõXf¢Õh$Ý
+~½gê„”Õ¡b•I)ÏA)—FoÎÿS/•{óï½ñ‡¤úRyç@µ™(ªkøé“ò•6Õï Ý4°¾qÒÊ£eu2/ZˆTÔG TRèg²RC©a—6cì³·vÇøwGÇ&‘¦è¼ÅDÏ÷p\•*U[J`¥Ûæ-RcŸ‰3Q¼.p—WÑ®“ôþ‹ó¬zbð’St*(TZ½ÎE5çjãJO/bé³khÿìDÇN†9}M„ƒìµÛ‰ðmW†×XéÓ×¬)Ú#Æd¤|–8u¢$ °qçµŽÀ”íýÛÝ¿ä'… n"\PÔßvj·¼åNh4Äqˆ‚ØXJCÃŒ±,pîi‚ D–J8&â-EŸÕFƒ––ð¥Ãeåû®ÜŸúƒÇUhÓ
+´Â í—9yn†{>óYœrRóÄñ½[öÐJiŸÃËþŸ-¹ö—~ŒÃGNÐêÖåêoâk_¼·øÈG?J£ÞdËÖ1žùòwÙyððEµÍô´zM §
+>^3Ì÷ï}”SµUö–\>^p¹zu•}CvìÛN…"m¨-®×Wh4å³cÛv†œÿàg~Ž¹sÓÜzç«Ù±˜±Œy^†ÿRi´[ëJá¼fˆ•¹ã¬6Z8N"ì#Sc/ŒEù%
+•*³æÄ¡#x¾OÑS)YKË…¢£PB xJ Ó,¯# 
+Â¬]9ñóñ‹_åŸÿ¬¶_H¦oÚ?{v¥;RÀ6&v|dcãø]éÝ·}äÙ2û,oþüdNøµUt$}ýÙ¶=k{lh–h‹ýØTqÎŠ®¡¶V¤>€íHÒkRâ‹DA“f«N=jpÇ—þ;¥åEB§€IF¥ÿ÷šDHÄYdwtÿZÿ5‚rÙÔ‡¤ì›`ð¸àÍ~±	òF²¥”ä ˆ5Î]ïDGBÛeNÇg(J/S™§ïK#q›úÑ‡ 1îkãD™Ð¶£z±qG¿ß6}­·ßŸ•Éì¬€$ S7¢f}Wk½¨ß®‰J¯úÐ»9~ü9¢0ÂuqlÛ¾›‚røÓÇïgnu™f¨i--q}«Å3g9°°À-•*Ûàù”F‡	êu%0Q@`,qlh4Ü±)Üów”Nœ¤P©àø>:yò‰ÇùÎÖñŽq·›œê÷rˆú-0ùÿúž>vœz3äøÒ2WÞxÇ=ÃƒßýüÐ‡(4JI‚÷;çÐ/Fg³Fà×oçû0Skð®‘2?),KKÔ›MÊ»vRÃW)nÁÁ«”p+£XÇ#Š"ölÝÂoÿÎÿ—Çfû¾+pÁ_ÿn¢çmÀ/…Ó/g~tŒ?ûZËøÛvÌMcâc4Ö$RæF: XœáÄ×>ÃÁÏßƒÐšB±ˆç{'’Öd×qpd"êî¦
+¨qÊóºkò‹8¾wœÜô§ÆÃ¸rYÐ5ç¹•ú-[où”¤ŸèáKyÞ•AK—ë}ƒ‡n}s£;)­.R(8xNmº5þ6#4Ñ¡¾M_Íˆü·¾dµøÓþ|!A³NP_¦>6Éµ‡`ÏÑC~	au7³ÝÝÐšØ¤ù,´Þ\€AÅN•³ì…j/þmeDkp¤CQUhéÕ‹ZúëÿÛu6C.›3ÔÌ®ð‰l4P“¿7†j·ëõ÷úg‡ïtéþ^†€*‚}Ka&Mà X²-b!×Ybm_vßç†‡¹cÏV>ÿµ{*WÐÆDÒ8Q‹ã'ŸaÅÑ\yý5X¥Ø- Ô
+˜YYåÝcsnf–ñÛ!nÔÒ]L—[e	êF¶îfñäI>û‡ÄV#Ž-¯âXX\á×–yËz,ÙÞ+v§öÅ ûçìLŽúÌ<;ÍB£AiÛU¨B‘¿ýÄ'xóïâ¶[nffn–«¯ÞÏ·~ü±GëKbðÎçŒúùÀp…§êsœ]^áÝãUîh|ui‰wTØ­†Y¹ñZqˆ‰"¤TIzÇ‰p![*|ä>þÓûSîzË[®ð/}ƒ»^ûZÎ±muõ’ž_{ïiºø]oæýÿóràóÃÔ7²27ÇÜÉ“xN²ž	£„ ×M*ÿWWi,, ,x¥"Òu™-cóIŸc^ÁÃÖ’ÖZc-ÒvŸtW’ÖFx	Qþ¯(ão×¹Ñ7ûÐwuÿ=Ž¯Ûúg×0ÙÙÎ6+*lŒ ægÐåê€¨›G\ŸBs•7ëøÄ‡ÿ¶¹L£V§X,¤ämæ­Ed©³¶M·k¾]·/2EtÂZ”TD­µ¥´ëãG!·=ðU0KeMç€:	+zÌ›
+CâJ7»ÊW^—t„KÑ"Ò­K3PbQñ†i54fSvÂ\
+{…ÚEy
+kœŽOs¥»?mò$3e¡{—u_k?ìÝBBÓsE×²ÙïmV½Ogªÿ»rÁíkÜ"¢aš}Ómß|
+2¥ˆ½Ñžÿš[X\˜¡ÙªQ*”–—™˜šÂËw¿ö5J•2?ý÷1RÆê+K6àƒ±BkC½Ñ l¶¾‹Zš£§çßX¤RH#BS5«ÇÏð®÷¼…‘¡!Š¾ÇÁZÆD±¡\öx|\R=>‹Ð©5*Ö(cpŒéüïX‹kÏ›q:ßÏ/ÄšcDÒ'·Oríû_Ïƒd¹Ù Uæê+÷ó‡¿ó_­Vùè?ÀÒÒÛwLpß¿ÿ}öœ<µ¡á·ÏÃ0rŠÚZ{O–yúôQ®©yuñ…ù~jë8û”àÕ±	t}0,×ë`ÆH„Q*òÿ×§h,-qòä)
+•«™˜àÓŸÿ"ñm×³í›§,Õ…ù7íh_5©¸òßý#ö];Á}ŸücõDÁê*&hE"ŠÆ ±8"	¸¤ëP,Ã˜Èõð<‡'§kÜ>®„D
+P¢W@[‹ëÉ¶ñæçcîÏÿ‹àl*ú·–aé0$VM¼)×^`»-qéF …q‹ˆ(J<ÈõöÈBàÙ{ìQ®=ðM]}'bé­F“b¹”Œ„5k?!ü­È¦ÖSÑ™vµ¿í¶Æ%B’úÂq«Asb+wÞÿ¶LŸ¢å(q´I„Nm{›THe†Û9¬~å¾®®aŒz£­ÉÙM^Ó¾mJkr‡Y.œL˜0“™8 M3Ã¼™ *«iE½èõ{2-í¢;ÓÓßŸ·kÍã¦£à—Íí÷õ±Ùž}ƒ’%ÝB£Q™¢E±N‹_6ÅÑv¶½û.ž9|„R¹Ds©†”Šz½Î–í;Ù»‡çNžæÌñSl™là¦ó0\WÑ’„‚‹-yc™Ÿ_NjtýØV Já]Î>½H©Tä}?ûA£qÌ«ZN2>ÚZ–WVp}¨U	£ŒÕè´%§ÕÒÄADèfˆ	cˆ"t+$j˜ DÄÇØ $nˆP#¢e,6QÚ "£¢íPh‹cÊØÄÉ°$XTêhlÝ÷ß‡«lÿ—ÿ‡?ESÇÌE–Û^û*¾ýo2wöÿÛÿú¿ÅþPéÇŽ0õÿ|!ã^úµí|Ç°(ÇK	‘wWÑáÀü"wVÙéyœ^Z!ElC×›ÈbEÄH.0:5ÎW¿ÿÂGŸäöÝÛ803M©4B©RáèÓ§8te|ŸíAÐq‡_ˆãÔd¤€³üøü+Vú2_ÿ{q¤ÄqQlp­I"~)p‹^'JwD*—.AY0^0MC»ÒÈ-&3 L¦¬$Æ`,¸b%!Nzûmnü¸ÔÛ…Ü<†$ú_7?=NX›©H—IÜhwvšÈîÝŽ\_ª&/œ0àõßÿO_ñBéR_­áû…ná^Ç¶Û5DuGˆGtè*ØN{œ£$QÒXš'ò‹Œ.Írýcß'’F$^o–Lt(çö0$Â=‚5Ò¦vP=y»ø¥€£
+Dq“ni?=ñèà±³#6§L=®alˆÉd.,úï%ÝÉFÿDœO3âAÆ=è½ß¬'-Ð÷Û[,ØeÒ¡!Â¦ƒ|ºïµÙñÍŸNªßß²A'Ò›Ê¬v±â¸\sç-|ã+_H˜(P*UšÁ+”	©sfn…=—ïçÙ³˜°…«"…žë‚Õ!)ùb¥ # RtA&×ÀÓã¸,ÓO>‹ëÈ´¢_au„ç8¸®Ä	³Ëbm0Â"­I
+--DqDÇ8Jâ–DÙ\,!ða@*Ö:Šq•ƒã*„„AˆŽB”PH©GÊ¤r‰Œ%ˆb4eÂL¢#ƒ´ ŒEÄš(1AHÔ°Æ7gÄ± ƒ'Ò(ßgçÇÞÉU—íàÐ™™_eYößp+gg¦ùÞ×¿ÂOýÔÇØ³{gÏeûŽINý‹ßbd7ÓôëØÖÄS—Å¨ÉN×!¬7A
+n­”9EøqŒA•†b!‰„‹,	Ã á	f… øò7¸¦Q§5:ÌYk™›Æw
+Å"ó³s<³oŠí‡OŒþ/E07(Óèg·Oñ³¿óú“Ï³Ï¦èy%Øá:ÇAÈD·ÄhKl’>Iâßjc±Ž“
+ƒœï¦;c‰Ò–ènTÒ±Òáý‚ð/$•ÿK@õÅÖRŠ	å2§£¿;ÓV4§Þ$.#-lJã÷‹Ä°XZ^‘-çžãÕ÷†{ïü îÂ)‚V¯PDwˆl8Og Íl×¦³|E¦ÿ¿RQ[œ#h6'&yóW¿ÂÐÒ"õRÙÙ†ÍÈÍ÷‰Áhñ<Ü(J÷{#ß»M&îÃ°?F¬ìyzùì:i›îÿë/‡ÚD{#,³a’b'`í^Ú>ÀfR í!<ŠØÎsVÏ°MMRëôÓgSÓY1ƒnQ&=¿ÿµn* K÷›l¾>Óßoˆ;¬BÍ4¡StÚmAÝ¨µ¯½ÍËö"‰™[˜¥ <”rãê›oãïþîóÌ­DLlÁÐÀ€#‰HÇÅID„ÂQ,·"ê&ZšÍVbZëÑ#Iô&@à:’ G¡ à¹|m“AI®£ð=VÅcH…tJ<å&šqˆãº¾£ÀZ‚ Äó=
+žƒ—J­†Q˜]¹)eZ(«)û¾i1˜ÄUà¹ÒUrpßuñ.%ÇE(BH¤°IY¶¸®G¡\¦T(D†G~ð gçæ©y£;/Ã+ùäÿ^wÇ«¸ûuw2;;Ç¾Ëvñ½_ýì4‹UÙ‹0Š›yÿ‚«Xª×¹NX¬ŽrDù6ŒAnßŽr=–V)Ž"Ÿ––6blr;>ñ0ÕÃÏqËÔ(¢€Ë„âÁú
+Û‡ª8ŽÃÙS3,Þ}ñá8\X“ûÅ¤9,à³®ÇÏ~ñxî·ÿ'OœctûVâf\§RA|t³I\«êÔ¹Ó:yzDRÄ'ÒH^•¨¸>ã™òO'ÒäÊ¦¸Ú¢TÚUà8‰éÊCïž¯Ù>\Î#ÿ&õ1N@ŒeÒñX21ñ )bpË:¼à#ë5´I&Bui×ŒèjúyFJnyäó<qíëi8E«+x^Ñž—ø7 Fôì†ÍäþE»ú=mõR¢£ˆÚâ,õb™ÝÇŸeÿá'¼BJÛgéa“nÆö8*
+‰‡‡QA€i2Ú´ô’ßÕRHbõ¼GlbQ³çñì{6§|\Y$25—,S&ÐÝîÀ†›á€Èê%oZÐg—£8(ât
+¡ Wî·Ó‰Ñ“‡§ÇàÛžv½îxà¬ôo–êÏ2JVMHd£óDû†þ¢¿ö^¶™‚‰·ÝÉ©GQRâz.µeÃèØš -¼ê¦ÝBsè¹“¸&FH'1Ž‘¡qF†G¨T*´BC#lÒ€çyx—¢_ÂZA+
+	£ˆ8ŠbC½ÙÂÚ˜(Ô´Âˆz«EGI[`+$Š4:Ž‰£V¤1BDAØkãÂ‹ ˆÃÔAvÒÁjM4Òé—)TÒFk-(’
+)ƒë9`,žç1T­à
+I¬#åP®)}\!1FSð=Š¥"e?q”£(=”ëPñ=D½Nx|š«/¿’ùéS>üWpÆ'Û±—¿úÄ'))ÅÇ>ôaV–-óÌ¿Çîûéá˜6kô/EZ 3dÈ‘èH3fÏ¥©c|kYU
+wÇ\!ë$:$B`C—–ï`¾ùvÔLí˜à\# ”	ˆã$P¨¯6XŠ›œ+ÙÑl>o¸™5A cï»{ú GNS(—(NneòýÇgõàý¬|˜•••tàIÜh™´í’öj‹ "iß+èˆé¦Çî+\°ßqh¡ØRT”Ü¤UöDÃpèÄ×½ÇÎyƒ—Üø¿ †ÿbF|vZÿ”ÇéøÂ&P‰¶Æ»¨f@813;‡®TÒô@§/)âK’é„žÏðòw}ç¯øÛwý2­Å³„å&®_@kÛ3»µk¥ó:óæl‡„@I‡ÚÒ9š­&j¨Êkø^Ð¢Q*$Eí¶5›ÈúŠŽáK;ÿ£€¸<„Ý‘¾›Xq$`…Ã[%Òá€xûÂ(=±Ëéˆao˜ÙV!ÌÀZÄ¬ÁoOìëßRBêËŒ¨O;!¡0v•Óú,{]D=CÄÀè¾;S áw… _G OË¡­"[MÃ6SƒnTä—;´æ\	,¡ìxó«xòÈcŒMLÔD:Bz+Ë+Ü|ëõT\Í‡Ÿ¥¬<ÆwìFX$¡14¢kêõ&†z=¤¹0O¥RbÌóØ:6ÎŽ-[)á{n²@¶›=¥À
+ÙS@œ¶¡Z:AÖ`Œ%ÖšØ$­“aDC¬ab­ ÒAF‰#†a-ZAD=hiK†„a‹ØX‚0&ŒÖÔÃ¤Äq”¤¢˜V+ QoÇI›fÅ‰Ü«R8R!%h£q\‡ Rq~â]o Õ9üØã \¿ÂÎ—óèÃ²0}†ý/þRJ‚¸EÑø´þí¥ Äù<\ŒÁd~bÄe!°†q!-¸QL8T!šaÌs±ãUŽ9ÎÐÐüÂS;·qüäaFz„Ý#CD6¡Úw	˜–å0Ä·aa~iå¢ÇŽfóyƒ½ §Æê&³ó{4çfñ·N"«#Ç³2{šÕg,,“ÐùN2Ëh“0§6G%²c4ž«8w¼ÎÎ¾5î3sár‹]•Ó­˜§Vžkæêš=§ìÔì-Øó¤sãÿ‚8 ›ˆ0Œ)—Ó´®ÆØ®„wÂ(‘Ã¨Œá4!»á°†Ðõ¸úÈ÷xüº7p||'…Õe†½bGÙ¯¿8-«ˆ'Úe}UhBLÓ˜Ÿ¥V,qËÁÇÙuê9šE?U&ŒÉö¨÷¥)kÐJ%c.×]úy–ÄìTj¦B]lúº*¦ê}tz™”Ä”@Qr*4â•7Ò9‹iºdmg—é
+û
+jz†U9†/<‚tz^W§Ÿu(~›¡öÉ8ëÝí*	w,™ÚÆH²NÄzR.ÝBÌ,û0?:Êî’daqž]».§µZÃQBJŠ#£¨Vã¿þÛ<çÄµLnßÊ­“øJ0TAyºÞ@úIU¿¿cŠmïz++‹¬,,RaU)N;Šïº¸Å¾ç#EÑó±B‚ÖŒúŒTiut„ç	å$íVÒKÎº5 $Ž”Ä&©w°B¦z	à')´’m]‹”ªmÇZŒÑ‰pVê\DÆ¢)ˆcMGh“]jCFD:‘ÐüA¢ãÄ	ˆŒÆš˜z‚´ÌÏÎ²4;ÇÎÉ­¾ïû«‰ÆÆ)oåÔô÷›üÔÿða.¿lgÎœa×Þm|÷#ÿ’ËŒît\JÚûBÓ®HÆyk¾H(s¨XcFG(m›àÜá§Ù2>Åûî~''ç—8râ£Ãešÿ¿¯²cq™pûXKA&%T¬eÆXÊ^"*¶¸¸ÂªPÍlØ‹X÷§ï{
+ñ3Wó«ALãÀ“œúÞw±Æà–J Tò„ÛtÎfª°jŒ!ˆ5¡±hªà+‰ô|ÌâRÏZT´–ÊSÃä*(¢JvH—»Ü"¯ißúµpå¤Wô°¦¶Gþ/u˜„%d«ãq4j^õ/¬MªF¥L
+…&ÆðfÏ•‡{Š³Ÿ'0håPhÕyý÷þ†c?þëÔk‹”‚Ê- mÜÍñg;2|a",ÚIÞ^*Ëó¬MÊŽË­ßŸJÇ¦j©ÑÖ¤Q¦:ÜZTÜ".á…­.Ý;ÛJ&¤OA•LxÁ.Øz»°ÝlM@hbÊÎõ¸"¾°Š)aû"ølß¶ø¯ÉY}†ýÎe§c°j`o «Ëog_ß¿µéøßŽö"š†3é0 k£ÿõc¥xïvæfÏ \¯3)p¨REÁŽíÛ¸ïßÿ»Nžæ¸‚ûNÓøÊ·ù®ë@R•’Å2M£‘*‘BÕÊáš÷¼ƒËßþFœÒbyžCü9N~ëÛŒT*¸¡<¿@K=æ”Tø®ÇðÈW,¶Á}´’ÏßßEùªà#.¸îP<…[. .^±€*pü"~¹€uŠå(ëúIûVº€;Bvœ‘q)CÒêmÑÖ¢|K´\c©Qc©ÙÂ4’qØAE!qœTˆ+iYž™çöoåä‘Ãœ9y‚âµû™Yìî¿÷kÜ~Û-¼íî723;ËîÝÛxâÿ–ËNî¸ÚkÌŸoÙþ»RCY ±(!	¬IªÚe’¨š€3Ö'Ë¼Æb¬°ejŒSO<ÎòW¾Í•ã#Xb+p•À³PrTÒŽ*®ç"”‹‘ë=Ãlt¼í÷¹‹«D•	<­0Â–Ê˜Ñ	¶ZÉˆóTUU§’¾Ž”Ä„8*Sdm-Úõ¡¥Óà°]»`yMdiá°†¬Çˆ+Bb&ò¯å`—¹ÒŠ„Üø¿¤[KU:Œ(‡%_œg*n½I\B¶¬ïué7c! k"1¾ç±ûÔ“Ü|à»<tå«)¯,3<^D›®ßÑþ‘¶ ¶Éi)H§ò‘6iC}a†šïó¦G¾ÏÄÜ4bicD*'›HëŒlqJÿÒAõ5è¬1[v­96ÆÝab¯)ÜÛ¬7o7ýj_­µIë_8¿ÉE²=;¡—M°™2»në£À¢ÌófŒY¥Ñ‘ÕÍúnÍÀùsò°¶€ÎL‡ìßH«¦‰E§Qq_öçÁg§Ýºf÷nafö¿DEhc)”JG"Œ¦qÿc Ü„b×öœ°
+§è3ÖlFc£ã,GQ§~ Z<ñ™{8þàCON²tn–æ™s””C½Þ@ZKJJòøÒEàôÐ0ÉÄÄ‰-ÃÜŽryW¢òÂœõ”>"!Ð™¯X
+´”h)1ŽÏCKð]´«ˆ”Â<´RXÏE;’HhBa	0h(‰*zhIò%•…e†‹CœÞrœ'z€ÒäVE$,÷?øC¥2?ó‘°²¼B¥R$"Jô×imÑ…Ýû›©¹Œå­Ã¬6†±4b/$-ß#˜ž¥qè4×}èC|ãsß`öÌcì¹òr¶]{gã·˜X^¡µsŠvžÑ¤Oˆ#e"ôdA3\-Qœi>¯}½†ÀS­&gÏÖ)»‚VQÀ`UÚ¢«T¢C‘qš®zª”ÉÓ%L’~Šb#’z€º‰ÑÀBš†5À*†mÀ„ð’Š€}(.CÕ€ÿ[à‚M[_Dnü_”üÿÅüÆ2¥<Vôú£gíyrÿíâ?[.á4¦‰ñ2óiÔ/*Rƒ‘
+Å¼öÁ{8¸ïfVtL©ÕD8^R95ºïwefDwºœPÍ•ÂS7|”ÐIëm­N—J“%jKÚ¦FD€ŠCt¹Š5ÑJ¥cûfÛ{†Ûßùª„+<Z¦;÷Ò´.õUrtÎ¥Í8mE§H#öÑ6èI™¬;½¡]Ž1ÐUÈ2 4súUYI!›ž¿Ð“
+°}}ú¶'™Ög3~:¿±8@Ý†GÃÐï‡õôûû“%ìÚB½ÞB(FH	J fqi•òÌ ÃJq] ™õ%saÄžr™ùù¦[M¶KÔâ¤ŠÞ-ñ<â™%æNÍâzc#ÃH¥P´5Thk±A“ËFF8 CáËîÝ;¹ü™äX×»VTž;L“xd¼ã ˆEò¤‘|Eÿð'9tô9–›!#»+xªµA½É/ýìÇ(yçæç¸lÛ¾ùÎ_d·µ„ÜóÏ7°±»ÜÅŽ ¦ f-ì’%£)JAÍÀ„£xæï¾LéúÝ¼ö5Ûahë>žüü—àÛ?`ÇÄ(:­t÷Æ"IŸ‹Ðl¸Íà’}{ç§mëÖYPó+\·g’ÚSg©ê&(Ÿ@„#cÛ	LÚ—¯!}º!LµT”LT|šõ:4BB›´³ºénWÞõ¿þyÝª%'<HîÐa–Üø¿ä£ÿ‚PL¸>3Q°ÆZlêA”Ië_TC-×Ð•bª¾g»½ôiáŸ°‚Ðõ˜X8Îëú<_|õû©®.S›ÄšLÍw1˜h+Z‰Œ´Ÿ¡¶0K(áŽG¾K¹¾B½TLŒ½5 L&â×ü¶°ib¬ëãè0±èþóSþI¼¬v‡	;ùð‹_È;n¢‡Yéq
+ÒŒLDÕf¾5ÛS‹>' ›Réƒ _v7‰Ô‘]aFÏ±UMÐ°A¥/zä{×äþ{
+Éôñ WÏ¡=R¨n›H~=ÝþÍ8X‹JQÙ=ÎÂüžŸ(õŠÂVˆð
+Ìx–‰(Læ˜+É»êðÈÈ§§—8i-{‡«]Z¢â:¤C-eÅ¬	õ^*"ERHæ˜î b_)ž›a›_ æ¸L‡e©ð+>7.Á°1=-ov°»÷‚`PÉ 'CÑÖÄHîµÏ£pÅüÉ—(îÜŠVeêaÌé'¹ûŽÛ¹í†ë8yfš«®¾Œoþ‹ßb÷â"½CŸÁ¿ØÎ€öûZÀ˜5ìŸoñ=£y•çÑh59FøBPBŸ™áÿçïòª÷¿ƒúä$'|ù¥¯r¥›°%XƒDà«Æ²4xBb´FXKÑun-]Ô>2Ð­Íðg©ÑŽ±4±,[ÃŒÕ<Ójá~ó®ÛS%°£\a}üZ€o4¾°ø<kð¬Á‘)!4Ñ©öWÚ–røì“Ó¼3xBà":³ÄúëÖŸ€Ó1øÖ*°å—ÌD¿Æÿù.†	é°$"ÂAj{çÉý·§õ	,ÂQi2ÅJØ&q…H{Lc©¸éÀ×yäòW3_§Ðj!¤‡5ñÚÈ;Ûò'’¼¿r\Â•æâWœ>ÎþcOÑò’µ=~XÐý¿MùË4:UqH\®¢¢&ÀèlÐvUÅ€T@É© Hlð ($´R)]Œ½Þõªµ1xÊMjt}]§¢_y­g¾–ÈÆ¥ËzšQYÅAwÆìšõo×‡íûÌvU¿í)ÍëÕï_µ±3	›ŸÚ×”KÅI„EÅÇQXåR¯7(—<óƒÇÙF"Nb,ì²–×‡U¾TmqºÖ¢T,°£XäÀÂ{†ªŒù:îí‘HKii(+m,?˜›¡ª“•
+ß	"|%QÒ2<Tåm'V-õ»½ãö|£ËòËNÊ6Œý›Èý%¨º |ëM:ÂˆëðÎ»ïf¥Þbûö-<}ïÃìüúw;c¡ëW¯oæ9¹Tç!
+À«Vc¾3\äÙå×HÅõ:ïåD²{r”••:ÏþÞŸºŠ‰(äªá
+b¸BdÚ
+)$u3Æ0£ŠŽDë¡$Å&l‰âz¬cäéIŒu¦•÷%ÌÚó2¡eÅj–¬¥¥ê»L?5Í_>uŽ°RÄ<$1Jh<
+ŽÀÃR JŽ âH|•ÜÅ±1Ô"ÃbbEòM‡a!×´e®#¢ôÌÏÅâ[Iÿöi{Ñ2G¹ñÿ¡~ÒÎ‚)ÇãdÔê•™Ý¤ž¬•Õ
+‰ÆÇqggÑå¡n«Ÿ5‰2`Ç€ØQ”ë¼ñÁÏðoúµ•á‰D3`$v6c,/Ï!Â&¯~â~dw~Ož¿«¯â¨PÆËþ¬¿!Hã'­….U·Jk]AŸ¾lÁÅ\Áì€›1†"#J,’è¿âViéVGEocV![ýßÛ]5ü"í,°49§gØíl'´mÇlm±]×¼zëïS÷Ý"¿dÀoÝ¶ÒJ
+úŒû ©}ö¼¢Q)jƒÑ·âaËEâÐÐˆC
+žOóÐ³×A«¤fDYËG†§ÆÆ9œãÙFÀ•Å"—)‡«+Ì¶ZL‹9NÇø·ïÃÐŽÕV™k4÷\vU¹?Œˆ„¤`¡2Rá3–›5~)¥
+Ï÷;	ÌON15UäÞO>HqÇé±°R§6¿ÈÇ>övìØÎ¹ù9
+Öaö_ü“i¤½Y‡æBž‹uBàæVÈãeî×‹Ü^,q¦VãÉFƒËE‚(âòŠGiÈK:”EâÀHcÐBSŽâ`+b16Ô|-˜ÂÒŠ5¥áÛZøXjça+ú©ûÎÝl×FûY…M“aR\UUÅe%—ÈVCÃJ«FÃBA ,-k	ÔÒT“¥Ûí	AÁ”PÜ¡\^í¸‰jïyX¨¾ŸÿLH"Š—ˆáÏiÿò-#ÒaIí.`§ï¿}Â[!V¹k’rÒÌ‚Ý¡þe©Ðõ¸òèÃ\}ÙÛ{¥°…º=6cDÆ>K×!¨/3Ö¹ý©lŸ9AË÷ÁtgÄKê?õ·{ü…µIØôÌ#ê·n¹ÃI+Ô€ø½S™`/|!Ôî·F.¨½Hˆ®,²	Q—Ï»1ÈH.`ŸˆO7úéèãº™eÙS>AÆ„ÙN)¦íkÌ|oûèÿ‡Á¢,™:ÆÆéL…ÁJ~ÙÏ˜‚`¸L½ÙD¹Åb‰‘á	j++¬†Mb¡ÎÌ •Ó‘—n—(ýê¼åßŒqnq#­ˆÝ¾ËÎê0³õ:§k5Hgš·Ý#¦´|—W*(ßçûQDI‹_öyG½Èk[!±H&¢‰—Øs?(õÐ^4GúýÜ{ï×)Š(éânåè™'ÙµmŠ×ßùz¦ç™œå[¿ðpeÑº„³“×x–½ç›À0ðÞyÍÓc#|va™_âssËT•Ã~Ïa&Ži¥†Q“Ä³njøG”¤f÷®6¹b¸ÌãŠ@¬5­V‹Ýû¶qÍsIÊJÌzô¾íuz‚ŒL—Êœ%$%ºã{“?P	?MØ5çL$ÙÙÎ¼‚
+‚Q!zúxóÁ¤ðýëÊKm µäŽKuÂÛ÷¤_(ÞØhGÿÂôø(NXËÄGéðžt±iµ½‘'nq÷£÷MjfªAÖëiqòeÛSdHKõ%ÊKsÜzä‘Ô¼Û4ÒO#~ÛK÷·‰Št±‚Iñ¡Í¢Û;¡ô)É±\Ñ>¼u)>6 B{kãmfìÍä½^Id"Ên)ÜóÞv=WÃ2€Jïöÿ‹Ô5œÕ3È´…¬?£o3†™žïÛ±@ûxLÇ1hSè-Ñ:o‘ß ý|dí‡ÝV‹è4Ûˆ-£ã;p‹”ŽX©TZ„TÑ]±§þù’bW¹JÙw8F<iAU*Œ•JT•œÆ@Z46U,15<ÂŒëñƒ0¤Ä†BÅã]ñï­…	níºyÝÍÌxßìx»Õ¼Þßg¿WÀJ¡ˆºb>|¡áa†·îãÚëo ªÕyõ×1T©P­8uÿ“\yè©Œ‚Ææ·¾ß¯çœœï3Ä:Ÿ)RàÖVÈkåÏ¹ŠÏ1o­ò•¥e4[L¹.©6q~lš~Ûé¹ÌjÃïN/ps¥ÀaGqªSuâ(Âñ[bŸ+MZ¶7R7ýþ€s´^Ñ§ìûrøŠ*J}_Ee’h~DHÆ…bR(¦¤b«Tl“Š­B±MH¶	ÉX*o§ÌHtaŒò×>æ4k–\Ûÿe‹ØZ†„LÅ.Œ¤Ì*ÿ9õ&q©š´þü®yLÅL’ÊÿÄë<í3Oóªƒßä[ÞC1
+B¦4vï€!J:DÍ:Í%ÞzèA†WæiŠ]1÷´õ	tWmÐj¬rQ6NÙ
+ÛÑH¹÷›dØ!ÊLC\Ú·l~²—½ ÷­ãdÐÛ¯MÅ­².ôô×‹u£¼~A¢®›¶Ö´@ÚEô0£²J#Õß_olPW³ßöîÕÐ¡ûe‡2ìöðË5¿í›©8Ø¥ÑÕ2µfÈJvNM°oçææÎ`Ú‰Y*Æ[K`§ª]ÍÃ¤ü\Íåoœ"‡ýÍ(âH¨))ÅçS7­sisÆ°´Ð<@Ê˜j±ÈÇC¼>LD£Z…\,þ|‚öß®Þ|5g>Žr|‚’Ç»ßöV–j-d«Á^sq3>^åñýÛì‚¢ûuTžÏy4C£E­ÿƒég÷lçó'O²â;¼k¤Ê±zƒ£AÈV×e‹ëRRÉx2ˆùâJÕ æ=£ež)øÊ\QÏ'21fƒ«¯ÛÏŽÕPÀ²8¿„ñ 8Jœç\eÀ®a]+.2t¾èûìs&Túst)ä¾‚Ñ?¼]‚Üø?O¼P¢‰ý7ZŒe2mý‹3íY›Îý·[ÿŠEœÆ‘õ:†Û’™hÛ“Þ±Œ×ø:Oì¾Ug7Ã~©;ýÍf#É$êŸn.±åä3\sìpÚÚ—²
+}‘¾l·öÙä‡èR/n¡×Õïï'>’VW•p…C`Ó\ÿ€šD»îbd^I»Áõ]ÿáê}wl5¾òq¥‡¶A"â‘¡ÅºW^-ìº¦Çh÷ò/š†d	…Dgf´Ù±˜èãNúÿ¹éÔ¾ Õï·kTülFˆ(KùÛutþºÛK+C(‡¸åÆkÙ¾eŒsçæ±jÏœfÜZµN"kˆHd_ÖpÀD8nŠR:<­,'yßLLê”ÈN'Œ°‰Á¤‚·ÚQÞ_+°Å&êvÑ Ã¾ÖÜKYõ¿™Ïê¿·R©¯ÙÁãO„ªÏŽ½Wó#w½žû›¿ÅøH•ýû¯`d|˜oþÆŸ°«Ñ ¸@jßn"õ°™õ®;¦ÿw¶7?eðáô®íüàÜ§ëï*–)Æ!õX³ÇD6i³BP®â;Žâë«1Õb)Éí×klÛ>Áë–=n¨-±b×Ä*ääˆRývÏÏbÀkØÑ—†çÙþy° üíKÙè¿âŒ¿+DZ‰éˆ;Àƒlëþoq}ÎF­^ú ýKÓlN¢ÑåJÚffûø¸D2#r<ÆV§yÃcŸãËoþ%ªnÚÐÎ­§õiJ:a@}e–·|BÐ Q("3¹}™‰ø»“à,ÒDÉ¼j¢“ÙÚÛ×¦Ša·J`ÂuÿÀTJOkšèûÔþxY¬q6ê_Î.¡(8Ì¶ÎPTÉ$.»Î>Ú@O1“÷ï$n0¶Æœ^dÊ™ itáß?ŒÙö9YÒ;©6Ôm@Vº7«ä·¶N ·¸¨÷Û÷dµÄ¹Z“á‘1öm›!8yò$A8=4† ¥ú# e4u,5kX5†µŒG@$9#Ö¦+¨ÍÊaÛ$}q*ð3ÄéÑ570bÏWß^\¢Ïê7¶8^,R5Ì?¡*£|ô}?ÆP©Â‘'žà5·ß†ãû4‚ õ——&…Ò9›0øbJ£ôëÐþ&cèÛ|S;§<bœ5š!¯=ãLŒñL«Æï×š\ë;Ü\*PàØn>þ”Ï¶bæf²TBai4ëŒNŽòf=ÂÛNÏÐ´]D{{ÿó²Yc¼ž±”2œ¿pOlÂð÷½ö©Ÿi¾´Fø¼ÂŒEuZ…Äf½´M{ÍÙ›'Â0.…¤•Ñj¿@`‘„$)þS²Se.Úw°MŒHªÿo:z?½ƒ…«^Ë„J¦‰Œ±•Âa¶µÄþC±wæ8-ÏÏýî Ÿ®á·©#`‘VcT¡ƒDw} á·ò9;e°ìÌç÷.FƒŒ¶ÈˆeçØ×ÂöÏ0ê:>¯›èi2ÔžZŽ)¨!JjeS©ˆ5¿é8hýúÿ¦#T3sTm…"&Ê,à¢“ªéRþ¶§fÙdZûVl@hÃ¾á<63l¨w‰ï×ï_oòYAËóYªÕ¹êŠqÆ«Ã 4š¦¦ª´ÎIúœ­èÔ(!ñÛúúŠ,2¬`ÄHV­¢n,!IÊ@p­`XJ®‘o’>%›˜8³J[»i9§Kšè§e7Z¬³¿;µu˜åFPx¼îö;¹ý–›9úÜs,-,ñªÛoÆõßùÈŽv‘Ü&Œõ §úBRkZã2ùõn™oŸ±·I!s„%ÀR·–UkX¶Û0O7˜õhñ\s¨RROJ´µ4´ÁÅr˜t&
+Á…‰É	Þ;¯xc}‰–…ºØ\Z§=ólaë¼_l`°ûE¡.•Ág}æáíËÄf¾bŒÿ\±Íñzº.Ðÿ9É0˜r<Žg£ÿp FDcã¸s3Ä¥*Ùz!RjÙ&™Z)ŠA7=úYþjçµWFƒÒVC“Š†‰Ñ³ÇyÍÓ#¬ÁÊd9©z °:ùÛô{‹ÐÚ-âê #dOm{ïª“5üí
+Y²S&l×@dD÷úûÚ×¶ð[z†êõ8ýY½¬ó zX’ž 1`a´1«Q‰åp§0DK7ðULl6­é~šI7Á îB"±´˜×óìP[‰3Å‚&{6¬…^í¿žOÐÔM2ã]®SÜg3E~ƒ+»uÚ»Š‚,²elåªdÔnP§\ž"\ZA¦2ÀÂ&Çäa)
+‰¶$ò¸Ö‹¤¿:yÍv£J›8á’Šéq#‰tbí¯C½i|³ÏéÅˆÈlÆYðÒïg÷M°ºX£X©òî7Ü…’ïþàû”+>ûöîA‡|á[iPraÛüÕíÖÕ¥õ©ÑoüR§•1üu’ôN -A¤‰§[Ä%Ÿ±áb¨œ8±cuœt–X%ñ—kb‡÷ŠÙmBVÛLÓDø=¢w9ÝÈ`¯gìtËúŽÃfíÀ <ñó1½\læ+Çøëåà	Ù©~¾tÿùn‚Ë°t¨*‡•~Ýÿ¨p[!Æ- ¢ë¨+Xj6¬ p=.?w˜+Ÿü:'ïø S’df6 ”ËB°ÌO|“­«³4¼b:¬§-Ý›¥üÓB¿TÚW¢-8@pÇ®1üÖ>§Š1z­¤¿ù,3d6ÛPkû³Õýq{V».cþmvÏRƒl»=Á©½Iº&ð9±š6
+ã¦¬â«…5‹‹Ù­g×ôþ›YŸœ“¦YdET(È‘:*à†Þ‰~½=
+ÉbX±-â´hÐôUø‹G¢?…°6i‘ý^	…€‚ƒ9•K€ Ñl²²²BÙ/µZ©#“Dï*C¯t®“ÈîÌ÷ŠD
+ÕÅâŽHäO#k‰Û'Û¾pq‘½ÄŸÕÿ(:À´”°o’åÓ3\¾ïZ®¹ì2 =ð{÷íatlŒGþö«ìhµJø®g¸ûÙóõÂt l¶>†ŽáRÃ¦Q~€%´Éÿ-kiZC„ÁØd´¯‡ ¥’Ñi6[Pð0žLÃgK,2ýçb¹26|0²L	Á¢#6_È9ˆºï÷Ï—ß–~lOl–eØ\Ôÿ{öed3_1Æßçâ=ná’ÿ‰ólÐ
+˜R«:¾¸í¥¢Á=CäŽt5fE7¬Â€¡P6æõ¾ÀŸ_}Áèv”IªÿëHJÇžä–ç'’I‘`»O
+³¦­¯-+MŒöÊx&H÷÷ÔÛÞóâÈ¾ò	u”z;¨B¿+akE/¿g3£oès~Â··OØög
+:5ÃB+[p<¬5´´C=ö);Ñ:eýÃ‰EÆ± C;›Û5ÊKÄœ™g§Ø‘Fc]ÉÞìßîðž®4sÓÆ´l@c£È¨þ‰îÕf¡RâøÊ
+|'i¬7„AkÎòJïÚ¾m¦ 5ëœ¥9})ºªw2ý¶¶;²6ëeY»©¨}£B<ñ<×‹‹yÏ©r‘rµDxLsëõ×Pauy™cÇOòŽ·½…bÁãÌ§¾À$þëµ×±Áëvƒ´@ö4ö·ËÙžÈ_d'G$Ã¿È´ë‘ô·»¨n:'–
+­%’WYKhtKwœk)_J&QÜäxø–ûÒqÂÈly¢ç}»‰Ïß¤Aßì~6?}9ÙÌWT«ßŠ‰Y11UéZ{I*ƒÏ·ÈÄÖRŠ	å1«Ã‹Šþ­¨z“¨4Œh¶0¿Ó÷"Úô¶…¶øOèøl]9Í­÷ÿ¼ý×Ø"PËÍUÞððV©û$&‰Þ:Ñ}ªÙFŠ®–€U..:3Š¦ÿÉ^Kjº‡Ý*¡‰3µïÙ84ó˜¤FßöEú¬Kqn¼ìg·²nnØjbã3]oRt¼Nor c<=LAÍ"…M’‰ó/ú¦÷l¤Î_w|O—ÄOX€È®0oÊŒÈaâ4e2u&ã&ÙŒ‹U£ÛÚGg2`G4cÿõ–<xícP*²Ülá:ÉãßhÔ1ÚâºN2ÒZ†€šM]»6Â’ò&›GmJ!mk]CñÛÍ;+Ï·èï…ÀÒÔhR³£\®J£þG{”ÅÅyn¸î:W¨<}lÝ}ÜL›ÞùÆü»ÖÐ¯?Ö©}­),Ž‘Ð÷¢›®1‚N:§[Ð-Œí<µB Ó´§ƒÄŠB0!C$×ÜlÂnÆyçù_l@çoÑo&âf?>ñs1Ë¹ñq.©xÉ"f.puØ¸z|€€eÂqY2QgÙf€5Ûò¨Æ2Æø™¹òIˆÙ.ò©³`¥äÖ§¿Å‘ëÞN°ûFB!ØúÄ×¸êÌ!Çï‘ìÍª÷IL2L¨-èc"b¯‚c“
+Ñ#38âo[Te¤tˆtØcømßá[Ñ[ `Ï§õßgÁ]Š¾awz}ï›¼>ÛH"Ó®qJB’VlñU‰’SO¸l`:pqêí §§¥Îf¨üdp®Å²j©ˆRj¾³Uúz8 ƒƒ¤nÂTÐÇ®ôé'ø³ùÿÁ÷mû]E›DwÏúK¯»êi­½H£ææYY©/,°÷Ÿ|”§ÿâK=uœŠ5D™&íT@ç\Z»6"íÑ„°½Ü­µ/Ûu¥Ýâ×Ü;…mZ¦&¦Ø15À7îý6år™»¶qÿ'ïa[lâ™·ý;ØÀÃZqœþÏi_?•N"LŽG¬Ý– ¬aw»éÛóE  zSA^`d./’žßLqß…þu^û½—Û=-ìËøÌ‘#GŽ9r\8d~
+räÈ‘#GŽÜøçÈ‘#GŽ9rãŸ#GŽ9räÈŽ9räÈ‘#7þ9räÈ‘#GŽÜøçÈ‘#GŽ9rãŸ#GŽ9räÈŽ9räÈ‘#7þ9räÈ‘#GŽÜøçÈ‘#GŽ9rãŸ#GŽ9räÈŽ9räÈ‘#7þ9räÈ‘#GŽÜøçÈ‘#GŽ¹ñÏ‘#GŽ9räÆ?GŽ9räÈ‘ÿ9räÈ‘#GnüsäÈ‘#GŽ¹ñÏ‘#GŽ9räÆ?GŽ9räÈ‘ÿ9räÈ‘#GnüsäÈ‘#GŽ¹ñÏ‘#GŽ9räÆ?GŽ9räÈ‘ÿ9räÈ‘#GnüsäÈ‘#GŽ¹ñÏ‘#GŽ9räÆ?GŽ9räÈŽ9räÈ‘#7þ9räÈ‘#GŽÜøçÈ‘#GŽ9rãŸ#GŽ9räÈŽ9räÈ‘#7þ9räÈ‘#GŽÜøçÈ‘#GŽ9rãŸ#GŽ9räÈŽ9räÈ‘#7þ9räÈ‘#GŽÜøçÈ‘#GŽ9rãŸ#GŽ9räÈŽ9räÈ‘ÿ9räÈ‘#GnüsäÈ‘#GŽ¹ñÏ‘#GŽ9räÆ?GŽ9räÈ‘ÿ9räÈ‘#GnüsäÈ‘#GŽ¹ñÏ‘#GŽ9r¼Høÿ ¶Ñ4$°…    IEND®B`‚
