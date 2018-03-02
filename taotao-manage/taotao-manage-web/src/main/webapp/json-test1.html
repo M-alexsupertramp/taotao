@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="http://manage.taotao.com/js/jquery-easyui-1.5.1/jquery.min.js">  </script>
+<script type="text/javascript">
+	$(function(){
+		alert("加载jquery:"+$);
+		$.ajax({
+			url:"http://manage.taotao.com/jsonp.jsp",
+			type:"get",
+			dataType:"json",
+			success:function(data){
+				alert("加载manage后台数据:"+data.num);
+			}
+		});
+	})
+</script>

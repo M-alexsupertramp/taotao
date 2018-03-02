@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+//通过在页面提前定义好函数，并且在后台返回的JS脚本中调用，来传递数据。这就是Jsonp的原理！这里定义的函数被称为回调函数！
+
+</script>
+<script type="text/javascript" src="http://manage.taotao.com/js/jquery-easyui-1.5.1/jquery.min.js">  </script>
+<script type="text/javascript">
+	$(function(){
+		//alert("加载jquery:"+$);
+		 $.ajax({
+			url:"http://manage.taotao.com/jsonp.jsp",
+			type:"get",
+			dataType:"jsonp", //告诉jquery,使用jsonp
+			success:function(data){
+				alert("加载manage后台数据:"+data.num);
+			}
+		});
+	});
+	
+	//提前定义一个函数在页面中,接收一个数据
+	function xxx(data){
+		alert("我是xxx方法,我获取到的num数据:"+data.num);
+	}
+	
+</script>
