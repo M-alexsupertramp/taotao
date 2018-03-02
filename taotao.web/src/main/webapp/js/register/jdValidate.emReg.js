@@ -127,7 +127,7 @@ function reg() {
 					isSubmit = false;
 					return;
 				}else{
-					alert('注册失败，请重新注册！   ' + result.data );
+					alert('注册失败，请重新注册！   ' + result.msg );
 				}
 //				if (result) {
 //					var obj = eval(result);

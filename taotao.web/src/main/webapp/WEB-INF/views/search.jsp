@@ -26,16 +26,6 @@
 <div class="clr"></div>
 <div class="m clearfix" id="bottom_pager">
 <div  id="pagin-btm" class="pagin fr" clstag="search|keycount|search|pre-page2">
-	<span class="prev-disabled">上一页<b></b></span>
-	<a href="javascript:void(0)" class="current">1</a>
-	<a href="search?keyword=java&enc=utf-8&qr=&qrst=UNEXPAND&rt=1&page=2">2</a>
-	<a href="search?keyword=java&enc=utf-8&qr=&qrst=UNEXPAND&rt=1&page=3">3</a>
-	<a href="search?keyword=java&enc=utf-8&qr=&qrst=UNEXPAND&rt=1&page=4">4</a>
-	<a href="search?keyword=java&enc=utf-8&qr=&qrst=UNEXPAND&rt=1&page=5">5</a>
-	<a href="search?keyword=java&enc=utf-8&qr=&qrst=UNEXPAND&rt=1&page=6">6</a>
-	<span class="text">…</span>
-	<a href="search?keyword=java&enc=utf-8&qr=&qrst=UNEXPAND&rt=1&page=2" class="next">下一页<b></b></a>
-	<span class="page-skip"><em>&nbsp;&nbsp;共${paginator.totalPages}页&nbsp;&nbsp;&nbsp;&nbsp;到第</em></span>
 </div>
 </div>
 <div class="m psearch " id="plist">
@@ -54,7 +44,7 @@
 	</div>
 	<div class="p-price">
 		<i>淘淘价：</i>
-		<strong>￥<fmt:formatNumber groupingUsed="false" maxFractionDigits="2" minFractionDigits="2" value="${item.price / 1000 }"/></strong>
+		<strong>￥<fmt:formatNumber groupingUsed="false" maxFractionDigits="2" minFractionDigits="2" value="${item.price / 100 }"/></strong>
 	</div>
 	<div class="service">由 淘淘 发货</div>
 	<div class="extra">

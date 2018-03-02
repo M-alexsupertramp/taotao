@@ -1,192 +1,311 @@
-XA"/>
-    <bindings xmi:id="_rldYdR3cEeid2cDp7yEWXA" keySequence="F6" command="_rleAdB3cEeid2cDp7yEWXA"/>
-    <bindings xmi:id="_rldYdh3cEeid2cDp7yEWXA" keySequence="F7" command="_rleCRx3cEeid2cDp7yEWXA"/>
-    <bindings xmi:id="_rldYdx3cEeid2cDp7yEWXA" keySequence="F8" command="_rlel8x3cEeid2cDp7yEWXA"/>
-    <bindings xmi:id="_rldYeB3cEeid2cDp7yEWXA" keySequence="CTRL+F2" command="_rleBKh3cEeid2cDp7yEWXA"/>
-    <bindings xmi:id="_rldYeR3cEeid2cDp7yEWXA" keySequence="CTRL+R" command="_rleA_x3cEeid2cDp7yEWXA"/>
-  </bindingTables>
-  <bindingTables xmi:id="_rldYeh3cEeid2cDp7yEWXA" elementId="org.eclipse.debug.ui.console" bindingContext="_rldY8h3cEeid2cDp7yEWXA">
-    <bindings xmi:id="_rldYex3cEeid2cDp7yEWXA" keySequence="CTRL+Z" command="_rleBHh3cEeid2cDp7yEWXA">
-      <tags>platform:win32</tags>
-    </bindings>
-  </bindingTables>
-  <bindingTables xmi:id="_rldYfB3cEeid2cDp7yEWXA" elementId="org.eclipse.egit.ui.RepositoriesView" bindingContext="_rldY7h3cEeid2cDp7yEWXA">
-    <bindings xmi:id="_rldYfR3cEeid2cDp7yEWXA" keySequence="CTRL+V" command="_rleAnB3cEeid2cDp7yEWXA"/>
-    <bindings xmi:id="_rldYfh3cEeid2cDp7yEWXA" keySequence="CTRL+C" command="_rleCth3cEeid2cDp7yEWXA"/>
-  </bindingTables>
-  <bindingTables xmi:id="_rldYfx3cEeid2cDp7yEWXA" elementId="org.eclipse.jst.jsp.ui.structured.text.editor.jsp.scope" bindingContext="_rldZBh3cEeid2cDp7yEWXA">
-    <bindings xmi:id="_rldYgB3cEeid2cDp7yEWXA" keySequence="ALT+SHIFT+V" command="_rleBph3cEeid2cDp7yEWXA"/>
-    <bindings xmi:id="_rldYgR3cEeid2cDp7yEWXA" keySequence="ALT+SHIFT+R" command="_rleksx3cEeid2cDp7yEWXA"/>
-    <bindings xmi:id="_rldYgh3cEeid2cDp7yEWXA" keySequence="CTRL+SHIFT+M" command="_rleBRh3cEeid2cDp7yEWXA"/>
-  </bindingTables>
-  <bindingTables xmi:id="_rldYgx3cEeid2cDp7yEWXA" elementId="org.eclipse.mylyn.tasks.ui.editors.task" bindingContext="_rldZCh3cEeid2cDp7yEWXA">
-    <bindings xmi:id="_rldYhB3cEeid2cDp7yEWXA" keySequence="CTRL+O" command="_rleCMR3cEeid2cDp7yEWXA"/>
-    <bindings xmi:id="_rldYhR3cEeid2cDp7yEWXA" keySequence="ALT+SHIFT+U" command="_rleBOB3cEeid2cDp7yEWXA"/>
-    <bindings xmi:id="_rldYhh3cEeid2cDp7yEWXA" keySequence="ALT+SHIFT+R" command="_rleArB3cEeid2cDp7yEWXA"/>
-    <bindings xmi:id="_rldYhx3cEeid2cDp7yEWXA" keySequence="ALT+SHIFT+S" command="_rleCTR3cEeid2cDp7yEWXA"/>
-    <bindings xmi:id="_rldYiB3cEeid2cDp7yEWXA" keySequence="CTRL+SHIFT+M" command="_rleA1x3cEeid2cDp7yEWXA"/>
-    <bindings xmi:id="_rldYiR3cEeid2cDp7yEWXA" keySequence="ALT+SHIFT+I" command="_rlekpB3cEeid2cDp7yEWXA"/>
-    <bindings xmi:id="_rldYih3cEeid2cDp7yEWXA" keySequence="ALT+SHIFT+C" command="_rlelVx3cEeid2cDp7yEWXA"/>
-  </bindingTables>
-  <bindingTables xmi:id="_rldYix3cEeid2cDp7yEWXA" elementId="org.eclipse.mylyn.wikitext.ui.editor.markupSourceContext" bindingContext="_rldZEB3cEeid2cDp7yEWXA">
-    <bindings xmi:id="_rldYjB3cEeid2cDp7yEWXA" keySequence="CTRL+O" command="_rleCCx3cEeid2cDp7yEWXA"/>
-  </bindingTables>
-  <bindingTables xmi:id="_rldYjR3cEeid2cDp7yEWXA" elementId="org.eclipse.mylyn.internal.wikitext.ui.editor.basicMarkupSourceContext" bindingContext="_rldZDx3cEeid2cDp7yEWXA">
-    <bindings xmi:id="_rldYjh3cEeid2cDp7yEWXA" keySequence="F1" command="_rleA3h3cEeid2cDp7yEWXA"/>
-  </bindingTables>
-  <bindingTables xmi:id="_rldYjx3cEeid2cDp7yEWXA" elementId="org.eclipse.jst.pagedesigner.editorContext" bindingContext="_rldZCx3cEeid2cDp7yEWXA">
-    <bindings xmi:id="_rldYkB3cEeid2cDp7yEWXA" keySequence="CTRL+SHIFT+F9" command="_rleCHx3cEeid2cDp7yEWXA"/>
-    <bindings xmi:id="_rldYkR3cEeid2cDp7yEWXA" keySequence="CTRL+SHIFT+F12" command="_rlellR3cEeid2cDp7yEWXA"/>
-    <bindings xmi:id="_rldYkh3cEeid2cDp7yEWXA" keySequence="CTRL+F5" command="_rlek2x3cEeid2cDp7yEWXA"/>
-    <bindings xmi:id="_rldYkx3cEeid2cDp7yEWXA" keySequence="CTRL+SHIFT+F10" command="_rleBcx3cEeid2cDp7yEWXA"/>
-    <bindings xmi:id="_rldYlB3cEeid2cDp7yEWXA" keySequence="CTRL+SHIFT+F11" command="_rlek5B3cEeid2cDp7yEWXA"/>
-    <bindings xmi:id="_rldYlR3cEeid2cDp7yEWXA" keySequence="CTRL+SHIFT+F5" command="_rlekfB3cEeid2cDp7yEWXA"/>
-  </bindingTables>
-  <bindingTables xmi:id="_rldYlh3cEeid2cDp7yEWXA" elementId="org.eclipse.jst.jsf.facesconfig.editorContext" bindingContext="_rldZEh3cEeid2cDp7yEWXA">
-    <bindings xmi:id="_rldYlx3cEeid2cDp7yEWXA" keySequence="CTRL+F5" command="_rlek2x3cEeid2cDp7yEWXA"/>
-    <bindings xmi:id="_rldYmB3cEeid2cDp7yEWXA" keySequence="CTRL+SHIFT+F5" command="_rlekfB3cEeid2cDp7yEWXA"/>
-  </bindingTables>
-  <bindingTables xmi:id="_rldYmR3cEeid2cDp7yEWXA" elementId="org.eclipse.core.runtime.xml" bindingContext="_rldY_x3cEeid2cDp7yEWXA">
-    <bindings xmi:id="_rldYmh3cEeid2cDp7yEWXA" keySequence="CTRL+SHIFT+P" command="_rlelwR3cEeid2cDp7yEWXA"/>
-    <bindings xmi:id="_rldYmx3cEeid2cDp7yEWXA" keySequence="CTRL+SHIFT+D" command="_rleB9h3cEeid2cDp7yEWXA"/>
-  </bindingTables>
-  <bindingTables xmi:id="_rldYnB3cEeid2cDp7yEWXA" elementId="org.eclipse.mylyn.wikitext.tasks.ui.markupSourceContext" bindingContext="_rldZER3cEeid2cDp7yEWXA">
-    <bindings xmi:id="_rldYnR3cEeid2cDp7yEWXA" keySequence="CTRL+SHIFT+O" command="_rleCCx3cEeid2cDp7yEWXA"/>
-  </bindingTables>
-  <bindingTables xmi:id="_rldYnh3cEeid2cDp7yEWXA" elementId="org.eclipse.debug.ui.memory.abstractasynctablerendering" bindingContext="_rldZGB3cEeid2cDp7yEWXA">
-    <bindings xmi:id="_rldYnx3cEeid2cDp7yEWXA" keySequence="CTRL+SHIFT+." command="_rleAVx3cEeid2cDp7yEWXA"/>
-    <bindings xmi:id="_rldYoB3cEeid2cDp7yEWXA" keySequence="CTRL+SHIFT+," command="_rlelvB3cEeid2cDp7yEWXA"/>
-    <bindings xmi:id="_rldYoR3cEeid2cDp7yEWXA" keySequence="CTRL+G" command="_rleBLR3cEeid2cDp7yEWXA"/>
-  </bindingTables>
-  <bindingTables xmi:id="_rldYoh3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.ui.propertiesEditorScope" bindingContext="_rldZDh3cEeid2cDp7yEWXA">
-    <bindings xmi:id="_rldYox3cEeid2cDp7yEWXA" keySequence="CTRL+/" command="_rleAfh3cEeid2cDp7yEWXA"/>
-    <bindings xmi:id="_rldYpB3cEeid2cDp7yEWXA" keySequence="CTRL+7" command="_rleAfh3cEeid2cDp7yEWXA"/>
-    <bindings xmi:id="_rldYpR3cEeid2cDp7yEWXA" keySequence="CTRL+SHIFT+C" command="_rleAfh3cEeid2cDp7yEWXA"/>
-  </bindingTables>
-  <bindingTables xmi:id="_rldYph3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.ui.breadcrumbEditorScope" bindingContext="_rldZIx3cEeid2cDp7yEWXA">
-    <bindings xmi:id="_rldYpx3cEeid2cDp7yEWXA" keySequence="ALT+SHIFT+B" command="_rlelPR3cEeid2cDp7yEWXA"/>
-  </bindingTables>
-  <bindingTables xmi:id="_rldYqB3cEeid2cDp7yEWXA" elementId="org.eclipse.egit.ui.ReflogView" bindingContext="_rldZFh3cEeid2cDp7yEWXA">
-    <bindings xmi:id="_rldYqR3cEeid2cDp7yEWXA" keySequence="CTRL+C" command="_rleA8x3cEeid2cDp7yEWXA"/>
-  </bindingTables>
-  <bindingTables xmi:id="_rldYqh3cEeid2cDp7yEWXA" bindingContext="_rldZJh3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldYqx3cEeid2cDp7yEWXA" bindingContext="_rldZJx3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldYrB3cEeid2cDp7yEWXA" bindingContext="_rldZKB3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldYrR3cEeid2cDp7yEWXA" bindingContext="_rldZKR3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldYrh3cEeid2cDp7yEWXA" bindingContext="_rldZKh3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldYrx3cEeid2cDp7yEWXA" bindingContext="_rldZKx3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldYsB3cEeid2cDp7yEWXA" bindingContext="_rldZLB3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldYsR3cEeid2cDp7yEWXA" bindingContext="_rldZLR3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldYsh3cEeid2cDp7yEWXA" bindingContext="_rldZLh3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldYsx3cEeid2cDp7yEWXA" bindingContext="_rldZLx3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldYtB3cEeid2cDp7yEWXA" bindingContext="_rldZMB3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldYtR3cEeid2cDp7yEWXA" bindingContext="_rldZMR3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldYth3cEeid2cDp7yEWXA" bindingContext="_rldZMh3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldYtx3cEeid2cDp7yEWXA" bindingContext="_rldZMx3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldYuB3cEeid2cDp7yEWXA" bindingContext="_rldZNB3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldYuR3cEeid2cDp7yEWXA" bindingContext="_rldZNR3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldYuh3cEeid2cDp7yEWXA" bindingContext="_rldZNh3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldYux3cEeid2cDp7yEWXA" bindingContext="_rldZNx3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldYvB3cEeid2cDp7yEWXA" bindingContext="_rldZOB3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldYvR3cEeid2cDp7yEWXA" bindingContext="_rldZOR3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldYvh3cEeid2cDp7yEWXA" bindingContext="_rldZOh3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldYvx3cEeid2cDp7yEWXA" bindingContext="_rldZOx3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldYwB3cEeid2cDp7yEWXA" bindingContext="_rldZPB3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldYwR3cEeid2cDp7yEWXA" bindingContext="_rldZPR3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldYwh3cEeid2cDp7yEWXA" bindingContext="_rldZPh3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldYwx3cEeid2cDp7yEWXA" bindingContext="_rldZPx3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldYxB3cEeid2cDp7yEWXA" bindingContext="_rldZQB3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldYxR3cEeid2cDp7yEWXA" bindingContext="_rldZQR3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldYxh3cEeid2cDp7yEWXA" bindingContext="_rldZQh3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldYxx3cEeid2cDp7yEWXA" bindingContext="_rldZQx3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldYyB3cEeid2cDp7yEWXA" bindingContext="_rldZRB3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldYyR3cEeid2cDp7yEWXA" bindingContext="_rldZRR3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldYyh3cEeid2cDp7yEWXA" bindingContext="_rldZRh3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldYyx3cEeid2cDp7yEWXA" bindingContext="_rldZRx3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldYzB3cEeid2cDp7yEWXA" bindingContext="_rldZSB3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldYzR3cEeid2cDp7yEWXA" bindingContext="_rldZSR3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldYzh3cEeid2cDp7yEWXA" bindingContext="_rldZSh3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldYzx3cEeid2cDp7yEWXA" bindingContext="_rldZSx3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldY0B3cEeid2cDp7yEWXA" bindingContext="_rldZTB3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldY0R3cEeid2cDp7yEWXA" bindingContext="_rldZTR3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldY0h3cEeid2cDp7yEWXA" bindingContext="_rldZTh3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldY0x3cEeid2cDp7yEWXA" bindingContext="_rldZTx3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldY1B3cEeid2cDp7yEWXA" bindingContext="_rldZUB3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldY1R3cEeid2cDp7yEWXA" bindingContext="_rldZUR3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldY1h3cEeid2cDp7yEWXA" bindingContext="_rldZUh3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldY1x3cEeid2cDp7yEWXA" bindingContext="_rldZUx3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldY2B3cEeid2cDp7yEWXA" bindingContext="_rldZVB3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldY2R3cEeid2cDp7yEWXA" bindingContext="_rldZVR3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldY2h3cEeid2cDp7yEWXA" bindingContext="_rldZVh3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldY2x3cEeid2cDp7yEWXA" bindingContext="_rldZVx3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldY3B3cEeid2cDp7yEWXA" bindingContext="_rldZWB3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldY3R3cEeid2cDp7yEWXA" bindingContext="_rldZWR3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldY3h3cEeid2cDp7yEWXA" bindingContext="_rldZWh3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldY3x3cEeid2cDp7yEWXA" bindingContext="_rldZWx3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldY4B3cEeid2cDp7yEWXA" bindingContext="_rldZXB3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldY4R3cEeid2cDp7yEWXA" bindingContext="_rldZXR3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldY4h3cEeid2cDp7yEWXA" bindingContext="_rldZXh3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldY4x3cEeid2cDp7yEWXA" bindingContext="_rldZXx3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldY5B3cEeid2cDp7yEWXA" bindingContext="_rldZYB3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldY5R3cEeid2cDp7yEWXA" bindingContext="_rldZYR3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldY5h3cEeid2cDp7yEWXA" bindingContext="_rldZYh3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldY5x3cEeid2cDp7yEWXA" bindingContext="_rldZYx3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldY6B3cEeid2cDp7yEWXA" bindingContext="_rldZZB3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldY6R3cEeid2cDp7yEWXA" bindingContext="_rldZZR3cEeid2cDp7yEWXA"/>
-  <bindingTables xmi:id="_rldY6h3cEeid2cDp7yEWXA" bindingContext="_rldZZh3cEeid2cDp7yEWXA"/>
-  <rootContext xmi:id="_rldY6x3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.contexts.dialogAndWindow" contributorURI="platform:/plugin/org.eclipse.platform" name="In Dialogs and Windows" description="Either a dialog or a window is open">
-    <children xmi:id="_rldY7B3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.contexts.window" contributorURI="platform:/plugin/org.eclipse.platform" name="In Windows" description="A window is open">
-      <children xmi:id="_rldY7R3cEeid2cDp7yEWXA" elementId="org.eclipse.e4.ui.contexts.views" contributorURI="platform:/plugin/org.eclipse.platform" name="%bindingcontext.name.bindingView"/>
-      <children xmi:id="_rldY7h3cEeid2cDp7yEWXA" elementId="org.eclipse.egit.ui.RepositoriesView" name="In Git Repositories View"/>
-      <children xmi:id="_rldY7x3cEeid2cDp7yEWXA" elementId="org.eclipse.mylyn.tasks.ui.views.tasks" name="In Tasks View"/>
-      <children xmi:id="_rldY8B3cEeid2cDp7yEWXA" elementId="org.eclipse.debug.ui.BreakpointView" name="In Breakpoints View" description="The breakpoints view context"/>
-      <children xmi:id="_rldY8R3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.serverViewScope" name="In Servers View" description="In Servers View"/>
-      <children xmi:id="_rldY8h3cEeid2cDp7yEWXA" elementId="org.eclipse.debug.ui.console" name="In I/O Console" description="In I/O console"/>
-      <children xmi:id="_rldY8x3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.textEditorScope" name="Editing Text" description="Editing Text Context">
-        <children xmi:id="_rldY9B3cEeid2cDp7yEWXA" elementId="org.eclipse.ant.ui.AntEditorScope" name="Editing Ant Buildfiles" description="Editing Ant Buildfiles Context"/>
-        <children xmi:id="_rldY9R3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.javaEditorScope" name="Editing JavaScript Source" description="Editing JavaScript Source Context">
-          <children xmi:id="_rldY9h3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.jsdt.ui.javascriptViewScope" name="JavaScript View" description="JavaScript View Context"/>
-        </children>
-        <children xmi:id="_rldY9x3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.ui.javaEditorScope" name="Editing Java Source" description="Editing Java Source Context"/>
-        <children xmi:id="_rldY-B3cEeid2cDp7yEWXA" elementId="org.eclipse.datatools.sqltools.SQLEditorScope" name="Editing SQL" description="Editing SQL Context"/>
-        <children xmi:id="_rldY-R3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.sse.ui.structuredTextEditorScope" name="Editing in Structured Text Editors" description="Editing in Structured Text Editors">
-          <children xmi:id="_rldY-h3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.html.core.htmlsource" name="Editing HTML Source" description="Editing HTML Source"/>
-          <children xmi:id="_rldY-x3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.xml.occurrences" name="XML Source Occurrences" description="XML Source Occurrences"/>
-          <children xmi:id="_rldY_B3cEeid2cDp7yEWXA" elementId="org.eclipse.jst.jsp.core.jspsource" name="JSP Source" description="JSP Source"/>
-          <children xmi:id="_rldY_R3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.sse.comments" name="Source Comments in Structured Text Editors" description="Source Comments in Structured Text Editors"/>
-          <children xmi:id="_rldY_h3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.xml.selection" name="XML Source Selection" description="XML Source Selection"/>
-          <children xmi:id="_rldY_x3cEeid2cDp7yEWXA" elementId="org.eclipse.core.runtime.xml" name="Editing XML Source" description="Editing XML Source"/>
-          <children xmi:id="_rldZAB3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.sse.hideFormat" name="Editing in Structured Text Editors" description="Editing in Structured Text Editors"/>
-          <children xmi:id="_rldZAR3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.xml.dependencies" name="XML Source Dependencies" description="XML Source Dependencies"/>
-          <children xmi:id="_rldZAh3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.html.occurrences" name="HTML Source Occurrences" description="HTML Source Occurrences"/>
-          <children xmi:id="_rldZAx3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.xml.navigation" name="XML Source Navigation" description="XML Source Navigation"/>
-          <children xmi:id="_rldZBB3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.xml.cleanup" name="XML Source Cleanup" description="XML Source Cleanup"/>
-          <children xmi:id="_rldZBR3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.xml.grammar" name="XML Source Grammar" description="XML Source Grammar"/>
-          <children xmi:id="_rldZBh3cEeid2cDp7yEWXA" elementId="org.eclipse.jst.jsp.ui.structured.text.editor.jsp.scope" name="Editing JSP Source" description="Editing JSP Source"/>
-          <children xmi:id="_rldZBx3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.xml.comments" name="XML Source Comments" description="XML Source Comments"/>
-          <children xmi:id="_rldZCB3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.css.core.csssource" name="Editing CSS Source" description="Editing CSS Source"/>
-          <children xmi:id="_rldZCR3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.xml.expand" name="XML Source Expand/Collapse" description="XML Source Expand/Collapse"/>
-        </children>
-        <children xmi:id="_rldZCh3cEeid2cDp7yEWXA" elementId="org.eclipse.mylyn.tasks.ui.editors.task" name="In Tasks Editor"/>
-        <children xmi:id="_rldZCx3cEeid2cDp7yEWXA" elementId="org.eclipse.jst.pagedesigner.editorContext" name="Using Web Page Editor" description="Key binding context when using the web page editor"/>
-        <children xmi:id="_rldZDB3cEeid2cDp7yEWXA" elementId="org.eclipse.pde.ui.pdeEditorContext" name="PDE editor" description="The context used by PDE editors"/>
-        <children xmi:id="_rldZDR3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.xsd.ui.text.editor.context" name="Editing XSD context"/>
-        <children xmi:id="_rldZDh3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.ui.propertiesEditorScope" name="Editing Properties Files" description="Editing Properties Files Context"/>
-        <children xmi:id="_rldZDx3cEeid2cDp7yEWXA" elementId="org.eclipse.mylyn.internal.wikitext.ui.editor.basicMarkupSourceContext" name="WikiText Markup Source Context" description="WikiText markup editing context">
-          <children xmi:id="_rldZEB3cEeid2cDp7yEWXA" elementId="org.eclipse.mylyn.wikitext.ui.editor.markupSourceContext" name="WikiText Markup Source Context" description="WikiText markup editing context"/>
-          <children xmi:id="_rldZER3cEeid2cDp7yEWXA" elementId="org.eclipse.mylyn.wikitext.tasks.ui.markupSourceContext" name="Task Markup Editor Source Context"/>
-        </children>
-        <children xmi:id="_rldZEh3cEeid2cDp7yEWXA" elementId="org.eclipse.jst.jsf.facesconfig.editorContext" name="In Faces Config Editor" description="Key binding context when using the Faces Config Editor"/>
-      </children>
-      <children xmi:id="_rldZEx3cEeid2cDp7yEWXA" elementId="org.eclipse.datatools.sqltools.schemaobjecteditor.schemaediting" name="Schema Object Editor" description="Schema Object Editor"/>
-      <children xmi:id="_rldZFB3cEeid2cDp7yEWXA" elementId="org.eclipse.tm.terminal.EditContext" name="Terminal Widget in Focus" description="Show modified keyboard shortcuts in context menu"/>
-      <children xmi:id="_rldZFR3cEeid2cDp7yEWXA" elementId="org.eclipse.compare.compareEditorScope" name="Comparing in an Editor" description="Comparing in an Editor"/>
-      <children xmi:id="_rldZFh3cEeid2cDp7yEWXA" elementId="org.eclipse.egit.ui.ReflogView" name="In Git Reflog View"/>
-      <children xmi:id="_rldZFx3cEeid2cDp7yEWXA" elementId="org.eclipse.debug.ui.debugging" name="Debugging" description="Debugging programs">
-        <children xmi:id="_rldZGB3cEeid2cDp7yEWXA" elementId="org.eclipse.debug.ui.memory.abstractasynctablerendering" name="In Table Memory Rendering" description="In Table Memory Rendering"/>
-        <children xmi:id="_rldZGR3cEeid2cDp7yEWXA" elementId="org.eclipse.wst.xsl.debug.ui.context" name="XSLT Debugging" description="Context for debugging XSLT"/>
-        <children xmi:id="_rldZGh3cEeid2cDp7yEWXA" elementId="org.eclipse.jdt.debug.ui.debugging" name="Debugging Java" description="Debugging Java programs"/>
-      </children>
-      <children xmi:id="_rldZGx3cEeid2cDp7yEWXA" elementId="org.eclipse.debug.ui.memoryview" name="In Memory View" description="In memory view"/>
-      <children xmi:id="_rldZHB3cEeid2cDp7yEWXA" elementId="org.eclipse.tm.terminal.TerminalContext" name="Terminal Typing Connected" description="Override ALT+x menu access keys while typing into the Terminal"/>
-      <children xmi:id="_rldZHR3cEeid2cDp7yEWXA" elementId="org.eclipse.ui.console.ConsoleView" name="In Console View" description="In Console View"/>
+/*publish time:2014-2-24 18:11:24 yk*/
+/*onebox*/
+.onebox{overflow:hidden;*position:relative;width:768px;border:1px solid #ddd;zoom:1;}
+.onebox:after{content:'\20';display:block;clear:both;}
+.onebox .mt{height:31px;padding-left:10px;background:#F7F7F7;line-height:30px;}
+.onebox .mt h2{float:left;font-size:15px;}
+.onebox .mt h2 span{font-size:12px;font-family:\5b8b\4f53;cursor:pointer;color:#333;}
+.onebox .mt .extra{float:right;padding-right:8px;}
+.onebox .mc{*position:relative;width:748px;padding:10px;overflow:hidden;zoom:1;}
+.onebox .mc .p-price{font-family:verdana, '\5b8b\4f53';}
+.onebox .mc .btn-gray{display:inline-block;border:1px solid #ddd;border-radius:2px;background:#f7f7f7;text-align:center;color:#333;background:-moz-linear-gradient(top,#f7f7f7,#f2f2f2);background:-webkit-gradient(linear,0 0,0 100%,from(#f7f7f7),to(#f2f2f2));filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#F7F7F7",endColorstr="#F2F2F2");-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr="#f7f7f7", endColorstr="#f2f2f2")"}
+.onebox .mc .btn-gray:hover{box-shadow:0 1px 1px rgba(0,1,1,0.08);text-decoration:none;cursor:pointer;color:#333;background:-moz-linear-gradient(top,#f9f9f9,#f6f6f6);background:-webkit-gradient(linear,0 0,0 100%,from(#f9f9f9),to(#f6f6f6));filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#F9F9F9",endColorstr="#F6F6F6");-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr="#f9f9f9", endColorstr="#f6f6f6")"}
+.onebox .relevant-num,
+.onebox .relevant-num2{height:18px;margin-bottom:20px;font:bold 14px/1.5 verdana, '\5b8b\4f53';color:#333;}
+.onebox .relevant-num span{padding-left:5px;font:normal 12px/1.5 '\5b8b\4f53';cursor:pointer;}
+.onebox .relevant-num .more{float:right;padding-right:10px;font:normal 12px/22px '\5b8b\4f53';}
+.onebox .relevant-num2{font-weight:normal;}
+.onebox .relevant-num3{margin-bottom:10px;font-weight:normal;font-size:12px;}
+.onebox .relevant-num strong,
+.onebox .relevant-num2 strong,
+.onebox .relevant-num3 strong{color:#E4393C;}
+.onebox .relevant-num a,
+.onebox .relevant-num3 a{font-family:\5b8b\4f53;color:#005AA0;}
+.onebox .obc-l,.onebox .obc-r{float:left;}
+.onebox .obc-l{width:283px;}
+.onebox .obc-l{width:273px;padding-left:10px;}
+.obc-l .ol-query .dt,.obc-l .ol-query .dd{float:left;height:25px;margin-bottom:10px;line-height:25px;}
+.obc-l .ol-query .dt{width:66px;text-align:right;color:#999;}
+.obc-l .ol-query .dd{width:200px;}
+.obc-l .ol-query .dd .txt{width:132px;height:19px;padding:2px;border:1px solid #ddd;_border:1px solid #ccc;line-height:18px;font:12px/19px verdana, '\5b8b\4f53';color:#ccc;_color:#333;}
+.obc-l .ol-query .dd .txt:focus{border:1px solid #ccc;color:#333;}
+.obc-l .ol-query .btns{height:26px;padding:10px 0 0 66px;}
+.obc-l .ol-query .btns .btn-query{display:inline-block;*display:inline;padding:2px 10px;text-decoration:none;*zoom;1;}
+.onebox .obc-r{width:440px;padding-left:20px;border-left:1px solid #E0E0E0;}
+.obc-r .or-list li{float:left;width:332px;height:18px;margin-bottom:17px;}
+.obc-r .or-list li .p-name,.obc-r .or-list li .p-price{overflow:hidden;height:18px;line-height:18px;}
+.obc-r .or-list li .p-name{float:left;width:170px;}
+.obc-r .or-list li .p-price{float:right;width:110px;padding-right:20px;}
+.obcl-search{padding-left:10px;}
+.obcl-search .os-box .osb-text{float:left;width:194px;height:19px;padding:2px;border:1px solid #ccc;margin-right:4px;}
+.obcl-search .os-box .osb-text:hover{border-color:#a0a0a0 #b9b9b9 #b9b9b9;}
+.obcl-search .os-box .osb-search{float:left;padding:3px 10px 2px;*padding:2px 10px;text-decoration:none;}
+.obcl-search .os-box .osb-hot{padding-top:3px;}
+.obcl-search .os-box .dt,
+.obcl-search .os-box .dd{float:left;color:#999;}
+.obcl-search .os-box .dt{width:60px;}
+.obcl-search .os-box .dd{width:140px;}
+.obcl-search .os-box .dd a{display:inline-block;*display:inline;padding-right:10px;*zoom:1;color:#999;}
+/*movie-tickets*/
+#movie-tickets .mc{overflow:hidden;width:748px;height:210px;}
+#movie-tickets .quick-buy-tickets{float:left;}
+#movie-tickets .mt-item li{float:left;position:relative;width:224px;height:172px;padding-left:150px;margin:0 0 20px 0;}
+#movie-tickets .mt-item li .p-img{position:absolute;left:10px;top:0;width:130px;height:172px;padding:0;}
+#movie-tickets .mt-item li .dt,
+#movie-tickets .mt-item li .dd{float:left;overflow:hidden;height:24px;line-height:24px;_height:18px;_line-height:18px;color:#999;}
+#movie-tickets .mt-item li .dt{width:60px;font-family:simsun;}
+#movie-tickets .mt-item li .dd{width:164px;}
+#movie-tickets .mt-item li .p-name{height:1.5em;margin-bottom:10px;}
+#movie-tickets .mt-item li .p-name a{font-size:14px;font-weight:bold;color:#666;}
+#movie-tickets .mt-item li .p-price .dd{font-family:verdana;font-weight:bold;color:#E4393C;}
+#movie-tickets .mt-item-one li{width:294px;margin-right:0;}
+#movie-tickets .mt-item-one li .dd{width:234px;}
+/*qbt-item*/
+.qbt-item{float:left;position:relative;width:220px;padding-right:63px;}
+.qbt-item h3{margin-bottom:10px;font-size:15px;}
+.qbt-item .i-list{clear:both;height:26px;margin-top:10px;line-height:26px;}
+.qbt-item .i-list label{width:72px;text-align:right;color:#999;}
+.qbt-item .i-list label,
+.gbt-item .i-list select{float:left;}
+.qbt-item .i-list #choose-cinema,
+.qbt-item .i-list #choose-movie{width:138px;height:26px;padding:2px;border-width:1px;border-radius:1px;border-style:solid;border-color:#AAADB2 #DBE0E6 #E2EAEF #E2E4EB;line-height:26px;}
+.qbt-item .btn{clear:both;height:36px;padding-left:72px;_padding-left:75px;margin-top:20px;}
+.qbt-item a.buy-tickets{display:inline-block;*display:inline;padding:8px 16px;height:20px;text-decoration:none;font:bold 18px/18px '\5fae\8f6f\96c5\9ed1';*line-height:20px;color:#fff;*zoom:1;}
+.qbt-item a.buy-tickets:hover{text-decoration:none;}
+.qbt-item .switch{position:absolute;right:48px;top:48px;width:15px;height:43px;}
+.qbt-item .switch a{display:block;width:15px;height:43px;background:url(i/onebox/2013101801.png) no-repeat;}
+/*tickets-list*/
+.tickets-list li{float:left;position:relative;width:162px;height:172px;padding-left:150px;margin:0 20px 20px 0;}
+.tickets-list li .p-img{position:absolute;left:10px;top:0;width:130px;height:172px;padding:0;}
+.tickets-list li .dt,
+.tickets-list li .dd{float:left;overflow:hidden;height:24px;line-height:24px;_height:18px;_line-height:18px;color:#999;}
+.tickets-list li .dt{width:60px;font-family:simsun;}
+.tickets-list li .dd{width:102px;}
+.tickets-list li .p-name{height:1.5em;margin-bottom:10px;}
+.tickets-list li .p-name a{font-size:14px;font-weight:bold;color:#666;}
+.tickets-list li .p-price .dd{font-family:verdana;font-weight:bold;color:#E4393C;}
+/*in-cinema*/
+.in-cinema li{width:490px;}
+.in-cinema li .p-name{margin-bottom:18px;}
+.in-cinema li .shop{margin-bottom:15px;}
+.in-cinema li .dd{width:430px;}
+.in-cinema li #cinema{width:138px;height:26px;padding:2px;border-width:1px;border-radius:1px;border-style:solid;border-color:#AAADB2 #DBE0E6 #E2EAEF #E2E4EB;line-height:26px;}
+/*tickets-scroll*/
+.ts-con{position:relative;width:664px;padding:0 28px;margin-left:13px;}
+.ts-con .btns{position:absolute;top:20px;z-index:1;overflow:hidden;width:14px;height:150px;background:#fff url(i/onebox/2013101802.png) no-repeat;opacity:.6;filter:alpha(opacity=60);line-height:500px;}
+.ts-con .btns:hover{opacity:1;filter:alpha(opacity=100);}
+.ts-con .disabled,
+.ts-con .disabled:hover{opacity:.2;filter:alpha(opacity=20);cursor:not-allowed;}
+.ts-con #prev,
+.ts-con #prev2{left:10px;background-position:0 50px;}
+.ts-con #next,
+.ts-con #next2{right:10px;background-position:-17px 50px;}
+.ts-list{overflow:hidden;position:relative;width:572px;height:197px;}
+.ts-list li{float:left;width:113px;padding:0 15px;}
+.ts-list li .p-img{overflow:hidden;position:static;width:113px;height:149px;}
+.ts-list li .p-img a{display:block;position:relative;width:113px;height:149px;}
+.ts-list li .p-img a span{display:block;position:absolute;bottom:0px;overflow:hidden;height:21px;font:12px/20px verdana, '\5b8b\4f53';}
+.ts-list li .p-img a .tsl-bg{left:0;width:113px;background:#000;opacity:.6;filter:alpha(opacity=60);}
+.ts-list li .p-img a .tsl-title{left:5px;width:75px;color:#fff;}
+.ts-list li .p-img a .tsl-rating{right:5px;width:28px;text-align:right;color:#E43A3A;}
+.ts-list li .p-price{width:113px;height:38px;text-align:center;font:14px/38px verdana, '\5b8b\4f53';color:#E43A3D;}
+/*chose-city*/
+.chose-city{position:fixed;left:360px;top:120px;z-index:10;width:493px;height:298px;border:1px solid #ddd;box-shadow:0 0 5px #DDD;margin:0;background:#fff;}
+.chose-city .mt{position:relative;height:31px;border-bottom:1px solid #eaeaea;background:#f5f5f5;}
+.chose-city .mt h2{height:31px;padding-left:10px;font:bold 12px/31px '\5b8b\4f53';color:#e4393c;}
+.chose-city .mt h2 span{height:31px;font-weight:normal;}
+.chose-city .mt h2 a{padding-right:5px;color:#333;}
+.chose-city .mt h2 a:hover{color:#e4393c;}
+.chose-city .mt .close{position:absolute;right:8px;top:7px;overflow:hidden;width:17px;height:17px;background:url(i/2013110801.png) no-repeat;line-height:100px;}
+.chose-city .tab{overflow:visible;width:494px;height:38px;border-bottom:1px solid #eaeaea;margin-bottom:10px;margin-left:-1px;background:#F5F5F5;}
+.chose-city .tab li{float:left;width:68px;height:36px;padding-top:2px;border-left:1px solid #eaeaea;font:15px/36px '\5fae\8f6f\96c5\9ed1';cursor:default;color:#666;}
+.chose-city .tab li.curr{height:37px;padding-top:0px;border-top:2px solid #999;background:white;}
+.chose-city .c-attr{zoom:1;}
+.chose-city .c-attr:after{content:'\20';display:block;clear:both;}
+.chose-city .c-attr .ca-key,
+.chose-city .c-attr .ca-values{float:left;line-height:24px;}
+.chose-city .c-attr .ca-key{width:50px;text-align:center;font:12px/24px '\5fae\8f6f\96c5\9ed1';color:#666;}
+.chose-city .c-attr .ca-values{width:443px;}
+.chose-city .c-attr .ca-values a{padding:2px;margin-right:15px;color:#333;}
+.chose-city .c-attr .ca-values a:hover{padding:2px;text-decoration:none;background:#E23A3A;color:#fff;}
+.chose-city .c-attr .ca-values a.curr{background:#E23A3A;color:#fff;}
+/*chose-city-hot*/
+.chose-city-hot{position:fixed;left:880px;top:120px;z-index:10;width:348px;padding:10px 30px 10px 20px;border:1px solid #ddd;box-shadow:0 0 5px #DDD;margin:0;background:#fff;zoom:1;}
+.chose-city-hot .close{position:absolute;right:8px;top:7px;overflow:hidden;width:17px;height:17px;background:url(i/2013110802.png) no-repeat;line-height:100px;}
+.chose-city-hot .h-attr{zoom:1;}
+.chose-city-hot .h-attr:after{content:'\20';display:block;clear:both;}
+.chose-city-hot .h-attr .ha-key,
+.chose-city-hot .h-attr .ha-values{float:left;line-height:24px;}
+.chose-city-hot .h-attr .ha-key{width:50px;font:bold 12px/24px '\5b8b\4f53';color:#E5393D;}
+.chose-city-hot .h-attr .ha-values{width:298px;}
+.chose-city-hot .h-attr .ha-values a{padding:2px;margin-right:15px;color:#333;}
+.chose-city-hot .h-attr .ha-values a:hover{padding:2px;text-decoration:none;background:#E23A3A;color:#fff;}
+.chose-city-hot .h-attr .ha-values a.curr{background:#E23A3A;color:#fff;}
+.chose-city-hot .corner{position:absolute;display:block;}
+.chose-city-hot .corner b{position:absolute;top:0;width:0px;height:0px;}
+.chose-city-hot .corner .b1{z-index:1;}
+.chose-city-hot .corner .b2{z-index:2;}
+*html .chose-city-hot .corner b{overflow:hidden;width:0px;height:0px;line-height:0px;font-size:0;}
+.chose-city-hot .corner-top{left:20px;top:-14px;}
+.chose-city-hot .corner-top b{border-width:7px;}
+.chose-city-hot .corner-top .b1{top:0;border-style:dashed dashed solid dashed;border-color:transparent transparent #ddd transparent;}
+.chose-city-hot .corner-top .b2{top:1px;border-style:dashed dashed solid dashed;border-color:transparent transparent #fff transparent;}
+/*medicine*/
+#mm-recommended{position:relative;margin-left:5px;width:664px;padding:0 25px;}
+#mm-recommended .btns{position:absolute;top:81px;z-index:1;overflow:hidden;width:14px;height:22px;background:#fff url(i/onebox/2013101802.png) no-repeat;opacity:.6;filter:alpha(opacity=60);line-height:500px;}
+#mm-recommended .btns:hover{opacity:1;filter:alpha(opacity=100);cursor:pointer;}
+#mm-recommended .disabled,
+#mm-recommended .disabled:hover{opacity:.2;filter:alpha(opacity=20);cursor:not-allowed;}
+#mm-recommended #mmr-prev{left:10px;background-position:0 0px;}
+#mm-recommended #mmr-next{right:10px;background-position:-17px 0px;}
+#medicine .mmr-list{position:relative;overflow:hidden;width:392px;height:206px;}
+#medicine .mmr-list li{float:left;width:160px;height:206px;padding:0 18px;}
+#medicine .mmr-list li .p-img{width:160px;height:160px;padding:0;}
+#medicine .mmr-list-info{position:relative;overflow:hidden;width:968px;height:206px;}
+#medicine .mmr-list-info li{float:left;width:160px;height:206px;padding:0 41px;}
+#medicine .mmr-list-info li .p-img,
+#medicine .mmr-list-info2 li .p-img{width:160px;height:160px;padding:0;}
+#medicine .mmr-list-info2{position:relative;overflow:hidden;width:748px;height:215px;}
+#medicine .mmr-list-info2 li{float:left;width:160px;height:215px;padding:0 41px;}
+#medicine .mmr-list-info2 li strong{padding-right:10px;}
+/*groupbuy*/
+#groupbuy .gb-list{overflow:hidden;width:748px;height:223px;zoom:1;}
+#groupbuy .gb-list:after{content:"\20";display:block;clear:both;}
+#groupbuy li{float:left;width:200px;height:213px;padding:0 24px;margin-bottom:10px;}
+#groupbuy li .dt,#groupbuy li .dd{float:left;overflow:hidden;height:18px;line-height:18px;color:#999;}
+#groupbuy li .dt{width:38px;font-family:simsun;}
+#groupbuy li .dd{width:140px;font-family:verdana;}
+#groupbuy li .p-img{width:200px;height:133px;padding:0;margin-bottom:5px;}
+#groupbuy li .p-name{height:3em;margin-bottom:3px;}
+#groupbuy li .p-name a{font-size:12px;color:#666;}
+#groupbuy li .p-price strong{margin-right:10px;font-size:14px;}
+#groupbuy li .purchased{font-family:verdana;color:#999;}
+#groupbuy li .tag span{padding:3px;background:#F1F1F1;color:#333;}
+#groupbuy.single{height:auto;}
+#groupbuy.single li{width:700px;height:124px;margin-bottom:10px;}
+#groupbuy.single li .p-img{float:left;margin-right:20px;}
+#groupbuy.single li .p-name{height:1.5em;margin-bottom:10px;}
+#groupbuy.single li .p-name a{font-size:14px;font-weight:bold;}
+#groupbuy.single li .dt,#groupbuy.single li .dd{height:24px;line-height:24px;}
+#groupbuy.single li .dt{width:60px;}
+#groupbuy.single li .dd{width:420px;}
+/*game*/
+#game .gm-list{padding-left:10px;margin-bottom:10px;*zoom:1;}
+#game .gm-list:after{content:'\20';display:block;clear:both;}
+#game .gm-list li{float:left;position:relative;overflow:hidden;width:85px;_width:82px;padding-left:160px;}
+#game .gm-list .p-img{position:absolute;left:0;top:0;width:150px;height:90px;padding:0;}
+#game .gm-list .p-name{width:150px;height:18px;margin-bottom:10px;}
+#game .gm-list .p-name a{font:bold 14px/18px verdana, '\5b8b\4f53';}
+#game .gm-list .p-type{width:150px;height:18px;margin-bottom:5px;color:#999;}
+#game .gm-list .p-info{width:150px;height:18px;margin-bottom:10px;color:#333;}
+#game .gm-list .btn-join{display:inline-block;padding:1px 10px;text-decoration:none;}
+#game .online-games .og-l{float:left;width:268px;padding-left:10px;}
+#game .online-games .ogl-item{float:left;position:relative;width:108px;padding-left:160px;}
+#game .online-games .p-img{position:absolute;left:0;top:0;width:150px;height:90px;padding:0;}
+#game .online-games .p-name{width:108px;height:18px;margin-bottom:10px;}
+#game .online-games .p-name a{font:bold 14px/18px verdana, '\5b8b\4f53';}
+#game .online-games .p-info{width:108px;margin-bottom:10px;color:#333;}
+#game .online-games .p-info li{width:108px;color:#333;}
+#game .online-games .p-info li a{color:#333;}
+#game .online-games .p-info li a:hover{color:#e4393c;}
+#game .online-games .og-r{float:right;width:447px;padding-left:20px;border-left:1px solid #ddd;}
+#game .online-games .og-r .ogr-service{float:left;}
+#game .online-games .og-r .ogr-service h3{height:18px;margin-bottom:16px;line-height:18px;font:normal 12px/18px '\5b8b\4f53';}
+#game .online-games .og-r .ogr-new{width:188px;}
+#game .online-games .og-r .btn{float:left;height:16px;padding:2px 15px;margin:0 15px 15px 0;line-height:16px;text-decoration:none;white-space:nowrap;}
+#game .online-games .og-r .ogr-all{width:258px;}
+#game .online-games .og-r .ogr-all .con1,
+#game .online-games .og-r .ogr-all .con2{clear:both;width:258px;height:26px;margin-bottom:10px;}
+#game .online-games .og-r .ogr-all #service-select{float:left;width:138px;height:26px;padding:2px;border-width:1px;border-style:solid;border-color:#AAADB2 #DBE0E6 #E2EAEF #E2E4EB;margin-right:10px;line-height:26px;}
+#game .online-games .og-r .ogr-all .btn-join{float:left;*width:74px;*height:26px;padding:4px 10px;*line-height:15px;}
+/*hotels*/
+#hotels .relevant-num span{cursor:text;}
+#hotels .hm-list{display:block;overflow:hidden;width:748px;height:220px;zoom:1;}
+#hotels .hm-list li{float:left;width:200px;height:213px;padding:0 24px;margin-bottom:10px;}
+#hotels .hm-list li div{*zoom:1;}
+#hotels .hm-list li .dt,#hotels .hm-list li .dd{float:left;overflow:hidden;height:18px;line-height:18px;color:#999;}
+#hotels .hm-list li .dt{width:38px;font-family:simsun;}
+#hotels .hm-list li .dd{width:140px;font-family:verdana;}
+#hotels .hm-list li .p-img{width:200px;height:133px;padding:0;margin-bottom:5px;}
+#hotels .hm-list li .p-name{height:1.5em;margin-bottom:3px;}
+#hotels .hm-list li .p-name a{font-size:14px;font-weight:bold;color:#666;}
+#hotels .hm-list li .area .dd,
+#hotels .hm-list li .area .dd a{color:#005AA0;}
+#hotels .hm-list li .tag span{padding:3px;background:#F1F1F1;color:#333;}
+#hotels.single{height:auto;}
+#hotels.single .hm-list li{width:700px;height:124px;margin-bottom:10px;}
+#hotels.single .hm-list li .p-img{float:left;margin-right:20px;}
+#hotels.single .hm-list li .dt,#hotels.single li .dd{height:24px;line-height:24px;}
+#hotels.single .hm-list li .dt{width:60px;}
+#hotels.single .hm-list li .dd{width:420px;}
+/*air-tickets*/
+#air-tickets .atc{padding-top:10px;}
+#air-tickets .atc-l{float:left;width:364px;padding-left:10px;}
+#air-tickets .atc-l .more{padding-right:20px;}
+#air-tickets .atcl-query{position:relative;}
+#air-tickets .dt,
+#air-tickets .dd{float:left;}
+#air-tickets .dt{width:63px;color:#999;}
+#air-tickets .dd{width:92px;}
+#air-tickets .mr{margin-right:32px;}
+#air-tickets .switch{position:absolute;left:164px;top:44px;width:15px;height:43px; display: none;}
+#air-tickets .switch a{display:block;width:15px;height:43px;background:url(i/onebox/2013101801.png) no-repeat;}
+#air-tickets .q-type,
+#air-tickets .q-item{clear:both;width:364px;height:25px;margin-bottom:10px;line-height:25px;}
+#air-tickets .q-type{font:12px/24px verdana;}
+#air-tickets .q-type .dd{width:150px;}
+#air-tickets .q-type input,#air-tickets .q-type label{vertical-align:middle;_vertical-align:text-bottom;}
+#air-tickets .q-type label{padding:0 10px 0 3px;}
+@-moz-document url-prefix(){#air-tickets .q-type input,#air-tickets .q-type label{margin-top:1px;}}
+#air-tickets .q-item .txt{width:86px;height:19px;padding:2px;border:1px solid #ddd;font:12px/19px verdana,'\5b8b\4f53';color:#ccc;}
+#air-tickets .q-item .txt:focus{border:1px solid #ccc;color:#333;}
+#air-tickets .btns{height:26px;padding:10px 0 0 63px;margin-bottom:10px;}
+#air-tickets .btns a{display:inline-block;height:18px;padding:2px 10px;text-decoration:none;}
+#air-tickets .text-da{display:none;height:20px;line-height:20px;}
+#air-tickets .text-da a{color:#035A9D;}
+#air-tickets .atc-r{float:right;width:353px;padding-left:20px;border-left:1px solid #ddd;}
+#air-tickets.onebox{margin-bottom: 0;}
+/*root61*/
+.root61 .onebox{width:988px;}
+.root61 .onebox .mc{width:968px;}
+.root61 .onebox .obc-r{width:664px;}
+.root61 #movie-tickets .mc{width:968px;}
+.root61 #movie-tickets .mt-item li{width:152px;margin-right:20px;}
+.root61 #movie-tickets li .dd{width:92px;}
+.root61 #movie-tickets .mt-item-one li{width:514px;}
+.root61 #movie-tickets .mt-item-one li .dd{width:454px;}
+.root61 #mm-recommended{padding:0 28px;}
+.root61 #medicine .mmr-list{width:572px;}
+.root61 #medicine .mmr-list-info2{width:968px;}
+.root61 #groupbuy .gb-list{width:968px;}
+.root61 #groupbuy li{padding:0 21px;}
+.root61 #groupbuy.single li{width:925px;}
+.root61 #groupbuy.single li .dd{width:645px;}
+.root61 #game .gm-list li{width:159px;}
+.root61 #game .online-games .p-name{width:150px;}
+.root61 #game .online-games .p-info{width:150px;}
+.root61 #game .online-games .p-info li{width:150px;}
+.root61 #game .online-games .og-l{width:310px;}
+.root61 #game .online-games .og-r{width:627px;}
+.root61 #game .online-games .og-r .ogr-new{width:208px;}}
+.root61 #game .online-games .og-r .ogr-all{width:412px;}
+.root61 #game .online-games .ogl-item{width:150px;}
+.root61 #game .online-games .og-r .ogr-all .con1,
+.root61 #game .online-games .og-r .ogr-all .con2{width:412px;}
+.root61 #hotels .hm-list{width:968px;}
+.root61 #hotels .hm-list li{padding:0 21px;}
+.root61 #hotels.single .hm-list li{width:925px;}
+.root61 #hotels.single .hm-list li .dd{width:645px;}
+.root61 #air-tickets .dt{width:66px;}
+.root61 #air-tickets .switch{left:195px;}
+.root61 #air-tickets .btns{padding:10px 0 0 66px;}
+.root61 #air-tickets .atc-l{float:left;width:473px;}
+.root61 #air-tickets .atc-r{float:left;width:464px;}
+.root61 #air-tickets .q-type,
+.root61 #air-tickets .q-item{clear:both;width:460px;}
+.root61 #air-tickets .dd{width:135px;}
+.root61 #air-tickets .q-item .txt{width:114px;}
+
+.p-name em{
+	color: red;
+}
