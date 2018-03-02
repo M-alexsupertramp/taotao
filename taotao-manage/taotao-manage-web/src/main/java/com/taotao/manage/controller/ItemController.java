@@ -1,6 +1,5 @@
 package com.taotao.manage.controller;
 
-import java.util.List;
 
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,13 +8,12 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.taotao.manage.pojo.Item;
-import com.taotao.manage.service.ItemDescService;
 import com.taotao.manage.service.ItemService;
 import com.taotao.manage.vo.DataGridResult;
 
@@ -24,8 +22,6 @@ import com.taotao.manage.vo.DataGridResult;
 public class ItemController {
 	@Autowired
 	private ItemService itemService;
-	@Autowired
-	private ItemDescService itemDescService;
 	
 	@PostMapping
 	public ResponseEntity<Void> saveItem(Item item,@RequestParam("desc")String desc){
@@ -70,6 +66,19 @@ public class ItemController {
 			return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(null);
 		}
 		
+	}
+	
+	@PutMapping
+	public ResponseEntity<Void> updateItem(Item item,@RequestParam("desc")String desc){
+		try {
+			if(itemService.updateItemAndItemDesc(item,desc)){
+				return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+			}
+			return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+		} catch (Exception e) {
+			e.printStackTrace();
+			return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(null);
+		}
 	}
 	
 }

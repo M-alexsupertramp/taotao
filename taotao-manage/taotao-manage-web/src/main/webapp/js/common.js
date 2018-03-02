@@ -78,6 +78,8 @@ var TT = TAOTAO = {
         			}
         		}
         	}
+        	var imgs=form.find("[name=image]").val()+","+imgArray.join(",");
+			form.find("[name=image]").val(imgs);
         	$(e).unbind('click').click(function(){
         		/*
         		 * parentsUntil([expr|element][,filter])
@@ -98,7 +100,11 @@ var TT = TAOTAO = {
 								imgArray.push(data.url);
 								form.find(".pics ul").append("<li><a href='"+imgArray[i]+"' target='_blank'><img src='"+imgArray[i]+"' width='65' height='65' /></a></li>");
 							});
-							form.find("[name=image]").val(imgArray.join(","));
+							//form.find("[name=image]").val(imgArray.join(","));
+							form.find("[name=image]").val(function(){
+								return this.value ? this.value+","+imgArray.join(",") :imgArray.join(",");
+							})
+							//关闭对话框
 							editor.hideDialog();
 						}
 					});

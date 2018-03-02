@@ -56,21 +56,28 @@
         		onLoad :function(){
         			//回显数据
         			var data = $("#itemList").datagrid("getSelections")[0];
+        			//console.table(data);
+        			//价格保留两位小数点
         			data.priceView = TAOTAO.formatPrice(data.price);
+        			//读取记录填充到表单中。
         			$("#itemeEditForm").form("load",data);
         			
         			// 加载商品描述
         			$.getJSON('/rest/item/desc/'+data.id,function(_data){
         				itemEditEditor.html(_data.itemDesc);
         			});
-        			
-        			TAOTAO.init({
-        				"pics" : data.image,
-        				"cid" : data.cid,
-        				fun:function(node){
-        					TAOTAO.changeItemParam(node, "itemeEditForm");
-        				}
+        			//查询商品类目并显示
+        			$.getJSON('/rest/item/cat/'+data.cid,function(_data){
+        				//调用init方法,回显类目名称及商品图片
+	        			TAOTAO.init({
+	        				"pics" : data.image,
+	        				"cname" :_data.name,
+	        				fun:function(node){
+	        					TAOTAO.changeItemParam(node, "itemeEditForm");
+	        				}
+	        			});
         			});
+        			
         		}
         	}).window("open");
         }
