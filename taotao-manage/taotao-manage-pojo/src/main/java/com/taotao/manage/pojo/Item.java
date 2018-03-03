@@ -27,8 +27,20 @@ public class Item extends BasePojo {
     private Long cid;
 
     private Integer status;
+    
+    private String cname;
+    
+    
 
-    public Long getId() {
+    public String getCname() {
+		return cname;
+	}
+
+	public void setCname(String cname) {
+		this.cname = cname;
+	}
+
+	public Long getId() {
         return id;
     }
 
@@ -100,11 +112,12 @@ public class Item extends BasePojo {
         this.status = status;
     }
 
-    @Override
-    public String toString() {
-        return "Item [id=" + id + ", title=" + title + ", sellPoint=" + sellPoint + ", price=" + price
-                + ", num=" + num + ", barcode=" + barcode + ", image=" + image + ", cid=" + cid + ", status="
-                + status + "]";
-    }
+	@Override
+	public String toString() {
+		return "Item [id=" + id + ", title=" + title + ", sellPoint="
+				+ sellPoint + ", price=" + price + ", num=" + num
+				+ ", barcode=" + barcode + ", image=" + image + ", cid=" + cid
+				+ ", status=" + status + ", cname=" + cname + "]";
+	}
 
 }

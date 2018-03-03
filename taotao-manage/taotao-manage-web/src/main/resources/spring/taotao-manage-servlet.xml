@@ -11,7 +11,17 @@
 	<context:component-scan base-package="com.taotao.manage.controller"/>
 	
 	<!-- 注解驱动 -->
-	<mvc:annotation-driven/>
+	<mvc:annotation-driven>
+		<mvc:message-converters>
+			 <bean class="org.springframework.http.converter.StringHttpMessageConverter">
+				<constructor-arg index="0" value="UTF-8" />
+			</bean> 
+			
+			<!-- <bean class="com.taotao.manage.message.convertor.MyJsonpMessageConvertor">
+				<constructor-arg index="0" value="callback"></constructor-arg>
+			 </bean> -->
+		</mvc:message-converters>
+	</mvc:annotation-driven>
 	
 	<!--配置ViewResolver视图解析器  -->
 	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" >

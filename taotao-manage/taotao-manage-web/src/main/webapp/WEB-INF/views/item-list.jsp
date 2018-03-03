@@ -7,6 +7,7 @@
         	<th data-options="field:'id',width:60">商品ID</th>
             <th data-options="field:'title',width:200">商品标题</th>
             <th data-options="field:'cid',width:50">叶子类目</th>
+            <th data-options="field:'cname',width:50">类目名称</th>
             <th data-options="field:'sellPoint',width:100">卖点</th>
             <th data-options="field:'price',width:70,align:'right',formatter:TAOTAO.formatPrice">价格</th>
             <th data-options="field:'num',width:70,align:'right'">库存数量</th>
@@ -66,18 +67,14 @@
         			$.getJSON('/rest/item/desc/'+data.id,function(_data){
         				itemEditEditor.html(_data.itemDesc);
         			});
-        			//查询商品类目并显示
-        			$.getJSON('/rest/item/cat/'+data.cid,function(_data){
-        				//调用init方法,回显类目名称及商品图片
-	        			TAOTAO.init({
-	        				"pics" : data.image,
-	        				"cname" :_data.name,
-	        				fun:function(node){
-	        					TAOTAO.changeItemParam(node, "itemeEditForm");
-	        				}
-	        			});
+        			//调用init方法,回显类目名称及商品图片
+        			TAOTAO.init({
+        				"pics" : data.image,
+        				"cid" :data.cname,
+        				fun:function(node){
+        					TAOTAO.changeItemParam(node, "itemeEditForm");
+        				}
         			});
-        			
         		}
         	}).window("open");
         }

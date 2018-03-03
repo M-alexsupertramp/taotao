@@ -78,8 +78,6 @@ var TT = TAOTAO = {
         			}
         		}
         	}
-        	var imgs=form.find("[name=image]").val()+","+imgArray.join(",");
-			form.find("[name=image]").val(imgs);
         	$(e).unbind('click').click(function(){
         		/*
         		 * parentsUntil([expr|element][,filter])
@@ -98,13 +96,9 @@ var TT = TAOTAO = {
 							var imgArray = [];
 							KindEditor.each(urlList, function(i, data) {
 								imgArray.push(data.url);
-								form.find(".pics ul").append("<li><a href='"+imgArray[i]+"' target='_blank'><img src='"+imgArray[i]+"' width='65' height='65' /></a></li>");
+								form.find(".pics ul").append("<li><a href='"+data.url+"' target='_blank'><img src='"+data.url+"' width='80' height='50' /></a></li>");
 							});
-							//form.find("[name=image]").val(imgArray.join(","));
-							form.find("[name=image]").val(function(){
-								return this.value ? this.value+","+imgArray.join(",") :imgArray.join(",");
-							})
-							//关闭对话框
+							form.find("[name=image]").val(imgArray.join(","));
 							editor.hideDialog();
 						}
 					});
@@ -118,8 +112,8 @@ var TT = TAOTAO = {
     	$(".selectItemCat").each(function(i,e){
     		/*找到选择类目按钮,并转为Jquery对象*/
     		var _ele = $(e);
-    		if(data && data.cname){
-    			_ele.after("<span style='margin-left:10px;'>"+data.cname+"</span>");
+    		if(data && data.cid){
+    			_ele.after("<span style='margin-left:10px;'>"+data.cid+"</span>");
     		}else{
     			_ele.after("<span style='margin-left:10px;'></span>")
     		}

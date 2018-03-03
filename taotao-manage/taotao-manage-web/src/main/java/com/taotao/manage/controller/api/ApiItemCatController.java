@@ -26,7 +26,7 @@ public class ApiItemCatController {
      * 查询全部商品类目信息，并封装为tree结构
      * @return
      */
-	/*@GetMapping
+	@GetMapping
 	public ResponseEntity<ItemCatResult> queryItemCat(){
 		try {
 			ItemCatResult result=itemCatService.queryAllToTree();
@@ -35,13 +35,13 @@ public class ApiItemCatController {
 			e.printStackTrace();
 			return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(null) ;
 		}
-	}*/
+	}
 	
 	 /**
      * 查询全部商品类目信息，并封装为tree结构
      * @return
      */
-	@GetMapping
+	/*@GetMapping
 	public ResponseEntity<String> queryItemCat(@RequestParam(value="callback",required=false)String callback){
 		try {
 			ItemCatResult result=itemCatService.queryAllToTree();
@@ -58,7 +58,7 @@ public class ApiItemCatController {
 			//返回异常状态码
 			return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(null) ;
 		}
-	}
+	}*/
 }
 
 
