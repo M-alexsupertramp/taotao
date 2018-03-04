@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jdbc="http://www.springframework.org/schema/jdbc" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:jpa="http://www.springframework.org/schema/data/jpa" xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+		http://www.springframework.org/schema/data/jpa 
+		http://www.springframework.org/schema/data/jpa/spring-jpa.xsd">
+
+	<!-- 配置连接池管理器 -->
+	<bean id="httpClientConnectionManager" class="org.apache.http.impl.conn.PoolingHttpClientConnectionManager">
+		<!-- 配置最大连接数 -->
+		<property name="maxTotal" value="${http.maxTotal}" />
+		<!-- 配置每个主机地址的最大连接数 -->
+		<property name="defaultMaxPerRoute" value="${http.defaultMaxPerRoute}" />
+	</bean>
+	
+	<!-- 配置RequestConfigBuilder -->
+	<bean id="requestConfigBuilder" class="org.apache.http.client.config.RequestConfig.Builder">
+         <!-- 创建连接的最长时间 -->
+         <property name="connectTimeout" value="${http.connectTimeout}" />
+         <!-- 从连接池中获取到连接的最长时间 -->
+         <property name="connectionRequestTimeout" value="${http.connectionRequestTimeout}" />
+         <!-- 数据传输的最长时间 -->
+         <property name="socketTimeout" value="${http.socketTimeout}" />
+         <!-- 提交请求前测试连接是否可用 -->
+         <property name="staleConnectionCheckEnabled" value="${http.staleConnectionCheckEnabled}" />
+	</bean>
+	
+	<!-- 配置RequestConfig -->
+	<bean id="requestConfig" factory-bean="requestConfigBuilder" factory-method="build"/>
+	
+	<!-- 配置HttpClientBuilder -->
+	<bean id="httpClientBuilder" class="org.apache.http.impl.client.HttpClientBuilder">
+		<!-- 注入连接池管理器 -->
+		<property name="connectionManager" ref="httpClientConnectionManager" />
+		<!-- 注入默认的请求配置对象 -->
+		<property name="defaultRequestConfig" ref="requestConfig" />
+	</bean>
+
+
+	<!-- 配置HttpClient -->
+	<bean factory-bean="httpClientBuilder" factory-method="build"></bean>
+	
+	<!-- 	自定义定期关闭无效HttpClient连接的类 -->
+	<bean class="com.taotao.web.httpclient.IdleConnectionEvictor"  destroy-method="shutdown">
+		<constructor-arg index="0" ref="httpClientConnectionManager"></constructor-arg>
+	
+	</bean>
+
+</beans>

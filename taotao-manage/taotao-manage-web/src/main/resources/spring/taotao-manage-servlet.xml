@@ -17,9 +17,9 @@
 				<constructor-arg index="0" value="UTF-8" />
 			</bean> 
 			
-			<!-- <bean class="com.taotao.manage.message.convertor.MyJsonpMessageConvertor">
+			<bean class="com.taotao.manage.message.convertor.MyJsonpMessageConvertor">
 				<constructor-arg index="0" value="callback"></constructor-arg>
-			 </bean> -->
+			</bean>
 		</mvc:message-converters>
 	</mvc:annotation-driven>
 	

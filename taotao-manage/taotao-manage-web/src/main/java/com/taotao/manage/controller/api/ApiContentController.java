@@ -1,5 +1,7 @@
 package com.taotao.manage.controller.api;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -26,16 +28,14 @@ public class ApiContentController {
 	 * @return
 	 */
 	@GetMapping()
-	public ResponseEntity<DataGridResult<Content>> queryContent(
-			@RequestParam(value="categoryId",defaultValue="0")Long categoryId,
-			@RequestParam(value="page",defaultValue="1")Integer page,
-			@RequestParam(value="rows",defaultValue="30")Integer rows){
+	public ResponseEntity<List<Content>> queryContent(
+			@RequestParam(value="categoryId",defaultValue="0")Long categoryId){
 		try {
 			Content record = new Content();
 			record.setCategoryId(categoryId);
-			PageInfo<Content> pageInfo = contentService.queryPageListByWhere(record, page, rows);
-			if(pageInfo!=null){
-				return ResponseEntity.ok(new DataGridResult<>(pageInfo.getTotal(),pageInfo.getList()));
+			List<Content> list= contentService.queryListByRecord(record);
+			if(list!=null){
+				return ResponseEntity.ok(list);
 			}
 			return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
 		} catch (Exception e) {
