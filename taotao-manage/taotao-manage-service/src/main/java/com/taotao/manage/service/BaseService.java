@@ -12,6 +12,7 @@ import tk.mybatis.mapper.entity.Example;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.taotao.manage.pojo.BasePojo;
+import com.taotao.manage.pojo.ContentCategory;
 import com.taotao.manage.pojo.Item;
 
 @SuppressWarnings("all")
@@ -133,6 +134,26 @@ public abstract class BaseService<T extends BasePojo> {
         record.setCreated(null);
         return this.mapper.updateByPrimaryKeySelective(record);
     }
+    
+    /**
+	 * 根据主键更新单个对象
+	 * @param record
+	 * @return
+	 */
+	public Boolean updateById(T record){
+		 record.setUpdated(new Date());
+		 return this.mapper.updateByPrimaryKeySelective(record) == 1;
+	}
+	
+	/**
+	 * 根据主键删除单个对象
+	 * @param key
+	 * @return
+	 */
+	public Boolean deleteById(Object key){
+		 return this.mapper.deleteByPrimaryKey(key) == 1;
+	}
+    
 
     /**
      * 根据主键进行删除
@@ -189,6 +210,11 @@ public abstract class BaseService<T extends BasePojo> {
 		com.taotao.manage.pojo.ItemCat
 		ItemCat
 		===========================
+	 * @return 
 	 */
+
+	public Integer count(T record) {
+		return this.mapper.selectCount(record);
+	}
 	
 }
