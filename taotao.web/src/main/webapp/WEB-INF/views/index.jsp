@@ -43,7 +43,7 @@
     var data=${indexAd1};
 	var arr=[];
 	//由于查询的数据格式和需要的数据格式不匹配,因此需要转换数据
-	for(var i=0; i<data.length; i++){
+	/* for(var i=0; i<data.length; i++){
 		var d= data[i];
 		arr.push({
 			"srcB": d.srcB,
@@ -55,10 +55,10 @@
 			"href": d.href,
 			"heightB": 240
 		});
-	}
+	} */
 	console.table(data);
 	console.table(arr);
-    cfg.DATA_MSlide = arr;
+    cfg.DATA_MSlide = data;
     // 初始化一个广告信息
     if ( cfg.DATA_MSlide.length > 5 ) {
     	var first = pageConfig.FN_GetCompatibleData( cfg.DATA_MSlide[0] );
@@ -206,7 +206,7 @@ pageConfig.DATA_MScroll =[
 <script>
 // 右上方广告位
 (function() {
-	var data = [
+	/* var data = [
 	            {
 	                "width": 310,
 	                "height": 70,
@@ -217,7 +217,8 @@ pageConfig.DATA_MScroll =[
 	                "heightB": 70,
 	                "srcB": "http://img14.360buyimg.com/da/jfs/t334/155/1756719493/14371/e367c503/5440ce6dNd056ce39.jpg"
 	            }
-	        ];
+	        ]; */
+	var data=${indexAd2};
     var ad = pageConfig.FN_GetRandomData(data);
     ad = pageConfig.FN_GetCompatibleData(ad);
     document.write("<a href=\"" + ad.href + "\" target=\"_blank\"><img data-img=\"2\" src=\"" + ad.src + "\" width=\"" + ad.width + "\" height=\"" + ad.height + "\" alt=\"" + ad.alt + "\" /></a>");

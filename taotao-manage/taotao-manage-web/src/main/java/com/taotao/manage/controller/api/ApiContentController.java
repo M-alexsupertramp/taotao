@@ -27,7 +27,7 @@ public class ApiContentController {
 	 * @param rows
 	 * @return
 	 */
-	@GetMapping()
+	/*@GetMapping()
 	public ResponseEntity<List<Content>> queryContent(
 			@RequestParam(value="categoryId",defaultValue="0")Long categoryId){
 		try {
@@ -36,6 +36,25 @@ public class ApiContentController {
 			List<Content> list= contentService.queryListByRecord(record);
 			if(list!=null){
 				return ResponseEntity.ok(list);
+			}
+			return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
+		} catch (Exception e) {
+			e.printStackTrace();
+			return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+		}
+	}*/
+	
+	@GetMapping()
+	public ResponseEntity<DataGridResult<Content>> queryContent(
+			@RequestParam(value="categoryId",required=true)Long categoryId,
+			@RequestParam(value="page",defaultValue="1")Integer page,
+			@RequestParam(value="rows",defaultValue="30")Integer rows){
+		try {
+			Content record = new Content();
+			record.setCategoryId(categoryId);
+			PageInfo<Content> pageInfo = contentService.queryPageListByWhere(record, page, rows);
+			if(pageInfo!=null){
+				return ResponseEntity.ok(new DataGridResult<>(pageInfo.getTotal(),pageInfo.getList()));
 			}
 			return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
 		} catch (Exception e) {

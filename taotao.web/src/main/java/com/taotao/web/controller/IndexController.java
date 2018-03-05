@@ -19,6 +19,10 @@ public class IndexController {
 		//查询大广告数据
 		String indexAd1=indexService.queryIndexAD1();
 		modelAndView.addObject("indexAd1", indexAd1);
+		
+		//查询右上角广告数据
+		String indexAd2=indexService.queryIndexAD2();
+		modelAndView.addObject("indexAd2", indexAd2);
 		return modelAndView;
 	}
 	

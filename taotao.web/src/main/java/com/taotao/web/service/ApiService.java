@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.Map;
 
 import org.apache.http.NameValuePair;
+import org.apache.http.client.ResponseHandler;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
@@ -20,18 +21,22 @@ import org.springframework.stereotype.Service;
 
 
 
+
 /**
  * 通过HttpClient进行远程调用的Service
  * @author Mary
  *
  */
 @Service
-
-	public class ApiService {
+public class ApiService {
 
 	    @Autowired
 	    private CloseableHttpClient httpClient;
 
+	    // 默认的响应处理器
+	    private ResponseHandler<String> defaultHandler = new BasicResponseHandler();
+
+	    
 	    /**
 	     * 发起无参的GET请求
 	     * 
