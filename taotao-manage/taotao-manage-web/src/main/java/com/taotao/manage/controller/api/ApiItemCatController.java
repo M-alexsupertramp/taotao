@@ -21,6 +21,8 @@ public class ApiItemCatController {
 	@Autowired
 	private ItemCatService itemCatService;
 	
+	
+	
 	private static ObjectMapper mapper=new ObjectMapper();
 	 /**
      * 查询全部商品类目信息，并封装为tree结构
@@ -28,6 +30,7 @@ public class ApiItemCatController {
      */
 	@GetMapping
 	public ResponseEntity<ItemCatResult> queryItemCat(){
+		
 		try {
 			ItemCatResult result=itemCatService.queryAllToTree();
 			return ResponseEntity.ok(result);
