@@ -1,12 +1,21 @@
 package com.taotao.manage.service;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.commons.lang3.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
+import com.fasterxml.jackson.core.JsonParseException;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.JsonMappingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.taotao.common.service.RedisService;
 import com.taotao.common.vo.ItemCatData;
 import com.taotao.common.vo.ItemCatResult;
 import com.taotao.manage.pojo.ItemCat;
@@ -14,6 +23,12 @@ import com.taotao.manage.pojo.ItemCat;
 @Service
 public class ItemCatService extends BaseService<ItemCat> {
 	
+	@Autowired
+	private RedisService redisService;
+	@Autowired
+	private PropertiesService propertiesService;
+	
+	private static ObjectMapper MAPPER=new ObjectMapper();
 	
 	/**
      * 查询全部商品类目，并且封装为树结构的VO对象返回
@@ -21,6 +36,19 @@ public class ItemCatService extends BaseService<ItemCat> {
      * @return
      */
     public ItemCatResult queryAllToTree() {
+		//获取缓存
+		String jsonResult = redisService.get(propertiesService.REDIS_ITEM_CAT_ALL_KEY);
+		//先判断缓存是否中
+		if(StringUtils.isNoneEmpty(jsonResult)){
+			try {
+				return MAPPER.readValue(jsonResult, ItemCatResult.class);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+		
+		// 缓存未命中则走数据库查询：
+		
         // 查询出全部结果
         List<ItemCat> list = super.queryAll();
         // 转为map存储，key为父节点ID，value为该父节点下所有子节点数据集合
@@ -80,7 +108,14 @@ public class ItemCatService extends BaseService<ItemCat> {
                 break;
             }
         }
+        //查询数据后,将结果放入缓存中
+        try {
+			redisService.set(propertiesService.REDIS_ITEM_CAT_ALL_KEY, MAPPER.writeValueAsString(result),propertiesService.REDIS_ITEM_CAT_AKK_TIME);
+		} catch (JsonProcessingException e) {
+			e.printStackTrace();
+		}
         return result;
+       
     }
 	
 	/*@Autowired
