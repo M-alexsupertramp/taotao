@@ -19,13 +19,20 @@ public class PropertiesService {
 	
 	@Value("${INDEX_AD_BASE_PATH}")
 	public String INDEX_AD_BASE_PATH;
-	
+	//大广告访问路径
 	@Value("${INDEX_AD1_ID}")
 	public String INDEX_AD1_ID; 
-	
+	//右上角广告访问路径
 	@Value("${INDEX_AD2_ID}")
 	public String INDEX_AD2_ID; 
 	
+	//从配置文件中读取后台服务器的地址---管理系统的url
+	@Value("${TAOTAO_MANAGE_BASE_URL}")
+	public String MANAGE_TAOTAO_BASE_URL;
+	
+	@Value("${ITEM_PATH}")
+	public String ITEM_PATH;
+
 	public static final ObjectMapper MAPPER = new ObjectMapper();
 	
 	}
