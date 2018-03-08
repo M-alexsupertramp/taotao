@@ -32,6 +32,22 @@ public class PropertiesService {
 	
 	@Value("${ITEM_PATH}")
 	public String ITEM_PATH;
+	
+	
+	@Value("${SSO_TAOTAO_BASE_URL}")
+	public String SSO_TAOTAO_BASE_URL;
+	
+	@Value("${LOGIN_URL}")
+	public  String LOGIN_URL;
+	
+	@Value("${ORDER_TAOTAO_BASE_URL}")
+	public  String ORDER_TAOTAO_BASE_URL;
+	
+	@Value("${ORDER_CREATE}")
+	public  String ORDER_CREATE;
+	
+	@Value("${ORDER_QUERY_BY_ID}")
+	public  String ORDER_QUERY_BY_ID;
 
 	public static final ObjectMapper MAPPER = new ObjectMapper();
 	

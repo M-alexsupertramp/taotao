@@ -1,12 +1,13 @@
 var TT = TAOTAO = {
 	checkLogin : function(){
 		var _token = $.cookie("TT_TOKEN");
+		alert(_token);
 		if(!_token){
 			return ;
 		}
 		$.ajax({
-			url : "http://sso.taotao.com/user/query/" + _token,
-			dataType : "jsonp",
+			url : "http://sso.taotao.com/user/" + _token+".html",
+			dataType : "json",
 			type : "GET",
 			success : function(_data){
 				var html =_data.username+"，欢迎来到淘淘！<a href=\"http://www.taotao.com/user/logout.html\" class=\"link-logout\">[退出]</a>";

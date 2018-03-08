@@ -28,7 +28,7 @@
 <!--shortcut end-->
 	<form id="orderForm" class="hide">
 		<input type="hidden" name="paymentType" value="1"/>
-			<c:set var="totalPrice"  value="${ item.price}"/>
+			<c:set var="totalPrice"  value="${item.price}"/>
 			<input type="hidden" name="orderItems[0].itemId" value="${item.id}"/>
 			<input type="hidden" name="orderItems[0].num" value="1"/>
 			<input type="hidden" name="orderItems[0].price" value="${item.price}"/>

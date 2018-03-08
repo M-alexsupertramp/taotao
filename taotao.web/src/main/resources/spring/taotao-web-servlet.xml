@@ -25,5 +25,9 @@
 	</bean>
 	
 	
+	<!-- SpringMVC拦截器配置 -->
+	<mvc:interceptors>
+		<bean class="com.taotao.web.interceptor.LoginInterceptor" />
+	</mvc:interceptors>
 	
 </beans>
