@@ -6,20 +6,22 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.commons.lang3.StringUtils;
 import org.apache.http.NameValuePair;
+import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.ResponseHandler;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.client.methods.HttpUriRequest;
 import org.apache.http.client.utils.URIBuilder;
+import org.apache.http.entity.ContentType;
+import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.BasicResponseHandler;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.message.BasicNameValuePair;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-
 
 
 /**
@@ -104,6 +106,24 @@ public class ApiService {
 	        }
 	    }
 
+	    /**
+	     *有参的POST请求,提交JSON数据
+	     */
+	    @SuppressWarnings("all")
+		public <T> T doPostJson(String uri,String jsonData, ResponseHandler<T> handler) throws ClientProtocolException, IOException{
+	    	//判断是否有响应处理,如果没有,使用默认的
+	    	handler= handler==null? (ResponseHandler<T>) defaultHandler :handler;
+	    	//创建http POST请求
+	    	HttpPost httpPost = new HttpPost(uri);
+	    	if(StringUtils.isNoneEmpty(jsonData)){
+	    		//构造一个json格式的实体
+	    		StringEntity formEntity = new StringEntity(jsonData,ContentType.APPLICATION_JSON);
+	    		//将请求实体设置到httpPost对象中
+	    		httpPost.setEntity(formEntity);
+	    	}
+	    	return httpClient.execute(httpPost,handler);
+	    }
+	    
 	    public String execute(HttpUriRequest request) {
 	        try {
 	            return this.httpClient.execute(request, new BasicResponseHandler());
