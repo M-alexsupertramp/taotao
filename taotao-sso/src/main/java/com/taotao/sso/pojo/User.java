@@ -5,6 +5,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.validation.constraints.Pattern;
 
 import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.Length;
@@ -22,7 +23,8 @@ public class User {
 	@JsonIgnore
 	@Length(min=6,max=20,message="密码长度必须在6--20之间")
 	private String password;
-	@Length(min=11,max=11,message="手机号长度必须是11位")
+	//@Length(min=11,max=11,message="手机号长度必须是11位")
+	@Pattern(regexp="^1[3578]\\d{9}$",message="手机号长度必须是11位")
 	private String phone;
 	@Email(message="邮箱格式不合法")
 	private String email;

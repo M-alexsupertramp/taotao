@@ -11,13 +11,20 @@
 	<context:component-scan base-package="com.taotao.sso.controller"/>
 	
 	<!-- 注解驱动 -->
-	<mvc:annotation-driven>
+	<!-- <mvc:annotation-driven>
 		<mvc:message-converters>
 			 <bean class="org.springframework.http.converter.StringHttpMessageConverter">
 				<constructor-arg index="0" value="UTF-8" />
 			</bean> 
 		</mvc:message-converters>
-	</mvc:annotation-driven>
+	</mvc:annotation-driven> -->
+	
+	<mvc:annotation-driven content-negotiation-manager="negotiationManager" />
+	<!-- 自定义的ContentNegotiationManager -->
+	<bean id="negotiationManager" class="org.springframework.web.accept.ContentNegotiationManagerFactoryBean">
+		<!-- false:不根据请求路径后缀判断类型,会取消默认 -->
+		<property name="favorPathExtension" value="false"></property>
+	</bean>
 	
 	<!--配置ViewResolver视图解析器  -->
 	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" >
