@@ -27,6 +27,8 @@ public class ApiItemController {
 			@PathVariable("itemId")Long itemId){
 		try {
 			Item item = itemService.queryById(itemId);
+			
+			
 			if(item==null){
 				return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
 			}
