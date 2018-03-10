@@ -18,6 +18,8 @@
 		<property name="locations">
 			<list>
 				<value>classpath:solr.properties</value>
+				<value>classpath:rabbitmq.properties</value>
+				<value>classpath:env.properties</value>
 			</list>
 		</property>
 	</bean>
