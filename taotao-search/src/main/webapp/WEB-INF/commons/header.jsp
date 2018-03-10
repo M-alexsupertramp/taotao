@@ -1,12 +1,15 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<script type="text/javascript" src="/js/base-v1.js" charset="utf-8"></script>
+    <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<c:set var="staticPath" value="http://static.taotao.com" scope="page" />
+<script type="text/javascript" src="${staticPath}/js/base-v1.js" charset="utf-8"></script>
+
 <!--shortcut start-->
 <jsp:include page="../commons/shortcut.jsp" />
 <!--shortcut end-->
 <div id="o-header-2013">
 	<div class="w" id="header-2013">
-		<div id="logo-2013" class="ld"><a href="http://www.taotao.com/" hidefocus="true" clstag="homepage|keycount|home2013|02a"><b></b><img src="/images/taotao-logo.gif" width="270" height="60" alt="淘淘"></a></div>
+		<div id="logo-2013" class="ld"><a href="http://www.taotao.com/" hidefocus="true" clstag="homepage|keycount|home2013|02a"><b></b><img src="${staticPath}/images/taotao-logo.gif" width="270" height="60" alt="淘淘"></a></div>
 		<!--logo end-->
 		<div id="search-2013">
 			<div class="i-search ld">

@@ -2,6 +2,7 @@
 <%@ page trimDirectiveWhitespaces="true" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<c:set var="staticPath" value="http://static.taotao.com" scope="page" />
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -10,14 +11,14 @@
 <title>${query} - 商品搜索 - 淘淘</title>
 <meta name="Keywords" content="java,淘淘java" />
 <meta name="description" content="在淘淘中找到了29910件java的类似商品，其中包含了“图书”，“电子书”，“教育音像”，“骑行运动”等类型的java的商品。" />
-<link rel="stylesheet" type="text/css" href="/css/base.css" media="all" />
-<link rel="stylesheet" type="text/css" href="/css/psearch20131008.css" media="all" />
-<link rel="stylesheet" type="text/css" href="/css/psearch.onebox.css" media="all" />
-<link rel="stylesheet" type="text/css" href="/css/pop_compare.css" media="all" />
-<script type="text/javascript" src="/js/jquery-1.2.6.min.js"></script>
+<link rel="stylesheet" type="text/css" href="${staticPath}/css/base.css" media="all" />
+<link rel="stylesheet" type="text/css" href="${staticPath}/css/psearch20131008.css" media="all" />
+<link rel="stylesheet" type="text/css" href="${staticPath}/css/psearch.onebox.css" media="all" />
+<link rel="stylesheet" type="text/css" href="${staticPath}/css/pop_compare.css" media="all" />
+<script type="text/javascript" src="${staticPath}/js/jquery-1.2.6.min.js"></script>
 </head>
 <body>
-<script type="text/javascript" src="/js/base-2011.js" charset="utf-8"></script>
+<script type="text/javascript" src="${staticPath}/js/base-2011.js" charset="utf-8"></script>
 <!-- header start -->
 <jsp:include page="../commons/header.jsp" />
 <!-- header end -->
@@ -34,7 +35,7 @@
 <li class="item-book" bookid="11078102">
 	<div class="p-img">
 		<a target="_blank" href="http://www.taotao.com/item/${item.id }.html">
-			<img width="160" height="160" data-img="1" data-lazyload="${item.images[0]}" />
+			<img width="160" height="160" data-img="1" src="${item.images[0]}" />
 		</a>
 	</div>
 	<div class="p-name">
@@ -57,8 +58,8 @@
 <!-- footer start -->
 <jsp:include page="../commons/footer.jsp" />
 <!-- footer end -->
-<script type="text/javascript" src="/js/jquery.hashchange.js"></script>
-<script type="text/javascript" src="/js/search_main.js"></script>
+<script type="text/javascript" src="${staticPath}/js/jquery.hashchange.js"></script>
+<script type="text/javascript" src="${staticPath}/js/search_main.js"></script>
 <script type="text/javascript">
 //${paginator.totalPages}
 SEARCH.query = "${query}";

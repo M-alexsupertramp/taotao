@@ -1,15 +1,16 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
-		<groupId>com.taotao.manage</groupId>
-		<artifactId>taotao-manage</artifactId>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.taotao.parent</groupId>
+		<artifactId>taotao-parent</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
-  <groupId>com.taotao.search</groupId>
-  <artifactId>taotao-search</artifactId>
-  <packaging>war</packaging>
-  <name>taotao-search</name>
-  
+	<groupId>com.taotao.search</groupId>
+	<artifactId>taotao-search</artifactId>
+	<packaging>war</packaging>
+	<name>taotao-search</name>
+
 
 	<dependencies>
 		<dependency>
@@ -50,6 +51,12 @@
 			<groupId>org.apache.solr</groupId>
 			<artifactId>solr-solrj</artifactId>
 			<version>4.10.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.persistence</groupId>
+			<artifactId>persistence-api</artifactId>
+			<version>1.0</version>
 		</dependency>
 	</dependencies>
 
