@@ -67,5 +67,10 @@ public class ItemService {
 			return null;
 		}
 	}
+
+	public void clearRedisCacheByItemId(long itemId) {
+		//清空redis数据
+		redisService.del(REDIS_ITEM_KEY+itemId);
+	}
 	
 }
