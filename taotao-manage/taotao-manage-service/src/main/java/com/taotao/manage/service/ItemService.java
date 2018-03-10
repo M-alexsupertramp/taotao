@@ -1,9 +1,14 @@
 package com.taotao.manage.service;
 
+import java.util.HashMap;
+import java.util.Map;
+
+import org.springframework.amqp.AmqpException;
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.github.pagehelper.PageHelper;
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.github.pagehelper.PageInfo;
 import com.taotao.common.service.ApiService;
 import com.taotao.manage.pojo.Item;
@@ -14,6 +19,27 @@ public class ItemService extends BaseService<Item> {
 	private ItemDescService itemDescService;
 	@Autowired
 	private ApiService apiService;
+	
+	@Autowired
+	private RabbitTemplate rabbitTemplate;
+	
+	/**
+	 * 封装一个通用的发消息的方法
+	 */
+	private void sendMessage(Long itemId,String type){
+		//发送消息到RabbitMQ
+		try {
+			Map<String, Object>msg=new HashMap<>();
+			msg.put("itemId", itemId);
+			msg.put("type", type);
+			msg.put("date", System.currentTimeMillis());
+			//发送
+			rabbitTemplate.convertAndSend("item."+type, PropertiesService.MMAPPER.writeValueAsString(msg));
+		}catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
 	/**
 	 * 新增商品和商品描述
 	 * @param item
@@ -51,7 +77,7 @@ public class ItemService extends BaseService<Item> {
 	}
 
 	/**
-	 * 编辑Item与ItemDesc
+	 * 更新商品和商品描述
 	 * @param item
 	 * @param desc
 	 * @return
@@ -68,6 +94,8 @@ public class ItemService extends BaseService<Item> {
 			itemDesc.setItemId(item.getId());
 			Integer updateItemDesc = itemDescService.updateSelective(itemDesc);
 			if(updateItemDesc==1){
+				//rabbitmq消息队列
+				sendMessage(item.getId(), "update");
 				flag=true;
 				//调用前台接口
 				String uri="http://www.taotao.com/cache/item/"+item.getId()+".html";
@@ -81,5 +109,4 @@ public class ItemService extends BaseService<Item> {
 		}
 		return flag;
 	}
-	
 }

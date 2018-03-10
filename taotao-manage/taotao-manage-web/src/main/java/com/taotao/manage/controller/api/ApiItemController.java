@@ -7,6 +7,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
 import com.taotao.manage.pojo.Item;
 import com.taotao.manage.service.ItemService;
 
@@ -27,8 +29,6 @@ public class ApiItemController {
 			@PathVariable("itemId")Long itemId){
 		try {
 			Item item = itemService.queryById(itemId);
-			
-			
 			if(item==null){
 				return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
 			}
