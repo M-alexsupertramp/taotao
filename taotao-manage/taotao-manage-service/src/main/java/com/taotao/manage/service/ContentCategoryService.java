@@ -4,13 +4,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.CollectionUtils;
 
 import com.taotao.manage.pojo.ContentCategory;
 @Service
+
 public class ContentCategoryService extends BaseService<ContentCategory> {
 	
-
+	//@Transactional(noRollbackFor=RuntimeException.class)  抛出unchecked异常，触发事物，noRollbackFor=RuntimeException.class,不回滚  
 	public boolean saveAndUpdateContentCategoryAndContent(
 			ContentCategory contentCategory, ContentCategory parent) {
 		boolean flag=false;

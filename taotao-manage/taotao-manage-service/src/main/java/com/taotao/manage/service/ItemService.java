@@ -38,7 +38,7 @@ public class ItemService extends BaseService<Item> {
 		}catch (Exception e) {
 			e.printStackTrace();
 		}
-	}
+	}  
 	
 	/**
 	 * 新增商品和商品描述
