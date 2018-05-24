@@ -6,7 +6,9 @@ import org.springframework.context.annotation.PropertySource;
 
 
 @Configuration
-@PropertySource(value={})
+@PropertySource(value={"classpath:jdbc.properties", "classpath:env.properties",
+        "classpath:httpclient.properties"}, ignoreResourceNotFound = true)
+//@ComponentScan(basePackages="com.taotao")
 public class TaotaoApplication {
-
+	
 }
